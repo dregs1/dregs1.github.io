@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.aguia-branca" name="[COLOR maroon]ÁGUIA[/COLOR] [COLOR gold]BRANCA[/COLOR]" version="12.12" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
+<addon id="plugin.video.aguia-branca" name="[COLORred]Águia [COLORwhite]Vavoo[/COLOR]" version="12.12" provider-name="[COLORchocolate]Thks 2 stube Frkd [COLORgold]by L.M. @by_black_eagle[/COLOR]">
 	<requires>
 		<import addon="script.module.six" />
 		<import addon="script.module.simplejson" />
@@ -10,10 +10,10 @@
 	</extension>
 	<extension point="xbmc.service" library="server.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
-		<summary lang="pt">[COLOR red]Águia[/COLOR] [COLORorange]Branca[/COLOR] [COLORorange]é um addon da familia Blackeagle Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
-		<summary lang="en">[COLOR red]Águia[/COLOR] [COLORorange]Branca[/COLOR] [COLORorange]é um addon da familia Blackeagle Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
-		<description lang="en"></description>
-		<platform>all</platform>
+		<summary lang="en">Aguiavavoo Live TV</summary>
+ <description lang="en">[COLOR silver]Águia[COLOR dimgrey] Vavoo[/COLOR] [COLORorange]é um addon da familia  blackeagle team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+    <disclaimer lang="en_GB">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content.</disclaimer>
+	<platform>all</platform>
 		<assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>

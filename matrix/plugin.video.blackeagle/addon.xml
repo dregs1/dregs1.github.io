@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.blackeagle" name="[COLOR orange]Black [/COLOR][COLORgold]Eagle[/COLOR]" version="0.2" provider-name="[COLOR orange]@by_blak_eagle[/COLOR]">
+<addon id="plugin.video.blackeagle" name="[COLOR orange]Black [/COLOR][COLORgold]Eagle[/COLOR]" version="1.2" provider-name="[COLOR orange]@by_blak_eagle[/COLOR]">
   <extension point="xbmc.python.pluginsource"
       library="default.py">
     <provides>video</provides>

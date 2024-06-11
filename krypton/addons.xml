@@ -295,7 +295,7 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
   </extension>
 </addon>
 
-<addon id="plugin.video.predator.portal" name="[COLOR red]predator [COLORorange]portal[/COLOR]" version="1.0.2" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
+<addon id="plugin.video.predator.portal" name="[COLOR red]predator [COLORorange]portal[/COLOR]" version="1.0.3" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
   <requires>
         <import addon="script.module.six" />
         <import addon="script.module.requests" />

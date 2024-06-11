@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.aguiavavoo"
-version="20.6.7"
+version="20.2.9"
 name="[COLORred]Águia [COLORwhite]Vavoo[/COLOR]"
-provider-name="Thks 2 stube Frkd by L.M. @by_black_eagle">
+provider-name="[COLOR orange]Thks 2 stube Frkd[/COLOR] [COLOR yellow]by L.M.[/COLOR] [COLOR orange]@By_Black_Eagla[/COLOR]">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
   <import addon="script.module.requests" version="2.22.0"/>

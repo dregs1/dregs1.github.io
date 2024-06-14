@@ -2043,17 +2043,17 @@ provider-name="[COLOR orange]Thks 2 stube Frkd[/COLOR] [COLOR yellow]by L.M.[/CO
     </extension>
 </addon>
 
-<addon id="script.blackarrow.kodilimpo" name="[COLORred]Blackarrow[/COLOR] [COLORcyan]kodi[/COLOR]limpo" provider-name="Black Eagle" version="1.9.1">
+<addon id="script.blackarrow.kodilimpo" name="[COLORred]Blackarrow[/COLOR] [COLORcyan]kodi[/COLOR]limpo" provider-name="Black Eagle" version="2.1"> 
   <requires>
-    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="xbmc.python" version="3.0.0" /> 
   </requires>
   <extension library="default.py" point="xbmc.python.pluginsource">
         <provides>executable</provides>
   </extension>
-  <extension library="service.py" point="xbmc.service" start="startup">
+  <extension library="service.py" point="xbmc.service" /> 
         <provides>executable</provides>
   </extension>
-  <extension point="xbmc.addon.metadata">
+  <extension point="xbmc.addon.metadata"> 
     <platform>all</platform>
     <summary lang="en_GB">Clean up temporary files in Kodi.</summary>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>

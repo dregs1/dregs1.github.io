@@ -685,6 +685,23 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.aguiagold" name="[COLORred]Aguia[COLORgold]Gold[/COLOR]" version="3.2.3" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
+  <extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+  </extension>
+	<extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">[COLORred]Aguia[COLORgold]Gold[/COLOR]</summary>
+    <description lang="en_GB">[COLOR red]Aguia[/COLOR] [COLOR gold]Gold[/COLOR] [COLORorange]is an add-on from the  Blackeagle Team family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</description>
+    <language>en</language>
+    <platform>all</platform>
+      <assets>
+        <icon>icon.png</icon>
+	<fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="plugin.video.aguiavavoo"
 version="20.3.1"
 name="[COLORred]Águia [COLORwhite]Vavoo[/COLOR]"
@@ -705,6 +722,45 @@ provider-name="[COLOR orange]Thks 2 stube Frkd[/COLOR] [COLOR yellow]by L.M.[/CO
 	<fanart>fanart.jpg</fanart>
   </assets>
 </extension>
+</addon>
+
+<addon id="plugin.video.aguia_de_ouro" version="1.1.8" name="[COLOR red]Águia [COLOR black]de [COLOR gold]Ouro[/COLOR]" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
+	<requires>
+		<import addon="script.module.six" />
+		<import addon="script.module.kodi-six" />
+		<import addon="script.module.requests" optional="true"/>
+		<import addon="script.module.websocket" version="0.50.0"  optional="true"/>
+		<import addon="script.module.youtube.dl" optional="true"/>
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="script.module.dateutil" optional="true" />
+		<import addon="script.module.resolveurl" optional="true"/>
+		<import addon="script.module.urlresolver" optional="true"/>
+		<import addon="script.module.cloudscraper" optional="true"/>
+		<import addon="script.module.inputstreamhelper" optional="true"/>
+		<import addon="script.module.slproxy" optional="true"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+    </extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>desportos e mais...</summary>
+		<description>
+AVISO LEGAL:
+Este addon não aloja nenhum conteudo mostrado.
+Todo o conteudo encuentra-se livremente na internet.
+Não se aceita nenhuma responsabilidade pelo uso deste addon.
+¡Enjoyyyy!
+		</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/1.jpg</screenshot>
+			<screenshot>resources/screenshots/2.jpg</screenshot>
+			<screenshot>resources/screenshots/3.jpg</screenshot>
+		</assets>
+		<news></news>
+	</extension>
 </addon>
 
 <addon id="plugin.video.arrownegra.play.tv" name="[COLORgrey]ArrowNegra[/COLOR] [COLORred]Play[/COLOR] [COLORcyan]Tv[/COLOR]" version="1.9.1.7" provider-name="[COLOR orange]Black Eagle[/COLOR]">
@@ -777,6 +833,25 @@ provider-name="[COLOR orange]Thks 2 stube Frkd[/COLOR] [COLOR yellow]by L.M.[/CO
       <assets>
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.blackeagle" name="[COLOR orange]Black [/COLOR][COLORgold]Eagle[/COLOR]" version="1.3" provider-name="[COLOR orange]@by_blak_eagle[/COLOR]">
+  <extension point="xbmc.python.pluginsource"
+      library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+		<summary>[COLOR lime]Canais de Televisão, desportos e mais...[/COLOR]</summary>
+		<description lang="en">[COLOR orange]Black[/COLOR] [COLOR gold]Eagle[/COLOR] [COLORorange]é um addon da familia Blackeagle.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+		<platform>all</platform>
+		<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
     </assets>
   </extension>
 </addon>
@@ -856,6 +931,57 @@ provider-name="[COLOR orange]Thks 2 stube Frkd[/COLOR] [COLOR yellow]by L.M.[/CO
     </extension>
 </addon>
 
+<addon id="plugin.video.fenix-mac" name="[COLORcyan]fenix[COLORgrey]Mac[/COLOR]" version="1.7.4" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
+<requires>
+    	<import addon="script.module.resolveurl"/>
+	    <import addon="script.module.requests"/>
+		<import addon="script.module.six"/>
+		<import addon="script.module.kodi-six" />
+		<import addon="script.module.web-pdb" />
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+<extension point="xbmc.addon.metadata">
+		<summary>Canais de Televisão, desportos e mais...</summary>
+		<description lang="en">[COLOR red]fenix[/COLOR] [COLORorange]mac[/COLOR] [COLORorange]é um addon da familia blackeagle team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+		<platform>all</platform>
+		<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+    </assets>
+		<language>pt</language>
+	</extension>
+</addon>
+
+<addon id="plugin.video.fenix.portal" name="[COLOR red]fenix [COLORorange]portal[/COLOR]" version="3.4.8" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+	<import addon="script.module.requests" />
+	<import addon="script.module.simplejson" />
+    <import addon="script.module.six" />
+    <import addon="script.module.kodi-six" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+	</extension>
+<extension point="xbmc.addon.metadata">
+		<summary>Canais de Televisão, desportos e mais...</summary>
+		<description lang="en">[COLOR red]fenix[/COLOR] [COLORorange]portal[/COLOR] [COLORorange]é um addon da familia Blackeagle Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+		<platform>all</platform>
+		<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+    </assets>
+</extension>
+</addon>
+
 <addon id="plugin.video.freshstart" name="Fresh Start"
 	version="1.0.5" provider-name="tvaddons.ag">
   <requires>
@@ -915,6 +1041,69 @@ provider-name="[COLOR orange]Thks 2 stube Frkd[/COLOR] [COLOR yellow]by L.M.[/CO
     <fanart>fanart.jpg</fanart>
   </assets>
 </extension>
+</addon>
+
+<addon id="plugin.video.K-PT" name="[COLOR blue]K[COLORwhite]-[COLORgreen]P[COLORred]T[/COLOR]" version="2.1.4" provider-name="[COLOR orange]@By_Black_Eagla[/COLOR]">
+  <extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="en">[COLOR maroon] Only for the best!!![/COLOR] </summary>
+	<language>en</language>
+	<description lang="pt">[COLOR lime]K-PT[/COLOR][COLORorange]é um addon da familia Blackeagle Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+ 	<platform>all</platform>
+	<assets>
+		 <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+	    <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+	</assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.lince.tv" name="[COLORred]lince [COLORgrey] tv[/COLOR]" version="1.2" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
+  <extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+		<summary>Canais de Televisão, desportos e mais...</summary>
+		<description lang="en">[COLOR red]lince[/COLOR] [COLORorange]tv[/COLOR] [COLORorange]é um addon da familia BlackEagle Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+		<platform>all</platform>
+		<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+    </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.predator.portal" name="[COLOR red]predator [COLORorange]portal[/COLOR]" version="1.0.3" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
+  <requires>
+        <import addon="script.module.six" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.kodi-six" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+ 	</extension>
+<extension point="xbmc.addon.metadata">
+		<summary>Canais de Televisão, desportos e mais...</summary>
+		<description lang="en">[COLOR red]predator[/COLOR] [COLORorange]portal[/COLOR] [COLORorange]é um addon da familia blackeagle team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+		<platform>all</platform>
+		<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+    </assets>
+  </extension>
 </addon>
 
 <addon id="plugin.video.resolverurl_player" version="1.0.0" name="[B]RESOLVER PLAYER[/B]" provider-name="OnePlay Team">
@@ -2043,6 +2232,28 @@ provider-name="[COLOR orange]Thks 2 stube Frkd[/COLOR] [COLOR yellow]by L.M.[/CO
     </extension>
 </addon>
 
+<addon id="script.blackarrow.kodilimpo" name="[COLORred]Blackarrow[/COLOR] [COLORcyan]kodi[/COLOR]limpo" provider-name="Black Eagle" version="1.9.1">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource">
+        <provides>executable</provides>
+  </extension>
+  <extension library="service.py" point="xbmc.service" start="startup">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en_GB">Clean up temporary files in Kodi.</summary>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <description lang="en_GB">Clean up temporary files in Kodi.</description>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="script.elementum.burst" name="Elementum [COLOR FFFF6B00]Burst[/COLOR]" version="0.0.73" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
@@ -2244,7 +2455,7 @@ provider-name="[COLOR orange]Thks 2 stube Frkd[/COLOR] [COLOR yellow]by L.M.[/CO
   </extension>
 </addon>
 
-<addon id="script.pvr.aguia.de.fogo.api" name="[COLORorange]Pach API pvr.Aguia.de.Fogo[/COLOR]" version="0.4.7" provider-name="[COLORorange]@By_black_eagle[/COLOR]">
+<addon id="script.pvr.aguia.de.fogo.api" name="[COLORorange]Pach API pvr.Aguia.de.Fogo[/COLOR]" version="0.4.5" provider-name="[COLORorange]@By_Flecha_negra[/COLOR]">
    <requires>
 	<import addon="script.module.six" />
 	<import addon="pvr.aguia.de.fogo" />
@@ -2257,7 +2468,7 @@ provider-name="[COLOR orange]Thks 2 stube Frkd[/COLOR] [COLOR yellow]by L.M.[/CO
 	 <disclaimer lang="pt"></disclaimer>
     <platform>all</platform>
     <summary>Pach API pvr Águia de Fogo</summary>
-		<description lang="en">[COLOR red]pvr.aguia.de.fogo[/COLOR] [COLORorange]stalker[/COLOR] [COLORorange]é um addon da familia blackeagle Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+		<description lang="en">[COLOR red]pvr.aguia.de.fogo[/COLOR] [COLORorange]stalker[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
 
 	<assets>
      <icon>icon.png</icon>

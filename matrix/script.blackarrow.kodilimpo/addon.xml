@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.blackarrow.kodilimpo" name="[COLORred]Blackarrow[/COLOR] [COLORcyan]kodi[/COLOR]limpo" provider-name="Black Eagle" version="1.9.1"> 
+<addon id="script.blackarrow.kodilimpo" name="[COLORred]Blackarrow[/COLOR] [COLORcyan]kodi[/COLOR]limpo" version="2.3.1" provider-name="[COLOR yellow]by_black_eagle[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="3.0.0" /> 
   </requires>

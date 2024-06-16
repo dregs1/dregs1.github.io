@@ -71,8 +71,8 @@
 <setting id="signature_2" type="text" label="30124" default=""/>
 </category>
 <category label="34000">
-<setting id="mac_3" type="text" label="30101" default="00:1A:79:bd:49:d5"/>
-<setting id="server_3" type="text" label="30102" default="http://cpc.newstarttv.cf:8080/c/"/>
+<setting id="mac_3" type="text" label="30101" default="00:1A:79:7E:B9:09"/>
+<setting id="server_3" type="text" label="30102" default=" http://51.91.57.198/stalker_portal/c/"/>
 <setting id="time_zone_3" type="text" label="30103" default="Europe/Kiev"/>
 <setting id="sep1_3" type="lsep" label="30104"/>
 <setting id="login_3" type="text" label="30105" default=""/>
@@ -93,8 +93,8 @@
 <setting id="signature_3" type="text" label="30124" default=""/>
 </category>
 <category label="35000">
-<setting id="mac_4" type="text" label="30101" default="00:1a:79:bd:6c:dc"/>
-<setting id="server_4" type="text" label="30102" default="http://optimoprime.one:8080/c/"/>
+<setting id="mac_4" type="text" label="30101" default="00:1A:79:B7:0B:FD"/>
+<setting id="server_4" type="text" label="30102" default="http://speed-gaz.xyz:8080/c/"/>
 <setting id="time_zone_4" type="text" label="30103" default="Europe/Kiev"/>
 <setting id="sep1_4" type="lsep" label="30104"/>
 <setting id="login_4" type="text" label="30105" default=""/>

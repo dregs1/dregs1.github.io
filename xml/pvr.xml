@@ -2107,3 +2107,212 @@ plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://rdns.tv:80/live/08849218/48162992/262384.m3u8|User-Agent=VLC/3.0.0
 #EXTINF:-1 group-title="Canais | Abertos" tvg-logo="https://liebeurl.me/logos/recordtv.png",Record Itapoan - Bahia HD
 plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://rdns.tv:80/live/08849218/48162992/48922.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="#### PORTUGAL ####" tvg-logo="" group-title="PT | PORTUGAL",#### PORTUGAL ENTERTAINMENT ####
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2732.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: RTP 1 HD" tvg-logo="" group-title="PT | PORTUGAL",PT: RTP 1 HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2736.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: RTP 2 " tvg-logo="" group-title="PT | PORTUGAL",PT: RTP 2 
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2738.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: RTP 3 " tvg-logo="" group-title="PT | PORTUGAL",PT: RTP 3 
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2740.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: TVI 24" tvg-logo="" group-title="PT | PORTUGAL",PT: TVI 24
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2762.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: TVI Fic" tvg-logo="" group-title="PT | PORTUGAL",PT: TVI Fic
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2763.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: TVI HD" tvg-logo="" group-title="PT | PORTUGAL",PT: TVI HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2761.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: TVI REALITY" tvg-logo="" group-title="PT | PORTUGAL",PT: TVI REALITY
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2764.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: VH1" tvg-logo="" group-title="PT | PORTUGAL",PT: VH1
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2766.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: SIC Caras" tvg-logo="" group-title="PT | PORTUGAL",PT: SIC Caras
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2747.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: SIC HD" tvg-logo="" group-title="PT | PORTUGAL",PT: SIC HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2746.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: SIC K" tvg-logo="" group-title="PT | PORTUGAL",PT: SIC K
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2749.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: SIC MULHER" tvg-logo="" group-title="PT | PORTUGAL",PT: SIC MULHER
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2752.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: SIC NOTICIAS HD" tvg-logo="" group-title="PT | PORTUGAL",PT: SIC NOTICIAS HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2755.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: SIC RADICAL " tvg-logo="" group-title="PT | PORTUGAL",PT: SIC RADICAL 
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2751.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: A BOLA TV" tvg-logo="" group-title="PT | PORTUGAL",PT: A BOLA TV
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2772.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: AFRO MUSIC" tvg-logo="" group-title="PT | PORTUGAL",PT: AFRO MUSIC
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2771.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: ARTV" tvg-logo="" group-title="PT | PORTUGAL",PT: ARTV
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2773.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: CANAL Q" tvg-logo="" group-title="PT | PORTUGAL",PT: CANAL Q
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2774.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: CBS REALITY" tvg-logo="" group-title="PT | PORTUGAL",PT: CBS REALITY
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2780.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: CM TV" tvg-logo="" group-title="PT | PORTUGAL",PT: CM TV
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2775.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: E! Entertainment" tvg-logo="" group-title="PT | PORTUGAL",PT: E! Entertainment
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2777.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: FUEL TV" tvg-logo="" group-title="PT | PORTUGAL",PT: FUEL TV
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2779.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: MCM POP" tvg-logo="" group-title="PT | PORTUGAL",PT: MCM POP
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2770.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: MTV PORTUGAL" tvg-logo="" group-title="PT | PORTUGAL",PT: MTV PORTUGAL
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2769.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: PORTO CANAL " tvg-logo="" group-title="PT | PORTUGAL",PT: PORTO CANAL 
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2734.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: RTP AFRICA" tvg-logo="" group-title="PT | PORTUGAL",PT: RTP AFRICA
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2742.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: RTP ACORES" tvg-logo="" group-title="PT | PORTUGAL",PT: RTP ACORES
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2743.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: RTP MEMÓRIA" tvg-logo="" group-title="PT | PORTUGAL",PT: RTP MEMÓRIA
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2744.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: TLC" tvg-logo="" group-title="PT | PORTUGAL",PT: TLC
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2756.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: TOROS TV" tvg-logo="" group-title="PT | PORTUGAL",PT: TOROS TV
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2757.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: Trace Urban HD" tvg-logo="" group-title="PT | PORTUGAL",PT: Trace Urban HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2767.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: TV GLOBO" tvg-logo="" group-title="PT | PORTUGAL",PT: TV GLOBO
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2758.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: TV Globo NOW" tvg-logo="" group-title="PT | PORTUGAL",PT: TV Globo NOW
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2759.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="##### PORTUGAL KIDS #####" tvg-logo="" group-title="PT | PORTUGAL",##### PORTUGAL KIDS #####
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2785.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: BABY TV" tvg-logo="" group-title="PT | PORTUGAL",PT: BABY TV
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2786.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: CANAL PANDA" tvg-logo="" group-title="PT | PORTUGAL",PT: CANAL PANDA
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2789.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: CARTOON  NETWORK" tvg-logo="plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://89.163.242.179:8080/images/9c357e142286c7bed61dc77eb38f6c19.png" group-title="PT | PORTUGAL",PT: CARTOON  NETWORK
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2788.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: DISNEY CHANNEL" tvg-logo="https://www.lyngsat-logo.com/logo/tv/dd/disney_channel_global.png" group-title="PT | PORTUGAL",PT: DISNEY CHANNEL
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2792.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: DISNEY JUNIOR" tvg-logo="https://www.lyngsat-logo.com/logo/tv/dd/disney_junior_us.png" group-title="PT | PORTUGAL",PT: DISNEY JUNIOR
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2791.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: JIM JAM" tvg-logo="" group-title="PT | PORTUGAL",PT: JIM JAM
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2793.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: NICKELODEON" tvg-logo="https://www.lyngsat-logo.com/logo/tv/nn/nickelodeon_us.png" group-title="PT | PORTUGAL",PT: NICKELODEON
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2787.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: Nick Jr." tvg-logo="https://www.lyngsat-logo.com/logo/tv/nn/nick_jr_us.png" group-title="PT | PORTUGAL",PT: Nick Jr.
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2806.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: Panda Biggs" tvg-logo="" group-title="PT | PORTUGAL",PT: Panda Biggs
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2790.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="#### PORTUGAL DOCUMENTARY ####" tvg-logo="" group-title="PT | PORTUGAL",#### PORTUGAL DOCUMENTARY ####
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2794.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT:  Historia" tvg-logo="" group-title="PT | PORTUGAL",PT:  Historia
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2797.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: 24 KITCHEN HD" tvg-logo="plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://89.163.242.179:8080/images/13b2b315d9978cc3816d1fb845076b62.png" group-title="PT | PORTUGAL",PT: 24 KITCHEN HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2805.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: CASA & PESCA" tvg-logo="" group-title="PT | PORTUGAL",PT: CASA & PESCA
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2798.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: CRIME INVISTIGATION" tvg-logo="" group-title="PT | PORTUGAL",PT: CRIME INVISTIGATION
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2801.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: Discovery Channel HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/1920px-2019_Discovery_logo.svg.png" group-title="PT | PORTUGAL",PT: Discovery Channel HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2795.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: Nat Geo WILD HD" tvg-logo="https://static.epg.best/it/NatGeoWild.it.png" group-title="PT | PORTUGAL",PT: Nat Geo WILD HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2799.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: NATIONAL GEOGRAPHIC" tvg-logo="https://www.lyngsat-logo.com/logo/tv/nn/nat_geo_us.png" group-title="PT | PORTUGAL",PT: NATIONAL GEOGRAPHIC
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2800.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: ODISSEIA" tvg-logo="" group-title="PT | PORTUGAL",PT: ODISSEIA
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2803.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: Travel Channel HD" tvg-logo="" group-title="PT | PORTUGAL",PT: Travel Channel HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2802.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: TV RECORD" tvg-logo="" group-title="PT | PORTUGAL",PT: TV RECORD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2807.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="##### PORTUGAL SPORT #####" tvg-logo="" group-title="PT | PORTUGAL",##### PORTUGAL SPORT #####
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2809.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: Eleven Sports 1 HD" tvg-logo="" group-title="PT | PORTUGAL",PT: Eleven Sports 1 HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2832.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: Eleven Sports 2 HD" tvg-logo="" group-title="PT | PORTUGAL",PT: Eleven Sports 2 HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2834.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: Eleven Sports 3 HD" tvg-logo="" group-title="PT | PORTUGAL",PT: Eleven Sports 3 HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2836.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: Eleven Sports 4 HD" tvg-logo="" group-title="PT | PORTUGAL",PT: Eleven Sports 4 HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2838.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: Eleven Sports 5 FHD" tvg-logo="" group-title="PT | PORTUGAL",PT: Eleven Sports 5 FHD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2840.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: Eleven Sports 6 HD" tvg-logo="" group-title="PT | PORTUGAL",PT: Eleven Sports 6 HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2842.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: Eleven Sport 1 " tvg-logo="" group-title="PT | PORTUGAL",PT: Eleven Sport 1 
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2831.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: Eleven Sport 2 " tvg-logo="" group-title="PT | PORTUGAL",PT: Eleven Sport 2 
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2833.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: Eleven Sport 3 " tvg-logo="" group-title="PT | PORTUGAL",PT: Eleven Sport 3 
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2835.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: Eleven Sport 4 HD" tvg-logo="" group-title="PT | PORTUGAL",PT: Eleven Sport 4 HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2837.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: Eleven Sport 5 HD" tvg-logo="" group-title="PT | PORTUGAL",PT: Eleven Sport 5 HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2839.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: Eleven Sport 6 " tvg-logo="" group-title="PT | PORTUGAL",PT: Eleven Sport 6 
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2841.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: SPORT TV" tvg-logo="" group-title="PT | PORTUGAL",PT: SPORT TV
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2812.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: SPORT TV 1 HD" tvg-logo="" group-title="PT | PORTUGAL",PT: SPORT TV 1 HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2816.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: SPORT TV 1" tvg-logo="" group-title="PT | PORTUGAL",PT: SPORT TV 1
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2815.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: SPORT TV 2 HD" tvg-logo="" group-title="PT | PORTUGAL",PT: SPORT TV 2 HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2819.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: SPORT TV 2" tvg-logo="" group-title="PT | PORTUGAL",PT: SPORT TV 2
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2818.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: SPORT TV 3 HD" tvg-logo="" group-title="PT | PORTUGAL",PT: SPORT TV 3 HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2822.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: SPORT TV 3" tvg-logo="" group-title="PT | PORTUGAL",PT: SPORT TV 3
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2821.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: SPORT TV 4" tvg-logo="" group-title="PT | PORTUGAL",PT: SPORT TV 4
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2824.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: SPORT TV 5" tvg-logo="" group-title="PT | PORTUGAL",PT: SPORT TV 5
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2827.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: BENFICA TV" tvg-logo="" group-title="PT | PORTUGAL",PT: BENFICA TV
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2845.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: BTV HD" tvg-logo="" group-title="PT | PORTUGAL",PT: BTV HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2846.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: CANAL 11 HD" tvg-logo="" group-title="PT | PORTUGAL",PT: CANAL 11 HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2811.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: EUROSPORT 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d0/Eurosport_2_Logo_2015.png" group-title="PT | PORTUGAL",PT: EUROSPORT 2
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2850.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: Eurosport 1 HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eurosport_1_Logo_2015.svg/1920px-Eurosport_1_Logo_2015.svg.png" group-title="PT | PORTUGAL",PT: Eurosport 1 HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2852.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: KOMBAT SPORT" tvg-logo="" group-title="PT | PORTUGAL",PT: KOMBAT SPORT
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2851.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: Motorvision" tvg-logo="" group-title="PT | PORTUGAL",PT: Motorvision
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2848.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: PFC" tvg-logo="" group-title="PT | PORTUGAL",PT: PFC
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2853.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: SPORT TV NBA HD" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/8/89/Nbatv.png" group-title="PT | PORTUGAL",PT: SPORT TV NBA HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2830.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: SPORTING TV" tvg-logo="" group-title="PT | PORTUGAL",PT: SPORTING TV
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2843.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: TVCine ACTION HD" tvg-logo="" group-title="PT | PORTUGAL",PT: TVCine ACTION HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2704.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: TVCine EDITION HD" tvg-logo="" group-title="PT | PORTUGAL",PT: TVCine EDITION HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2706.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: TVCine EMOTION HD" tvg-logo="" group-title="PT | PORTUGAL",PT: TVCine EMOTION HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2708.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: TVCine TOP HD" tvg-logo="" group-title="PT | PORTUGAL",PT: TVCine TOP HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2710.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: NOS Studios " tvg-logo="" group-title="PT | PORTUGAL",PT: NOS Studios 
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2702.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: FOX HD" tvg-logo="" group-title="PT | PORTUGAL",PT: FOX HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2713.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: FOX MOVIES HD" tvg-logo="" group-title="PT | PORTUGAL",PT: FOX MOVIES HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2715.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: FOX COMEDY HD" tvg-logo="" group-title="PT | PORTUGAL",PT: FOX COMEDY HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2717.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: FOX CRIME HD" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/9/97/Foxcrimehd.png" group-title="PT | PORTUGAL",PT: FOX CRIME HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2719.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: FOX LIFE HD" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ff/fox-life-us.png" group-title="PT | PORTUGAL",PT: FOX LIFE HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2720.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: AMC HD" tvg-logo="" group-title="PT | PORTUGAL",PT: AMC HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2721.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: AXN Movies HD" tvg-logo="" group-title="PT | PORTUGAL",PT: AXN Movies HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2722.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: AXN HD" tvg-logo="" group-title="PT | PORTUGAL",PT: AXN HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2723.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: AXN WHITE HD" tvg-logo="" group-title="PT | PORTUGAL",PT: AXN WHITE HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2724.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: CINEMUNDO" tvg-logo="" group-title="PT | PORTUGAL",PT: CINEMUNDO
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2725.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: HOLLYWOOD HD" tvg-logo="" group-title="PT | PORTUGAL",PT: HOLLYWOOD HD
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2728.m3u8|User-Agent=VLC/3.0.0
+#EXTINF:-1 tvg-id="" tvg-name="PT: SYFY" tvg-logo="" group-title="PT | PORTUGAL",PT: SYFY
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR][COLORlime]_pvr[/COLOR]&maxbitrate=0&Buffer=20971520&url=http://xruistream.bio:8080/live/Boschyasliadam/Edjdjcjxhxjsjxxx/2729.m3u8|User-Agent=VLC/3.0.0
+

@@ -1,13 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vaeQ0Xersj2y5t1Hkqljb9i8RaU.jpg" group-title="FILMES", Magnatas do Crime (2020)
- plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:141231A789FFEA164E061F53BACFF896A90A83CF
- #EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/yf2WNfO1b0E1IcJDLUiGj7ccKRm.jpg" group-title="FILMES", A Cabana (2017) 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/d/dc/Ministry_of_Ungentlemanly_Warfare_2024_poster.jpg/225px-Ministry_of_Ungentlemanly_Warfare_2024_poster.jpg" group-title="FILMES", O Ministério da Guerra Descortês... (2024)
+plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:3E7AFBD7F3AE25826A75F2FC2C0FF2CC0D54CBF1
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/yf2WNfO1b0E1IcJDLUiGj7ccKRm.jpg" group-title="FILMES", A Cabana (2017) 
 plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:A1A60C486490503BD35D109F77E38C692D1CD65C 
 #EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/nCbkOyOMTEwlEV0LtCOvCnwEONA.jpg" group-title="FILMES", Interessante (2014) 
 plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:AC3EE9395349AD9A0B6EF13E1520511A6B9EE2B2
- #EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/k2GdEZ3fBvXjMm6wgNx4Ynya8b8.jpg" group-title="FILMES", O Lutador (2006) 
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/k2GdEZ3fBvXjMm6wgNx4Ynya8b8.jpg" group-title="FILMES", O Lutador (2006) 
 plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:D7E1DDDC9DB1ADF37BDCD12A1E6BDC28667798D3
- #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w342/2yQUnpc1BXgesJrfcdoRa6jTAnA.jpg" group-title="FILMES", Pantera Negra (2018) 
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w342/2yQUnpc1BXgesJrfcdoRa6jTAnA.jpg" group-title="FILMES", Pantera Negra (2018) 
 plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:9101880558927856C51504031A93A8445C9A60B0 
 #EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/dAB64Bp7S4JaMutZMEOWSycdge2.jpg" group-title="FILMES", Karate Kid - A Hora da Verdade (1984) 
 plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:263092E5BFCF7F5E01E5D58FF332ADD53164F4D9 

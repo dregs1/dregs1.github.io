@@ -1,0 +1,23 @@
+[
+{
+        "name": "[COLORorange] Portugal   [/COLOR]",
+        "url": "http://galaxypro.online:8080/get.php?username=DiegoRodriguez&password=Diego2024&type=m3u_plus&output=m3u8",
+        "image": "https://i.imgur.com/ShitfSI.png"
+    }
+,
+    {
+        "name": "[COLORorange] Brasil [/COLOR]",
+        "url": "http://acesso.listaflix.xyz/get.php?username=1827195&password=5361113&type=m3u_plus&output=m3u8",
+        "image": "https://i.imgur.com/HBClycv.png"
+    },
+    {
+        "name": "[COLORorange] Mundial [/COLOR]",
+        "url": "http://xxip25.top:8080/get.php?username=pcox5852@gmail.com&password=pcox5852@2023&type=m3u_plus&output=m3u8",
+        "image": "https://i.imgur.com/jfmROxJ.png"
+    },
+    {
+        "name": "[COLORorange] filmes [/COLOR]",
+        "url": "https://raw.githubusercontent.com/dregs1/dregs1.github.io/main/xml/filmes.json",
+        "image": "https://i.imgur.com/jfmROxJ.png"
+    }
+]

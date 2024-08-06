@@ -1,7 +1,7 @@
 [
 {
         "name": "[COLORorange] Portugal   [/COLOR]",
-        "url": "http://dk.2665.ninja:8080/get.php?username=SeyoVGV220&password=CDKaxoUkpE&type=m3u_plus&output=ts",
+        "url": "http://tv.iptvsmart.live:80/get.php?username=ante_lapenda&password=2N7lAKr3ea&type=m3u_plus&output=mpegts",
         "image": "https://i.imgur.com/ShitfSI.png"
     },
         {
@@ -17,6 +17,11 @@
         {
         "name": "[COLORorange] Brasil [/COLOR]",
         "url": "http://logincp.top:80/get.php?username=cmixlogin003&password=cmixlogin003NTYhDsQFyUo2&type=m3u_plus",
+        "image": "https://i.imgur.com/HBClycv.png"
+       },
+        {
+        "name": "[COLORorange] Brasil [/COLOR]",
+        "url": "http://bccdn.xyz:80/get.php?username=209384328947pw&password=9871293812033&type=m3u_plus",
         "image": "https://i.imgur.com/HBClycv.png"
     },
     {

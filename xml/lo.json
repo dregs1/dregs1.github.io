@@ -1,7 +1,7 @@
 [
 {
         "name": "[COLORorange] Portugal   [/COLOR]",
-        "url": "http://amb2021.one:8080/get.php?username=Nelio-magualde&password=15102022&type=m3u_plus&output=mpegts",
+        "url": "http://dk.2665.ninja:8080/get.php?username=SeyoVGV220&password=CDKaxoUkpE&type=m3u_plus&output=ts",
         "image": "https://i.imgur.com/ShitfSI.png"
     },
         {
@@ -12,6 +12,11 @@
         {
         "name": "[COLORorange] Brasil [/COLOR]",
         "url": "http://acesso.listaflix.xyz/get.php?username=1827195&password=5361113&type=m3u_plus&output=m3u8",
+        "image": "https://i.imgur.com/HBClycv.png"
+       },
+        {
+        "name": "[COLORorange] Brasil [/COLOR]",
+        "url": "http://logincp.top:80/get.php?username=cmixlogin003&password=cmixlogin003NTYhDsQFyUo2&type=m3u_plus",
         "image": "https://i.imgur.com/HBClycv.png"
     },
     {

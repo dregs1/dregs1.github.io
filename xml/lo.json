@@ -9,6 +9,11 @@
         "url": "http://dimitri1602.online:8080/get.php?username=Covaneiro&password=Rui2&type=m3u_plus&output=mpegts",
         "image": "https://i.imgur.com/ShitfSI.png"
         },
+         {
+        "name": "[COLORorange] Portugal   [/COLOR]",
+        "url": "http://nxhost.xyz:8080/get.php?username=g4p6u3xBqA&password=4SQbPa33AV&type=m3u_plus",
+        "image": "https://i.imgur.com/ShitfSI.png"
+        },
         {
         "name": "[COLORorange] Brasil [/COLOR]",
         "url": "http://acesso.listaflix.xyz/get.php?username=1827195&password=5361113&type=m3u_plus&output=m3u8",

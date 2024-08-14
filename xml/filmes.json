@@ -1,25 +1,17 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/d/dc/Ministry_of_Ungentlemanly_Warfare_2024_poster.jpg/225px-Ministry_of_Ungentlemanly_Warfare_2024_poster.jpg" group-title="FILMES", O Ministério da Guerra Descortês... (2024)
 plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:3E7AFBD7F3AE25826A75F2FC2C0FF2CC0D54CBF1
-#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/yf2WNfO1b0E1IcJDLUiGj7ccKRm.jpg" group-title="FILMES", A Cabana (2017) 
-plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:A1A60C486490503BD35D109F77E38C692D1CD65C 
-#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/nCbkOyOMTEwlEV0LtCOvCnwEONA.jpg" group-title="FILMES", Interessante (2014) 
-plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:AC3EE9395349AD9A0B6EF13E1520511A6B9EE2B2
-#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/k2GdEZ3fBvXjMm6wgNx4Ynya8b8.jpg" group-title="FILMES", O Lutador (2006) 
-plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:D7E1DDDC9DB1ADF37BDCD12A1E6BDC28667798D3
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w342/2yQUnpc1BXgesJrfcdoRa6jTAnA.jpg" group-title="FILMES", Pantera Negra (2018) 
-plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:9101880558927856C51504031A93A8445C9A60B0 
-#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/dAB64Bp7S4JaMutZMEOWSycdge2.jpg" group-title="FILMES", Karate Kid - A Hora da Verdade (1984) 
-plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:263092E5BFCF7F5E01E5D58FF332ADD53164F4D9 
-#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/z9sDwQcCBYjA5DvNqmd8m5rkBqh.jpg" group-title="FILMES", O Guarda-Costas (1992) 
-plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:84C1D96F1662E0F9B59550AB8EA6D4854A76162B 
-#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3NFWINCP0Ej8gWNbzKI72AImAg7.jpg" group-title="FILMES", Sherlock Holmes (2009) 
-plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:AE65695C754254C4C063E9599C07939587F32234 
-#EXTINF:-1 tvg-logo="https://www.blogs.unicamp.br/cienciapelosolhosdelas/wp-content/uploads/sites/53/2020/04/estrelas-al%C3%A9m-do-tempo-738x1024.png" group-title="FILMES", Estrelas Além do Tempo (2016) 
-plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:D4DB22E842DC703A89B168C9BAD5D28FEDD36938 
-#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/w2CqmaUQlLjlysQX7An4vedZkEU.jpg" group-title="FILMES", Fenda no Tempo (1995) 
-plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:E3AA7EB2A5B676E290C9252EDDE5C87907F08FF6 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/UdwBR9f.jpg" group-title="FILMES", A Verdade Nua e Crua (2009) 
-plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:A1806AAD39637EDC3878794A6D2AF70A7F537E65 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/w85FCVb.jpg" group-title="FILMES", 007 Contra Spectre (2016) 
-plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:15494316AB2C0EFB938116AB3AAB42F597370108
+#EXTINF:-1 tvg-logo="https://yts.torrentbay.st/assets/images/movies/twisters_2024/medium-cover.jpg?v=91" group-title="FILMES", Twisters (2024) 
+plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:84BD0FB61D4C8866AD6D0F0AB77A3281CF7086F7 
+#EXTINF:-1 tvg-logo="https://yts.torrentbay.st/assets/images/movies/fly_me_to_the_moon_2024/medium-cover.jpg?v=91" group-title="FILMES", Voa-me para a lua (2024) 
+plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:08999CA982798421246B35EF4AFB262D02976C8A
+#EXTINF:-1 tvg-logo="https://yts.torrentbay.st/assets/images/movies/twilight_of_the_warriors_walled_in_2024/medium-cover.jpg?v=91" group-title="FILMES", Crepúsculo dos Guerreiros: Murado (2024) 
+plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:1B8E99EB10C47BDD3F85EEC8713ACFB535C97D8F
+#EXTINF:-1 tvg-logo="https://yts.torrentbay.st/assets/images/movies/angels_fallen_warriors_of_peace_2024/medium-cover.jpg?v=91" group-title="FILMES", Anjos Caídos: Guerreiros da Paz (2024) 
+plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:2B77AA23FA7B8C45979ED70F2824BD06CD5D8CEF 
+#EXTINF:-1 tvg-logo="https://yts.torrentbay.st/assets/images/movies/hijack_1971_2024/medium-cover.jpg?v=91" group-title="FILMES", Rapto 1971 (2024)
+plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:C9D24ECFB08E75B24FA522A6588AAA1834CCD056 
+#EXTINF:-1 tvg-logo="https://yts.torrentbay.st/assets/images/movies/one_fast_move_2024/medium-cover.jpg?v=91" group-title="FILMES", Um movimento rápido (2024)
+plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:9396BB4739F7D4427EADE38E14212A9287F9603C 
+#EXTINF:-1 tvg-logo="https://yts.torrentbay.st/assets/images/movies/you_cant_run_forever_2024/medium-cover.jpg?v=91" group-title="FILMES", Não podes correr para sempre (2024) 
+plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:894DF26E832CC7127831758AB73B085DE5846E20 

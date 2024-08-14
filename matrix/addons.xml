@@ -1150,7 +1150,7 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
     </extension>
 </addon>
 
-<addon id="plugin.video.scrubsv2" version="5.1.15" name="[COLOR orange]Scrubs v2[/COLOR]" provider-name="JewBMX">
+<addon id="plugin.video.scrubsv2" version="5.1.39" name="[COLOR orange]Scrubs v2[/COLOR]" provider-name="JewBMX">
     <requires>
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
@@ -1175,9 +1175,8 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
         <assets>
             <icon>resources/images/icon.png</icon>
             <fanart>resources/images/fanart.jpg</fanart>
-            <screenshot>resources/images/screenshot.png</screenshot>
         </assets>
-        <news>[B] Total CleanUp of Providers [/B]: Checked and Cleaned as of Feb. 2023. [CR][B] Check ChangeLog For More Details. [/B] [CR][B] (Please Report Any Issues To Me Directly By Email Or GitHub.) [/B]</news>
+        <news>Total CleanUp of Providers : Checked and Cleaned as of June 2023. [CR] Check ChangeLog For More Details.</news>
     </extension>
 </addon>
 

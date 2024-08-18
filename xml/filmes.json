@@ -15,13 +15,13 @@ plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:1B8E99EB10C47BDD3F8
 plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:9090F528E13FFDD559E9016716FD5911E8A62389& 
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4Q3CLRu.jpg" group-title="FILMES", Rapto 1971 (2024)
-plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:C9D24ECFB08E75B24FA522A6588AAA1834CCD056& 
+plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:43C3A481C62FB072603B57948CB30C2E85F048C4& 
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/EzK6hVB.jpg" group-title="FILMES", Um movimento rápido (2024)
 plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:18B6EDBEF71B14C6C255049556880BD03006D168
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/oANxYM8.jpg" group-title="FILMES", Não podes correr para sempre (2024) 
-plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:4D1B7BB4FB582A4BA9C2C93A6F2CDD57E9D00DF6 
+plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:894DF26E832CC7127831758AB73B085DE5846E20&
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/jn6jpNt.jpg" group-title="FILMES", Jackpot! (2024) 
 plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:F31A81CDD8171A56C7F6F0C5E5D0FE4E2E6A0A9F

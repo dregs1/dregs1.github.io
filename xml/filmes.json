@@ -12,16 +12,19 @@ plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:08999CA982798421246
 plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:1B8E99EB10C47BDD3F85EEC8713ACFB535C97D8F
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/pohQAVg.jpg" group-title="FILMES", Anjos Caídos: Guerreiros da Paz (2024) 
-plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:DB49E7C877950A4B9098A127E3487D905AC5EE31 
+plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:9090F528E13FFDD559E9016716FD5911E8A62389& 
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4Q3CLRu.jpg" group-title="FILMES", Rapto 1971 (2024)
-plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:43C3A481C62FB072603B57948CB30C2E85F048C4 
+plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:C9D24ECFB08E75B24FA522A6588AAA1834CCD056& 
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/EzK6hVB.jpg" group-title="FILMES", Um movimento rápido (2024)
 plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:18B6EDBEF71B14C6C255049556880BD03006D168
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/oANxYM8.jpg" group-title="FILMES", Não podes correr para sempre (2024) 
-plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:DEE4FC6EA57152F5F3CDFB706264A28EF2CE93CA 
+plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:4D1B7BB4FB582A4BA9C2C93A6F2CDD57E9D00DF6 
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/jn6jpNt.jpg" group-title="FILMES", Jackpot! (2024) 
 plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:F31A81CDD8171A56C7F6F0C5E5D0FE4E2E6A0A9F
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nrOhEK7.jpg" group-title="FILMES", A União (2024) 
+plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:902D3C569DBD73C44D81C94EA3B6F00391B0528F&

@@ -76,6 +76,12 @@
         "image": "https://i.imgur.com/ntH68nd.png"
         }
         ,
+        {
+        "name": "[COLORorange] Espanha [/COLOR]",
+        "url": "http://sigacaminho.org:80/get.php?username=VQPYTxAEUk&password=JTfVnXuJKQ9U&type=m3u_plus&output=mpegts",
+        "image": "https://i.imgur.com/ntH68nd.png"
+        }
+        ,
     {
         "name": "[COLORorange] Musica [/COLOR]",
         "url": "https://raw.githubusercontent.com/dregs1/dregs1.github.io/main/xml/lomusica.json",

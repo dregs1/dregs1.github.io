@@ -1,4 +1,11 @@
-#name [COLOR gold]Eagle[/COLOR] [COLOR cyan]Vod [/COLOR]
+#name [COLOR gold]Eagle[/COLOR] [COLOR cyan]Vod 1 [/COLOR]
 #url http://62.210.70.175:8080
 #mac 00:1A:79:FC:33:44
    	 	
+#name [COLOR gold]Eagle[/COLOR] [COLOR cyan]Vod 2 [/COLOR]
+#url http://b-ictv.dynu.com:8080
+#mac 00:1A:79:BA:8F:E1
+
+#name [COLOR gold]Eagle[/COLOR] [COLOR cyan]Vod 3 [/COLOR]
+#url http://gold.livrexs.xyz:80
+#mac 00:1A:79:54:CE:88

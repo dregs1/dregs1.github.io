@@ -7,7 +7,7 @@
 ,
      {
         "name": "[COLORorange] Espanha 2[/COLOR]",
-        "url": "http://m3u.maluka.top:80/get.php?username=hulfatneuz&password=ucgmmsmcgo&type=m3u_plus",
+        "url": " http://fuxxion.vip:8080/get.php?username=JuanN7815&password=KJqAypGCV9&type=m3u_plus&output=mpegts",
         "image": "https://i.imgur.com/6JTJRVR.png"
     },
      {
@@ -25,5 +25,11 @@
         "name": "[COLORorange] Espanha 5[/COLOR]",
         "url": "http://ceb14.itvshare.com:8691/get.php?username=Calzadosvelasco&password=aFTYSPeB&type=m3u_plus&output=ts",
         "image": "https://i.imgur.com/6JTJRVR.png"
+    },
+     {
+        "name": "[COLORorange] Espanha 6[/COLOR]",
+        "url": "http://redima.pro:8880/get.php?username=WILSON1&password=0320&type=m3u_plus&output=ts",
+        "image": "https://i.imgur.com/6JTJRVR.png"
     }
+	
 ]

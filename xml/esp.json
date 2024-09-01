@@ -30,6 +30,10 @@
         "name": "[COLORorange] Espanha 6[/COLOR]",
         "url": "http://redima.pro:8880/get.php?username=WILSON1&password=0320&type=m3u_plus&output=ts",
         "image": "https://i.imgur.com/6JTJRVR.png"
-    }
-	
+    },
+     {
+        "name": "[COLORorange] Espanha 7[/COLOR]",
+        "url": "http://ather.nicgoto.xyz:80/get.php?username=FYB6F5BUBN&password=vUkVagjK9r&type=m3u_plus&output=ts",
+        "image": "https://i.imgur.com/6JTJRVR.png"
+     }
 ]

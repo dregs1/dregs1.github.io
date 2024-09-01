@@ -23,7 +23,7 @@
 	,
      {
         "name": "[COLORorange] Espanha 5[/COLOR]",
-        "url": "http://ceb14.itvshare.com:8691/get.php?username=Calzadosvelasco&password=aFTYSPeB&type=m3u_plus",
+        "url": "http://ceb14.itvshare.com:8691/get.php?username=Calzadosvelasco&password=aFTYSPeB&type=m3u_plus&output=ts",
         "image": "https://i.imgur.com/6JTJRVR.png"
     },
      {
@@ -33,7 +33,7 @@
     },
      {
         "name": "[COLORorange] Espanha 7[/COLOR]",
-        "url": "http://ather.nicgoto.xyz:80/get.php?username=FYB6F5BUBN&password=vUkVagjK9r&type=m3u_plus&output=ts",
+        "url": "http://ather.nicgoto.xyz:80/get.php?username=FYB6F5BUBN&password=vUkVagjK9r&type=m3u_plus",
         "image": "https://i.imgur.com/6JTJRVR.png"
      }
 ]

@@ -2596,7 +2596,7 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
 	</extension>
 </addon>
 
-<addon id="script.x-codes.api" name="[COLORorange]Pach API X-Codes[/COLOR]" version="1.5.0" provider-name="[COLORorange]@By_Black Eagle[/COLOR]">
+<addon id="script.x-codes.api" name="[COLORorange]Pach API X-Codes[/COLOR]" version="1.5.2" provider-name="[COLORorange]@By_Black Eagle[/COLOR]">
    <requires>
 	<import addon="script.module.six"/>
         <import addon="script.module.kodi-six"/>

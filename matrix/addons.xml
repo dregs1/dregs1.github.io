@@ -976,14 +976,14 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
 </extension>
 </addon>
 
-<addon id="plugin.video.f4mTester" version="4.2.2" name="f4mTester" provider-name="Joel">
+<addon id="plugin.video.f4mTester" version="4.1.3" name="f4mTester" provider-name="Equipe Oneplay e Tiago ">
     <requires>
-        <import addon="script.module.simplejson" />
+        <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
-		<import addon="script.module.beautifulsoup4"/>
         <import addon="script.module.requests"/>
-        <import addon="script.module.inputstreamhelper"/>
+        <import addon="script.video.F4mProxy" version="4.0.9"/>
+        <import addon="inputstream.ffmpegdirect"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -993,8 +993,8 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
         <description></description>
         <platform>all</platform>
         <assets>
-			<icon>icon.png</icon>
-		</assets>
+            <icon>icon.png</icon>
+        </assets>
     </extension>
 </addon>
 
@@ -2570,6 +2570,30 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
         </assets>
         <news>Changed the fanart to be a simple small image that has a matching color tone to the theme chosen.</news>
     </extension>
+</addon>
+
+<addon id="script.video.F4mProxy"
+	     name="F4mProxy"
+	     version="4.0.9"
+	     provider-name="Joel e Tiago">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.requests" />
+        <import addon="inputstream.ffmpegdirect" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Proxy for f4m</summary>
+		<description lang="en">Use this addon to play F4m v1 and v2 streams</description>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
 </addon>
 
 <addon id="script.x-codes.api" name="[COLORorange]Pach API X-Codes[/COLOR]" version="1.5.2" provider-name="[COLORorange]@By_Black Eagle[/COLOR]">

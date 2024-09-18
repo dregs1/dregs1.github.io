@@ -1,22 +1,22 @@
 #name [COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_1[/COLOR]
-#url http://edge.bz:8080
-#mac 00:1A:79:B8:0A:8A 
+#url http://102.129.186.163:8080
+#mac 00:1A:79:40:9A:53 
    	 	
 #name [COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_2[/COLOR]
 #url http://ibrafr.com:8789
 #mac 00:1A:79:40:34:90
 
 #name [COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_3[/COLOR]
-#url http://mag.redmytv.com:80
-#mac 00:1a:79:bf:2a:c0
+#url http://tiger88.live:8080
+#mac 00:1A:79:C0:46:13
 
 #name [COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_4[/COLOR]
 #url http://162.19.37.133:8080
 #mac 00:1A:79:C1:F3:B0
 
 #name [COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_5[/COLOR]
-#url http://p2.iptvprivateserver.ru
-#mac 00:1a:79:a6:2b:3c
+#url http://31.42.186.180:25461
+#mac 00:1a:79:ce:ec:d9
 
 #name [COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_6[/COLOR]
 #url http://birutv.my.id
@@ -24,7 +24,7 @@
 
 #name [COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_7[/COLOR]
 #url http://iptv.magikserv.com
-#mac 00:1a:79:c7:a7:ca
+#mac 00:1A:79:10:3F:12
 
 #name [COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_8[/COLOR]
 #url http://birutv.my.id:80
@@ -40,4 +40,4 @@
 
 #name [COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_11[/COLOR]
 #url http://tiger88.live:8080
-#mac 00:1A:79:DE:B3:A0
+#mac 00:1A:79:36:B0:60 

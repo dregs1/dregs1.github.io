@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
 <category label="General">
-		<setting id="DNS" type="text" label="DNS" default="http://rdns.tv:80"/>
-		<setting id="Username" type="text" label="Username" default="talita12"/>
-		<setting id="Password" type="text" label="Password" default="12talita"/>
+		<setting id="DNS" type="text" label="DNS" default="http://xciptv.8888play.one"/>
+		<setting id="Username" type="text" label="Username" default="549576957"/>
+		<setting id="Password" type="text" label="Password" default="H647f1212p"/>
 		<setting id="meta" type="bool" label="VOD meta" visible="false" default="false"/>
 		<setting id="hidexxx" type="bool" label="Show Adult" visible="false" default="false"/>
 		<setting id="xxx_pwset" type="bool" label="Password Lock Adult Content" default="false"/>

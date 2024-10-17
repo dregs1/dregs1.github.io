@@ -3,12 +3,12 @@
 #mac 00:1A:79:c8:4c:65
    	 	
 #name [COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_2[/COLOR]
-#url http://200.26.188.39:80
-#mac 00:1A:79:B5:99:DE 
+#url http://live.geoiptv.org:8880
+#mac 00:1A:79:64:64:32 
 
 #name [COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_3[/COLOR]
-#url http://tv.premiumplus.tv:80
-#mac 00:1A:79:F8:0D:63 
+#url http://king4k.tv:8080
+#mac 00:1A:79:00:00:23 
 
 #name [COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_4[/COLOR]
 #url http://162.19.37.133:8080

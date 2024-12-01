@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.K-PT" name="[COLOR blue]K[COLORwhite]-[COLORgreen]P[COLORred]T[/COLOR]" version="2.1.6" provider-name="[COLOR orange]@By_Black_Eagla[/COLOR]">
+  <extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="en">[COLOR maroon] Only for the best!!![/COLOR] </summary>
+	<language>en</language>
+	<description lang="pt">[COLOR lime]K-PT[/COLOR][COLORorange]é um addon da familia Blackeagle Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+ 	<platform>all</platform>
+	<assets>
+		 <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+	    <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+	</assets>
+  </extension>
+</addon>

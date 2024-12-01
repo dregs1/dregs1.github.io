@@ -1,0 +1,15 @@
+#EXTM3U size="Big"
+#EXTINF:0 type="playlist" tvg-logo="https://i.imgur.com/Hxu5tgg.jpg",Live
+#EXTBG:https://i.imgur.com/Hxu5tgg.jpg
+https://brasilhd.cmzi.top/ssiptv/get/69782323/59673149/list_lives/
+#EXTINF:0 type="playlist" tvg-logo="https://i.imgur.com/jGhaTsV.jpg",Movie
+#EXTBG:https://i.imgur.com/jGhaTsV.jpg
+https://brasilhd.cmzi.top/ssiptv/get/69782323/59673149/movie_categories/
+#EXTINF:0 type="playlist" tvg-logo="https://i.imgur.com/seSukdK.png",Series
+#EXTBG:https://i.imgur.com/seSukdK.png
+https://brasilhd.cmzi.top/ssiptv/get/69782323/59673149/serie_categories/
+
+
+
+
+

@@ -1,0 +1,30 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/d/dc/Ministry_of_Ungentlemanly_Warfare_2024_poster.jpg/225px-Ministry_of_Ungentlemanly_Warfare_2024_poster.jpg" group-title="FILMES", O Ministério da Guerra Descortês... (2024)
+plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:3E7AFBD7F3AE25826A75F2FC2C0FF2CC0D54CBF1
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sRx1zvv.jpg" group-title="FILMES", Twisters (2024) 
+plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:A6571114CFB0AC2D517DD786FABAD13C8D9F29AB
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/elULsHL.jpg" group-title="FILMES", Voa-me para a lua (2024) 
+plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:08999CA982798421246B35EF4AFB262D02976C8A
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/WK6NS2v.jpg" group-title="FILMES", Crepúsculo dos Guerreiros: Murado (2024) 
+plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:1B8E99EB10C47BDD3F85EEC8713ACFB535C97D8F
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/pohQAVg.jpg" group-title="FILMES", Anjos Caídos: Guerreiros da Paz (2024) 
+plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:9090F528E13FFDD559E9016716FD5911E8A62389& 
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4Q3CLRu.jpg" group-title="FILMES", Rapto 1971 (2024)
+plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:43C3A481C62FB072603B57948CB30C2E85F048C4& 
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/EzK6hVB.jpg" group-title="FILMES", Um movimento rápido (2024)
+plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:18B6EDBEF71B14C6C255049556880BD03006D168
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/oANxYM8.jpg" group-title="FILMES", Não podes correr para sempre (2024) 
+plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:894DF26E832CC7127831758AB73B085DE5846E20&
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jn6jpNt.jpg" group-title="FILMES", Jackpot! (2024) 
+plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:F31A81CDD8171A56C7F6F0C5E5D0FE4E2E6A0A9F
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nrOhEK7.jpg" group-title="FILMES", A União (2024) 
+plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:902D3C569DBD73C44D81C94EA3B6F00391B0528F&

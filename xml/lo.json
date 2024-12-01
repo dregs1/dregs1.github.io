@@ -1,0 +1,96 @@
+[
+{
+        "name": "[COLORorange] Portugal   [/COLOR]",
+        "url": "http://recvod.xyz:8080/get.php?username=Fabioteste&password=Teste&type=m3u_plus",
+        "image": "https://i.imgur.com/ShitfSI.png"
+    },
+        {
+        "name": "[COLORorange] Portugal   [/COLOR]",
+        "url": "http://premiumtop.top:8080/get.php?username=zeza&password=eRMzA34MwGhj&type=m3u_plus&output=mpegts",
+        "image": "https://i.imgur.com/ShitfSI.png"
+    },
+        
+        {
+        "name": "[COLORorange] Portugal   [/COLOR]",
+        "url": "http://premiumtop.top:8080/get.php?username=visilva&password=vitor&type=m3u_plus&output=mpegts",
+        "image": "https://i.imgur.com/ShitfSI.png"
+    }, 
+        {
+        "name": "[COLORorange] Portugal   [/COLOR]",
+        "url": "http://deluxum.xyz:8080/get.php?username=@AVxrLsgRVd&password=1beuyd8f68&type=m3u_plus&output=m3u8",
+        "image": "https://i.imgur.com/ShitfSI.png"
+        },
+         {
+        "name": "[COLORorange] Portugal   [/COLOR]",
+        "url": "http://iptvplay.xyz:8080/get.php?username=Joaosousafama&password=qX4G1xMRbF&type=m3u_plus&output=mpegts",
+        "image": "https://i.imgur.com/ShitfSI.png"
+        },
+        {
+        "name": "[COLORorange] Brasil [/COLOR]",
+        "url": "http://xciptv.8888play.one/get.php?username=333501017&password=H548W1136w&type=m3u_plus",
+        "image": "https://i.imgur.com/HBClycv.png"
+       },
+        {
+        "name": "[COLORorange] Brasil [/COLOR]",
+        "url": "http://jslinkdns.xyz/get.php?username=EdwardTV&password=8aw7gk5&type=m3u_plus",
+        "image": "https://i.imgur.com/HBClycv.png"
+       },
+        {
+        "name": "[COLORorange] Brasil [/COLOR]",
+        "url": "http://cdn7light.xyz:80/get.php?username=ffz56gll56&password=b4fc6ffjnl&type=m3u_plus",
+        "image": "https://i.imgur.com/HBClycv.png"
+       },
+        {
+        "name": "[COLORorange] Brasil [/COLOR]",
+        "url": "http://listamais.xctv.app/get.php?username=13124417&password=88396864&type=m3u_plus",
+        "image": "https://i.imgur.com/HBClycv.png"
+       },
+        {
+        "name": "[COLORorange] Brasil [/COLOR]",
+        "url": "http://bmplus.online/get.php?username=Luizao01&password=Lu648949657&type=m3u_plus",
+        "image": "https://i.imgur.com/HBClycv.png"
+    },
+        
+    {
+        "name": "[COLORorange] Mundial [/COLOR]",
+        "url": "http://supersonictv.live:8080/get.php?username=686554&password=799757&type=m3u_plus",
+        "image": "https://i.imgur.com/jfmROxJ.png"
+    } ,
+        {
+        "name": "[COLORorange] Espanha [/COLOR]",
+        "url": "http://ceb14.itvshare.com:8691/get.php?username=Diegocanasto&password=rZybaM8s&type=m3u_plus&output=ts",
+        "image": "https://i.imgur.com/jfmROxJ.png"
+    } ,
+        {
+        "name": "[COLORorange] Espanha [/COLOR]",
+        "url": "http://fuxxion.vip:8080/get.php?username=FJM4276246&password=L2XdhvywSI&type=m3u_plus&output=mpegts",
+        "image": "https://i.imgur.com/ntH68nd.png"
+    }  ,
+        {
+        "name": "[COLORorange] Espanha [/COLOR]",
+        "url": "http://ceb14.itvshare.com:8691/get.php?username=Suegromiguelgilena&password=a9AqTGzs&type=m3u_plus&output=ts",
+        "image": "https://i.imgur.com/ntH68nd.png"
+    }  ,
+        {
+        "name": "[COLORorange] Espanha [/COLOR]",
+        "url": "http://ultrapremium.cloud:8080/get.php?username=992630585tv&password=m46c2d&type=m3u_plus",
+        "image": "https://i.imgur.com/ntH68nd.png"
+        }
+        ,
+        {
+        "name": "[COLORorange] Espanha [/COLOR]",
+        "url": "http://new.nfnt22.xyz:8080/get.php?username=jorgecalador&password=5GF7Qz5cqUSB&type=m3u_plus",
+        "image": "https://i.imgur.com/ntH68nd.png"
+        }
+        ,
+    {
+        "name": "[COLORorange] Musica [/COLOR]",
+        "url": "https://raw.githubusercontent.com/dregs1/dregs1.github.io/main/xml/lomusica.json",
+        "image": "https://i.imgur.com/k790Jyg.png"
+    },
+    {
+        "name": "[COLORorange] filmes [/COLOR]",
+        "url": "https://raw.githubusercontent.com/dregs1/dregs1.github.io/main/xml/filmes.json",
+        "image": "https://i.imgur.com/3mNVyJo.png"
+    }
+]

@@ -901,17 +901,17 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
 </extension>
 </addon>
 
-<addon id="plugin.video.eagle.ace" name="[COLORskyblue]Eagle [COLORbrown]Ace[/COLOR]" version="0.2" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
+<addon id="plugin.video.eagle.ace" name="[COLORskyblue]Eagle [COLORbrown]Ace[/COLOR]" version="0.3" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
   <requires>
-    <import addon="xbmc.python" version="3.0.0" />
-    <import addon="script.module.requests" version="2.22.0" />
+    <import addon="xbmc.python" version="3.0.0" /> <!-- Kodi en Python 3 -->
+    <import addon="script.module.requests" version="2.22.0" /> <!-- Compatible con Python 3 -->
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
 <summary>Canais de Televisão, desportos e mais...</summary>
-		<description lang="en">[COLOR red]Eagle Ace[/COLOR] [COLORorange][/COLOR] [COLORorange]é um addon da familia Blackeagle.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+		<description lang="en">[COLOR red]Eagle Acel[/COLOR] [COLORorange][/COLOR] [COLORorange]é um addon da familia Arrow Negra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
 		<platform>all</platform>
 		<assets>
        <icon>icon.png</icon>

@@ -901,7 +901,7 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
 </extension>
 </addon>
 
-<addon id="plugin.video.eagle.ace" name="[COLORskyblue]Eagle [COLORbrown]Ace[/COLOR]" version="0.3" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
+<addon id="plugin.video.eagle.ace" name="[COLORskyblue]Eagle [COLORbrown]Ace[/COLOR]" version="1.4" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="3.0.0" /> <!-- Kodi en Python 3 -->
     <import addon="script.module.requests" version="2.22.0" /> <!-- Compatible con Python 3 -->
@@ -2331,7 +2331,7 @@ Add support for UpNext addon.
   </extension>
 </addon>
 
-<addon id="repository.dregs" name="[COLOR red]Dr[/COLOR]e[COLOR black]Gs[/COLOR] [COLORcyan]Repository[/COLOR]" version="1.32" provider-name="Black Eagle">
+<addon id="repository.dregs" name="[COLOR red]Dr[/COLOR]e[COLOR black]Gs[/COLOR] [COLORcyan]Repository[/COLOR]" version="1.38" provider-name="Black Eagle">
   <requires>
     <import addon="xbmc.addon" version="12.0.0"/>
   </requires>
@@ -2342,6 +2342,12 @@ Add support for UpNext addon.
     <datadir zip="true">https://raw.github.com/dregs1/dregs1.github.io/master</datadir>
     <hashes>false</hashes>
 </dir>
+<dir minversion="20.0.0">
+      <info compressed="true">https://raw.github.com/dregs1/dregs1.github.io/master/omega/addons.xml</info>
+      <checksum>https://raw.github.com/dregs1/dregs1.github.io/master/omega/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/dregs1/dregs1.github.io/master/omega</datadir>
+      <hashes>false</hashes>
+  </dir>
   <dir minversion="19.9.9">
       <info compressed="true">https://raw.github.com/dregs1/dregs1.github.io/master/nexus/addons.xml</info>
       <checksum>https://raw.github.com/dregs1/dregs1.github.io/master/nexus/addons.xml.md5</checksum>

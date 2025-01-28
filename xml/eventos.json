@@ -6,22 +6,11 @@
         "description": "LaLiga"
     },
     {
-        "name": "DAZN 2",
-        "acestream_id": "b0eabe0fdd02fdd165896236765a9b753a2ff516",
-        "start_time": "",
-        "description": "LaLiga"
-    },
-    {
-        "name": "DAZN 3",
-        "acestream_id": "d1d9ec2361a6ac8edc0b2841866383768cc28df9",
-        "start_time": "",
-        "description": "LaLiga"
-    },
-    {
-        "name": "DAZN 4",
-        "acestream_id": "7e90956539f4e1318a63f3960e4f75c7c7c5a3b8",
+        "name": "DAZN 1",
+        "acestream_id": "110d441ddc9713a7452588770d2bc85504672f47",
         "start_time": "",
         "description": "LaLiga"
     }
+    
 
 ]

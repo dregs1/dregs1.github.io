@@ -34,7 +34,30 @@
         "acestream_id": "12ea555d431dbe51fc8e4ca745aec09fe22a4865",
         "start_time": "",
         "description": "Liga DE"
+    },
+    {
+        "name": "BT Sport/ESPN  [UK]",
+        "acestream_id": "fc5089d8e1519872fdf951779ccbca913acc9bce",
+        "start_time": "",
+        "description": "Reino unido"
+    },
+    {
+        "name": "BT Sport 1  [UK]",
+        "acestream_id": "efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b",
+        "start_time": "",
+        "description": "Reino unido"
+    },
+    {
+        "name": "BT Sport 2 [UK]",
+        "acestream_id": "d63d8a57cf471394bfa9f619bbd68b01ae27a801",
+        "start_time": "",
+        "description": "Reino unido"
+    },
+    { 
+        "name": "BT Sport 3  [UK]",
+        "acestream_id": "5f966c123759de46dff29c379266b7a403452033",
+        "start_time": "",
+        "description": "Reino unido"
     }
-
 
 ]

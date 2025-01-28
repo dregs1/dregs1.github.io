@@ -1,5 +1,16 @@
 [
     {
+"category": "Desporto",
+"auto_search": true,
+"title": "DAZN 1",
+"playback_url": "http://127.0.0.1:6878/ace/getstream?infohash=110d441ddc9713a7452588770d2bc85504672f47&hlc=1&transcode_audio=0
+ &transcode_mp3=0&transcode_ac3=0&preferred_audio_language=eng",
+"is_live": 1,
+"transport_file_url": null,
+"content_id": null,
+"infohash": "110d441ddc9713a7452588770d2bc85504672f47",
+"id": 4
+},{
         "name": "Mallorca vs Barcelona",
         "acestream_id": "110d441ddc9713a7452588770d2bc85504672f47",
         "start_time": "03 Dic 2024 - 19:00",

@@ -1,14 +1,9 @@
 [
     {
-"category": "Desporto",
-"auto_search": true,
-"title": "DAZN 1",
-"acestream_id": "110d441ddc9713a7452588770d2bc85504672f47",
-},{
-        "name": "Mallorca vs Barcelona",
+        "name": "DAZN 1",
         "acestream_id": "110d441ddc9713a7452588770d2bc85504672f47",
-        "start_time": "03 Dic 2024 - 19:00",
-        "description": "LaLiga - "
+        "start_time": "",
+        "description": "LaLiga"
     },
     {
         "name": "Mallorca vs Barcelona",

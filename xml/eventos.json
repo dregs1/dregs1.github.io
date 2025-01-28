@@ -6,21 +6,35 @@
         "description": "LaLiga"
     },
     {
-        "name": "Mallorca vs Barcelona",
-        "acestream_id": "d3de78aebe544611a2347f54d5796bd87f16c92d",
-        "start_time": "03 Dic 2024 - 19:00",
-        "description": "LaLiga - Jornada 16"
+        "name": "DAZN 2",
+        "acestream_id": "b0eabe0fdd02fdd165896236765a9b753a2ff516",
+        "start_time": "",
+        "description": "LaLiga"
     },
     {
-        "name": "Mallorca vs Barcelona",
-        "acestream_id": "6d05b31e5e8fdae312fbd57897363a7b10ddb163",
-        "start_time": "03 Dic 2024 - 19:00",
-        "description": "LaLiga - Jornada 16"
+        "name": "DAZN 3",
+        "acestream_id": "d1d9ec2361a6ac8edc0b2841866383768cc28df9",
+        "start_time": "",
+        "description": "LaLiga"
     },
+    ,
     {
-        "name": "Mallorca vs Barcelona",
-        "acestream_id": "d15a0eaf825b5f8f94259d5209688a7e97e6acde",
-        "start_time": "03 Dic 2024 - 19:00",
-        "description": "LaLiga - Jornada 16"
+        "name": "DAZN 4",
+        "acestream_id": "7e90956539f4e1318a63f3960e4f75c7c7c5a3b8",
+        "start_time": "",
+        "description": "LaLiga"
+    },,{
+        "name": "DAZN 1 Barra HD [DE]",
+        "acestream_id": "897e73c9d578848f596585314ecb9ae067c0e229",
+        "start_time": "",
+        "description": "Liga DE"
     }
+    ,{
+        "name": "DAZN 2 Barra HD [DE]",
+        "acestream_id": "12ea555d431dbe51fc8e4ca745aec09fe22a4865",
+        "start_time": "",
+        "description": "Liga DE"
+    }
+
+
 ]

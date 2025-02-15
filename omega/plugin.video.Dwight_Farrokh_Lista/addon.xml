@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.Dwight_Farrokh_Lista" name="[COLORred] Dwight_[COLORgold]Farrokh_Lista[/COLOR]" version="2.5" provider-name="[COLORred] Dwight_[COLORgold]Farrokh_Lista[/COLOR]+[COLORgold]by_black_eagle[/COLOR]">
+<addon id="plugin.video.Dwight_Farrokh_Lista" name="[COLORred] Dwight_[COLORgold]Farrokh_Lista[/COLOR]" version="2.8" provider-name="[COLORred] Dwight_[COLORgold]Farrokh_Lista[/COLOR]+[COLORgold]by_black_eagle[/COLOR]">
   <extension point="xbmc.python.pluginsource"
 			library="default.py">
 		<provides>video</provides>

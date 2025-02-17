@@ -286,30 +286,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.lince.tv" name="[COLORred]lince [COLORgrey] tv[/COLOR]" version="1.1" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
-  <requires>
-        <import addon="script.module.six" />
-        <import addon="script.module.requests" />
-        <import addon="script.module.kodi-six" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
- 	</extension>
-<extension point="xbmc.addon.metadata">
-		<summary>Canais de Televisão, desportos e mais...</summary>
-		<description lang="en">[COLOR red]lince[/COLOR] [COLORorange]tv[/COLOR] [COLORorange]é um addon da familia Blackeagle Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
-		<platform>all</platform>
-		<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-       <screenshot>resources/screenshots/1.jpg</screenshot>
-       <screenshot>resources/screenshots/2.jpg</screenshot>
-       <screenshot>resources/screenshots/3.jpg</screenshot>
-    </assets>
-  </extension>
-</addon>
-
 <addon id="plugin.video.predator.portal" name="[COLOR red]predator [COLORorange]portal[/COLOR]" version="1.0.3" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
   <requires>
         <import addon="script.module.six" />

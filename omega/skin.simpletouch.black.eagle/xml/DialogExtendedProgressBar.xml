@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<animation effect="fade" start="0" end="100" time="200">WindowOpen</animation>
+	<animation effect="fade" start="100" end="0" time="200">WindowClose</animation>
+	<controls>
+		<control type="group">
+			<left>760r</left>
+			<top>122r</top>
+			<width>580</width>
+			<height>73</height>
+			<animation effect="slide" end="0,-120" time="200" condition="Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)">conditional</animation>
+			<animation effect="slide" start="0,0" end="0,-78" time="200" condition="Player.HasMedia + String.IsEmpty(Window(Videos).Property(PlayingBackgroundMedia))">Conditional</animation>
+			<!--glow-->
+			<control type="image">
+				<left>-10</left>
+				<top>-10</top>
+				<width>624</width>
+				<height>93</height>
+				<texture colordiffuse="FF0F0F0F">backgrounds/bg_fade_2.png</texture>
+				<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_6.png</bordertexture>
+				<bordersize>2</bordersize>
+			</control>
+			<control type="image">
+				<left>-10</left>
+				<top>-10</top>
+				<width>624</width>
+				<height>93</height>
+				<texture colordiffuse="FF0F0F0F">backgrounds/bg_fade_2.png</texture>
+				<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_6.png</bordertexture>
+				<bordersize>2</bordersize>
+			</control>
+			<!--icon-->
+			<control type="image" id="400">
+				<description>avatar</description>
+				<left>68r</left>
+				<top>5</top>
+				<width>63</width>
+				<height>63</height>
+				<aspectratio>keep</aspectratio>
+				<texture colordiffuse="white">DefaultFile.png</texture>
+			</control>
+			<!--line 1-->
+			<control type="label" id="30">
+				<left>10</left>
+				<top>5</top>
+				<width>512</width>
+				<height>27</height>
+				<font>kai.primary</font>
+				<textcolor>white</textcolor>
+				<align>right</align>
+				<aligny>center</aligny>
+				<scrollout>false</scrollout>
+				<pauseatend>2000</pauseatend>
+			</control>
+			<control type="label" id="31">
+				<left>10</left>
+				<top>30</top>
+				<width>512</width>
+				<height>30</height>
+				<font>kai.secondary</font>
+				<textcolor>white</textcolor>
+				<align>right</align>
+				<aligny>center</aligny>
+				<scrollout>false</scrollout>
+				<pauseatend>2000</pauseatend>
+			</control>
+			<control type="progress" id="32">
+				<description>progress control</description>
+				<left>10</left>
+				<top>65</top>
+				<width>512</width>
+				<height>5</height>
+			</control>
+		</control>
+	</controls>
+</window>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+	id="skin.simpletouch.black.eagle" version="21.4" name=" Black Eagle[COLORred] TOUCH[/COLOR]" provider-name="Black Eagle">
+	<requires>
+		<import addon="xbmc.gui" version="5.17.0"/>
+		<import addon="script.skinshortcuts" version="1.1.4"/>
+		<import addon="plugin.video.themoviedb.helper" version="5.4.16"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">A simple skin for TV &amp; mobile devices</summary>
+		<summary lang="en_US">A simple skin for TV &amp; mobile devices</summary>
+		<description lang="en_GB">The Simple Touch Skin Is A Mod Of The Unity Skin for Tv &amp;TouchScreen Devices.&#10;Updated And Completely Redesigned Throughout To Include More Added Features.&#10;Full Credit To Original Creaters SGK,Eddage,Bumpaneer</description>
+		<description lang="en_US">The Simple Touch Skin Is A Mod Of The Unity Skin for Tv &amp;TouchScreen Devices.&#10;Updated And Completely Redesigned Throughout To Include More Added Features.&#10;Full Credit To Original Creaters SGK,Eddage,Bumpaneer</description>
+		<license></license>
+		<forum></forum>
+		<source></source>
+		<platform>all</platform>
+		<assets>
+			<icon>resources/icon.jpg</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot.png</screenshot>
+		</assets>
+	</extension>
+</addon>

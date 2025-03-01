@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window type="dialog" id="1111">
+	<defaultcontrol>9000</defaultcontrol>
+	<controls>
+		<include>BehindDialogFadeOut</include>
+		<!--all content-->
+		<control type="group">
+			<left>53r</left>
+			<top>0</top>
+			<width>600</width>
+			<height>100%</height>
+			<visible>!Window.IsActive(ShutdownMenu)</visible>
+			<include content="SideBladeRight">
+				<param name="dialog-glowwidth" value="600" />
+				<param name="subtitle-visible" value="true" />
+				<param name="background-fade" value="true" />
+			</include>
+			
+			<control type="image">
+			<visible>Skin.HasSetting(Touchmode)</visible>
+				<left>60</left>
+				<top>42</top>
+				<width>80</width>
+				<height>80</height>
+				<texture colordiffuse="deepskyblue">backgrounds/bg_fade_7.png</texture>
+				<bordertexture colordiffuse="turquoise">backgrounds/bg_fade_4.png</bordertexture>
+				<bordersize>2</bordersize>
+			</control>
+			<control type="button">
+				<visible>Skin.HasSetting(Touchmode)</visible>
+				<description>Home push button</description>
+				<left>60</left>
+				<top>42</top>
+				<width>80</width>
+				<height>80</height>
+				<label></label>
+				<font/>
+				<onclick>PreviousMenu</onclick>
+				<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">icons/home.png</texturefocus>
+				<texturenofocus colordiffuse="white">icons/home.png</texturenofocus>
+			</control>
+			
+			<!--title-->
+			<control type="label">
+				<left>170</left>
+				<top>190</top>
+				<width>355</width>
+				<height>60</height>
+				<font>menu.title</font>
+				<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+				<align>center</align>
+				<aligny>center</aligny>
+				<label>Search</label>
+			</control>
+			<control type="group">
+				<top>340</top>
+				<bottom>0</bottom>
+				<!--buttons grouplist-->
+				<control type="grouplist" id="9000">
+					<left>170</left>
+					<width>465</width>
+					<height>100%</height>
+					<onleft>9000</onleft>
+					<onright>9000</onright>
+					<onup>9000</onup>
+					<ondown>9000</ondown>
+					<itemgap>0</itemgap>
+					<align>left</align>
+					<control type="togglebutton" id="2">
+						<include>ButtonCommonValues</include>
+						<onclick>Dialog.Close(all)</onclick>
+						<onclick condition="System.hasAddon(plugin.video.themoviedb.helper)">ActivateWindow(10025,&quot;plugin://plugin.video.themoviedb.helper/kodion/addon/?info=dir_multisearch&amp;/&quot;,return)</onclick>
+						<label>TheMovieDb.Helper</label>                                  
+						<align>center</align>
+					</control>
+					<control type="button" id="5">
+						<include>ButtonCommonValues</include>
+						<onclick>Dialog.Close(all)</onclick>
+						<onclick>ActivateWindow(addonbrowser,addons://search/,return)</onclick>
+						<label>Addons</label>
+						<align>center</align>
+					</control>
+					<control type="togglebutton" id="6">
+						<include>ButtonCommonValues</include>
+						<onclick>Dialog.Close(all)</onclick>
+						<onclick condition="System.hasAddon(plugin.video.youtube)">ActivateWindow(10025,&quot;plugin://plugin.video.youtube/kodion/search/list/&quot;,return)</onclick>
+						<onclick condition="!System.hasAddon(plugin.video.youtube)">InstallAddon(plugin.video.youtube)</onclick>
+						<label>Youtube</label>
+						<align>center</align>
+					</control>
+						<control type="togglebutton" id="7">
+						<include>ButtonCommonValues</include>
+						<onclick>Dialog.Close(all)</onclick>
+						<onclick condition="System.hasAddon(plugin.video.duffyou)">ActivateWindow(10025,&quot;plugin://plugin.video.duffyou/kodion/search/list/&quot;,return)</onclick>
+						<onclick condition="!System.hasAddon(plugin.video.duffyou)">InstallAddon(plugin.video.duffyou)</onclick>
+						<label>Duff You</label>
+						<align>center</align>
+					</control>
+						<control type="button" id="7">
+						<include>ButtonCommonValues</include>
+						<onclick>Dialog.Close(all)</onclick>
+						<onclick condition="System.hasAddon(script.globalsearch)">RunScript(script.globalsearch)</onclick>
+						<onclick condition="!System.hasAddon(script.globalsearch)">InstallAddon(script.globalsearch)</onclick>
+						<label>Global Search</label>
+						<align>center</align>
+					</control>
+			</control>
+			</control>
+		</control>
+	</controls>
+</window>

@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol always="true">450</defaultcontrol>
+	<controls>
+		
+		<include>CommonBackground</include>
+		<!--all content-->
+		<control type="group">
+		<left>30</left>
+		<control type="image">
+		    <left>-2</left>
+		    <top>17</top>
+		    <width>98.6%</width>
+		    <height>10.6%</height>
+		    <texture>homeshadow_1.png</texture>
+		 </control>
+		<control type="image">
+		    <left>0</left>
+		    <top>20</top>
+		    <width>98.4%</width>
+		    <height>10%</height>
+		    <texture colordiffuse="black">backgrounds/bg_fade_2.png</texture>
+			<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_3.png</bordertexture>
+			<bordersize>2</bordersize>
+		 </control>
+		 <control type="image">
+		    <left>-2</left>
+		    <top>947</top>
+		    <width>98.6%</width>
+		    <height>10.6%</height>
+		    <texture>homeshadow_1.png</texture>
+		  </control>
+		<control type="image">
+		    <left>0</left>
+		    <top>950</top>
+		    <width>98.4%</width>
+		    <height>10%</height>
+		    <texture colordiffuse="black">backgrounds/bg_fade_2.png</texture>
+			<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_3.png</bordertexture>
+			<bordersize>2</bordersize>
+		  </control>
+	    </control>
+	    <control type="group">
+		<include>Window_OpenClose_Animation</include>
+		<visible>!Skin.HasSetting(Clock)</visible>
+			<control type="image">
+				<right>62</right>
+				<top>45</top>
+				<width>250</width>
+				<height>60</height>
+				<texture colordiffuse="FF2E2E2E">backgrounds/bg_fade_7.png</texture>
+				<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_4.png</bordertexture>
+			    <bordersize>2</bordersize>
+			</control>
+			<control type="label">
+				<right>177</right>
+				<top>45</top>
+				<width>200</width>
+				<height>60</height>
+				<align>right</align>
+				<aligny>center</aligny>
+				<font>fontContextMenu</font>
+				<textcolor>white</textcolor>
+				<label>$INFO[System.Time(hh:mm)]</label>
+			</control>
+			<control type="label">
+				<right>107</right>
+				<top>45</top>
+				<width>70</width>
+				<height>60</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>fontContextMenu</font>
+				<textcolor>white</textcolor>
+				<label>:$INFO[System.Time(ss)]</label>
+			</control>
+			<control type="image">
+				<left>60</left>
+				<top>45</top>
+				<width>250</width>
+				<height>60</height>
+				<texture colordiffuse="FF2E2E2E">backgrounds/bg_fade_7.png</texture>
+			    <bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_4.png</bordertexture>
+				<bordersize>2</bordersize>
+			</control>
+			<control type="label">
+				<left>111</left>
+				<top>45</top>
+				<width>360</width>
+				<height>60</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>fontContextMenu</font>
+				<textcolor>white</textcolor>
+				<label>$INFO[System.Date(dd:mm:yyyy]</label>
+			</control>
+		</control>
+		<control type="group">
+			<visible>Skin.HasSetting(Touchmode)</visible>
+			<control type="image">
+				<left>60</left>
+				<top>110r</top>
+				<width>70</width>
+				<height>70</height>
+				<texture colordiffuse="FF2E2E2E">backgrounds/bg_fade_7.png</texture>
+				<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_4.png</bordertexture>
+				<bordersize>2</bordersize>
+			</control>
+			<control type="button">
+				<description>Back push button</description>
+				<left>55</left>
+				<top>115r</top>
+				<width>80</width>
+				<height>80</height>
+				<label></label>
+				<font/>
+				<onclick>back</onclick>
+				<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">icons/back.png</texturefocus>
+				<texturenofocus colordiffuse="FFFFFFFF">icons/back.png</texturenofocus>
+			</control>
+			<control type="image">
+				<right>70</right>
+				<top>110r</top>
+				<width>70</width>
+				<height>70</height>
+				<texture colordiffuse="FF2E2E2E">backgrounds/bg_fade_7.png</texture>
+				<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_4.png</bordertexture>
+				<bordersize>2</bordersize>
+			</control>
+			<control type="button">
+				<description>Home push button</description>
+				<right>65</right>
+				<top>115r</top>
+				<width>80</width>
+				<height>80</height>
+				<label></label>
+				<font/>
+				<onclick>ActivateWindow(home)</onclick>
+				<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">icons/home.png</texturefocus>
+				<texturenofocus colordiffuse="FFFFFFFF">icons/home.png</texturenofocus>
+			</control>
+		</control>
+		<!--all content-->
+		<control type="group">
+			<left>60</left>
+			<centertop>50%</centertop>
+			<width>1800</width>
+			<height>783</height>
+			<control type="image">
+				<left>-2</left>
+				<top>-3</top>
+				<width>1805</width>
+				<height>761</height>
+				<texture>homeshadow_1.png</texture>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>1800</width>
+				<height>755</height>
+				<texture colordiffuse="FF0F0F0F">backgrounds/bg_fade_2.png</texture>
+		        <bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_3.png</bordertexture>
+	            <bordersize>2</bordersize>
+			</control>
+			<!--main content-->
+			<control type="group">
+				<!--header-->
+				<control type="label" id="411">
+					<left>0</left>
+					<top>15</top>
+					<width>1800</width>
+					<height>60</height>
+					<font>info.title</font>
+					<align>center</align>
+					<aligny>center</aligny>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<label>1023</label>
+				</control>
+				<!--path label-->
+				<control type="label" id="412">
+					<left>45</left>
+					<top>110</top>
+					<width>900</width>
+					<height>52</height>
+					<font>button</font>
+					<align>left</align>
+					<aligny>center</aligny>
+					<scroll>false</scroll>
+					<textcolor>white</textcolor>
+				</control>
+				<!--top buttons-->
+				<control type="grouplist" id="9000">
+					<left>995</left>
+					<top>190</top>
+					<width>320</width>
+					<height>700</height>
+					<itemgap>50</itemgap>
+					<onleft>60</onleft>
+					<onright>450</onright>
+					<onup>9000</onup>
+					<ondown>9000</ondown>
+					<!--ok button-->
+					<include content="AnimatedCircleButtonGroup">
+						<param name="button-id" value="413" />
+						<param name="button-width" value="130" />
+						<param name="button-texture" value="yesbutton" />
+						<param name="button-label" value="186" />
+						<param name="button-onup" value="416" />
+						<param name="button-ondown" value="414" />
+						<param name="button-onleft" value="60" />
+						<param name="button-onright" value="450" />
+					</include>
+					<!--cancel button-->
+					<include content="AnimatedCircleButtonGroup">
+						<param name="button-id" value="414" />
+						<param name="button-width" value="160" />
+						<param name="button-texture" value="nobutton" />
+						<param name="button-label" value="222" />
+						<param name="button-onup" value="413" />
+						<param name="button-ondown" value="415" />
+						<param name="button-onleft" value="60" />
+						<param name="button-onright" value="450" />
+					</include>
+					<!--new folder button-->
+					<include content="AnimatedCircleButtonGroup">
+						<param name="button-id" value="415" />
+						<param name="button-width" value="130" />
+						<param name="button-texture" value="addbutton" />
+						<param name="button-label" value="119" />
+						<param name="button-onup" value="414" />
+						<param name="button-ondown" value="416" />
+						<param name="button-onleft" value="60" />
+						<param name="button-onright" value="450" />
+					</include>
+					<!--mirror image button-->
+					<include content="AnimatedCircleButtonGroup">
+						<param name="button-id" value="416" />
+						<param name="button-width" value="160" />
+						<param name="button-texture" value="mirrorbutton" />
+						<param name="button-label" value="749" />
+						<param name="button-onup" value="415" />
+						<param name="button-ondown" value="413" />
+						<param name="button-onleft" value="60" />
+						<param name="button-onright" value="450" />
+					</include>
+				</control>
+				<!--big thumb-->
+				<control type="group">
+					<!--thumb (fallback)-->
+					<control type="image">
+						<left>450r</left>
+						<top>200</top>
+						<width>400</width>
+						<height>400</height>
+						<aspectratio>keep</aspectratio>
+						<texture background="true">$INFO[ListItem.Icon]</texture>$INFO[ListItem.Icon]
+						<visible>String.Contains(ListItem.Icon,default)</visible>
+					</control>
+					<!--thumb (no fallback)-->
+					<control type="image">
+						<left>450r</left>
+						<top>200</top>
+						<width>400</width>
+						<height>350</height>
+						<aspectratio>keep</aspectratio>
+						<texture background="true">$INFO[ListItem.Icon]</texture>
+						<visible>!String.Contains(Control.GetLabel(416),*)</visible>
+						<visible>!String.Contains(ListItem.Icon,default)</visible>
+					</control>
+					<!--thumb (no fallback, mirrored-->
+					<control type="image">
+						<left>450r</left>
+						<top>200</top>
+						<width>400</width>
+						<height>400</height>
+						<aspectratio>keep</aspectratio>
+						<texture background="true" flipx="true">$INFO[ListItem.Icon]</texture>
+						<visible>String.Contains(Control.GetLabel(416),*)</visible>
+						<visible>!String.Contains(ListItem.Icon,default)</visible>
+					</control>
+				</control>
+				<!--content list-->
+				<control type="panel" id="450">
+					<left>40</left>
+					<top>190</top>
+					<height>540</height>
+					<width>905</width>
+					<onleft>9000</onleft>
+					<onright>60</onright>
+					<onup>450</onup>
+					<ondown>450</ondown>
+					<pagecontrol>60</pagecontrol>
+					<scrolltime>200</scrolltime>
+					<preloaditems>4</preloaditems>
+					<itemlayout height="90" width="905">
+					   <control type="image">
+				           <left>0</left>
+							<top>0</top>
+							<width>905</width>
+							<height>83</height>
+				            <texture colordiffuse="FF2E2E2E">backgrounds/bg_fade_7.png</texture>
+		                    <bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_3.png</bordertexture>
+	                        <bordersize>2</bordersize>
+			            </control>
+						<!--icon (no fallback)-->
+						<control type="image">
+							<left>7</left>
+							<top>17</top>
+							<width>36</width>
+							<height>36</height>
+							<texture colordiffuse="white">$INFO[ListItem.Icon,default small/,]</texture>
+							<aspectratio align="center" aligny="center">keep</aspectratio>
+							<visible>String.Contains(ListItem.Icon,default)</visible>
+						</control>
+						<!--icon (no fallback)-->
+						<control type="image">
+							<left>5</left>
+							<top>15</top>
+							<width>40</width>
+							<height>40</height>
+							<texture>$INFO[Listitem.Icon]</texture>
+							<visible>!String.Contains(ListItem.Icon,default)</visible>
+						</control>
+						<!--label-->
+						<control type="label">
+							<left>65</left>
+							<top>10</top>
+							<width>875</width>
+							<height>60</height>
+							<font>label</font>
+							<align>left</align>
+							<aligny>center</aligny>
+							<textcolor>white</textcolor>
+							<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+							<info>ListItem.Label</info>
+						</control>
+					</itemlayout>
+					<focusedlayout height="90" width="905">
+						<!--background-->
+						<control type="image">
+							<left>0</left>
+							<top>0</top>
+							<width>905</width>
+							<height>83</height>
+							<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+							<animation effect="fade" start="100" end="50" time="200" condition="!Control.HasFocus(450)">Conditional</animation>
+						</control>
+						<!--icon (fallback)-->
+						<control type="image">
+							<left>7</left>
+							<top>17</top>
+							<width>36</width>
+							<height>36</height>
+							<texture colordiffuse="white">$INFO[ListItem.Icon,default small/,]</texture>
+							<aspectratio align="center" aligny="center">keep</aspectratio>
+							<visible>String.Contains(ListItem.Icon,default)</visible>
+						</control>
+						<!--icon (no fallback)-->
+						<control type="image">
+							<left>5</left>
+							<top>15</top>
+							<width>40</width>
+							<height>40</height>
+							<texture>$INFO[Listitem.Icon]</texture>
+							<visible>!String.Contains(ListItem.Icon,default)</visible>
+						</control>
+						<!--label-->
+						<control type="label">
+							<left>65</left>
+							<top>10</top>
+							<width>875</width>
+							<height>60</height>
+							<font>label</font>
+							<align>left</align>
+							<aligny>center</aligny>
+							<textcolor>white</textcolor>
+							<selectedcolor>$INFO[Skin.String(color.alt)]</selectedcolor>
+							<info>ListItem.Label</info>
+						</control>
+					</focusedlayout>
+				</control>
+				<!--content list-->
+				<control type="panel" id="451">
+					<left>40</left>
+					<top>190</top>
+					<height>540</height>
+					<width>905</width>
+					<onleft>9000</onleft>
+					<onright>60</onright>
+					<onup>451</onup>
+					<ondown>451</ondown>
+					<pagecontrol>60</pagecontrol>
+					<scrolltime>200</scrolltime>
+					<preloaditems>4</preloaditems>
+					<itemlayout height="90" width="905">
+					  <control type="image">
+				           <left>0</left>
+						   <top>0</top>
+						   <width>905</width>
+						   <height>83</height>
+				           <texture colordiffuse="FF2E2E2E">backgrounds/bg_fade_7.png</texture>
+			               <bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_4.png</bordertexture>
+				           <bordersize>2</bordersize>
+			            </control> 
+						<!--icon (no fallback)-->
+						<control type="image">
+							<left>5</left>
+							<top>17</top>
+							<width>40</width>
+							<height>40</height>
+							<texture colordiffuse="white">$INFO[ListItem.Icon,default small/,]</texture>
+							<aspectratio align="center" aligny="center">keep</aspectratio>
+							<visible>String.Contains(ListItem.Icon,default)</visible>
+						</control>
+						<!--icon (no fallback)-->
+						<control type="image">
+							<left>5</left>
+							<top>15</top>
+							<width>40</width>
+							<height>40</height>
+							<texture>$INFO[Listitem.Icon]</texture>
+							<visible>!String.Contains(ListItem.Icon,default)</visible>
+						</control>
+						<!--label-->
+						<control type="label">
+							<left>65</left>
+							<top>10</top>
+							<width>875</width>
+							<height>60</height>
+							<font>label</font>
+							<align>left</align>
+							<aligny>center</aligny>
+							<textcolor>white</textcolor>
+							<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+							<info>ListItem.Label</info>
+						</control>
+					</itemlayout>
+					<focusedlayout height="90" width="905">
+						<!--background-->
+						<control type="image">
+							<left>0</left>
+							<top>0</top>
+							<width>905</width>
+							<height>83</height>
+							<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+							<animation effect="fade" start="100" end="50" time="200" condition="!Control.HasFocus(450)">Conditional</animation>
+						</control>
+						<!--icon (fallback)-->
+						<control type="image">
+							<left>5</left>
+							<top>17</top>
+							<width>40</width>
+							<height>40</height>
+							<texture colordiffuse="white">$INFO[ListItem.Icon,default small/,]</texture>
+							<aspectratio align="center" aligny="center">keep</aspectratio>
+							<visible>String.Contains(ListItem.Icon,default)</visible>
+						</control>
+						<!--icon (no fallback)-->
+						<control type="image">
+							<left>5</left>
+							<top>15</top>
+							<width>40</width>
+							<height>40</height>
+							<texture>$INFO[Listitem.Icon]</texture>
+							<visible>!String.Contains(ListItem.Icon,default)</visible>
+						</control>
+						<!--label-->
+						<control type="label">
+							<left>65</left>
+							<top>10</top>
+							<width>875</width>
+							<height>60</height>
+							<font>label</font>
+							<align>left</align>
+							<aligny>center</aligny>
+							<textcolor>white</textcolor>
+							<selectedcolor>$INFO[Skin.String(color.alt)]</selectedcolor>
+							<info>ListItem.Label</info>
+						</control>
+					</focusedlayout>
+				</control>
+				<!--scrollbar-->
+				<control type="scrollbar" id="60">
+					<left>953</left>
+					<top>190</top>
+					<height>536</height>
+					<orientation>vertical</orientation>
+					<showonepage>false</showonepage>
+					<onleft>450</onleft>
+					<onright>9000</onright>
+				</control>
+			</control>
+		</control>
+	</controls>
+</window>

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol>3</defaultcontrol>
+	<include>CheckSkinColorsSet</include>
+	<include>VisibleFadeEffect</include>
+	<controls>
+	    <include>CommonBackground</include>
+	    <control type="group">
+		<left>30</left>
+		<control type="image">
+		    <left>-2</left>
+		    <top>17</top>
+		    <width>98.6%</width>
+		    <height>10.6%</height>
+		    <texture>homeshadow_1.png</texture>
+		 </control>
+		<control type="image">
+		    <left>0</left>
+		    <top>20</top>
+		    <width>98.4%</width>
+		    <height>10%</height>
+		    <texture colordiffuse="black">backgrounds/bg_fade_2.png</texture>
+			<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_3.png</bordertexture>
+			<bordersize>2</bordersize>
+		  </control>
+		  <control type="image">
+		    <left>-2</left>
+		    <top>947</top>
+		    <width>98.6%</width>
+		    <height>10.6%</height>
+		    <texture>homeshadow_1.png</texture>
+		 </control>
+		<control type="image">
+		    <left>0</left>
+		    <top>950</top>
+		    <width>98.4%</width>
+		    <height>10%</height>
+		    <texture colordiffuse="black">backgrounds/bg_fade_2.png</texture>
+			<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_3.png</bordertexture>
+			<bordersize>2</bordersize>
+		  </control>
+	    </control>	
+		<control type="group">
+		<visible>!Skin.HasSetting(Clock)</visible>
+			<control type="image">
+				<right>62</right>
+				<top>45</top>
+				<width>250</width>
+				<height>60</height>
+				<texture colordiffuse="FF2E2E2E">backgrounds/bg_fade_7.png</texture>
+				<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_4.png</bordertexture>
+			    <bordersize>2</bordersize>
+			</control>
+			<control type="label">
+				<right>177</right>
+				<top>45</top>
+				<width>200</width>
+				<height>60</height>
+				<align>right</align>
+				<aligny>center</aligny>
+				<font>fontContextMenu</font>
+				<textcolor>white</textcolor>
+				<label>$INFO[System.Time(hh:mm)]</label>
+			</control>
+			<control type="label">
+				<right>107</right>
+				<top>45</top>
+				<width>70</width>
+				<height>60</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>fontContextMenu</font>
+				<textcolor>white</textcolor>
+				<label>:$INFO[System.Time(ss)]</label>
+			</control>
+			<control type="image">
+				<left>60</left>
+				<top>45</top>
+				<width>250</width>
+				<height>60</height>
+				<texture colordiffuse="FF2E2E2E">backgrounds/bg_fade_7.png</texture>
+			    <bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_4.png</bordertexture>
+				<bordersize>2</bordersize>
+			</control>
+			<control type="label">
+				<left>111</left>
+				<top>45</top>
+				<width>360</width>
+				<height>60</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>fontContextMenu</font>
+				<textcolor>white</textcolor>
+				<label>$INFO[System.Date(dd:mm:yyyy]</label>
+			</control>
+		</control>
+		
+		<control type="group">
+			<visible>Skin.HasSetting(Touchmode)</visible>
+			<control type="image">
+				<left>60</left>
+				<top>110r</top>
+				<width>70</width>
+				<height>70</height>
+				<texture colordiffuse="FF2E2E2E">backgrounds/bg_fade_7.png</texture>
+				<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_4.png</bordertexture>
+				<bordersize>2</bordersize>
+			</control>
+			<control type="button">
+				<description>Back push button</description>
+				<left>55</left>
+				<top>115r</top>
+				<width>80</width>
+				<height>80</height>
+				<label></label>
+				<font/>
+				<onclick>back</onclick>
+				<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">icons/back.png</texturefocus>
+				<texturenofocus colordiffuse="FFFFFFFF">icons/back.png</texturenofocus>
+			</control>
+			<control type="image">
+				<right>70</right>
+				<top>110r</top>
+				<width>70</width>
+				<height>70</height>
+				<texture colordiffuse="FF2E2E2E">backgrounds/bg_fade_7.png</texture>
+				<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_4.png</bordertexture>
+				<bordersize>2</bordersize>
+			</control>
+			<control type="button">
+				<description>Home push button</description>
+				<right>65</right>
+				<top>115r</top>
+				<width>80</width>
+				<height>80</height>
+				<label></label>
+				<font/>
+				<onclick>ActivateWindow(home)</onclick>
+				<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">icons/home.png</texturefocus>
+				<texturenofocus colordiffuse="FFFFFFFF">icons/home.png</texturenofocus>
+			</control>
+		</control>
+	
+		<!--main content-->
+		<control type="group">
+			<left>60</left>
+			<centertop>50%</centertop>
+			<width>1800</width>
+			<height>783</height>
+			<visible>![Window.IsActive(PVRChannelManager) | Window.IsActive(PVRGroupManager) | Window.IsActive(script-RSS_Editor.xml)]</visible>
+			<control type="image">
+				<left>-2</left>
+				<top>-3</top>
+				<width>1804</width>
+				<height>656</height>
+				<texture>homeshadow_1.png</texture>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>1800</width>
+				<height>650</height>
+				<texture colordiffuse="black">backgrounds/bg_fade_2.png</texture>
+				<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_5.png</bordertexture>
+			    <bordersize>2</bordersize>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>375</width>
+				<height>650</height>
+				<texture colordiffuse="black">backgrounds/bg_fade_2.png</texture>
+				<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_5.png</bordertexture>
+			    <bordersize>2</bordersize>
+			</control>
+			<!--title-->
+			<control type="label">
+				<left>160</left>
+				<top>20</top>
+				<width>1800</width>
+				<height>60</height>
+				<font>info.title</font>
+				<align>center</align>
+				<aligny>center</aligny>
+				<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+				<label>$INFO[Control.GetLabel(2)] - $LOCALIZE[5]</label>
+			</control>
+			<!--left buttons-->
+			<control type="grouplist" id="3">
+				<left>10</left>
+				<top>120</top>
+				<width>390</width>
+				<height>400</height>
+				<itemgap>5</itemgap>
+				<onleft>5</onleft>
+				<onright>5</onright>
+				<onup>3</onup>
+				<ondown>20</ondown>
+			</control>
+			<!--settings level-->
+			<control type="button" id="20">
+				<left>10</left>
+				<top>585</top>
+				<height>60</height>
+				<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texturefocus>
+				<textcolor>white</textcolor>
+			    <focusedcolor>white</focusedcolor>
+			    <shadowcolor>black</shadowcolor>
+				<align>right</align>
+				<include>ButtonCommonValues</include>
+				<onleft>5</onleft>
+				<onright>5</onright>
+				<onup>3</onup>
+				<ondown>3</ondown>
+				<onclick>SettingsLevelChange</onclick>
+			</control>
+			<!--settings level label (no focus)-->
+			<control type="label">
+				<left>25</left>
+				<top>585</top>
+				<height>60</height>
+				<width>305</width>
+				<label>31142</label>
+				<font>button</font>
+				<textcolor>white</textcolor>
+			    <focusedcolor>white</focusedcolor>
+			    <shadowcolor>black</shadowcolor>
+				<align>left</align>
+				<aligny>center</aligny>
+				<visible>!Control.HasFocus(20)</visible>
+			</control>
+			<!--settings level label (focus)-->
+			<control type="label">
+				<left>25</left>
+				<top>585</top>
+				<height>60</height>
+				<width>305</width>
+				<label>31142</label>
+				<font>button</font>
+				<textcolor>white</textcolor>
+			    <focusedcolor>white</focusedcolor>
+			    <shadowcolor>black</shadowcolor>
+				<align>left</align>
+				<aligny>center</aligny>
+				<visible>Control.HasFocus(20)</visible>
+			</control>
+			<!--controls-->
+			<control type="grouplist" id="5">
+				<left>385</left>
+				<top>130</top>
+				<width>1405</width>
+				<height>510</height>
+				<itemgap>5</itemgap>
+				<pagecontrol>60</pagecontrol>
+				<onleft>3</onleft>
+				<onright>60</onright>
+				<onup>5</onup>
+				<ondown>5</ondown>
+			</control>
+			<control type="image">
+				<left>-2</left>
+				<top>662</top>
+				<width>1804</width>
+				<height>125</height>
+				<texture>homeshadow_1.png</texture>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>665</top>
+				<width>1800</width>
+				<height>120</height>
+				<texture colordiffuse="black">backgrounds/bg_fade_2.png</texture>
+				<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_6.png</bordertexture>
+			    <bordersize>2</bordersize>
+			</control>
+			<control type="image">
+				<left>135r</left>
+				<top>700</top>
+				<width>60</width>
+				<height>60</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">icons/kodi.png</texture>
+			</control>
+			<control type="image">
+				<left>50</left>
+				<top>700</top>
+				<width>60</width>
+				<height>60</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">icons/kodi.png</texture>
+			</control>
+			<!--setting description-->
+			<control type="textbox" id="6">
+				<left>400</left>
+				<top>675</top>
+				<width>960</width>
+				<height>95</height>
+				<font>font12</font>
+				<align>justify</align>
+				<textcolor>white</textcolor>
+			</control>
+		</control>
+		<include>BehindDialogFadeOut</include>
+		<!--category buttons-->
+		<control type="button" id="10">
+			<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texturefocus>
+			<textcolor>white</textcolor>
+			<focusedcolor>white</focusedcolor>
+			<shadowcolor>black</shadowcolor>
+			<include>ButtonCommonValues</include>
+		</control>
+		<!--button-->
+		<control type="button" id="7">
+			<left>0</left>
+			<top>0</top>
+			<textcolor>white</textcolor>
+			<focusedcolor>white</focusedcolor>
+			<shadowcolor>black</shadowcolor>
+			<invalidcolor>invalid</invalidcolor>
+		</control>
+		<!--radio button-->
+		<control type="radiobutton" id="8">
+			<left>0</left>
+			<top>0</top>
+			<textcolor>white</textcolor>
+			<focusedcolor>white</focusedcolor>
+			<shadowcolor>black</shadowcolor>
+		</control>
+		<!--spin control-->
+		<control type="spincontrolex" id="9">
+			<left>0</left>
+			<top>0</top>
+			<textcolor>white</textcolor>
+			<focusedcolor>white</focusedcolor>
+			<shadowcolor>black</shadowcolor>
+			<reverse>yes</reverse>
+		</control>
+		<!--edit control-->
+		<control type="edit" id="12">
+			<left>0</left>
+			<top>0</top>
+			<textcolor>white</textcolor>
+			<focusedcolor>white</focusedcolor>
+			<shadowcolor>black</shadowcolor>
+		</control>
+		<!--slider control-->
+		<control type="sliderex" id="13">
+			<left>0</left>
+			<top>0</top>
+			<textcolor>white</textcolor>
+			<focusedcolor>white</focusedcolor>
+			<shadowcolor>black</shadowcolor>
+		</control>
+		<control type="image" id="11">
+			<left>0</left>
+			<top>0</top>
+			<height>1</height>
+			<aspectratio>stretch</aspectratio>
+			<texture colordiffuse="$INFO[Skin.String(color.disabled)]">backgrounds/white.png</texture>
+		</control>
+		<!--label-->
+		<control type="label" id="14">
+			<left>0</left>
+			<top>0</top>
+			<height>60</height>
+			<font>label</font>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<textoffsetx>5</textoffsetx>
+			<aligny>center</aligny>
+		</control>
+		<control type="label" id="2">
+			<description>Fake Label so we can pass it value down to the one below</description>
+			<left>0</left>
+			<top>0</top>
+			<width>0</width>
+			<height>0</height>
+			<font></font>
+			<visible>false</visible>
+		</control>
+	</controls>
+</window>

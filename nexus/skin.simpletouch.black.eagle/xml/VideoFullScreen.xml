@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<controls>
+			<control type="group" id="1">
+				<top>70</top>
+			    <control type="image" id="1">
+					<visible>Player.ShowInfo</visible>
+					<visible>!String.IsEmpty(VideoPlayer.Plot)</visible>
+					<left>55</left>
+					<top>70</top>
+					<width>1800</width>
+					<height>205</height>
+					<texture colordiffuse="black">backgrounds/bg_fade_2.png</texture>
+				    <bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_6.png</bordertexture>
+			        <bordersize>2</bordersize>
+				  </control>
+				<!--plot-->
+				 <control type="textbox" id="1">
+				    <left>65</left>
+				    <top>120</top>
+				    <width>1780</width>
+				    <height>135</height>
+				    <font>label</font>
+				    <align>justify</align>
+				    <textcolor>white</textcolor>
+				    <shadowcolor>black</shadowcolor>
+				    <label>$INFO[VideoPlayer.Plot]</label>
+				    <autoscroll time="1500" delay="15000" repeat="10000">Skin.HasSetting(AutoScroll)</autoscroll>
+				    <visible>Player.ShowInfo</visible>
+				    <animation effect="fade" start="0" end="100" time="100" delay="200">Visible</animation>
+				  </control>
+				<control type="grouplist" id="1">
+				   <left>0</left>
+				   <top>30</top>
+				   <height>52</height>
+				   <itemgap>0</itemgap>
+				   <align>right</align>
+			       <orientation>horizontal</orientation>
+				   <visible>!Player.ChannelPreviewActive</visible>
+				 <control type="image" id="1">
+				   <left>0</left>
+				   <top>0</top>
+				   <width>10</width>
+				   <height>38</height>
+				   <aspectratio>keep</aspectratio>
+			    </control>
+			  </control>
+			</control>
+		    <control type="group" id="1">
+			<visible>Player.Caching</visible>
+			<animation delay="300" effect="fade" time="200">Visible</animation>
+			<animation effect="fade" delay="200" time="150">Hidden</animation>
+			<control type="image" id="1">
+				<left>907</left>
+				<top>480</top>
+				<width>90</width>
+				<height>90</height>
+				<texture colordiffuse="black">flags/bg_buff.png</texture>
+				<animation effect="fade" end="50" time="0" condition="true">Conditional</animation>
+			</control>
+			<control type="label" id="1">
+				<description>buffering value</description>
+				<label>$INFO[Player.CacheLevel][B]%[/B]</label>
+				<left>892</left>
+				<top>465</top>
+				<width>120</width>
+				<height>120</height>
+				<aligny>center</aligny>
+				<align>center</align>
+				<font>fontContextMenu</font>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+			</control>
+			<control type="image" id="2">
+				<left>867</left>
+				<top>569</top>
+				<width>170</width>
+				<height>40</height>
+				<aligny>center</aligny>
+				<align>center</align>
+				<texture colordiffuse="black">backgrounds/bg_fade.png</texture>
+			</control>
+			<control type="label" id="2">
+				<description>buffering label</description>
+				<label>Buffering..</label>
+				<left>837</left>
+				<top>578</top>
+				<width>230</width>
+				<height>20</height>
+				<aligny>center</aligny>
+				<align>center</align>
+				<font>label</font>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+			</control>
+		</control>
+	</controls>
+</window>

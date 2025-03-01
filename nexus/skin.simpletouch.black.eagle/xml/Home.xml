@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol always="true">9000</defaultcontrol>
+	<onload>RunScript(script.skinshortcuts,type=buildxml&amp;mainmenuID=9000&amp;group=mainmenu&amp;options=noGroups)</onload>
+	<onload condition="Skin.HasSetting(StopVideoOnBack) + !Player.HasAudio">PlayerControl(Stop)</onload>
+	<onload condition="System.HasAddon(plugin.video.themoviedb.helper)">Skin.SetBool(TMDbHelper.Service)</onload>
+	<onload condition="!Skin.HasSetting(SkinHelper.EnableMusicArt)">Skin.SetBool(SkinHelper.EnableMusicArt)</onload>
+	<controls>
+		<include>CommonBackground</include>
+		<include>Window_OpenClose_Animation</include>
+		<visible>!Skin.HasSetting(Clock)</visible>
+		<control type="group">
+			<width>1920</width>
+			<centerleft>50%</centerleft>
+			<include>skinshortcuts-template-widget</include>
+		<control type="group">
+		<visible>!Skin.HasSetting(Weatherinfo) + !String.IsEmpty(Weather.Plugin)</visible>
+			<control type="label">
+				<left>790</left>
+				<top>31</top>
+				<width>450</width>
+				<height>27</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>title</font>
+				<textcolor>cyan</textcolor>
+				<label>Temperature :</label>
+				<scroll></scroll>
+			</control>
+			<control type="label">
+				<left>1020</left>
+				<top>27</top>
+				<width>100</width>
+				<height>35</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>title</font>
+				<textcolor>cyan</textcolor>
+				<label>$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]</label>
+			</control>
+			<control type="image">
+				<left>1107</left>
+				<top>22</top>
+				<width>45</width>
+				<height>45</height>
+				<aspectratio>keep</aspectratio>
+				<texture>$INFO[Weather.ConditionsIcon]</texture>
+			  </control>
+		    </control>
+		
+			<control type="group">
+				<left>0</left>
+				<top>34%</top>
+				<!--menus-->
+				<control type="group">
+					<top>-290</top>
+					<!--main menu background-->
+					<control type="image">
+						<visible>!Skin.HasSetting(Touchmode)</visible>
+						<left>25</left>
+						<top>-60</top>
+						<width>1874</width>
+						<height>60</height>
+						<texture colordiffuse="black">backgrounds/bg_fade_7.png</texture>
+				        <bordertexture colordiffuse="turquoise">backgrounds/bg_fade_3.png</bordertexture>
+				        <bordersize>2</bordersize>
+					</control>
+					<control type="image">
+						<visible>Skin.HasSetting(Touchmode)</visible>
+						<left>25</left>
+						<top>-60</top>
+						<width>1874</width>
+						<height>60</height>
+						<texture colordiffuse="slateblue">backgrounds/bg_fade_7.png</texture>
+				        <bordertexture colordiffuse="snow">backgrounds/bg_fade_3.png</bordertexture>
+				        <bordersize>2</bordersize>
+					</control>
+					<!--main menu-->
+					<control type="image">
+						<visible>!Skin.HasSetting(Touchmode)</visible>
+						<left>22</left>
+						<top>540</top>
+						<width>1875</width>
+						<height>112</height>
+						<texture colordiffuse="">backgrounds/bg_fade_222.png</texture>
+				        <bordertexture colordiffuse="yellow">backgrounds/bg_fade_3.png</bordertexture>
+				        <bordersize>2</bordersize>
+					</control>
+					<control type="image">
+						<visible>Skin.HasSetting(Touchmode)</visible>
+						<left>22</left>
+						<top>540</top>
+						<width>1875</width>
+						<height>112</height>
+						<texture colordiffuse="slateblue">backgrounds/bg_fade_222.png</texture>
+				        <bordertexture colordiffuse="snow">backgrounds/bg_fade_3.png</bordertexture> # MAIN NENU TEXTURE  BORDER COLOR
+				        <bordersize>2</bordersize>
+					</control>
+					<control type="image">
+						<visible>!Skin.HasSetting(Touchmode)</visible>
+						<left>22</left>
+						<top>920</top>
+						<width>1874</width>
+						<height>60</height>
+						<texture colordiffuse="black">backgrounds/bg_fade_7.png</texture>
+				        <bordertexture colordiffuse="yellow">backgrounds/bg_fade_3.png</bordertexture>
+				        <bordersize>2</bordersize>
+					</control>
+					<control type="image">
+						<visible>Skin.HasSetting(Touchmode)</visible>
+						<left>22</left>
+						<top>920</top>
+						<width>1874</width>
+						<height>60</height>
+						<texture colordiffuse="slateblue">backgrounds/bg_fade_7.png</texture>
+				        <bordertexture colordiffuse="snow">backgrounds/bg_fade_3.png</bordertexture>
+				        <bordersize>2</bordersize>
+				   </control>	
+				   <control type="group">
+				   <left></left>	
+                   <!--sub menus-->
+	               <control type="group">
+		           <!--sub menu background-->
+	               <control type="image">
+		               <visible>!Skin.HasSetting(Touchmode)</visible>
+		               <left>22</left>
+		               <top>-197</top>
+		               <width>1873</width>
+		               <height>114</height>
+		               <texture colordiffuse="">backgrounds/bg_fade_222.png</texture>
+		               <bordertexture colordiffuse="turquoise">backgrounds/bg_fade_3.png</bordertexture>
+		               <bordersize>2</bordersize>
+		              </control>
+	                 <control type="image">
+		                <visible>Skin.HasSetting(Touchmode)</visible>
+		                <left>22</left>
+		                <top>-197</top>
+		                <width>1873</width>
+		                <height>114</height>
+		                <texture colordiffuse="slateblue">backgrounds/bg_fade_222.png</texture> # SUBMENU BACKGROUND
+		                <bordertexture colordiffuse="snow">backgrounds/bg_fade_3.png</bordertexture>
+		                <bordersize>2</bordersize>
+		              </control>
+					 <control type="image">
+		               <visible>!Skin.HasSetting(Touchmode)</visible>
+		                <left>22</left>
+		                <top>-71</top>
+		                <width>1873</width>
+		                <height>114</height>
+		                <texture colordiffuse="">backgrounds/bg_fade_222.png</texture> 
+		                <bordertexture colordiffuse="turquoise">backgrounds/bg_fade_3.png</bordertexture>
+		                <bordersize>2</bordersize>
+		              </control>
+	                 <control type="image">
+		                <visible>Skin.HasSetting(Touchmode)</visible>
+		                <left>22</left>
+		                <top>-71</top>
+		                <width>1873</width>
+		                <height>114</height>
+		                <texture colordiffuse="slateblue">backgrounds/bg_fade_222.png</texture> # MAIN MENU 3 BACKGROUND
+		                <bordertexture colordiffuse="snow">backgrounds/bg_fade_3.png</bordertexture>
+		                <bordersize>2</bordersize>
+		             </control>
+	                </control> 
+					 
+					<include condition="!Skin.HasSetting(AutoHideHomepageSubmenu)">skinshortcuts-template-submenu</include>
+					<include condition="Skin.HasSetting(AutoHideHomepageSubmenu)">HomeSubMenu</include>
+					<top>860</top>
+                   </control>
+					<!--main menu-->
+					<control type="fixedlist" id="9000">                                                  
+						<visible>!Skin.HasSetting(Touchmode)</visible>
+						<left>38</left>
+						<top>555</top>
+						<width>1847</width>
+						<height>92</height>
+						<onleft>9000</onleft>
+						<onright>9000</onright>
+						<onup>9003</onup>
+		                <ondown>9901</ondown>
+					    <pagecontrol></pagecontrol>
+						<scrolltime>300</scrolltime>
+						<focusposition>0</focusposition>
+						<movement>4</movement>
+						<orientation>Horizontal</orientation>
+						<itemlayout height="82" width="373">
+						   <control type="image">
+								<left>0</left>
+								<top>0</top>
+								<width>353</width>
+								<height>82</height>
+								<texture colordiffuse="black">backgrounds/bg_fade_7.png</texture>
+				                <bordertexture colordiffuse="turquoise">backgrounds/bg_fade_3.png</bordertexture>
+				                <bordersize>2</bordersize>
+							</control>
+							<!--label-->
+							<control type="label">
+								<left>10</left>
+								<top>0</top>
+								<width>340</width>
+								<height>82</height>
+								<font>main.menu2</font>
+								<textcolor>cyan</textcolor>
+								<align>center</align>
+								<aligny>center</aligny>
+								<label>$INFO[ListItem.Label]</label>
+							</control>
+						 </itemlayout>
+						 <focusedlayout height="82" width="373">
+						    <control type="image">
+								<left>0</left>
+								<top>0</top>
+								<width>353</width>
+								<height>82</height>
+								<texture colordiffuse="black">backgrounds/bg_fade_7.png</texture>
+				                <bordertexture colordiffuse="turquoise">backgrounds/bg_fade_3.png</bordertexture>
+				                <bordersize>2</bordersize>
+							</control>
+							<control type="label">
+								<left>10</left>
+								<top>0</top>
+								<width>340</width>
+								<height>82</height>
+								<font>main.menu2</font>
+								<textcolor>snow</textcolor>
+								<align>center</align>
+								<aligny>center</aligny>
+								<label>$INFO[ListItem.Label]</label>
+								<visible>!Control.HasFocus(9000)</visible>
+							</control>
+							<control type="image">
+								<left>0</left>
+								<top>0</top>
+								<width>353</width>
+								<height>82</height>
+								<texture colordiffuse="deepskyblue">backgrounds/bk.png</texture>
+								<bordertexture>black</bordertexture>
+								<visible>Control.HasFocus(9000)</visible>
+							</control>
+							<control type="image">
+				                <left>0</left>
+				                <top>0</top>
+				                <width>40</width>
+				                <height>82</height>
+				             <!--   <texture>side_shadow_1.png</texture>  -->
+							    <visible>Control.HasFocus(9000)</visible>
+			                </control>
+			              <control type="image">
+				                <left>314</left>
+				                <top>0</top>
+				                <width>40</width>
+				                <height>82</height>
+				            <!--    <texture>side_shadow.png</texture>  -->
+							    <visible>Control.HasFocus(9000)</visible>
+			                 </control>
+							 <control type="label">
+								<left>9</left>
+								<top>0</top>
+								<width>340</width>
+								<height>87</height>
+								<font>main.menu2</font>
+								<textcolor>black</textcolor>
+								<align>center</align>
+								<aligny>center</aligny>
+								<label>$INFO[ListItem.Label]</label>
+								<visible>Control.HasFocus(9000)</visible>
+							</control>
+							<control type="label">
+								<left>10</left>
+								<top>0</top>
+								<width>340</width>
+								<height>82</height>
+								<font>main.menu2</font>
+								<textcolor>snow</textcolor>
+								<shadowcolor>black</shadowcolor>
+								<align>center</align>
+								<aligny>center</aligny>
+								<label>$INFO[ListItem.Label]</label>
+								<visible>Control.HasFocus(9000)</visible>
+							</control>
+						</focusedlayout>
+						<content>
+							<include>skinshortcuts-mainmenu</include>
+						</content>
+					</control>
+					<!--TouchMode-->
+					<control type="fixedlist" id="9000">
+						<visible>Skin.HasSetting(Touchmode)</visible>
+						<left>38</left>
+						<top>555</top>
+						<width>1847</width>
+						<height>92</height>
+						<onleft>9000</onleft>
+						<onright>9000</onright>
+						<onup>9003</onup>
+		                <ondown>9901</ondown>
+		                <pagecontrol />
+						<scrolltime>0</scrolltime>
+						<focusposition>0</focusposition>
+						<movement>4</movement>
+						<orientation>Horizontal</orientation>
+						<animation type="Focus" reversible="false" condition="!Skin.HasSetting(SelectorFlip)">
+						<effect type="rotatex" start="10" end="0" time="200" center="94" easing="inout" tween="sine" />
+						<effect type="zoom" start="0" end="100" time="300" tween="sine" easing="inout" center="auto" />
+						</animation>
+						<itemlayout height="82" width="373">
+						    <control type="image">
+								<left>0</left>
+								<top>0</top>
+								<width>353</width>
+								<height>82</height>
+								<texture colordiffuse="black">backgrounds/bg_fade_7.png</texture>
+				                <bordertexture colordiffuse="goldenrod">backgrounds/bg_fade_3.png</bordertexture>
+				                <bordersize>2</bordersize>
+							</control>
+							<!--label-->
+							<control type="label">
+								<left>10</left>
+								<top>0</top>
+								<width>340</width>
+								<height>82</height>
+								<font>main.menu2</font>
+								<textcolor>snow</textcolor>
+								<shadowcolor>black</shadowcolor>
+								<align>center</align>
+								<aligny>center</aligny>
+								<label>$INFO[ListItem.Label]</label>
+							</control>
+							</itemlayout>
+						<focusedlayout height="80" width="373">
+						     <control type="image">
+								<left>0</left>
+								<top>0</top>
+								<width>353</width>
+								<height>82</height>
+								<texture colordiffuse="gold">backgrounds/bg_fade_7.png</texture>
+				                <bordertexture colordiffuse="goldenrod">backgrounds/bg_fade_3.png</bordertexture>
+				                <bordersize>2</bordersize>
+								<animation type="Focus" reversible="false">
+								<effect type="zoom" start="30" end="100" time="450" tween="sine" easing="inout" center="auto" />
+								</animation>
+						</control>
+							<control type="label">
+								<left>10</left>
+								<top>0</top>
+								<width>340</width>
+								<height>82</height>
+								<font>main.menu2</font>
+								<textcolor>ghostwhite</textcolor>
+								<align>center</align>
+								<aligny>center</aligny>
+								<label>$INFO[ListItem.Label]</label>
+								<visible>!Control.HasFocus(9000)</visible>
+							</control>
+							<control type="image">
+								<left>0</left>
+								<top>0</top>
+								<width>353</width>
+								<height>82</height>
+								<texture colordiffuse="gold">backgrounds/bk.png</texture>  # FOCUS HIGHLIGHTER COLOR
+								<animation type="Focus" reversible="false">
+								<effect type="zoom" start="30" end="100" time="450" tween="sine" easing="inout" center="auto" />
+								</animation>
+								<bordertexture>goldenrod</bordertexture>
+								<visible>Control.HasFocus(9000)</visible>
+							</control>
+							<control type="image">
+				                <left>0</left>
+				                <top>0</top>
+				                <width>40</width>
+				                <height>82</height>
+				             <!--   <texture>side_shadow_1.png</texture>  -->
+							    <visible>Control.HasFocus(9000)</visible>
+			                </control>
+			              <control type="image">
+				               <left>314</left>
+				               <top>0</top>
+				               <width>40</width>
+				               <height>82</height>
+				          <!--     <texture>side_shadow.png</texture>  -->
+							   <visible>Control.HasFocus(9000)</visible>
+			                 </control>
+							<control type="label">
+								<left>9</left>
+								<top>0</top>
+								<width>340</width>
+								<height>87</height>
+								<font>main.menu2</font>
+								<textcolor>snow</textcolor>
+								<align>center</align>
+								<aligny>center</aligny>
+								<label>$INFO[ListItem.Label]</label>
+								<visible>Control.HasFocus(9000)</visible>
+							</control>
+							<control type="label">
+								<left>10</left>
+								<top>0</top>
+								<width>340</width>
+								<height>82</height>
+								<font>main.menu2</font>
+								<textcolor>snow</textcolor>
+								<shadowcolor>black</shadowcolor>
+								<align>center</align>
+								<aligny>center</aligny>
+								<label>$INFO[ListItem.Label]</label>
+								<visible>Control.HasFocus(9000)</visible>
+							</control>
+						</focusedlayout>
+						<content>
+							<include>skinshortcuts-mainmenu</include>
+						</content>
+					</control>
+				</control>
+			</control>
+		</control>
+		
+		<!--MAIN MENU LAYOUT 3-->
+		 <control type="group">
+			<left>37</left>
+			<top>328r</top>
+			<onup>9000</onup>
+			<ondown>90010</ondown>
+			<include>WindowOpenCloseAnimation</include>
+			<control type="image">
+				<left>0</left>
+                <top>130</top>
+				<width>354</width>
+				<height>82</height>
+				<texture colordiffuse="black">backgrounds/bg_fade_7.png</texture>
+				<bordertexture colordiffuse="goldenrod">backgrounds/bg_fade_3.png</bordertexture>
+			    <bordersize>2</bordersize>
+			</control>
+			<control type="button" id="20">
+				<description>Power push button</description>
+				<left>0</left>
+				<top>130</top>
+				<width>354</width>
+				<height>82</height>
+				<onclick>ActivateWindow(ShutdownMenu)</onclick>
+				<texture colordiffuse="red">backgrounds/white.png</texture>
+				<onright>21</onright>
+				<onup>9000</onup>
+				<ondown>9000</ondown>
+				<animation type="Focus" reversible="false">
+				<effect type="zoom" start="30" end="100" time="450" tween="sine" easing="inout" center="auto" />
+				</animation>
+			</control>
+			 <control type="label">
+				<left>104</left>
+				<top>150</top>
+				<width>354</width>
+				<height>44</height>
+				<align>left</align>
+				<aligny>center</aligny>
+			    <font>menu.title</font>
+				<textcolor>black</textcolor>
+				<label>POWER</label>
+			</control>
+			<control type="label">
+				<left>105</left>
+				<top>150</top>
+				<width>351</width>
+				<height>38</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>menu.title</font>
+				<textcolor>snow</textcolor>
+				<label>POWER</label>
+			</control>
+		<control type="label">
+				<left>105</left>
+				<top>150</top>
+				<width>351</width>
+				<height>38</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>menu.title</font>
+				<textcolor>snow</textcolor>
+				<label>POWER</label>
+				<visible>Control.HasFocus(20)</visible>
+			</control>
+		<control type="image">
+				<left>0</left>
+			    <top>130</top>
+				<width>40</width>
+			    <height>82</height>
+			<!--    <texture>side_shadow_1.png</texture>  -->
+			    <visible>Control.HasFocus(20)</visible>
+		     </control>
+		   <control type="image">
+				<left>315</left>
+			    <top>130</top>
+			    <width>40</width>
+			    <height>82</height>
+			 <!--   <texture>side_shadow.png</texture> -->
+			    <visible>Control.HasFocus(20)</visible>
+			  </control>
+			<control type="image">
+				<left>371</left>
+                <top>130</top>
+				<width>354</width>
+				<height>82</height>
+				<texture colordiffuse="black">backgrounds/bg_fade_7.png</texture>
+				<bordertexture colordiffuse="goldenrod">backgrounds/bg_fade_3.png</bordertexture>
+			    <bordersize>2</bordersize>
+			</control>
+			<control type="button" id="21">
+				<description>Favourites push button</description>
+				<left>371</left>
+				<top>130</top>
+				<width>354</width>
+				<height>82</height>
+				<onclick>ActivateWindow(Favouritesbrowser)</onclick>
+				<texture colordiffuse="red">backgrounds/white.png</texture>
+				<onleft>20</onleft>
+				<onright>22</onright>
+				<onup>9000</onup>
+				<ondown>9000</ondown>
+				<animation type="Focus" reversible="false">
+				<effect type="zoom" start="30" end="100" time="450" tween="sine" easing="inout" center="auto" />
+				</animation>	
+		</control>
+			 <control type="label">
+				<left>420</left>
+				<top>150</top>
+				<width>351</width>
+				<height>43</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>menu.title</font>
+				<textcolor>black</textcolor>
+				<label>FAVOURITES</label>
+			</control>
+			<control type="label">
+				<left>421</left>
+				<top>150</top>
+				<width>351</width>
+				<height>38</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>menu.title</font>
+				<textcolor>snow</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<label>FAVOURITES</label>
+			</control>
+		<control type="label">
+				<left>421</left>
+				<top>150</top>
+				<width>351</width>
+				<height>38</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>menu.title</font>
+				<textcolor>snow</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<label>FAVOURITES</label>
+				<visible>Control.HasFocus(21)</visible>
+			</control>
+		<control type="image">
+				<left>371</left>
+			    <top>130</top>
+				<width>40</width>
+			    <height>82</height>
+			<!--    <texture>side_shadow_1.png</texture>  -->
+			    <visible>Control.HasFocus(21)</visible>
+		     </control>
+		   <control type="image">
+				<left>685</left>
+			    <top>130</top>
+			    <width>40</width>
+			    <height>82</height>
+			<!--    <texture>side_shadow.png</texture>  -->
+			    <visible>Control.HasFocus(21)</visible>
+			  </control>
+			<control type="image">
+				 <left>743</left>
+				 <top>130</top>
+				 <width>354</width>
+				 <height>82</height>
+			     <texture colordiffuse="black">backgrounds/bg_fade_7.png</texture>
+				 <bordertexture colordiffuse="goldenrod">backgrounds/bg_fade_3.png</bordertexture>
+			     <bordersize>2</bordersize>
+			  </control>
+			  <control type="button" id="22">
+				<description>Addons push button</description>
+				<left>743</left>
+				<top>130</top>
+				<width>354</width>
+				<height>82</height>
+				<onclick>RunAddon("script.module.accountmgr")</onclick>
+				<texture colordiffuse="red">backgrounds/white.png</texture>
+				<onleft>21</onleft>
+				<onright>23</onright>
+				<onup>9000</onup>
+				<ondown>9000</ondown>
+				<animation type="Focus" reversible="false">
+				<effect type="zoom" start="30" end="100" time="450" tween="sine" easing="inout" center="auto" />
+				</animation>
+			</control>
+			 <control type="label">
+				<left>765</left>
+				<top>150</top>
+				<width>353</width>
+				<height>43</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>menu.title</font>
+				<textcolor>black</textcolor>
+				<label>ACCOUNT MGR</label>
+			</control>
+				<control type="label">
+				<left>766</left>
+				<top>150</top>
+				<width>351</width>
+				<height>43</height>
+				<align>left</align>
+				<aligny>center</aligny>
+                <font>menu.title</font>
+				<textcolor>snow</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<label>ACCOUNT MGR</label>
+		</control>
+			<control type="label">
+				<left>766</left>
+				<top>150</top>
+				<width>351</width>
+				<height>38</height>
+                <font>menu.title</font>
+				<textcolor>snow</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<label>ACCOUNT MGR</label>
+				<visible>Control.HasFocus(22)</visible>
+		</control>
+			<control type="image">
+				<left>743</left>
+			    <top>130</top>
+				<width>40</width>
+			    <height>82</height>
+			<!--    <texture>side_shadow_1.png</texture>  -->
+			    <visible>Control.HasFocus(22)</visible>
+		</control>
+			<control type="image">
+				<left>1057</left>
+			    <top>130</top>
+			    <width>40</width>
+			    <height>82</height>
+			<!--    <texture>side_shadow.png</texture>  -->
+			    <visible>Control.HasFocus(22)</visible>
+		 </control>
+			<control type="image">
+				<left>1114.5</left>
+                <top>130</top>
+				<width>354</width>
+				<height>82</height>
+				<texture colordiffuse="black">backgrounds/bg_fade_7.png</texture>
+				<bordertexture colordiffuse="goldenrod">backgrounds/bg_fade_3.png</bordertexture>
+			    <bordersize>2</bordersize>
+			</control>
+			<control type="button" id="23">
+				<description>Search push button</description>
+				<left>1114.5</left>
+				<top>130</top>
+				<width>354</width>
+				<height>82</height>
+				<onclick>ActivateWindow(1111)</onclick>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+				<onleft>22</onleft>
+				<onright>24</onright>
+				<onup>9000</onup>
+				<animation type="Focus" reversible="false">
+				<effect type="zoom" start="30" end="100" time="450" tween="sine" easing="inout" center="auto" />
+				</animation>
+		</control>
+			 <control type="label">
+				<left>1210</left>
+				<top>150</top>
+				<width>454</width>
+				<height>43</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>menu.title</font>
+				<textcolor>black</textcolor>
+				<label>SEARCH</label>
+			</control>
+			<control type="label">
+				<left>1211</left>
+				<top>150</top>
+				<width>450</width>
+				<height>38</height>
+				<align>left</align>
+				<aligny>center</aligny>
+			    <font>menu.title</font>
+				<textcolor>snow</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<label>SEARCH</label>
+			</control>
+		<control type="label">
+				<left>1211</left>
+				<top>150</top>
+				<width>450</width>
+				<height>38</height>
+			    <font>menu.title</font>
+				<align>left</align>
+				<aligny>center</aligny>
+				<textcolor>snow</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<label>SEARCH</label>
+				<visible>Control.HasFocus(23)</visible>
+			</control>
+		<control type="image">
+				<left>1114</left>
+			    <top>130</top>
+				<width>40</width>
+			    <height>82</height>
+			<!--    <texture>side_shadow_1.png</texture>  -->
+			    <visible>Control.HasFocus(23)</visible>
+		     </control>
+		   <control type="image">
+				<left>1429</left>
+			    <top>130</top>
+			    <width>40</width>
+			    <height>82</height>
+			<!--    <texture>side_shadow.png</texture>  -->
+			    <visible>Control.HasFocus(23)</visible>
+			 </control>
+			<control type="image">
+				<left>1486.5</left>
+                <top>130</top>
+				<width>354</width>
+				<height>82</height>
+				<texture colordiffuse="black">backgrounds/bg_fade_7.png</texture>
+				<bordertexture colordiffuse="goldenrod">backgrounds/bg_fade_3.png</bordertexture>
+			    <bordersize>2</bordersize>
+			</control>
+			<control type="button" id="24">
+				<description>Settings push button</description>
+				<left>1486.5</left>
+				<top>130</top>
+				<width>354</width>
+				<height>82</height>
+				<onclick>ActivateWindow(SkinSettings)</onclick>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+				<onleft>23</onleft>
+				<onright>20</onright>
+				<onup>9000</onup>
+				<animation type="Focus" reversible="false">
+				<effect type="zoom" start="30" end="100" time="450" tween="sine" easing="inout" center="auto" />
+				</animation>	
+		</control>
+			 <control type="label">
+				<left>1572</left>
+				<top>150</top>
+				<width>453</width>
+				<height>44</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>menu.title</font>
+				<textcolor>black</textcolor>
+				<label>SETTINGS</label>
+			</control>
+			<control type="label">
+				<left>1573</left>
+				<top>150</top>
+				<width>450</width>
+				<height>38</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>menu.title</font>
+				<textcolor>snow</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<label>SETTINGS</label>
+			</control>
+		<control type="label">
+				<left>1573</left>
+				<top>150</top>
+				<width>450</width>
+				<height>38</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>menu.title</font>
+				<textcolor>snow</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<label>SETTINGS</label>
+				<visible>Control.HasFocus(24)</visible>
+			</control>
+		<control type="image">
+				<left>1486</left>
+			    <top>130</top>
+				<width>40</width>
+			    <height>82</height>
+			    <texture></texture>
+			    <visible>Control.HasFocus(24)</visible>
+		     </control>
+		   <control type="image">
+				<left>1801</left>
+			    <top>130</top>
+			    <width>40</width>
+			    <height>82</height>
+			    <texture></texture>
+			    <visible>Control.HasFocus(24)</visible>
+		   </control>
+		</control>
+		<control type="group">
+		<include>WindowOpenCloseAnimation</include>
+		<control type="label">
+			  <left>55</left>
+			  <top>19</top>
+			  <width>450</width>
+			  <height>60</height>
+			  <align>left</align>
+			  <aligny>center</aligny>
+			  <font>font12</font>
+			  <textcolor>snow</textcolor>
+			  <label>Black Eagle Builds</label>
+		   </control>
+
+	<control type="label">
+			  <left>858</left>
+			  <top>19</top>
+			  <width>450</width>
+			  <height>60</height>
+			  <align>left</align>
+			  <aligny>center</aligny>
+			  <font>font12</font>
+			  <textcolor>snow</textcolor>
+			  <label>BLACK EAGLE - TOUCH</label>
+		   </control>
+	       <control type="label">
+				<left>730</left>
+				<top>997</top>
+				<width>450</width>
+				<height>60</height>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>font12</font>
+				<textcolor>snow</textcolor>
+				<label>$INFO[System.Date]</label>
+			</control>
+			<control type="label">
+			    <right>180</right>
+				<top>19</top>
+				<width>200</width>
+				<height>60</height>
+				<align>right</align>
+				<aligny>center</aligny>
+				<font>font13</font>
+				<textcolor>snow</textcolor>
+				<label>$INFO[System.Time(hh:mm)]</label>
+			</control>
+		   <control type="label">
+			  <right>110</right>
+			  <top>19</top>
+			  <width>70</width>
+			  <height>60</height>
+			  <align>left</align>
+			  <aligny>center</aligny>
+			  <font>font13</font>
+			  <textcolor>snow</textcolor>
+			  <label>:$INFO[System.Time(ss)]</label>
+		   </control>
+		   <control type="label">
+			  <right>-28</right>
+			  <top>21</top>
+			  <width>150</width>
+			  <height>60</height>
+			  <align>left</align>
+			  <aligny>center</aligny>
+			  <font>font12</font>
+			  <textcolor>snow</textcolor>
+			  <label>$INFO[System.Time(xx)]</label>
+		   </control>
+	      <control type="group">
+				<visible>!Skin.HasSetting(Weatherinfo) + !String.IsEmpty(Weather.Plugin)</visible>
+				<control type="label">
+				<left>70</left>
+		<!--	<top>19</top>  -->
+				<bottom>20</bottom>
+				<width>100</width>
+				<height>60</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>font12</font>
+				<textcolor>goldenrod</textcolor>
+				<label>$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]</label>
+			</control>
+			<control type="label">
+				<left>150</left>
+	<!--		<top>19</top>  -->
+				<bottom>20</bottom>
+				<width>500</width>
+				<height>60</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>font12</font>
+				<textcolor>snow</textcolor>
+				<label>$INFO[Window(Weather).Property(Current.Condition),]</label>
+				<scroll>true</scroll>
+			</control>
+		  </control>
+		</control>	
+		<control type="group">
+		<visible>!Skin.HasSetting(FloorButtons)</visible>
+			<left>22</left>
+			<top>998</top>
+			<width>1874</width>
+			<height>60</height>
+			<!--rss feed-->
+			<control type="group">
+				<visible>system.getbool(lookandfeel.enablerssfeeds)</visible>
+				<include>Window_OpenClose_Animation</include>
+				<!--rss background-->
+				<control type="image">
+					<width>1874</width>
+					<height>60</height>
+					<texture colordiffuse="">backgrounds/bg_fade_222.png</texture>
+					<bordertexture colordiffuse="turquoise">backgrounds/bg_fade_3.png</bordertexture>
+				    <bordersize>2</bordersize>
+				</control>
+				<!--rss feed-->
+				<control type="rss">
+					<top>15</top>
+					<height>60</height>
+					<width>100%</width>
+					<aligny>center</aligny>
+					<font>label</font>
+					<urlset>1</urlset>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<titlecolor>$INFO[Skin.String(color.500)]</titlecolor>
+					<headlinecolor>white</headlinecolor>
+				</control>
+			</control>
+		</control>
+		<control type="group">
+		<visible>Skin.HasSetting(FloorButtons)</visible>
+			<left>22</left>
+			<top>998</top>
+			<width>1874</width>
+			<height>60</height>
+			<!--rss feed-->
+			<control type="group">
+				<visible>system.getbool(lookandfeel.enablerssfeeds)</visible>
+				<include>Window_OpenClose_Animation</include>
+				<!--rss background-->
+				<control type="image">
+					<width>1874</width>
+					<height>60</height>
+					<texture colordiffuse="black">backgrounds/bg_fade_2.png</texture>
+					<bordertexture colordiffuse="turquoise">backgrounds/bg_fade_3.png</bordertexture>
+				    <bordersize>2</bordersize>
+				</control>
+				<!--rss feed-->
+				<control type="rss">
+					<top>15</top>
+					<height>60</height>
+					<width>100%</width>
+					<aligny>center</aligny>
+					<font>label</font>
+					<urlset>1</urlset>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<titlecolor>$INFO[Skin.String(color.500)]</titlecolor>
+					<headlinecolor>white</headlinecolor>
+				</control>
+			</control>
+		</control>
+		
+		<!--dialog fade-->
+		<include>BehindDialogFadeOut</include>
+	</controls>
+</window>

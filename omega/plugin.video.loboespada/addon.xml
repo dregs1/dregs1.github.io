@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.loboespada" name="[COLORred]Lobo[COLORgrey]espada[/COLOR]" version="2.3" provider-name="[COLORgold]by_black_eagle[/COLOR]">
+<requires>    		
+    	<import addon="script.module.resolveurl"/>
+	    <import addon="script.module.requests"/>	
+		<import addon="script.module.six"/>	
+		
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+<provides>video</provides>
+	</extension>  
+<extension point="xbmc.addon.metadata">
+		<summary>Canais de Televisão, desportos e mais...</summary>
+		<description lang="en">[COLOR red]Lobo[/COLOR] [COLORorange]espada[/COLOR] [COLORorange]é um addon da familia BlackEagleagle Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+		<platform>all</platform>
+		<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+    </assets>
+</extension>
+</addon>

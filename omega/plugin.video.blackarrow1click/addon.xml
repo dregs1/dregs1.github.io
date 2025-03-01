@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.blackarrow1click" name="[COLOR red]Blackarrow[/COLOR][COLORblack] 1Click[/COLOR]" version="1.3.1" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
+  <extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+   <provides>video</provides>
+    </extension>  
+<extension point="xbmc.addon.metadata">
+        <summary>Canais de Filmes, Series e mais...</summary>
+        <description lang="en">[COLOR silver]blackarrow [COLORred]1click [COLORgold]é um addon da familia BLAKEAGLE.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+        <platform>all</platform>
+        <assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+    </assets>
+    </extension>
+</addon>    

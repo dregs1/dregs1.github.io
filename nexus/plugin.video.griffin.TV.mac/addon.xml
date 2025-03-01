@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+	id="plugin.video.griffin.TV.mac" version="0.2" name="[COLORred]Griffin [COLORwhite]TV[/COLOR]" provider-name="[COLORgold]por_black_eagle[/COLOR]">
+  <requires>    		
+    	<!--<import addon="script.module.resolveurl" /> -->   	
+        <import addon="script.module.requests"/>
+		<import addon="script.module.kodi-six" />	
+	
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	
+	<extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+		<summary lang="en">[COLORred]Griffin [COLORwhite]TV[/COLOR] Os links estao na Net</summary>
+		<description lang="pt"></description>
+		<website></website>
+		<license>GPL 3.0</license>
+		<platform>all</platform>
+		<disclaimer lang="en"></disclaimer>
+	<assets>
+        <icon>icon.png</icon>  
+        <fanart>fanart.jpg</fanart>
+    </assets>        
+		<language>pt</language>
+	</extension>	
+	
+</addon>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.aguia.auto.player" name="[COLORblue]ÁGUIA [COLORwhite]AUTO [COLORgold]PLAYER[/COLOR]" version="1.2.4" provider-name="@by_black_eagle">
+    <requires>
+        <import addon="script.module.six"/>
+        <import addon="script.module.kodi-six"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">addon, to modify kodi player</summary>
+        <summary lang="pt">addon, para modificar player do kodi</summary>
+        <description lang="en">arrownegra group addon</description>
+        <description lang="pt">addon do grupo arrownegra</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 1, 12 June 2022</license>
+        <disclaimer>The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>

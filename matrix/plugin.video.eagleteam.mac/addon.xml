@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+	id="plugin.video.eagleteam.mac" version="1.3" name="[COLOR silver]Eagle[COLOR dimgrey] Team [/COLOR][COLOR white] MAC [/COLOR]" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
+<requires>    		
+    	<import addon="script.module.resolveurl"/>
+	    <import addon="script.module.requests"/>	
+		<import addon="script.module.six"/>
+		<import addon="script.module.kodi-six" />		
+		<import addon="script.module.web-pdb" />
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	
+	<extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+		<summary>Canais de Televisão, desportos e mais...</summary>
+		<description lang="en">[COLOR red]Eagle [/COLOR] [COLORorange]Team Mac[/COLOR] [COLORorange]é um addon da familia Blackeagle team .TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+		<license>GPL 3.0</license>
+		<platform>all</platform>
+		<disclaimer lang="es">The author of this addon makes not responsible for the use of it</disclaimer>
+	<assets>
+        <icon>icon.png</icon>  
+        <fanart>fanart.jpg</fanart>
+    </assets>        
+		<language>es</language>
+	</extension>	
+	
+</addon>

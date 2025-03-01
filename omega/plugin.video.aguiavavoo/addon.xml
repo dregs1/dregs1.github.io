@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.aguiavavoo" name="[COLORred]Águia [COLORwhite]Vavoo[/COLOR]" version="20.5.6" provider-name="[COLOR orange]Thks 2 stube Frkd[/COLOR] [COLOR yellow]by L.M.[/COLOR] [COLOR orange]@By_Black_Eagla[/COLOR]">
+<requires>
+  <import addon="xbmc.python" version="3.0.0"/>
+  <import addon="script.module.requests" version="2.22.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="service.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Aguiavavoo Live TV</summary>
+ <description lang="en">[COLOR silver]Águia[COLOR dimgrey] Vavoo[/COLOR] [COLORorange]é um addon da familia  blackeagle team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+    <disclaimer lang="en_GB">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content.</disclaimer>
+  <assets>
+	<icon>icon.png</icon>
+	<fanart>fanart.jpg</fanart>
+  </assets>
+</extension>
+</addon>

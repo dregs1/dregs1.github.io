@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<includes>
+	<include name="fanartslideshow-musicvisualisation">
+		<control type="multiimage" id="6101">
+			<left>0</left>
+			<top>0</top>
+			<width>1920</width>
+			<height>1080</height>
+			<imagepath background="true">$VAR[PlayerExtraFanartPath]</imagepath>
+			<aspectratio>scale</aspectratio>
+			<timeperimage>5000</timeperimage>
+			<randomize>true</randomize>
+			<fadetime>750</fadetime>
+			<include condition="Skin.HasSetting(Vis-Animation)">backgroundanimation2</include>
+			<include>VisibleFadeEffect</include>
+			<animation effect="fade" start="100" end="20" time="0" condition="![Window.IsVisible(Home) + Skin.HasSetting(HideVisBackground)] + ![String.IsEqual(Visualisation.Name,waveform) | String.IsEqual(Visualisation.Name,spectrum) | String.IsEmpty(Visualisation.Name)] + !Skin.HasSetting(Vis-Visualization)">Conditional</animation>
+			<visible>Player.HasAudio + Skin.HasSetting(Vis-Slideshow) + ![String.Contains(Player.FolderPath,pvr://) | String.Contains(Player.FolderPath,http://) | String.Contains(Player.FolderPath,https://) | String.Contains(Player.FolderPath,htsp://)]</visible>
+		</control>
+	</include>
+	<include name="fanart-mymusicsongs">
+		<control type="image">
+			<left>0</left>
+			<top>0</top>
+			<width>1920</width>
+			<height>1080</height>
+			<texture background="true">$VAR[AlbumSongFanart]</texture>
+			<aspectratio>scale</aspectratio>
+			<fadetime>FanartCrossfadeTime</fadetime>
+			<include>VisibleFadeEffect</include>
+			<include condition="Skin.HasSetting(AnimateFanart)">backgroundanimation</include>
+			<visible>![Player.HasVideo + Skin.HasSetting(VideoBackgrounds)]</visible>
+		</control>
+	</include>
+	<include name="fanart-Programs_Pictures">
+		<control type="image">
+			<left>0</left>
+			<top>0</top>
+			<width>1920</width>
+			<height>1080</height>
+			<texture background="true">$INFO[ListItem.Art(fanart)]</texture>
+			<aspectratio>scale</aspectratio>
+			<fadetime>FanartCrossfadeTime</fadetime>
+			<include>VisibleFadeEffect</include>
+			<include condition="Skin.HasSetting(AnimateFanart)">backgroundanimation</include>
+			<visible>![Player.HasVideo + !Skin.HasSetting(HideVideoBackgrounds)]</visible>
+		</control>
+	</include>
+	<include name="fanart-extra-movies">
+		<control type="multiimage" id="6102">
+			<left>0</left>
+			<top>0</top>
+			<width>1920</width>
+			<height>1080</height>
+			<timeperimage>5000</timeperimage>
+			<randomize>true</randomize>
+			<fadetime>2000</fadetime>
+			<imagepath background="true">$VAR[ExtraFanartPath]</imagepath>
+			<aspectratio>scale</aspectratio>
+			<include>VisibleFadeEffect</include>
+			<include condition="Skin.HasSetting(AnimateFanart)">backgroundanimation</include>
+			<visible>Container.Content(Movies) + !String.IsEmpty(ListItem.Path) + ![String.Contains(ListItem.Path,plugin://) | String.Contains(ListItem.Path,special://videoplaylists/) | String.Contains(Container.FolderPath,plugin://) | String.Contains(Container.FolderPath,addons://)] + ![Player.HasVideo + !Skin.HasSetting(HideVideoBackgrounds)]</visible>
+		</control>
+	</include>
+	<include name="fanart-extra-tvshows">
+		<control type="multiimage" id="6105">
+			<left>0</left>
+			<top>0</top>
+			<width>1920</width>
+			<height>1080</height>
+			<timeperimage>5000</timeperimage>
+			<randomize>true</randomize>
+			<fadetime>2000</fadetime>
+			<imagepath background="true">$VAR[ExtraFanartPath]</imagepath>
+			<aspectratio>scale</aspectratio>
+			<include>VisibleFadeEffect</include>
+			<include condition="Skin.HasSetting(AnimateFanart)">backgroundanimation</include>
+			<visible>[Container.Content(TVShows) | Container.Content(Seasons) | Container.Content(Episodes)] + !String.IsEmpty(ListItem.Path) + ![String.Contains(ListItem.Path,plugin://) | String.Contains(ListItem.Path,special://videoplaylists/) | String.Contains(Container.FolderPath,plugin://) | String.Contains(Container.FolderPath,addons://)] + ![Player.HasVideo + !Skin.HasSetting(HideVideoBackgrounds)]</visible>
+		</control>
+	</include>
+	<include name="fanart-extra-musicvideos">
+		<control type="multiimage" id="6107">
+			<left>0</left>
+			<top>0</top>
+			<width>1920</width>
+			<height>1080</height>
+			<timeperimage>5000</timeperimage>
+			<randomize>true</randomize>
+			<fadetime>2000</fadetime>
+			<imagepath background="true">$VAR[ExtraFanartPath]</imagepath>
+			<aspectratio>scale</aspectratio>
+			<include>VisibleFadeEffect</include>
+			<include condition="Skin.HasSetting(AnimateFanart)">backgroundanimation</include>
+			<visible>[Container.Content(MusicVideos) | Container.Content(MusicVideos)] + !String.IsEmpty(ListItem.Path) + ![String.Contains(ListItem.Path,plugin://) | String.Contains(ListItem.Path,special://videoplaylists/) | String.Contains(Container.FolderPath,plugin://) | String.Contains(Container.FolderPath,addons://)] + ![Player.HasVideo + !Skin.HasSetting(HideVideoBackgrounds)]</visible>
+		</control>
+	</include>
+	<include name="fanart-extra-music">
+		<control type="multiimage" id="6110">
+			<left>0</left>
+			<top>0</top>
+			<width>1920</width>
+			<height>1080</height>
+			<timeperimage>5000</timeperimage>
+			<randomize>true</randomize>
+			<fadetime>2000</fadetime>
+			<imagepath background="true">$VAR[ExtraFanartPath]</imagepath>
+			<aspectratio>scale</aspectratio>
+			<include>VisibleFadeEffect</include>
+			<include condition="Skin.HasSetting(AnimateFanart)">backgroundanimation</include>
+			<visible>[Container.Content(Artists) | Container.Content(Albums) | Container.Content(Songs)] + !ListItem.IsParentFolder + ![String.Contains(ListItem.Path,plugin://) | String.Contains(ListItem.Path,special://musicplaylists/) | String.Contains(Container.FolderPath,plugin://) | String.Contains(Container.FolderPath,addon://)] + ![Player.HasVideo + !Skin.HasSetting(HideVideoBackgrounds)]</visible>
+		</control>
+	</include>
+</includes>

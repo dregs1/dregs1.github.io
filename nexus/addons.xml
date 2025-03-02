@@ -3073,7 +3073,7 @@ v5.1.2 (2020-03-21) by enen92
 	</extension>
 </addon>
 
-<addon id="skin.Blackbox" name="[COLOR yellow]Blackbox [/COLOR]!" provider-name="[COLOR orange]@By_Black_Eagle [/COLOR]" version="2.3">
+<addon id="skin.Blackbox" name="[COLOR yellow]Blackbox [/COLOR]" provider-name="[COLOR orange]@By_Black_Eagle [/COLOR]" version="2.5">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0" />
 		<import addon="script.favourites" version="6.0.2" />

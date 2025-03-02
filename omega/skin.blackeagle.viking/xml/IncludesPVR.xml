@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includes>
+	<include name="PVRHeader">
+		<control type="label" id="29">
+			<description>Empty so we can pass the values up one level</description>
+			<visible>False</visible>
+		</control>
+		<control type="label" id="30">
+			<description>Empty so we can pass the values up one level</description>
+			<visible>False</visible>
+		</control>
+	</include>
+	<include name="PVRSideBlade">
+		<control type="group">
+			<left>-383</left>
+			<include>SideBladeLeft</include>
+			<control type="group">
+				<top>100</top>
+				<bottom>0</bottom>
+				<control type="grouplist" id="9000">
+					<left>10</left>
+					<width>375</width>
+					<height>100%</height>
+					<onleft>9000</onleft>
+					<onright>50</onright>
+					<onup>9000</onup>
+					<ondown>9000</ondown>
+					<itemgap>0</itemgap>
+					<control type="button" id="104">
+						<left>0</left>
+						<top>360</top>
+						<textwidth>352</textwidth>
+						<include>ButtonCommonValues</include>
+						<label>137</label>
+						<onclick condition="String.IsEmpty(Window.Property(IsRadio))">ActivateWindow(TVSearch)</onclick>
+						<onclick condition="!String.IsEmpty(Window.Property(IsRadio))">ActivateWindow(RadioSearch)</onclick>
+					</control>
+					<control type="button" id="101">
+						<left>0</left>
+						<top>120</top>
+						<textwidth>352</textwidth>
+						<include>ButtonCommonValues</include>
+						<label>22020</label>
+						<onclick condition="Window.IsActive(TVGuide) | Window.IsActive(RadioGuide)">NextChannelGroup</onclick>
+						<onclick condition="String.IsEmpty(Window.Property(IsRadio))">ActivateWindow(TVGuide)</onclick>
+						<onclick condition="!String.IsEmpty(Window.Property(IsRadio))">ActivateWindow(RadioGuide)</onclick>
+					</control>
+					<control type="button" id="100">
+						<left>0</left>
+						<top>0</top>
+						<textwidth>352</textwidth>
+						<include>ButtonCommonValues</include>
+						<label>19019</label>
+						<onclick condition="Window.IsActive(TVChannels) | Window.IsActive(RadioChannels)">NextChannelGroup</onclick>
+						<onclick condition="String.IsEmpty(Window.Property(IsRadio))">ActivateWindow(TVChannels)</onclick>
+						<onclick condition="!String.IsEmpty(Window.Property(IsRadio))">ActivateWindow(RadioChannels)</onclick>
+					</control>
+					<control type="button" id="28">
+						<left>0</left>
+						<right>60</right>
+						<textwidth>352</textwidth>
+						<include>ButtonCommonValues</include>
+						<label></label>
+					</control>
+					<control type="button" id="2">
+						<left>0</left>
+						<right>60</right>
+						<textwidth>352</textwidth>
+						<include>ButtonCommonValues</include>
+						<label></label>
+						<visible>Window.IsActive(MyPVRGuide.xml)</visible>
+					</control>
+					<control type="button" id="3">
+						<include>ButtonCommonValues</include>
+						<label>103</label>
+					</control>
+					<control type="togglebutton" id="4">
+						<include>ButtonCommonValues</include>
+						<label>31051</label>
+						<altlabel>31050</altlabel>
+						<usealttexture>Container.SortDirection(Ascending)</usealttexture>
+					</control>
+					<control type="radiobutton" id="31">
+						<left>0</left>
+						<right>60</right>
+						<textwidth>352</textwidth>
+						<include>ButtonCommonValues</include>
+						<label>587</label>
+						<selected>Container.Filtered</selected>
+						<onclick>right</onclick>
+						<visible>Window.IsActive(MyPVRChannels.xml)</visible>
+					</control>
+					<control type="radiobutton" id="99">
+						<textwidth>255</textwidth>
+						<include>ButtonCommonValues</include>
+						<label>31963</label>
+						<onclick>Skin.ToggleSetting(ViewPVRHideClock)</onclick>
+						<selected>Skin.HasSetting(ViewPVRHideClock)</selected>
+					</control>
+					<control type="radiobutton" id="6">
+						<left>0</left>
+						<right>60</right>
+						<textwidth>352</textwidth>
+						<include>ButtonCommonValues</include>
+						<label>19051</label>
+						<visible>Window.IsActive(MyPVRChannels.xml)</visible>
+					</control>
+				</control>
+			</control>
+		</control>
+	</include>
+	<include name="PVRChannelNumberInput">
+		<control type="label">
+			<left>0</left>
+			<top>0</top>
+			<width>100%</width>
+			<height>100%</height>
+			<label>$INFO[PVR.ChannelNumberInput]</label>
+			<align>center</align>
+			<font>WeatherTemp</font>
+			<aligny>center</aligny>
+			<textcolor>white</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<visible>!String.IsEmpty(PVR.ChannelNumberInput)</visible>
+		</control>
+	</include>
+</includes>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol>10</defaultcontrol>
+	<controls>
+		<control type="image">
+			<left>0</left>
+			<top>0</top>
+			<width>100%</width>
+			<height>100%</height>
+			<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+			<aspectratio>stretch</aspectratio>
+		</control>
+		<control type="group">
+			<centerleft>50%</centerleft>
+			<top>200</top>
+			<width>1200</width>
+			<height>680</height>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>1200</width>
+				<height>680</height>
+				<aspectratio>stretch</aspectratio>
+				<texture>$INFO[Skin.CurrentTheme,special://skin/extras/backgrounds/,.jpg]</texture>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>1200</width>
+				<height>2</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>2</width>
+				<height>680</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>678</top>
+				<width>1200</width>
+				<height>2</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			<control type="image">
+				<left>1198</left>
+				<top>0</top>
+				<width>2</width>
+				<height>680</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			<control type="label" id="2">
+				<centerleft>50%</centerleft>
+				<top>25</top>
+				<width>1200</width>
+				<height>60</height>
+				<font>info.title</font>
+				<align>center</align>
+				<aligny>center</aligny>
+				<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+				<shadowcolor>black</shadowcolor>
+			</control>
+			<control type="label" id="4">
+				<centerleft>50%</centerleft>
+				<top>100</top>
+				<width>1200</width>
+				<height>30</height>
+				<font>label</font>
+				<shadowcolor>black</shadowcolor>
+				<align>center</align>
+				<aligny>center</aligny>
+			</control>
+			<control type="list" id="10">
+				<left>20</left>
+				<top>180</top>
+				<width>800</width>
+				<height>560</height>
+				<pagecontrol>60</pagecontrol>
+				<scrolltime>200</scrolltime>
+				<onup>10</onup>
+				<onleft>9001</onleft>
+				<onright>13</onright>
+				<ondown>10</ondown>
+				<itemlayout height="70">
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>850</width>
+						<height>60</height>
+						<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+					</control>
+					<control type="label">
+						<left>15</left>
+						<top>0</top>
+						<width>735</width>
+						<height>60</height>
+						<font>label</font>
+						<align>left</align>
+						<aligny>center</aligny>
+						<textcolor>white</textcolor>
+						<shadowcolor>black</shadowcolor>
+						<info>ListItem.Label</info>
+					</control>
+				</itemlayout>
+				<focusedlayout height="70">
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>850</width>
+						<height>60</height>
+						<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+						<animation effect="fade" start="100" end="50" time="200" condition="!Control.HasFocus(10)">Conditional</animation>
+					</control>
+					<control type="label">
+						<left>15</left>
+						<top>0</top>
+						<width>735</width>
+						<height>60</height>
+						<font>label</font>
+						<align>left</align>
+						<aligny>center</aligny>
+						<textcolor>white</textcolor>
+						<shadowcolor>black</shadowcolor>
+						<info>ListItem.Label</info>
+					</control>
+				</focusedlayout>
+			</control>
+			<control type="grouplist" id="9001">
+				<left>360r</left>
+				<top>180</top>
+				<width>340</width>
+				<height>410</height>
+				<onup>9001</onup>
+				<ondown>9001</ondown>
+				<onleft>10</onleft>
+				<onright>10</onright>
+				<itemgap>10</itemgap>
+				<control type="button" id="13">
+					<width>340</width>
+					<height>60</height>
+					<font>label</font>
+					<label>15019</label>
+					<align>left</align>
+					<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texturefocus>
+					<texturenofocus colordiffuse="button.nf">backgrounds/white.png</texturenofocus>
+					<textcolor>white</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+					<disabledcolor>$INFO[Skin.String(color.400)]</disabledcolor>
+					<shadowcolor>black</shadowcolor>
+					<onleft>10</onleft>
+					<onright>10</onright>
+					<onup>19</onup>
+					<ondown>14</ondown>
+				</control>
+				<control type="button" id="14">
+					<width>340</width>
+					<height>60</height>
+					<font>label</font>
+					<label>15015</label>
+					<align>left</align>
+					<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texturefocus>
+					<texturenofocus colordiffuse="button.nf">backgrounds/white.png</texturenofocus>
+					<textcolor>white</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+					<disabledcolor>$INFO[Skin.String(color.400)]</disabledcolor>
+					<shadowcolor>black</shadowcolor>
+					<onleft>10</onleft>
+					<onright>10</onright>
+					<onup>13</onup>
+					<ondown>11</ondown>
+				</control>
+				<control type="button" id="11">
+					<width>340</width>
+					<height>60</height>
+					<font>label</font>
+					<label></label>
+					<align>left</align>
+					<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texturefocus>
+					<texturenofocus colordiffuse="button.nf">backgrounds/white.png</texturenofocus>
+					<textcolor>white</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+					<disabledcolor>$INFO[Skin.String(color.400)]</disabledcolor>
+					<shadowcolor>black</shadowcolor>
+					<onleft>10</onleft>
+					<onright>10</onright>
+					<onup>14</onup>
+					<ondown>18</ondown>
+				</control>
+				<control type="button" id="18">
+					<width>340</width>
+					<height>60</height>
+					<font>label</font>
+					<label>186</label>
+					<align>left</align>
+					<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texturefocus>
+					<texturenofocus colordiffuse="button.nf">backgrounds/white.png</texturenofocus>
+					<textcolor>white</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+					<disabledcolor>$INFO[Skin.String(color.400)]</disabledcolor>
+					<shadowcolor>black</shadowcolor>
+					<onleft>10</onleft>
+					<onright>10</onright>
+					<onup>11</onup>
+					<ondown>19</ondown>
+				</control>
+				<control type="button" id="19">
+					<width>340</width>
+					<height>60</height>
+					<font>label</font>
+					<label>222</label>
+					<align>left</align>
+					<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texturefocus>
+					<texturenofocus colordiffuse="button.nf">backgrounds/white.png</texturenofocus>
+					<textcolor>white</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+					<disabledcolor>$INFO[Skin.String(color.400)]</disabledcolor>
+					<shadowcolor>black</shadowcolor>
+					<onleft>10</onleft>
+					<onright>10</onright>
+					<onup>18</onup>
+					<ondown>13</ondown>
+				</control>
+			</control>
+		</control>
+	</controls>
+</window>

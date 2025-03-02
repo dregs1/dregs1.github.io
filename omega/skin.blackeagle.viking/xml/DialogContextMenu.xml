@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol>1000</defaultcontrol>
+	<controls>
+		<control type="image">
+			<visible>!Window.IsActive(shutdownmenu)</visible>
+			<left>0</left>
+			<top>0</top>
+			<width>100%</width>
+			<height>100%</height>
+			<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+			<aspectratio>stretch</aspectratio>
+		</control>
+		<control type="group">
+			<visible>!Window.IsActive(shutdownmenu)</visible>
+			<centerleft>50%</centerleft>
+			<top>200</top>
+			<width>395</width>
+			<height>680</height>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>395</width>
+				<height>680</height>
+				<aspectratio>stretch</aspectratio>
+				<texture>$INFO[Skin.CurrentTheme,special://skin/extras/backgrounds/,.jpg]</texture>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>395</width>
+				<height>2</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>2</width>
+				<height>680</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>678</top>
+				<width>395</width>
+				<height>2</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			<control type="image">
+				<left>393</left>
+				<top>0</top>
+				<width>2</width>
+				<height>680</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			<control type="label">
+				<left>20</left>
+				<top>15</top>
+				<width>355</width>
+				<height>60</height>
+				<font>menu.title</font>
+				<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>center</align>
+				<aligny>center</aligny>
+				<label>31065</label>
+			</control>
+			<control type="group">
+				<top>100</top>
+				<height>560</height>
+				<control type="grouplist" id="996">
+					<left>20</left>
+					<width>355</width>
+					<itemgap>10</itemgap>
+				</control>
+			</control>
+			<control type="button" id="1000">
+				<include>ButtonCommonValues</include>
+				<align>center</align>
+			</control>
+		</control>
+	</controls>
+</window>

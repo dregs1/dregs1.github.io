@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol always="true">52</defaultcontrol>
+	<controls>
+		<include>CommonBackground</include>
+		<control type="group">
+			<control type="label">
+				<top>125r</top>160
+				<left>20</left>
+				<width>500</width>
+				<height>22</height>
+				<font>font14</font>
+				<align>left</align>
+				<aligny>center</aligny>
+				<label>$INFO[System.Date]</label>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+			</control>
+			<control type="label">
+				<top>80r</top>
+				<left>20</left>
+				<width>500</width>
+				<height>30</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>font35_title</font>
+				<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<label>$INFO[System.Time(hh:mm:ss)]</label>
+			</control>
+		</control>
+		<control type="group">
+			<visible>Skin.HasSetting(homepageWeatherinfo) + !String.IsEmpty(Weather.Plugin)</visible>
+			<control type="label">
+				<top>125r</top>
+				<left>520r</left>
+				<width>500</width>
+				<height>22</height>
+				<font>font14</font>
+				<align>right</align>
+				<aligny>center</aligny>
+				<label>$INFO[Window(Weather).Property(Current.Condition)]</label>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+			</control>
+			<control type="label">
+				<top>80r</top>
+				<left>395r</left>
+				<width>300</width>
+				<height>30</height>
+				<align>right</align>
+				<aligny>center</aligny>
+				<font>font35_title</font>
+				<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<label>$INFO[Window(Weather).Property(Current.Temperature)] $INFO[System.TemperatureUnits]</label>
+			</control>
+			<control type="image">
+				<top>100r</top>
+				<left>80r</left>
+				<width>70</width>
+				<height>70</height>
+				<aspectratio>keep</aspectratio>
+				<texture>$INFO[Weather.ConditionsIcon]</texture>
+			</control>
+		</control>
+		<control type="image">
+			<left>0</left>
+			<top>910</top>
+			<width>1920</width>
+			<height>110</height>
+			<texture colordiffuse="$INFO[Skin.String(color.500)]">menu_bar.png</texture>
+		</control>
+		<control type="group">
+			<left>20</left>
+			<width>1880</width>
+			<control type="label">
+				<centerleft>50%</centerleft>
+				<top>25</top>
+				<width>1880</width>
+				<height>100</height>
+				<font>info.title</font>
+				<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>center</align>
+				<aligny>center</aligny>
+				<label>$LOCALIZE[31421]</label>
+			</control>
+			<control type="list" id="52">
+				<centerleft>50%</centerleft>
+				<top>170</top>
+				<width>700</width>
+				<height>750</height>
+				<onleft>20</onleft>
+				<onright>20</onright>
+				<onup>52</onup>
+				<ondown>999</ondown>
+				<viewtype label="535">list</viewtype>
+				<pagecontrol>60</pagecontrol>
+				<scrolltime>200</scrolltime>
+				<itemlayout height="160" width="700">
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>700</width>
+						<height>145</height>
+						<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+					</control>
+					<control type="image">
+						<left>15</left>
+						<top>15</top>
+						<width>120</width>
+						<height>112</height>
+						<aspectratio>keep</aspectratio>
+						<texture>$INFO[Listitem.Icon]</texture>
+						<visible>!String.IsEqual(Listitem.Icon,"DefaultUser.png")</visible>
+					</control>
+					<control type="image">
+						<left>15</left>
+						<top>15</top>
+						<width>120</width>
+						<height>112</height>
+						<aspectratio>keep</aspectratio>
+						<texture>DefaultUser.png</texture>
+						<visible>String.IsEqual(Listitem.Icon,"DefaultUser.png")</visible>
+					</control>
+					<control type="label">
+						<left>165</left>
+						<top>15</top>
+						<width>605</width>
+						<height>60</height>
+						<font>font24_title</font>
+						<textcolor>white</textcolor>
+						<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+						<shadowcolor>black</shadowcolor>
+						<align>left</align>
+						<aligny>center</aligny>
+						<label>$INFO[ListItem.Label]</label>
+					</control>
+					<control type="label">
+						<left>165</left>
+						<top>75</top>
+						<width>605</width>
+						<height>38</height>
+						<font>label</font>
+						<textcolor>white</textcolor>
+						<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+						<shadowcolor>black</shadowcolor>
+						<align>left</align>
+						<aligny>center</aligny>
+						<label>$INFO[ListItem.Label2]</label>
+					</control>
+				</itemlayout>
+				<focusedlayout height="160" width="700">
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>700</width>
+						<height>145</height>
+						<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+					</control>
+					<control type="image">
+						<left>15</left>
+						<top>15</top>
+						<width>120</width>
+						<height>112</height>
+						<aspectratio>keep</aspectratio>
+						<texture>$INFO[ListItem.Icon]</texture>
+					</control>
+					<control type="label">
+						<left>165</left>
+						<top>15</top>
+						<width>605</width>
+						<height>60</height>
+						<font>font24_title</font>
+						<textcolor>white</textcolor>
+						<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+						<shadowcolor>black</shadowcolor>
+						<align>left</align>
+						<aligny>center</aligny>
+						<label>$INFO[ListItem.Label]</label>
+					</control>
+					<control type="label">
+						<left>165</left>
+						<top>75</top>
+						<width>605</width>
+						<height>38</height>
+						<font>label</font>
+						<textcolor>white</textcolor>
+						<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+						<shadowcolor>black</shadowcolor>
+						<align>left</align>
+						<aligny>center</aligny>
+						<label>$INFO[ListItem.Label2]</label>
+					</control>
+				</focusedlayout>
+			</control>
+			<control type="button" id="999">
+				<include>ButtonCommonValues</include>
+				<centerleft>50%</centerleft>
+				<top>900</top>
+				<width>700</width>
+				<height>60</height>
+				<onup>52</onup>
+				<ondown>52</ondown>
+				<onclick>Quit()</onclick>
+				<label>13012</label>
+				<align>center</align>
+			</control>
+		</control>
+	</controls>
+</window>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<include>CheckSkinColorsSet</include>
+	<controls>
+		<control type="image">
+			<left>0</left>
+			<top>0</top>
+			<width>100%</width>
+			<height>100%</height>
+			<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+			<aspectratio>stretch</aspectratio>
+		</control>
+		<control type="group">
+			<centerleft>50%</centerleft>
+			<top>370</top>
+			<width>900</width>
+			<height>340</height>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>900</width>
+				<height>340</height>
+				<aspectratio>stretch</aspectratio>
+				<texture>$INFO[Skin.CurrentTheme,special://skin/extras/backgrounds/,.jpg]</texture>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>900</width>
+				<height>2</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>2</width>
+				<height>340</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>338</top>
+				<width>898</width>
+				<height>2</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			<control type="image">
+				<left>898</left>
+				<top>0</top>
+				<width>2</width>
+				<height>340</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			<control type="label" id="1">
+				<centerleft>50%</centerleft>
+				<top>15</top>
+				<width>860</width>
+				<height>60</height>
+				<font>menu.title</font>
+				<align>center</align>
+				<aligny>center</aligny>
+				<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<label></label>
+			</control>
+			<control type="textbox" id="9">
+				<centerleft>50%</centerleft>
+				<top>90</top>
+				<width>860</width>
+				<height>150</height>
+				<align>center</align>
+				<aligny>center</aligny>
+				<label></label>
+				<font>label</font>
+				<textcolor>white</textcolor>
+				<autoscroll time="3000" delay="4000" repeat="5000">true</autoscroll>
+			</control>
+			<control type="progress" id="20">
+				<centerleft>50%</centerleft>
+				<top>240</top>
+				<width>860</width>
+				<height>5</height>
+				<info>System.Progressbar</info>
+			</control>
+			<control type="grouplist" id="9000">
+				<centerleft>50%</centerleft>
+				<top>80r</top>
+				<width>800</width>
+				<height>60</height>
+				<orientation>horizontal</orientation>
+				<align>justify</align>
+				<control type="button" id="11">
+					<width>250</width>
+					<height>60</height>
+					<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texturefocus>
+					<texturenofocus colordiffuse="button.nf">backgrounds/white.png</texturenofocus>
+					<font>label</font>
+					<textcolor>white</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<shadowcolor>black</shadowcolor>
+					<align>center</align>
+					<label></label>
+					<onclick></onclick>
+					<onup></onup>
+					<ondown></ondown>
+					<onleft></onleft>
+					<onright></onright>
+				</control>
+				<control type="button" id="10">
+					<width>250</width>
+					<height>60</height>
+					<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texturefocus>
+					<texturenofocus colordiffuse="button.nf">backgrounds/white.png</texturenofocus>
+					<font>label</font>
+					<textcolor>white</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<shadowcolor>black</shadowcolor>
+					<align>center</align>
+					<label></label>
+					<onclick></onclick>
+					<onup></onup>
+					<ondown></ondown>
+					<onleft></onleft>
+					<onright></onright>
+				</control>
+				<control type="button" id="12">
+					<width>250</width>
+					<height>60</height>
+					<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texturefocus>
+					<texturenofocus colordiffuse="button.nf">backgrounds/white.png</texturenofocus>
+					<font>label</font>
+					<textcolor>white</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<shadowcolor>black</shadowcolor>
+					<align>center</align>
+					<label></label>
+					<onclick></onclick>
+					<onup></onup>
+					<ondown></ondown>
+					<onleft></onleft>
+					<onright></onright>
+				</control>
+			</control>
+		</control>
+	</controls>
+</window>

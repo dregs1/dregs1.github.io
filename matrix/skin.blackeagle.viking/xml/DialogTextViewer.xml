@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol>61</defaultcontrol>
+	<controls>
+		<control type="group">
+			<centerleft>50%</centerleft>
+			<top>200</top>
+			<width>1200</width>
+			<height>680</height>
+			<visible>!Window.IsActive(ShutdownMenu)</visible>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>1200</width>
+				<height>680</height>
+				<aspectratio>stretch</aspectratio>
+				<texture>$INFO[Skin.CurrentTheme,special://skin/extras/backgrounds/,.jpg]</texture>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>1200</width>
+				<height>2</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>2</width>
+				<height>680</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>678</top>
+				<width>1200</width>
+				<height>2</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			<control type="image">
+				<left>1198</left>
+				<top>0</top>
+				<width>2</width>
+				<height>680</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			
+			<!--main content-->
+			<control type="group">
+				<!--title-->
+				<control type="label" id="1">
+					<centerleft>50%</centerleft>
+					<top>25</top>
+					<width>1200</width>
+					<height>60</height>
+					<font>info.title</font>
+					<align>center</align>
+					<aligny>center</aligny>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+				</control>
+				<!--secondary title-->
+				<control type="label">
+					<left>45</left>
+					<top>90</top>
+					<width>1045</width>
+					<height>50</height>
+					<font>kai.secondary</font>
+					<align>center</align>
+					<aligny>center</aligny>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[System.Date(DDD)], $INFO[System.Date(d)] $INFO[System.Date(mmm)] $INFO[System.Date(yyyy)], $INFO[System.Time] • $LOCALIZE[31024] $INFO[Container(5).CurrentPage]/$INFO[Container(5).NumPages]</label>
+				</control>
+				<!--changelog content-->
+				<control type="textbox" id="5">
+					<left>20</left>
+					<top>170</top>
+					<bottom>20</bottom>
+					<width>1860</width>
+					<label></label>
+					<font>label</font>
+					<align>justify</align>
+					<pagecontrol>61</pagecontrol>
+				</control>
+				<!--scrollbar-->
+				<control type="scrollbar" id="61">
+					<left>1880</left>
+					<top>170</top>
+					<bottom>20</bottom>
+					<onleft>61</onleft>
+					<onright>61</onright>
+					<ondown>61</ondown>
+					<onup>61</onup>
+				</control>
+			</control>
+		</control>
+	</controls>
+</window>

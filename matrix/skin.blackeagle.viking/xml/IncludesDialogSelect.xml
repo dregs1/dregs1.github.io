@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includes>
+	<variable name="GameSelectHeader">
+		<value condition="Window.IsActive(gamevideofilter)">$LOCALIZE[230]</value>
+		<value condition="Window.IsActive(gamestretchmode)">$LOCALIZE[35233]</value>
+		<value condition="Window.IsActive(gamevideorotation)">$LOCALIZE[35227]</value>
+	</variable>
+	<include name="DefaultDialogSelectLayout">
+		<control type="image">
+			<left>0</left>
+			<top>0</top>
+			<width>100%</width>
+			<height>100%</height>
+			<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+			<aspectratio>stretch</aspectratio>
+		</control>
+		<control type="group">
+			<centerleft>50%</centerleft>
+			<top>200</top>
+			<width>1200</width>
+			<height>680</height>
+			<visible>!Window.IsVisible(FileBrowser)</visible>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>1200</width>
+				<height>680</height>
+				<aspectratio>stretch</aspectratio>
+				<texture>$INFO[Skin.CurrentTheme,special://skin/extras/backgrounds/,.jpg]</texture>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>1200</width>
+				<height>2</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>2</width>
+				<height>680</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>678</top>
+				<width>1200</width>
+				<height>2</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			<control type="image">
+				<left>1198</left>
+				<top>0</top>
+				<width>2</width>
+				<height>680</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			<control type="group">
+				<control type="label" id="1">
+					<centerleft>50%</centerleft>
+					<top>25</top>
+					<width>1180</width>
+					<height>60</height>
+					<font>info.title</font>
+					<align>center</align>
+					<aligny>center</aligny>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+				</control>
+				<control type="label" id="4">
+					<left>30</left>
+					<top>270</top>
+					<width>1155</width>
+					<align>center</align>
+				</control>
+				<control type="list" id="3">
+					<left>20</left>
+					<top>100</top>
+					<width>1200</width>
+					<height>480</height>
+					<itemgap>10</itemgap>
+					<onup>3</onup>
+					<ondown>3</ondown>
+					<onleft>90</onleft>
+					<onright>61</onright>
+					<pagecontrol>61</pagecontrol>
+					<scrolltime>200</scrolltime>
+					<itemlayout height="70">
+						<control type="image">
+							<left>0</left>
+							<top>0</top>
+							<width>1150</width>
+							<height>60</height>
+							<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+						</control>
+						<control type="label">
+							<left>10</left>
+							<top>0</top>
+							<width>1060</width>
+							<height>60</height>
+							<font>label</font>
+							<align>left</align>
+							<aligny>center</aligny>
+							<textcolor>white</textcolor>
+							<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+							<shadowcolor>black</shadowcolor>
+							<info>ListItem.Label</info>
+						</control>
+					</itemlayout>
+					<focusedlayout height="70">
+						<control type="image">
+							<left>0</left>
+							<top>0</top>
+							<width>1150</width>
+							<height>60</height>
+							<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+						</control>
+						<control type="label">
+							<left>10</left>
+							<top>0</top>
+							<width>1060</width>
+							<height>60</height>
+							<font>label</font>
+							<align>left</align>
+							<aligny>center</aligny>
+							<textcolor>white</textcolor>
+							<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+							<shadowcolor>black</shadowcolor>
+							<info>ListItem.Label</info>
+						</control>
+					</focusedlayout>
+				</control>
+				<control type="list" id="6">
+					<left>20</left>
+					<top>100</top>
+					<width>1200</width>
+					<height>480</height>
+					<itemgap>10</itemgap>
+					<onup>6</onup>
+					<ondown>6</ondown>
+					<onleft>90</onleft>
+					<onright>61</onright>
+					<pagecontrol>61</pagecontrol>
+					<scrolltime>200</scrolltime>
+					<itemlayout height="70">
+						<control type="image">
+							<left>0</left>
+							<top>0</top>
+							<width>1150</width>
+							<height>60</height>
+							<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+						</control>
+						<control type="image">
+							<left>10</left>
+							<top>0</top>
+							<width>60</width>
+							<height>60</height>
+							<texture>$INFO[Listitem.Icon]</texture>
+							<visible>!String.Contains(ListItem.Icon,Default)</visible>
+						</control>
+						<control type="image">
+							<left>10</left>
+							<top>0</top>
+							<width>60</width>
+							<height>60</height>
+							<texture>$INFO[Listitem.Icon]</texture>
+							<visible>String.Contains(ListItem.Icon,Default)</visible>
+						</control>
+						<control type="label">
+							<left>80</left>
+							<top>0</top>
+							<width>1060</width>
+							<height>60</height>
+							<font>label</font>
+							<align>left</align>
+							<aligny>center</aligny>
+							<textcolor>white</textcolor>
+							<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+							<shadowcolor>black</shadowcolor>
+							<label>$INFO[ListItem.Label]</label>
+						</control>
+					</itemlayout>
+					<focusedlayout height="70">
+						<control type="image">
+							<left>0</left>
+							<top>0</top>
+							<width>1150</width>
+							<height>60</height>
+							<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+						</control>
+						<control type="image">
+							<left>10</left>
+							<top>0</top>
+							<width>60</width>
+							<height>60</height>
+							<texture>$INFO[Listitem.Icon]</texture>
+						</control>
+						<control type="label">
+							<left>80</left>
+							<top>0</top>
+							<width>1060</width>
+							<height>60</height>
+							<font>label</font>
+							<align>left</align>
+							<aligny>center</aligny>
+							<textcolor>white</textcolor>
+							<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+							<shadowcolor>black</shadowcolor>
+							<label>$INFO[ListItem.Label]</label>
+						</control>
+					</focusedlayout>
+				</control>
+				<control type="scrollbar" id="61">
+					<left>1180</left>
+					<top>100</top>
+					<height>480</height>
+					<orientation>vertical</orientation>
+					<showonepage>false</showonepage>
+					<onleft>3</onleft>
+					<onright>3</onright>
+					<ondown>61</ondown>
+					<onup>61</onup>
+					<visible>Control.IsVisible(3)</visible>
+				</control>
+				<control type="scrollbar" id="61">
+					<left>1180</left>
+					<top>100</top>
+					<height>480</height>
+					<orientation>vertical</orientation>
+					<showonepage>false</showonepage>
+					<onleft>6</onleft>
+					<onright>6</onright>
+					<ondown>61</ondown>
+					<onup>61</onup>
+					<visible>Control.IsVisible(6)</visible>
+				</control>
+			</control>
+			<control type="group">
+				<visible>Control.IsVisible(5) | Control.IsVisible(7)</visible>
+				<control type="grouplist" id="90">
+					<centerleft>50%</centerleft>
+					<top>80r</top>
+					<width>600</width>
+					<height>60</height>
+					<orientation>horizontal</orientation>
+					<align>justify</align>
+					<onleft>3</onleft>
+					<onright>3</onright>
+					<control type="button" id="5">
+						<width>250</width>
+						<height>60</height>
+						<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texturefocus>
+						<texturenofocus colordiffuse="button.nf">backgrounds/white.png</texturenofocus>
+						<font>label</font>
+						<textcolor>white</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<shadowcolor>black</shadowcolor>
+						<align>center</align>
+						<label></label>
+						<onclick></onclick>
+						<onup>3</onup>
+						<ondown>3</ondown>
+						<onleft>7</onleft>
+						<onright>8</onright>
+					</control>
+					<control type="button" id="8">
+						<width>250</width>
+						<height>60</height>
+						<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texturefocus>
+						<texturenofocus colordiffuse="button.nf">backgrounds/white.png</texturenofocus>
+						<font>label</font>
+						<textcolor>white</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<shadowcolor>black</shadowcolor>
+						<align>center</align>
+						<label></label>
+						<onclick></onclick>
+						<onup>3</onup>
+						<ondown>3</ondown>
+						<onleft>5</onleft>
+						<onright>7</onright>
+					</control>
+					<control type="button" id="7">
+						<width>250</width>
+						<height>60</height>
+						<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texturefocus>
+						<texturenofocus colordiffuse="button.nf">backgrounds/white.png</texturenofocus>
+						<font>label</font>
+						<textcolor>white</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<shadowcolor>black</shadowcolor>
+						<align>center</align>
+						<label></label>
+						<onclick></onclick>
+						<onup>3</onup>
+						<ondown>3</ondown>
+						<onleft>8</onleft>
+						<onright>5</onright>
+					</control>
+				</control>
+			</control>
+		</control>
+	</include>
+	<include name="GameDialogSelectLayout">
+		<!--all content-->
+		<control type="group">
+			<centerleft>50%</centerleft>
+			<width>1210</width>
+			<animation effect="slide" start="1925,0" end="0,0" time="400" tween="quadratic" easing="out">WindowOpen</animation>
+			<animation effect="slide" start="0,0" end="-1925,0" time="400" tween="quadratic" easing="out">WindowClose</animation>
+			<animation effect="slide" start="-1925,0" end="0,0" time="400" tween="quadratic" easing="out">Visible</animation>
+			<animation effect="slide" start="0,0" end="-1925,0" time="400" tween="quadratic" easing="out">Hidden</animation>
+			<animation effect="slide" start="0,0" end="-35,0" time="300" condition="Window.IsActive(ShutdownMenu) + !String.IsEqual(Skin.AspectRatio,21:9)">Conditional</animation>
+			<!--title bars and backgrounds-->
+			<include content="DynamicDialogBackground">
+				<param name="dialog-width" value="1210" />
+				<param name="glow-width" value="1290" />
+			</include>
+			<!--close window button-->
+			<control type="button">
+				<left>5</left>
+				<top>0</top>
+				<width>50</width>
+				<height>25</height>
+				<label></label>
+				<font></font>
+				<onclick>PreviousMenu</onclick>
+				<texturefocus>DialogCloseButton-focus.png</texturefocus>
+				<texturenofocus>DialogCloseButton.png</texturenofocus>
+				<onleft>9000</onleft>
+				<onright>9000</onright>
+				<onup>9000</onup>
+				<ondown>9000</ondown>
+				<visible>system.getbool(input.enablemouse)</visible>
+			</control>
+			<!--main content-->
+			<control type="group">
+				<!--title-->
+				<control type="label" id="2">
+					<left>45</left>
+					<top>25</top>
+					<width>1120</width>
+					<height>60</height>
+					<font>info.title</font>
+					<align>left</align>
+					<aligny>center</aligny>
+					<textcolor>white</textcolor>
+					<label>$VAR[GameSelectHeader]</label>
+				</control>
+				<control type="panel" id="11">
+					<left>140</left>
+					<top>195</top>
+					<width>932</width>
+					<height>700</height>
+					<onleft>11</onleft>
+					<onright>11</onright>
+					<ondown>11</ondown>
+					<onup>11</onup>
+					<scrolltime>200</scrolltime>
+					<viewtype label="536">icon</viewtype>
+					<orientation>vertical</orientation>
+					<pagecontrol/>
+					<itemlayout height="233" width="233">
+						<!--background-->
+						<control type="image">
+							<left>0</left>
+							<top>0</top>
+							<width>233</width>
+							<height>233</height>
+							<texture background="true" colordiffuse="button.nf">backgrounds/white.png</texture>
+							<bordersize>5</bordersize>
+							<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/square shadow small.png</bordertexture>
+						</control>
+						<control type="gamewindow">
+							<left>5</left>
+							<top>5</top>
+							<width>223</width>
+							<height>150</height>
+							<viewmode>$INFO[ListItem.Property(game.viewmode)]</viewmode>
+							<videofilter>$INFO[ListItem.Property(game.videofilter)]</videofilter>
+							<rotation>$INFO[ListItem.Property(game.videorotation)]</rotation>
+						</control>
+						<control type="label">
+							<left>7</left>
+							<top>185</top>
+							<width>226</width>
+							<height>15</height>
+							<font>secondary.info.big</font>
+							<textcolor>$INFO[Skin.String(color.text)]</textcolor>
+							<selectedcolor>selected</selectedcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Label]$INFO[ListItem.Label2, (,)]</label>
+						</control>
+					</itemlayout>
+					<focusedlayout height="233" width="233">
+						<!--background-->
+						<control type="image">
+							<left>0</left>
+							<top>0</top>
+							<width>233</width>
+							<height>233</height>
+							<texture background="true" colordiffuse="button.nf">backgrounds/white.png</texture>
+							<bordersize>5</bordersize>
+							<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</bordertexture>
+						</control>
+						<control type="gamewindow">
+							<left>5</left>
+							<top>5</top>
+							<width>223</width>
+							<height>150</height>
+							<viewmode>$INFO[ListItem.Property(game.viewmode)]</viewmode>
+							<videofilter>$INFO[ListItem.Property(game.videofilter)]</videofilter>
+							<rotation>$INFO[ListItem.Property(game.videorotation)]</rotation>
+						</control>
+						<control type="label">
+							<left>7</left>
+							<top>185</top>
+							<width>226</width>
+							<height>15</height>
+							<font>secondary.info.big</font>
+							<textcolor>$INFO[Skin.String(color.text)]</textcolor>
+							<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Label]$INFO[ListItem.Label2, (,)]</label>
+						</control>
+					</focusedlayout>
+				</control>
+			</control>
+		</control>
+	</include>
+</includes>

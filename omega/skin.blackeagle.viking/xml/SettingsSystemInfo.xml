@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol always="true">95</defaultcontrol>
+	<controls>
+		<control type="image">
+			<left>0</left>
+			<top>0</top>
+			<width>1920</width>
+			<height>1080</height>
+			<texture>$INFO[Skin.CurrentTheme,special://skin/extras/backgrounds/,.jpg]</texture>
+		</control>
+		<control type="image">
+			<left>0</left>
+			<top>0</top>
+			<width>1920</width>
+			<height>1080</height>
+			<texture>$INFO[Skin.String(CustomBackgroundPath)]</texture>
+			<visible>Skin.HasSetting(UseCustomBackground) + Skin.String(CustomBackgroundPath)</visible>
+		</control>
+		<control type="group">
+			<visible>!Skin.HasSetting(Touchmode)</visible>
+			<control type="image">
+				<right>20</right>
+				<top>25</top>
+				<width>60</width>
+				<height>60</height>
+				<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+			</control>
+			<control type="button" id="998">
+				<right>25</right>
+				<top>30</top>
+				<width>50</width>
+				<height>50</height>
+				<label></label>
+				<font/>
+				<onclick>ActivateWindow(home)</onclick>
+				<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">icons/home.png</texturefocus>
+				<texturenofocus colordiffuse="white">icons/home.png</texturenofocus>
+				<onleft>999</onleft>
+				<onright>999</onright>
+				<onup></onup>
+				<ondown></ondown>
+			</control>
+			<control type="image">
+				<right>100</right>
+				<top>25</top>
+				<width>60</width>
+				<height>60</height>
+				<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+			</control>
+			<control type="button" id="999">
+				<right>110</right>
+				<top>35</top>
+				<width>40</width>
+				<height>40</height>
+				<label></label>
+				<font/>
+				<onclick>back</onclick>
+				<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">icons/back.png</texturefocus>
+				<texturenofocus colordiffuse="white">icons/back.png</texturenofocus>
+				<onleft>9001</onleft>
+				<onright>998</onright>
+				<onup></onup>
+				<ondown></ondown>
+			</control>
+		</control>
+		<control type="group">
+			<visible>!Skin.HasSetting(View50HideClock)</visible>
+			<visible>!Player.HasAudio + !Skin.HasSetting(homepageMusicinfo)</visible>
+			<visible>!Player.HasVideo + !Skin.HasSetting(homepageVideoinfo)</visible>
+			<control type="label">
+				<visible>!Skin.HasSetting(Shadow)</visible>
+				<top>122r</top>
+				<left>23</left>
+				<width>500</width>
+				<height>22</height>
+				<font>font14</font>
+				<align>left</align>
+				<aligny>center</aligny>
+				<label>$INFO[System.Date]</label>
+				<textcolor>black</textcolor>
+				<shadowcolor>black</shadowcolor>
+			</control>
+			<control type="label">
+				<top>125r</top>
+				<left>20</left>
+				<width>500</width>
+				<height>22</height>
+				<font>font14</font>
+				<align>left</align>
+				<aligny>center</aligny>
+				<label>$INFO[System.Date]</label>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+			</control>
+			<control type="label">
+				<visible>!Skin.HasSetting(Shadow)</visible>
+				<top>77r</top>
+				<left>23</left>
+				<width>500</width>
+				<height>30</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>font35_title</font>
+				<textcolor>black</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<label>$INFO[System.Time(hh:mm:ss)]</label>
+			</control>
+			<control type="label">
+				<top>80r</top>
+				<left>20</left>
+				<width>500</width>
+				<height>30</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>font35_title</font>
+				<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<label>$INFO[System.Time(hh:mm:ss)]</label>
+			</control>
+		</control>
+		<control type="image">
+			<visible>!Skin.HasSetting(Shadow)</visible>
+			<left>5</left>
+			<top>938</top>
+			<width>1920</width>
+			<height>64</height>
+			<texture colordiffuse="black">menu_bar_views.png</texture>
+		</control>
+		<control type="image">
+			<left>0</left>
+			<top>935</top>
+			<width>1920</width>
+			<height>64</height>
+			<texture colordiffuse="$INFO[Skin.String(color.500)]">menu_bar_views.png</texture>
+		</control>
+		<control type="group">
+			<left>0</left>
+			<top>510</top>
+			<visible>Player.HasAudio + !Skin.HasSetting(homepageMusicinfo) + String.IsEmpty(Window(Videos).Property(PlayingBackgroundMedia))</visible>
+			<control type="group">
+				<control type="label">
+					<left>20</left>
+					<top>440</top>
+					<height>38</height>
+					<width>560</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb</font>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[Player.Title]</label>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
+					<left>20</left>
+					<top>470</top>
+					<height>38</height>
+					<width>560</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb.secondary</font>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[MusicPlayer.Artist] [COLORwhite]$INFO[MusicPlayer.Album]$INFO[musicplayer.discnumber, - $LOCALIZE[427]: ][/COLOR]</label>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
+					<left>20</left>
+					<top>500</top>
+					<height>38</height>
+					<width>560</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb.secondary</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[Player.Time] / $INFO[Player.Duration,]</label>
+					<scroll>true</scroll>
+				</control>
+			</control>
+		</control>
+		<control type="group">
+			<left>0</left>
+			<top>480</top>
+			<visible>Player.HasVideo + !Skin.HasSetting(homepageVideoinfo) + String.IsEmpty(Window(Videos).Property(PlayingBackgroundMedia))</visible>
+				<control type="group">
+				<visible>!VideoPlayer.Content(Movies) + !VideoPlayer.Content(Episodes) + !VideoPlayer.Content(LiveTV)</visible>
+				<control type="label">
+					<left>20</left>
+					<top>500</top>
+					<height>38</height>
+					<width>560</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb</font>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[Player.Title]</label>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
+					<left>20</left>
+					<top>530</top>
+					<height>38</height>
+					<width>560</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb.secondary</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[Player.Time] / $INFO[Player.Duration,]</label>
+				</control>
+			</control>
+			<control type="group">
+				<visible>VideoPlayer.Content(LiveTV)</visible>
+				<control type="label">
+					<left>20</left>
+					<top>470</top>
+					<height>38</height>
+					<width>560</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb</font>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[Player.Title]</label>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
+					<left>20</left>
+					<top>500</top>
+					<height>38</height>
+					<width>560</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb.secondary</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[VideoPlayer.ChannelName]</label>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
+					<left>20</left>
+					<top>530</top>
+					<height>38</height>
+					<width>560</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb.secondary</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[Player.Time] / $INFO[Player.Duration,]</label>
+				</control>
+			</control>
+			<control type="group">
+				<visible>VideoPlayer.Content(Movies)</visible>
+				<control type="label">
+					<left>20</left>
+					<top>470</top>
+					<height>38</height>
+					<width>560</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb</font>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[Player.Title]</label>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
+					<left>20</left>
+					<top>500</top>
+					<height>38</height>
+					<width>560</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb.secondary</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[VideoPlayer.Studio]</label>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
+					<left>20</left>
+					<top>530</top>
+					<height>38</height>
+					<width>560</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb.secondary</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[Player.Time] / $INFO[Player.Duration,]</label>
+				</control>
+			</control>
+			<control type="group">
+				<visible>VideoPlayer.Content(Episodes)</visible>
+				<control type="label">
+					<left>20</left>
+					<top>470</top>
+					<height>38</height>
+					<width>560</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb</font>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[Player.Title]</label>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
+					<left>20</left>
+					<top>500</top>
+					<height>38</height>
+					<width>560</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb.secondary</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[VideoPlayer.TVShowTitle] ($INFO[VideoPlayer.Season,$LOCALIZE[20373] , - ]$INFO[VideoPlayer.episode,$LOCALIZE[20359] ,])</label>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
+					<left>20</left>
+					<top>530</top>
+					<height>38</height>
+					<width>450</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb.secondary</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[Player.Time] / $INFO[Player.Duration,]</label>
+				</control>
+			</control>
+		</control>
+		<control type="label">
+			<left>20</left>
+			<top>20</top>
+			<width>1880</width>
+			<height>60</height>
+			<font>info.title</font>
+			<align>center</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>Systeminformationen</label>
+		</control>
+		<control type="image">
+			<left>20</left>
+			<top>100</top>
+			<width>930</width>
+			<height>120</height>
+			<aspectratio>stretch</aspectratio>
+			<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+		</control>
+		<control type="image">
+			<left>30</left>
+			<top>120</top>
+			<width>80</width>
+			<height>80</height>
+			<aspectratio>keep</aspectratio>
+			<texture>kodi_logo.png</texture>
+		</control>
+		<control type="label">
+			<left>120</left>
+			<top>100</top>
+			<width>830</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]Kodiversion:[/COLOR] $INFO[System.BuildVersion] / $INFO[System.BuildDate]</label>
+		</control>
+		<control type="label">
+			<left>120</left>
+			<top>160</top>
+			<width>930</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]Sistema Operativo:[/COLOR] $INFO[System.OSVersionInfo]</label>
+		</control>
+		<control type="image">
+			<left>970</left>
+			<top>100</top>
+			<width>930</width>
+			<height>120</height>
+			<aspectratio>stretch</aspectratio>
+			<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+		</control>
+		<control type="image">
+			<left>980</left>
+			<top>120</top>
+			<width>80</width>
+			<height>80</height>
+			<aspectratio>keep</aspectratio>
+			<texture>icons/clock.png</texture>
+		</control>
+		<control type="label">
+			<left>1070</left>
+			<top>100</top>
+			<width>830</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]Horário de funcionamento atual:[/COLOR] $INFO[System.Uptime]</label>
+		</control>
+		<control type="label">
+			<left>1070</left>
+			<top>160</top>
+			<width>830</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]Tempo de atividade total:[/COLOR] $INFO[System.TotalUptime]</label>
+		</control>
+		<control type="image">
+			<left>20</left>
+			<top>240</top>
+			<width>930</width>
+			<height>120</height>
+			<aspectratio>stretch</aspectratio>
+			<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+		</control>
+		<control type="image">
+			<left>30</left>
+			<top>260</top>
+			<width>80</width>
+			<height>80</height>
+			<aspectratio>keep</aspectratio>
+			<texture>icons/cpu.png</texture>
+		</control>
+		<control type="label">
+			<left>120</left>
+			<top>240</top>
+			<width>930</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]System CPU-Utilização:[/COLOR] $INFO[System.CpuUsage] ($INFO[System.CpuFrequency])</label>
+		</control>
+		<control type="label">
+			<left>120</left>
+			<top>300</top>
+			<width>930</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]System CPU-Temperatura:[/COLOR] $INFO[System.CPUTemperature]</label>
+		</control>
+		<control type="image">
+			<left>970</left>
+			<top>240</top>
+			<width>930</width>
+			<height>120</height>
+			<aspectratio>stretch</aspectratio>
+			<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+		</control>
+		<control type="image">
+			<left>980</left>
+			<top>260</top>
+			<width>80</width>
+			<height>80</height>
+			<aspectratio>keep</aspectratio>
+			<texture>icons/ram.png</texture>
+		</control>
+		<control type="label">
+			<left>1070</left>
+			<top>240</top>
+			<width>930</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]System RAM-Utilização:[/COLOR] $INFO[System.Memory(used)] / $INFO[System.Memory(used.percent)]</label>
+		</control>
+		<control type="label">
+			<left>1070</left>
+			<top>300</top>
+			<width>930</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]System RAM livre:[/COLOR] $INFO[System.Memory(free)] / $INFO[System.Memory(free.percent)] [COLORwhite]RAM Total:[/COLOR] $INFO[System.Memory(total)]</label>
+		</control>
+		<control type="image">
+			<left>20</left>
+			<top>380</top>
+			<width>930</width>
+			<height>120</height>
+			<aspectratio>stretch</aspectratio>
+			<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+		</control>
+		<control type="image">
+			<left>30</left>
+			<top>400</top>
+			<width>80</width>
+			<height>80</height>
+			<aspectratio>keep</aspectratio>
+			<texture>icons/gpu.png</texture>
+		</control>
+		<control type="label">
+			<left>120</left>
+			<top>380</top>
+			<width>930</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]System GPU:[/COLOR] $INFO[System.VideoEncoderInfo] ($INFO[System.ScreenResolution])</label>
+		</control>
+		<control type="label">
+			<left>120</left>
+			<top>440</top>
+			<width>930</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]System GPU-Temperatura:[/COLOR] $INFO[System.GPUTemperature]</label>
+		</control>
+		<control type="image">
+			<left>970</left>
+			<top>380</top>
+			<width>930</width>
+			<height>120</height>
+			<aspectratio>stretch</aspectratio>
+			<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+		</control>
+		<control type="image">
+			<left>980</left>
+			<top>400</top>
+			<width>80</width>
+			<height>80</height>
+			<aspectratio>keep</aspectratio>
+			<texture>icons/hdd.png</texture>
+		</control>
+		<control type="label">
+			<left>1070</left>
+			<top>380</top>
+			<width>930</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]System HDD-Utilização:[/COLOR] $INFO[System.UsedSpace] / $INFO[System.FreeSpace]</label>
+		</control>
+		<control type="label">
+			<left>1070</left>
+			<top>440</top>
+			<width>930</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]System HDD:[/COLOR] $INFO[System.TotalSpace]</label>
+		</control>
+		<control type="image">
+			<left>20</left>
+			<top>520</top>
+			<width>930</width>
+			<height>120</height>
+			<aspectratio>stretch</aspectratio>
+			<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+		</control>
+		<control type="image">
+			<left>30</left>
+			<top>540</top>
+			<width>80</width>
+			<height>80</height>
+			<aspectratio>keep</aspectratio>
+			<texture>icons/network.png</texture>
+		</control>
+		<control type="label">
+			<left>120</left>
+			<top>520</top>
+			<width>930</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]Estado da rede:[/COLOR] $INFO[System.InternetState] [COLORwhite]Network IP-Address:[/COLOR] $INFO[Network.IPAddress]</label>
+		</control>
+		<control type="label">
+			<left>120</left>
+			<top>550</top>
+			<width>930</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]Network MAC-Address:[/COLOR] $INFO[Network.MacAddress] / $INFO[Network.SubnetMask]</label>
+		</control>
+		<control type="label">
+			<left>120</left>
+			<top>580</top>
+			<width>930</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]Network DNS-Address:[/COLOR] $INFO[Network.DNS1Address] / $INFO[Network.DNS2Address]</label>
+		</control>
+		<control type="image">
+			<left>970</left>
+			<top>520</top>
+			<width>930</width>
+			<height>120</height>
+			<aspectratio>stretch</aspectratio>
+			<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+		</control>
+		<control type="image">
+			<left>980</left>
+			<top>540</top>
+			<width>80</width>
+			<height>80</height>
+			<aspectratio>keep</aspectratio>
+			<texture>icons/tv.png</texture>
+		</control>
+		<control type="label">
+			<left>1070</left>
+			<top>520</top>
+			<width>930</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]PVR-Client:[/COLOR] $INFO[Pvr.BackendName] $INFO[Pvr.BackendVersion,v.]</label>
+		</control>
+		<control type="label">
+			<left>1070</left>
+			<top>550</top>
+			<width>930</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]Canais de TV:[/COLOR] $INFO[Window(Home).Property(SkinHelper.TotalTVChannels)]</label>
+		</control>
+		<control type="label">
+			<left>1070</left>
+			<top>580</top>
+			<width>930</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]Canais de Radio:[/COLOR] $INFO[Window(Home).Property(SkinHelper.TotalRadioChannels)]</label>
+		</control>
+		<control type="image">
+			<left>20</left>
+			<top>660</top>
+			<width>930</width>
+			<height>120</height>
+			<aspectratio>stretch</aspectratio>
+			<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+		</control>
+		<control type="image">
+			<left>30</left>
+			<top>680</top>
+			<width>80</width>
+			<height>80</height>
+			<aspectratio>keep</aspectratio>
+			<texture>icons/film.png</texture>
+		</control>
+		<control type="label">
+			<left>120</left>
+			<top>660</top>
+			<width>930</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]Biblioteca Total de Filmes:[/COLOR] $INFO[Window(Home).Property(Movies.Count)] [COLORwhite]Visto:[/COLOR] $INFO[Window(Home).Property(Movies.Watched)]</label>
+		</control>
+		<control type="label">
+			<left>120</left>
+			<top>690</top>
+			<width>930</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]Biblioteca Total de Conjuntos de Filmes:[/COLOR] $INFO[Window(Home).Property(SkinHelper.TotalMovieSets)]</label>
+		</control>
+		<control type="label">
+			<left>120</left>
+			<top>720</top>
+			<width>930</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]Biblioteca Series:[/COLOR] $INFO[Window(Home).Property(TVShows.Count)] [COLORwhite]Gesehen:[/COLOR] $INFO[Window(Home).Property(TVShows.Watched)]</label>
+		</control>
+		<control type="image">
+			<left>970</left>
+			<top>660</top>
+			<width>930</width>
+			<height>120</height>
+			<aspectratio>stretch</aspectratio>
+			<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+		</control>
+		<control type="image">
+			<left>980</left>
+			<top>680</top>
+			<width>80</width>
+			<height>80</height>
+			<aspectratio>keep</aspectratio>
+			<texture>icons/music.png</texture>
+		</control>
+		<control type="label">
+			<left>1070</left>
+			<top>660</top>
+			<width>930</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]Biblioteca Albuns:[/COLOR] $INFO[Window(Home).Property(Music.AlbumsCount)] [COLORwhite]Total de Músicas:[/COLOR] $INFO[Window(Home).Property(Music.SongsCount)]</label>
+		</control>
+		<control type="label">
+			<left>1070</left>
+			<top>720</top>
+			<width>930</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]Biblioteca Video-Musicas:[/COLOR] $INFO[Window(Home).Property(MusicVideos.Count)] [COLORwhite]Visto:[/COLOR] $INFO[Window(Home).Property(MusicVideos.Watched)]</label>
+		</control>
+		<control type="image">
+			<left>20</left>
+			<top>800</top>
+			<width>930</width>
+			<height>120</height>
+			<aspectratio>stretch</aspectratio>
+			<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+		</control>
+		<control type="image">
+			<left>30</left>
+			<top>820</top>
+			<width>80</width>
+			<height>80</height>
+			<aspectratio>keep</aspectratio>
+			<texture>icons/weather.png</texture>
+		</control>
+		<control type="label">
+			<left>120</left>
+			<top>800</top>
+			<width>930</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]Weather-Addon:[/COLOR] $INFO[Weather.plugin]</label>
+		</control>
+		<control type="label">
+			<left>120</left>
+			<top>830</top>
+			<width>930</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]Weather information:[/COLOR] $INFO[Weather.Temperature] / $INFO[Weather.Conditions]</label>
+		</control>
+		<control type="label">
+			<left>120</left>
+			<top>860</top>
+			<width>930</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]Weather location:[/COLOR] $INFO[Weather.Location]</label>
+		</control>
+		<control type="image">
+			<left>970</left>
+			<top>800</top>
+			<width>930</width>
+			<height>120</height>
+			<aspectratio>stretch</aspectratio>
+			<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+		</control>
+		<control type="image">
+			<left>980</left>
+			<top>820</top>
+			<width>80</width>
+			<height>80</height>
+			<aspectratio>keep</aspectratio>
+			<texture>icons/addons.png</texture>
+		</control>
+		<control type="label">
+			<left>1070</left>
+			<top>800</top>
+			<width>930</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]Video-Addons:[/COLOR] $INFO[Window(Home).Property(SkinHelper.TotalVideoAddons)]</label>
+		</control>
+		<control type="label">
+			<left>1070</left>
+			<top>830</top>
+			<width>930</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]Audio-Addons:[/COLOR] $INFO[Window(Home).Property(SkinHelper.TotalAudioAddons)]</label>
+		</control>
+		<control type="label">
+			<left>1070</left>
+			<top>860</top>
+			<width>930</width>
+			<height>60</height>
+			<font>font10</font>
+			<align>left</align>
+			<aligny>center</aligny>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<label>[COLORwhite]Program-Addons:[/COLOR] $INFO[Window(Home).Property(SkinHelper.TotalProgramAddons)]</label>
+		</control>
+	</controls>
+</window>

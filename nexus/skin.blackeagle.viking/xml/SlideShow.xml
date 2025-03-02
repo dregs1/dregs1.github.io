@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol>2</defaultcontrol>
+	<controls>
+		<control type="group">
+			<visible>!Skin.HasSetting(SlideshowInfo)</visible>
+			<left>0</left>
+			<top>200r</top>
+			<visible>Player.ShowInfo + Player.HasMedia</visible>
+			<include>VisibleFadeEffect</include>
+			<control type="image">
+				<left>0</left>
+				<top>200r</top>
+				<width>100%</width>
+				<height>200</height>
+				<texture>backgrounds/gradient_floor.png</texture>
+			</control>
+			<control type="image">
+				<left>20</left>
+				<top>190r</top>
+				<width>180</width>
+				<height>180</height>
+				<aspectratio>keep</aspectratio>
+				<texture>$INFO[MusicPlayer.Cover]</texture>
+			</control>
+			<control type="label">
+				<left>220</left>
+				<top>190r</top>
+				<height>30</height>
+				<width>1500</width>
+				<label>$INFO[MusicPlayer.Artist]</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>label</font>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+			</control>
+			<control type="label">
+				<left>220</left>
+				<top>150r</top>
+				<height>30</height>
+				<width>1500</width>
+				<label>$INFO[Player.Title]</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>label</font>
+				<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+				<shadowcolor>black</shadowcolor>
+			</control>
+			<control type="label">
+				<left>220</left>
+				<top>110r</top>
+				<height>30</height>
+				<width>1500</width>
+				<label>$INFO[MusicPlayer.Album]$INFO[musicplayer.discnumber, - $LOCALIZE[427]:]</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>label</font>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+			</control>
+			<control type="label">
+				<left>220</left>
+				<top>40r</top>
+				<height>30</height>
+				<width>1500</width>
+				<label>$INFO[MusicPlayer.Time]$INFO[MusicPlayer.Duration, / ]</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>label</font>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+			</control>
+			<control type="group">
+				<left>400</left>
+				<right>400</right>
+				<top>35r</top>
+				<control type="group">
+					<visible>system.getbool(lookandfeel.enablerssfeeds)</visible>
+					<control type="rss">
+						<centerleft>50%</centerleft>
+						<height>30</height>
+						<width>100%</width>
+						<font>breadcrumb.secondary</font>
+						<urlset>1</urlset>
+						<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+						<titlecolor>$INFO[Skin.String(color.500)]</titlecolor>
+						<headlinecolor>white</headlinecolor>
+						<shadowcolor>black</shadowcolor>
+					</control>
+				</control>
+			</control>
+			<control type="label">
+				<top>90r</top>
+				<left>520r</left>
+				<width>500</width>
+				<height>22</height>
+				<font>font14</font>
+				<align>right</align>
+				<aligny>center</aligny>
+				<label>$INFO[System.Date(ddd.)] $INFO[System.Date(dd. MMM yyyy)]</label>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+			</control>
+			<control type="label">
+				<top>48r</top>
+				<left>520r</left>
+				<width>500</width>
+				<height>30</height>
+				<align>right</align>
+				<aligny>center</aligny>
+				<font>font35_title</font>
+				<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<label>$INFO[System.Time(hh:mm:ss)]</label>
+			</control>
+		</control>
+	</controls>
+</window>

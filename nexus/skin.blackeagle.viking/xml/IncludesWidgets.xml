@@ -1,0 +1,2804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includes>
+	<include name="WidgetContent">
+		<content target="$PARAM[target]">$PARAM[content]</content>
+	</include>
+	<include name="WidgetContentInclude">
+		<content>
+			<include>$PARAM[content]</include>
+		</content>
+	</include>
+	<include name="WeatherWidgetContent">
+		<content>
+			<item>
+				<thumb>resource://resource.images.weathericons.default/na.png</thumb>
+				<visible>String.IsEmpty(Window(weather).Property(Daily.IsFetched))</visible>
+			</item>
+			<include content="WeatherDailyItem">
+				<param name="item_index" value="1" />
+			</include>
+			<include content="WeatherDailyItem">
+				<param name="item_index" value="2" />
+			</include>
+			<include content="WeatherDailyItem">
+				<param name="item_index" value="3" />
+			</include>
+			<include content="WeatherDailyItem">
+				<param name="item_index" value="4" />
+			</include>
+			<include content="WeatherDailyItem">
+				<param name="item_index" value="5" />
+			</include>
+			<include content="WeatherDailyItem">
+				<param name="item_index" value="6" />
+			</include>
+			<include content="WeatherDailyItem">
+				<param name="item_index" value="7" />
+			</include>
+			<include content="WeatherDailyItem">
+				<param name="item_index" value="8" />
+			</include>
+			<include content="WeatherDailyItem">
+				<param name="item_index" value="9" />
+			</include>
+			<include content="WeatherDailyItem">
+				<param name="item_index" value="10" />
+			</include>
+			<include content="WeatherDailyItem">
+				<param name="item_index" value="11" />
+			</include>
+			<include content="WeatherDailyItem">
+				<param name="item_index" value="12" />
+			</include>
+			<include content="WeatherDailyItem">
+				<param name="item_index" value="13" />
+			</include>
+			<include content="WeatherDailyItem">
+				<param name="item_index" value="14" />
+			</include>
+		</content>
+	</include>
+	<include name="WeatherDailyItem">
+		<item>
+			<label>$INFO[Window(weather).Property(Daily.$PARAM[item_index].ShortDay)]</label>
+			<property name="HighTemp">$INFO[Window(weather).Property(Daily.$PARAM[item_index].HighTemperature)]</property>
+			<property name="LowTemp">$INFO[Window(weather).Property(Daily.$PARAM[item_index].LowTemperature)]</property>
+			<property name="LongDay">$INFO[Window(weather).Property(Daily.$PARAM[item_index].LongDay)]</property>
+			<property name="TempDay">$INFO[Window(weather).Property(Daily.$PARAM[item_index].TempDay)]</property>
+			<property name="Cloudiness">$INFO[Window(weather).Property(Daily.$PARAM[item_index].Cloudiness)]</property>
+			<property name="Outlook">$INFO[Window(weather).Property(Daily.$PARAM[item_index].Outlook)]</property>
+			<property name="ShortDate">$INFO[Window(weather).Property(Daily.$PARAM[item_index].ShortDate)]</property>
+			<property name="FanartCode">$INFO[Window(weather).Property(Daily.$PARAM[item_index].FanartCode)]</property>
+			<thumb>resource://resource.images.weathericons.default/$INFO[Window(weather).Property(Daily.$PARAM[item_index].OutlookIcon)]</thumb>
+			<visible>!String.IsEmpty(Window(weather).Property(Daily.$PARAM[item_index].Outlook))</visible>
+		</item>
+	</include>
+	<include name="WeatherWidget">
+		<control type="group" id="9003">
+			<left>20</left>
+			<top>12%</top>
+			<width>1890</width>
+			<height>380</height>
+			<visible>!Window.IsVisible(Favourites)</visible>
+			<animation effect="fade" time="300" delay="500">WindowOpen</animation>
+			<animation effect="fade" time="200">WindowClose</animation>
+			<control type="label">
+				<centerleft>50%</centerleft>
+				<top>0</top>
+				<height>30</height>
+				<width>810</width>
+				<label>$INFO[Container(9000).ListItem.Property(widgetName)]</label>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>button2</font>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+			</control>
+			<control type="list" id="$PARAM[list_id]">
+				<animation effect="slide" start="0,0" end="105,0" time="0" condition="String.IsEqual(Container($PARAM[list_id]).NumItems,4)">conditional</animation>
+				<animation effect="slide" start="0,0" end="210,0" time="0" condition="String.IsEqual(Container($PARAM[list_id]).NumItems,3)">conditional</animation>
+				<animation effect="slide" start="0,0" end="315,0" time="0" condition="String.IsEqual(Container($PARAM[list_id]).NumItems,2)">conditional</animation>
+				<animation effect="slide" start="0,0" end="420,0" time="0" condition="String.IsEqual(Container($PARAM[list_id]).NumItems,1)">conditional</animation>
+				<left>0</left>
+				<top>35</top>
+				<width>1890</width>
+				<height>330</height>
+				<onleft>$PARAM[list_id]</onleft>
+				<onright>$PARAM[list_id]</onright>
+				<onup>915</onup>
+				<ondown condition="System.AddonIsEnabled(script.globalsearch)">603</ondown>
+				<ondown condition="!System.AddonIsEnabled(script.globalsearch)">603</ondown>
+				<viewtype label="535">list</viewtype>
+				<pagecontrol></pagecontrol>
+				<scrolltime>200</scrolltime>
+				<orientation>horizontal</orientation>
+				<itemlayout height="330" width="210">
+					<control type="label">
+						<visible>!Skin.HasSetting(Shadow)</visible>
+						<left>13</left>
+						<top>13</top>
+						<width>190</width>
+						<height>60</height>
+						<font>secondary.info</font>
+						<textcolor>black</textcolor>
+						<selectedcolor>selected</selectedcolor>
+						<align>center</align>
+						<aligny>center</aligny>
+						<label>$INFO[ListItem.Label][CR]$INFO[ListItem.Property(ShortDate)]</label>
+					</control>
+					<control type="label">
+						<left>10</left>
+						<top>10</top>
+						<width>190</width>
+						<height>60</height>
+						<font>secondary.info</font>
+						<textcolor>white</textcolor>
+						<selectedcolor>selected</selectedcolor>
+						<align>center</align>
+						<aligny>center</aligny>
+						<label>$INFO[ListItem.Label][CR]$INFO[ListItem.Property(ShortDate)]</label>
+					</control>
+					<control type="image">
+						<visible>!Skin.HasSetting(Shadow)</visible>
+						<left>50</left>
+						<top>75</top>
+						<width>120</width>
+						<height>120</height>
+						<aspectratio>keep</aspectratio>
+						<texture colordiffuse="black">$INFO[ListItem.Thumb]</texture>
+					</control>
+					<control type="image">
+						<left>45</left>
+						<top>70</top>
+						<width>120</width>
+						<height>120</height>
+						<aspectratio>keep</aspectratio>
+						<texture>$INFO[ListItem.Thumb]</texture>
+					</control>
+					<control type="label">
+						<visible>!Skin.HasSetting(Shadow)</visible>
+						<left>13</left>
+						<bottom>92</bottom>
+						<width>190</width>
+						<height>30</height>
+						<font>secondary.info</font>
+						<textcolor>black</textcolor>
+						<selectedcolor>selected</selectedcolor>
+						<align>center</align>
+						<aligny>center</aligny>
+						<label>$INFO[ListItem.Property(Outlook)]</label>
+					</control>
+					<control type="label">
+						<left>10</left>
+						<bottom>95</bottom>
+						<width>190</width>
+						<height>30</height>
+						<font>secondary.info</font>
+						<textcolor>white</textcolor>
+						<selectedcolor>selected</selectedcolor>
+						<align>center</align>
+						<aligny>center</aligny>
+						<label>$INFO[ListItem.Property(Outlook)]</label>
+					</control>
+					<control type="label">
+						<visible>!Skin.HasSetting(Shadow)</visible>
+						<left>13</left>
+						<bottom>62</bottom>
+						<width>190</width>
+						<height>30</height>
+						<font>secondary.info</font>
+						<textcolor>black</textcolor>
+						<selectedcolor>selected</selectedcolor>
+						<align>center</align>
+						<aligny>center</aligny>
+						<label>$INFO[ListItem.Property(HighTemp),$LOCALIZE[419] : ,]</label>
+					</control>
+					<control type="label">
+						<left>10</left>
+						<bottom>65</bottom>
+						<width>190</width>
+						<height>30</height>
+						<font>secondary.info</font>
+						<textcolor>white</textcolor>
+						<selectedcolor>selected</selectedcolor>
+						<align>center</align>
+						<aligny>center</aligny>
+						<label>$INFO[ListItem.Property(HighTemp),$LOCALIZE[419] : ,]</label>
+					</control>
+					<control type="label">
+						<visible>!Skin.HasSetting(Shadow)</visible>
+						<left>13</left>
+						<bottom>32</bottom>
+						<width>190</width>
+						<height>30</height>
+						<font>secondary.info</font>
+						<textcolor>black</textcolor>
+						<selectedcolor>selected</selectedcolor>
+						<align>center</align>
+						<aligny>center</aligny>
+						<label>$INFO[ListItem.Property(LowTemp),$LOCALIZE[418] : ,]</label>
+					</control>
+					<control type="label">
+						<left>10</left>
+						<bottom>35</bottom>
+						<width>190</width>
+						<height>30</height>
+						<font>secondary.info</font>
+						<textcolor>white</textcolor>
+						<selectedcolor>selected</selectedcolor>
+						<align>center</align>
+						<aligny>center</aligny>
+						<label>$INFO[ListItem.Property(LowTemp),$LOCALIZE[418] : ,]</label>
+					</control>
+				</itemlayout>
+				<focusedlayout height="330" width="210">
+					<control type="group">
+						<visible>!Control.HasFocus($PARAM[list_id])</visible>
+						<control type="label">
+							<visible>!Skin.HasSetting(Shadow)</visible>
+							<left>13</left>
+							<top>13</top>
+							<width>190</width>
+							<height>60</height>
+							<font>secondary.info</font>
+							<textcolor>black</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Label][CR]$INFO[ListItem.Property(ShortDate)]</label>
+						</control>
+						<control type="label">
+							<left>10</left>
+							<top>10</top>
+							<width>190</width>
+							<height>60</height>
+							<font>secondary.info</font>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Label][CR]$INFO[ListItem.Property(ShortDate)]</label>
+						</control>
+						<control type="label">
+							<visible>!Skin.HasSetting(Shadow)</visible>
+							<left>13</left>
+							<bottom>92</bottom>
+							<width>190</width>
+							<height>30</height>
+							<font>secondary.info</font>
+							<textcolor>black</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Property(Outlook)]</label>
+						</control>
+						<control type="label">
+							<left>10</left>
+							<bottom>95</bottom>
+							<width>190</width>
+							<height>30</height>
+							<font>secondary.info</font>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Property(Outlook)]</label>
+						</control>
+						<control type="label">
+							<visible>!Skin.HasSetting(Shadow)</visible>
+							<left>13</left>
+							<bottom>62</bottom>
+							<width>190</width>
+							<height>30</height>
+							<font>secondary.info</font>
+							<textcolor>black</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$LOCALIZE[419] : $INFO[ListItem.Property(HighTemp)]</label>
+						</control>
+						<control type="label">
+							<left>10</left>
+							<bottom>65</bottom>
+							<width>190</width>
+							<height>30</height>
+							<font>secondary.info</font>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$LOCALIZE[419] : $INFO[ListItem.Property(HighTemp)]</label>
+						</control>
+						<control type="label">
+							<visible>!Skin.HasSetting(Shadow)</visible>
+							<left>13</left>
+							<bottom>32</bottom>
+							<width>190</width>
+							<height>30</height>
+							<font>secondary.info</font>
+							<textcolor>black</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$LOCALIZE[418] : $INFO[ListItem.Property(LowTemp)]</label>
+						</control>
+						<control type="label">
+							<left>10</left>
+							<bottom>35</bottom>
+							<width>190</width>
+							<height>30</height>
+							<font>secondary.info</font>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$LOCALIZE[418] : $INFO[ListItem.Property(LowTemp)]</label>
+						</control>
+					</control>
+					<control type="group">
+						<visible>Control.HasFocus($PARAM[list_id])</visible>
+						<control type="label">
+							<visible>!Skin.HasSetting(Shadow)</visible>
+							<left>13</left>
+							<top>13</top>
+							<width>190</width>
+							<height>60</height>
+							<font>secondary.info</font>
+							<textcolor>black</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Label][CR]$INFO[ListItem.Property(ShortDate)]</label>
+						</control>
+						<control type="label">
+							<left>10</left>
+							<top>10</top>
+							<width>190</width>
+							<height>60</height>
+							<font>secondary.info</font>
+							<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Label][CR]$INFO[ListItem.Property(ShortDate)]</label>
+						</control>
+						<control type="label">
+							<visible>!Skin.HasSetting(Shadow)</visible>
+							<left>13</left>
+							<bottom>92</bottom>
+							<width>190</width>
+							<height>30</height>
+							<font>secondary.info</font>
+							<textcolor>black</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Property(Outlook)]</label>
+						</control>
+						<control type="label">
+							<left>10</left>
+							<bottom>95</bottom>
+							<width>190</width>
+							<height>30</height>
+							<font>secondary.info</font>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Property(Outlook)]</label>
+						</control>
+						<control type="label">
+							<visible>!Skin.HasSetting(Shadow)</visible>
+							<left>13</left>
+							<bottom>62</bottom>
+							<width>190</width>
+							<height>30</height>
+							<font>secondary.info</font>
+							<textcolor>black</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$LOCALIZE[419] : $INFO[ListItem.Property(HighTemp)]</label>
+						</control>
+						<control type="label">
+							<left>10</left>
+							<bottom>65</bottom>
+							<width>190</width>
+							<height>30</height>
+							<font>secondary.info</font>
+							<textcolor>deepskyblue</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>[COLORwhite]$LOCALIZE[419] :[/COLOR] $INFO[ListItem.Property(HighTemp)]</label>
+						</control>
+						<control type="label">
+							<visible>!Skin.HasSetting(Shadow)</visible>
+							<left>13</left>
+							<bottom>32</bottom>
+							<width>190</width>
+							<height>30</height>
+							<font>secondary.info</font>
+							<textcolor>black</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>$LOCALIZE[418] : $INFO[ListItem.Property(LowTemp)]</label>
+						</control>
+						<control type="label">
+							<left>10</left>
+							<bottom>35</bottom>
+							<width>190</width>
+							<height>30</height>
+							<font>secondary.info</font>
+							<textcolor>red</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<align>center</align>
+							<aligny>center</aligny>
+							<label>[COLORwhite]$LOCALIZE[418] :[/COLOR] $INFO[ListItem.Property(LowTemp)]</label>
+						</control>
+					</control>
+					<control type="image">
+						<visible>!Skin.HasSetting(Shadow)</visible>
+						<left>50</left>
+						<top>75</top>
+						<width>120</width>
+						<height>120</height>
+						<aspectratio>keep</aspectratio>
+						<texture colordiffuse="black">$INFO[ListItem.Thumb]</texture>
+					</control>
+					<control type="image">
+						<left>45</left>
+						<top>70</top>
+						<width>120</width>
+						<height>120</height>
+						<aspectratio>keep</aspectratio>
+						<texture>$INFO[ListItem.Thumb]</texture>
+					</control>
+				</focusedlayout>
+				<include>WeatherWidgetContent</include>
+			</control>
+		</control>
+	</include>
+	<include name="SquareWidget">
+		<control type="group" id="9003">
+			<left>20</left>
+			<top>12%</top>
+			<width>1890</width>
+			<height>380</height>
+			<visible>!Window.IsVisible(Favourites)</visible>
+			<animation effect="fade" time="300" delay="500">WindowOpen</animation>
+			<animation effect="fade" time="200">WindowClose</animation>
+			<control type="group">
+				<visible>Control.HasFocus($PARAM[list_id])</visible>
+				<visible>Skin.HasSetting(homepageWidgetinfo)</visible>
+				<control type="group">
+					<visible>!String.IsEmpty(ListItem.Duration)</visible>
+					<control type="image">
+						<left>1270r</left>
+						<top>-500</top>
+						<width>1280</width>
+						<height>720</height>
+						<texture>$INFO[ListItem.Art(fanart)]</texture>
+					</control>
+					<control type="image">
+						<left>-20</left>
+						<top>-482</top>
+						<width>1920</width>
+						<height>1080</height>
+						<texture diffuse="backgrounds/backgrounddiffuse.png">$INFO[Skin.CurrentTheme,special://skin/extras/backgrounds/,.jpg]</texture>
+					</control>
+					<control type="image">
+						<left>-20</left>
+						<top>-482</top>
+						<width>1920</width>
+						<height>1080</height>
+						<texture diffuse="backgrounds/backgrounddiffuse.png">$INFO[Skin.String(CustomBackgroundPath)]</texture>
+						<visible>Skin.HasSetting(UseCustomBackground) + Skin.String(CustomBackgroundPath)</visible>
+					</control>
+				</control>
+				<control type="image">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>10</left>
+					<top>-475</top>
+					<width>400</width>
+					<height>155</height>
+					<aspectratio>keep</aspectratio>
+					<texture colordiffuse="black">$INFO[ListItem.Art(clearlogo)]</texture>
+				</control>
+				<control type="image">
+					<left>5</left>
+					<top>-480</top>
+					<width>400</width>
+					<height>155</height>
+					<aspectratio>keep</aspectratio>
+					<texture>$INFO[ListItem.Art(clearlogo)]</texture>
+				</control>
+				<control type="label">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>8</left>
+					<top>-367</top>
+					<height>30</height>
+					<width>730</width>
+					<label>[B]$INFO[ListItem.Label][/B]</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>font24_title</font>
+					<textcolor>black</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<visible>String.IsEmpty(ListItem.Art(clearlogo))</visible>
+					<visible>!String.IsEmpty(ListItem.RatingAndVotes)</visible>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
+					<left>5</left>
+					<top>-370</top>
+					<height>30</height>
+					<width>730</width>
+					<label>[B]$INFO[ListItem.Label][/B]</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>font24_title</font>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<visible>String.IsEmpty(ListItem.Art(clearlogo))</visible>
+					<visible>!String.IsEmpty(ListItem.RatingAndVotes)</visible>
+					<scroll>true</scroll>
+				</control>
+				<control type="image">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>655</left>
+					<top>-437</top>
+					<width>90</width>
+					<height>78</height>
+					<aspectratio>keep</aspectratio>
+					<texture colordiffuse="black">$VAR[mpaa]</texture>
+				</control>
+				<control type="image">
+					<left>650</left>
+					<top>-440</top>
+					<width>90</width>
+					<height>78</height>
+					<aspectratio>keep</aspectratio>
+					<texture>$VAR[mpaa]</texture>
+				</control>
+				<control type="image">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>13</left>
+					<top>-307</top>
+					<width>35</width>
+					<height>35</height>
+					<aspectratio>keep</aspectratio>
+					<texture colordiffuse="black">icons/calendar.png</texture>
+					<visible>!String.IsEmpty(ListItem.Premiered)</visible>
+				</control>
+				<control type="image">
+					<left>10</left>
+					<top>-310</top>
+					<width>35</width>
+					<height>35</height>
+					<aspectratio>keep</aspectratio>
+					<texture>icons/calendar.png</texture>
+					<visible>!String.IsEmpty(ListItem.Premiered)</visible>
+				</control>
+				<control type="label">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>63</left>
+					<top>-307</top>
+					<width>240</width>
+					<height>35</height>
+					<font>button2</font>
+					<align>left</align>
+					<aligny>center</aligny>
+					<textcolor>black</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[ListItem.Premiered]</label>
+					<visible>!String.IsEmpty(ListItem.Premiered)</visible>
+				</control>
+				<control type="label">
+					<left>60</left>
+					<top>-310</top>
+					<width>240</width>
+					<height>35</height>
+					<font>button2</font>
+					<align>left</align>
+					<aligny>center</aligny>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[ListItem.Premiered]</label>
+					<visible>!String.IsEmpty(ListItem.Premiered)</visible>
+				</control>
+				<control type="image">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>235</left>
+					<top>-307</top>
+					<width>35</width>
+					<height>35</height>
+					<aspectratio>keep</aspectratio>
+					<texture colordiffuse="black">icons/clock.png</texture>
+					<visible>!String.IsEmpty(ListItem.Duration)</visible>
+				</control>
+				<control type="image">
+					<left>230</left>
+					<top>-310</top>
+					<width>35</width>
+					<height>35</height>
+					<aspectratio>keep</aspectratio>
+					<texture>icons/clock.png</texture>
+					<visible>!String.IsEmpty(ListItem.Duration)</visible>
+				</control>
+				<control type="label">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>283</left>
+					<top>-307</top>
+					<width>240</width>
+					<height>35</height>
+					<font>button2</font>
+					<align>left</align>
+					<aligny>center</aligny>
+					<textcolor>black</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[ListItem.Duration]</label>
+					<visible>!String.IsEmpty(ListItem.Duration)</visible>
+				</control>
+				<control type="label">
+					<left>280</left>
+					<top>-310</top>
+					<width>240</width>
+					<height>35</height>
+					<font>button2</font>
+					<align>left</align>
+					<aligny>center</aligny>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[ListItem.Duration]</label>
+					<visible>!String.IsEmpty(ListItem.Duration)</visible>
+				</control>
+				<control type="image">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>418</left>
+					<top>-307</top>
+					<width>35</width>
+					<height>35</height>
+					<aspectratio>keep</aspectratio>
+					<texture colordiffuse="black">icons/favourites.png</texture>
+					<visible>!String.IsEmpty(ListItem.RatingAndVotes)</visible>
+				</control>
+				<control type="image">
+					<left>415</left>
+					<top>-310</top>
+					<width>35</width>
+					<height>35</height>
+					<aspectratio>keep</aspectratio>
+					<texture>icons/favourites.png</texture>
+					<visible>!String.IsEmpty(ListItem.RatingAndVotes)</visible>
+				</control>
+				<control type="label">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>463</left>
+					<top>-307</top>
+					<width>585</width>
+					<height>35</height>
+					<font>button2</font>
+					<align>left</align>
+					<aligny>center</aligny>
+					<textcolor>black</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[ListItem.RatingAndVotes]</label>
+					<visible>!String.IsEmpty(ListItem.RatingAndVotes)</visible>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
+					<left>460</left>
+					<top>-310</top>
+					<width>585</width>
+					<height>35</height>
+					<font>button2</font>
+					<align>left</align>
+					<aligny>center</aligny>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[ListItem.RatingAndVotes]</label>
+					<visible>!String.IsEmpty(ListItem.RatingAndVotes)</visible>
+					<scroll>true</scroll>
+				</control>
+				<control type="image">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>13</left>
+					<top>-252</top>
+					<width>35</width>
+					<height>35</height>
+					<aspectratio>keep</aspectratio>
+					<texture colordiffuse="black">icons/genre.png</texture>
+					<visible>!String.IsEmpty(ListItem.Genre)</visible>
+				</control>
+				<control type="image">
+					<left>10</left>
+					<top>-255</top>
+					<width>35</width>
+					<height>35</height>
+					<aspectratio>keep</aspectratio>
+					<texture>icons/genre.png</texture>
+					<visible>!String.IsEmpty(ListItem.Genre)</visible>
+				</control>
+				<control type="label">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>63</left>
+					<top>-252</top>
+					<width>660</width>
+					<height>35</height>
+					<font>button2</font>
+					<align>left</align>
+					<aligny>center</aligny>
+					<textcolor>black</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[ListItem.Genre]</label>
+					<visible>!String.IsEmpty(ListItem.Genre)</visible>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
+					<left>60</left>
+					<top>-255</top>
+					<width>660</width>
+					<height>35</height>
+					<font>button2</font>
+					<align>left</align>
+					<aligny>center</aligny>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[ListItem.Genre]</label>
+					<visible>!String.IsEmpty(ListItem.Genre)</visible>
+					<scroll>true</scroll>
+				</control>
+				<control type="textbox">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>8</left>
+					<top>-192</top>
+					<width>725</width>
+					<height>190</height>
+					<font>font12</font>
+					<align>justify</align>
+					<textcolor>black</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[ListItem.Tagline] $INFO[ListItem.Plot]</label>
+					<visible>!String.IsEmpty(ListItem.Duration)</visible>
+					<autoscroll time="2000" delay="6000" repeat="10000">true</autoscroll>
+				</control>
+				<control type="textbox">
+					<left>5</left>
+					<top>-195</top>
+					<width>725</width>
+					<height>190</height>
+					<font>font12</font>
+					<align>justify</align>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[ListItem.Tagline] [COLORwhite]$INFO[ListItem.Plot][/COLOR]</label>
+					<visible>!String.IsEmpty(ListItem.Duration)</visible>
+					<autoscroll time="2000" delay="6000" repeat="10000">true</autoscroll>
+				</control>
+			</control>
+			<control type="group">
+				<visible>!String.IsEmpty(ListItem.AudioChannels,flags/audio/,.png)</visible>
+				<left>465r</left>
+				<top>-29</top>
+				<control type="image">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>-84</left>
+					<top>2</top>
+					<width>86</width>
+					<height>33</height>
+					<texture colordiffuse="black">flags/resolution/HDR.png</texture>
+					<aspectratio>keep</aspectratio>
+					<visible>String.Contains(ListItem.Filename,HDR)</visible>
+				</control>
+				<control type="image">
+					<left>-86</left>
+					<top>0</top>
+					<width>86</width>
+					<height>33</height>
+					<texture>flags/resolution/HDR.png</texture>
+					<aspectratio>keep</aspectratio>
+					<visible>String.Contains(ListItem.Filename,HDR)</visible>
+				</control>
+				<control type="image">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>7</left>
+					<top>2</top>
+					<width>86</width>
+					<height>33</height>
+					<texture colordiffuse="black">$INFO[ListItem.VideoAspect,flags/aspectratio/,.png]</texture>
+					<aspectratio>keep</aspectratio>
+				</control>
+				<control type="image">
+					<left>5</left>
+					<top>0</top>
+					<width>86</width>
+					<height>33</height>
+					<texture>$INFO[ListItem.VideoAspect,flags/aspectratio/,.png]</texture>
+					<aspectratio>keep</aspectratio>
+				</control>
+				<control type="image">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>98</left>
+					<top>2</top>
+					<width>86</width>
+					<height>33</height>
+					<texture colordiffuse="black">$INFO[ListItem.VideoResolution,flags/resolution/,.png]</texture>
+					<aspectratio>keep</aspectratio>
+				</control>
+				<control type="image">
+					<left>96</left>
+					<top>0</top>
+					<width>86</width>
+					<height>33</height>
+					<texture>$INFO[ListItem.VideoResolution,flags/resolution/,.png]</texture>
+					<aspectratio>keep</aspectratio>
+				</control>
+				<control type="image">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>189</left>
+					<top>2</top>
+					<width>86</width>
+					<height>33</height>
+					<texture colordiffuse="black">$INFO[ListItem.VideoCodec,flags/videocodec/,.png]</texture>
+					<aspectratio>keep</aspectratio>
+				</control>
+				<control type="image">
+					<left>187</left>
+					<top>0</top>
+					<width>86</width>
+					<height>33</height>
+					<texture>$INFO[ListItem.VideoCodec,flags/videocodec/,.png]</texture>
+					<aspectratio>keep</aspectratio>
+				</control>
+				<control type="image">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>280</left>
+					<top>2</top>
+					<width>86</width>
+					<height>33</height>
+					<texture colordiffuse="black">$INFO[ListItem.AudioCodec,flags/audio/,.png]</texture>
+					<aspectratio>keep</aspectratio>
+					<visible>!String.Contains(ListItem.FilenameAndPath,.atmos)</visible>
+				</control>
+				<control type="image">
+					<left>278</left>
+					<top>0</top>
+					<width>86</width>
+					<height>33</height>
+					<texture>$INFO[ListItem.AudioCodec,flags/audio/,.png]</texture>
+					<aspectratio>keep</aspectratio>
+					<visible>!String.Contains(ListItem.FilenameAndPath,.atmos)</visible>
+				</control>
+				<control type="image">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>280</left>
+					<top>2</top>
+					<width>86</width>
+					<height>33</height>
+					<texture colordiffuse="black">flags/audio/atmos.png</texture>
+					<aspectratio>keep</aspectratio>
+					<visible>String.Contains(ListItem.FilenameAndPath,.atmos)</visible>
+				</control>
+				<control type="image">
+					<left>278</left>
+					<top>0</top>
+					<width>86</width>
+					<height>33</height>
+					<texture>flags/audio/atmos.png</texture>
+					<aspectratio>keep</aspectratio>
+					<visible>String.Contains(ListItem.FilenameAndPath,.atmos)</visible>
+				</control>
+				<control type="image">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>371</left>
+					<top>2</top>
+					<width>86</width>
+					<height>33</height>
+					<texture colordiffuse="black">$INFO[ListItem.AudioChannels,flags/audio/,.png]</texture>
+					<aspectratio>keep</aspectratio>
+				</control>
+				<control type="image">
+					<left>369</left>
+					<top>0</top>
+					<width>86</width>
+					<height>33</height>
+					<texture>$INFO[ListItem.AudioChannels,flags/audio/,.png]</texture>
+					<aspectratio>keep</aspectratio>
+				</control>
+			</control>
+			<control type="label">
+				<visible>!Skin.HasSetting(Shadow)</visible>
+				<left>8</left>
+				<top>-22</top>
+				<right>5</right>
+				<height>30</height>
+				<width>1500</width>
+				<label>$INFO[Container(9000).ListItem.Property(widgetName)]:</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>button2</font>
+				<textcolor>black</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<visible>Control.HasFocus($PARAM[list_id])</visible>
+				<visible>String.IsEmpty(ListItem.RatingAndVotes)</visible>
+			</control>
+			<control type="label">
+				<left>5</left>
+				<top>-25</top>
+				<right>5</right>
+				<height>30</height>
+				<width>1500</width>
+				<label>[COLORwhite]$INFO[Container(9000).ListItem.Property(widgetName)]:[/COLOR] $INFO[ListItem.Label]</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>button2</font>
+				<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<visible>Control.HasFocus($PARAM[list_id])</visible>
+				<visible>String.IsEmpty(ListItem.RatingAndVotes)</visible>
+			</control>
+			<control type="label">
+				<visible>!Skin.HasSetting(Shadow)</visible>
+				<left>8</left>
+				<top>-22</top>
+				<right>5</right>
+				<height>30</height>
+				<width>1500</width>
+				<label>$INFO[Container(9000).ListItem.Property(widgetName)]:</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>button2</font>
+				<textcolor>black</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<visible>Control.HasFocus($PARAM[list_id])</visible>
+				<visible>!Skin.HasSetting(homepageWidgetinfo)</visible>
+			</control>
+			<control type="label">
+				<left>5</left>
+				<top>-25</top>
+				<right>5</right>
+				<height>30</height>
+				<width>1500</width>
+				<label>[COLORwhite]$INFO[Container(9000).ListItem.Property(widgetName)]:[/COLOR] $INFO[ListItem.Label]</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>button2</font>
+				<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<visible>Control.HasFocus($PARAM[list_id])</visible>
+				<visible>!Skin.HasSetting(homepageWidgetinfo)</visible>
+			</control>
+			<control type="list" id="$PARAM[list_id]">
+				<animation effect="slide" start="0,0" end="123,0" time="0" condition="String.IsEqual(Container($PARAM[list_id]).NumItems,3)">conditional</animation>
+				<animation effect="slide" start="0,0" end="246,0" time="0" condition="String.IsEqual(Container($PARAM[list_id]).NumItems,2)">conditional</animation>
+				<animation effect="slide" start="0,0" end="369,0" time="0" condition="String.IsEqual(Container($PARAM[list_id]).NumItems,1)">conditional</animation>
+				<left>0</left>
+				<top>35</top>
+				<width>1890</width>
+				<height>330</height>
+				<onleft>$PARAM[list_id]</onleft>
+				<onright>$PARAM[list_id]</onright>
+				<onup>915</onup>
+				<ondown condition="System.AddonIsEnabled(script.globalsearch)">603</ondown>
+				<ondown condition="!System.AddonIsEnabled(script.globalsearch)">603</ondown>
+				<viewtype label="535">list</viewtype>
+				<pagecontrol></pagecontrol>
+				<scrolltime>200</scrolltime>
+				<orientation>horizontal</orientation>
+				<itemlayout height="330" width="210">
+					<control type="group">
+					<visible>String.IsEmpty(ListItem.RatingAndVotes)</visible>
+						<control type="image">
+							<visible>!Skin.HasSetting(Shadow)</visible>
+							<left>10</left>
+							<top>5</top>
+							<width>200</width>
+							<height>300</height>
+							<aspectratio align="left" aligny="top">keep</aspectratio>
+							<texture background="true" colordiffuse="black">$PARAM[artwork]</texture>
+							<bordersize>2</bordersize>
+						</control>
+						<control type="image">
+							<left>5</left>
+							<top>0</top>
+							<width>200</width>
+							<height>300</height>
+							<aspectratio align="left" aligny="top">keep</aspectratio>
+							<texture background="true">$PARAM[artwork]</texture>
+							<bordersize>2</bordersize>
+						</control>
+					</control>
+					<control type="group">
+					<visible>!String.IsEmpty(ListItem.RatingAndVotes)</visible>
+						<control type="image">
+							<visible>!Skin.HasSetting(Shadow)</visible>
+							<left>10</left>
+							<top>5</top>
+							<width>200</width>
+							<height>300</height>
+							<aspectratio>stretch</aspectratio>
+							<texture background="true" colordiffuse="black">$PARAM[artwork]</texture>
+							<bordersize>2</bordersize>
+						</control>
+						<control type="image">
+							<left>5</left>
+							<top>0</top>
+							<width>200</width>
+							<height>300</height>
+							<aspectratio>stretch</aspectratio>
+							<texture background="true">$PARAM[artwork]</texture>
+							<bordersize>2</bordersize>
+						</control>
+					</control>
+					<control type="group">
+						<visible>Skin.HasSetting(homepageWidgetPlaycount)</visible>
+						<visible>!ListItem.Property(TotalEpisodes)</visible>
+						<control type="image">
+							<left>5</left>
+							<top>265</top>
+							<width>200</width>
+							<height>35</height>
+							<aspectratio>stretch</aspectratio>
+							<texture>backgrounds/fade_50.png</texture>
+							<bordertexture></bordertexture>
+							<bordersize>2</bordersize>
+							<visible>ListItem.IsResumable | ListItem.IsPlaying | Integer.IsGreater(ListItem.Playcount,0)</visible>
+						</control>
+						<control type="image">
+							<right>15</right>
+							<top>264</top>
+							<width>35</width>
+							<height>35</height>
+							<aspectratio>keep</aspectratio>
+							<texture>overlaywatched.png</texture>
+							<visible>Integer.IsGreater(ListItem.Playcount,0)</visible>
+						</control>
+						<control type="label">
+							<left>5</left>
+							<top>270</top>
+							<width>200</width>
+							<height>20</height>
+							<font>font10</font>
+							<align>center</align>
+							<aligny>center</aligny>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<label>$INFO[ListItem.LastPlayed]</label>
+						</control>
+						<control type="image">
+							<right>15</right>
+							<top>264</top>
+							<width>35</width>
+							<height>35</height>
+							<aspectratio>keep</aspectratio>
+							<texture>overlaywatching.png</texture>
+							<visible>ListItem.IsResumable | ListItem.IsPlaying</visible>
+						</control>
+					</control>
+					<control type="group">
+						<visible>Skin.HasSetting(homepageWidgetPlaycount)</visible>
+						<visible>ListItem.Property(TotalEpisodes)</visible>
+						<control type="image">
+							<left>5</left>
+							<top>265</top>
+							<width>200</width>
+							<height>35</height>
+							<aspectratio>stretch</aspectratio>
+							<texture>backgrounds/fade_50.png</texture>
+							<bordertexture></bordertexture>
+							<bordersize>2</bordersize>
+						</control>
+						<control type="image">
+							<right>15</right>
+							<top>264</top>
+							<width>35</width>
+							<height>35</height>
+							<aspectratio>keep</aspectratio>
+							<texture>icons/eye.png</texture>
+							<bordertexture></bordertexture>
+							<bordersize>2</bordersize>
+							<visible>ListItem.Property(TotalEpisodes)</visible>
+						</control>
+						<control type="label">
+							<left>5</left>
+							<top>270</top>
+							<width>200</width>
+							<height>20</height>
+							<font>font10</font>
+							<align>center</align>
+							<aligny>center</aligny>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<label>[B]$INFO[ListItem.Property(TotalEpisodes)] / $INFO[ListItem.Property(WatchedEpisodes)][/B]</label>
+						</control>
+					</control>
+					<control type="group">
+						<visible>Skin.HasSetting(homepageWidgetHideShell)</visible>
+						<visible>!String.IsEmpty(ListItem.Duration)</visible>
+						<control type="image">
+							<left>5</left>
+							<top>0</top>
+							<width>200</width>
+							<height>300</height>
+							<aspectratio aligny="bottom">stretch</aspectratio>
+							<texture colordiffuse="black">shell/stream.png</texture>
+						</control>
+						<control type="label">
+							<left>5</left>
+							<top>4</top>
+							<width>200</width>
+							<height>20</height>
+							<font>font10</font>
+							<align>center</align>
+							<aligny>center</aligny>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<label>STREAM</label>
+						</control>
+						<control type="group">
+							<visible>Library.HasContent(Movies)</visible>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/dvd.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,288)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/dvd.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,480)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/dvd.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,540)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/dvd.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,576)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/1080p.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,720)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/1080p.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,1080)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture background="true">shell/4k.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,4k)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture background="true">shell/set.png</texture>
+								<visible>ListItem.IsCollection</visible>
+							</control>
+							<control type="label">
+								<left>5</left>
+								<top>2</top>
+								<width>200</width>
+								<height>20</height>
+								<font>font10</font>
+								<align>center</align>
+								<aligny>center</aligny>
+								<textcolor>white</textcolor>
+								<shadowcolor>black</shadowcolor>
+								<label>FILMREIHE</label>
+								<visible>ListItem.IsCollection</visible>
+							</control>
+						</control>
+						<control type="group">
+							<visible>Library.HasContent(TVShows)</visible>
+							<visible>ListItem.Property(TotalEpisodes)</visible>
+							<visible>ListItem.Property(WatchedEpisodes)</visible>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/tvshow.png</texture>
+							</control>
+							<control type="label">
+								<left>5</left>
+								<top>2</top>
+								<width>200</width>
+								<height>20</height>
+								<font>font10</font>
+								<align>center</align>
+								<aligny>center</aligny>
+								<textcolor>white</textcolor>
+								<shadowcolor>black</shadowcolor>
+								<label>SERIE</label>
+							</control>
+						</control>
+					</control>
+				</itemlayout>
+				<focusedlayout height="330" width="210">
+					<control type="group">
+					<visible>String.IsEmpty(ListItem.RatingAndVotes)</visible>
+						<control type="image">
+							<visible>!Skin.HasSetting(Shadow)</visible>
+							<animation type="focus" loop="false" reversible="false">
+								<effect type="zoom" start="95" end="110" center="auto" tween="sine" easing="out" time="200"/>
+							</animation>
+							<left>10</left>
+							<top>5</top>
+							<width>200</width>
+							<height>300</height>
+							<aspectratio align="left" aligny="top">keep</aspectratio>
+							<texture background="true" colordiffuse="black">$PARAM[artwork]</texture>
+							<bordertexture colordiffuse="black">backgrounds/white.png</bordertexture>
+							<bordersize>2</bordersize>
+							<visible>Control.HasFocus($PARAM[list_id])</visible>
+						</control>
+						<control type="image">
+							<animation type="focus" loop="false" reversible="false">
+								<effect type="zoom" start="95" end="110" center="auto" tween="sine" easing="out" time="200"/>
+							</animation>
+							<left>5</left>
+							<top>0</top>
+							<width>200</width>
+							<height>300</height>
+							<aspectratio align="left" aligny="top">keep</aspectratio>
+							<texture background="true">$PARAM[artwork]</texture>
+							<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</bordertexture>
+							<bordersize>2</bordersize>
+							<visible>Control.HasFocus($PARAM[list_id])</visible>
+						</control>
+						<control type="image">
+							<visible>!Skin.HasSetting(Shadow)</visible>
+							<animation type="focus" loop="false" reversible="false">
+								<effect type="zoom" start="95" end="110" center="auto" tween="sine" easing="out" time="200"/>
+							</animation>
+							<left>10</left>
+							<top>5</top>
+							<width>200</width>
+							<height>300</height>
+							<aspectratio align="left" aligny="top">keep</aspectratio>
+							<texture background="true" colordiffuse="black">$PARAM[artwork]</texture>
+							<visible>!Control.HasFocus($PARAM[list_id])</visible>
+						</control>
+						<control type="image">
+							<animation type="focus" loop="false" reversible="false">
+								<effect type="zoom" start="95" end="110" center="auto" tween="sine" easing="out" time="200"/>
+							</animation>
+							<left>5</left>
+							<top>0</top>
+							<width>200</width>
+							<height>300</height>
+							<aspectratio align="left" aligny="top">keep</aspectratio>
+							<texture background="true">$PARAM[artwork]</texture>
+							<visible>!Control.HasFocus($PARAM[list_id])</visible>
+						</control>
+					</control>
+					<control type="group">
+					<visible>!String.IsEmpty(ListItem.RatingAndVotes)</visible>
+						<control type="image">
+							<visible>!Skin.HasSetting(Shadow)</visible>
+							<animation type="focus" loop="false" reversible="false">
+								<effect type="zoom" start="95" end="110" center="auto" tween="sine" easing="out" time="200"/>
+							</animation>
+							<left>10</left>
+							<top>5</top>
+							<width>200</width>
+							<height>300</height>
+							<aspectratio>stretch</aspectratio>
+							<texture background="true" colordiffuse="black">$PARAM[artwork]</texture>
+							<bordertexture colordiffuse="black">backgrounds/white.png</bordertexture>
+							<bordersize>2</bordersize>
+							<visible>Control.HasFocus($PARAM[list_id])</visible>
+						</control>
+						<control type="image">
+							<animation type="focus" loop="false" reversible="false">
+								<effect type="zoom" start="95" end="110" center="auto" tween="sine" easing="out" time="200"/>
+							</animation>
+							<left>5</left>
+							<top>0</top>
+							<width>200</width>
+							<height>300</height>
+							<aspectratio>stretch</aspectratio>
+							<texture background="true">$PARAM[artwork]</texture>
+							<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</bordertexture>
+							<bordersize>2</bordersize>
+							<visible>Control.HasFocus($PARAM[list_id])</visible>
+						</control>
+						<control type="image">
+							<visible>!Skin.HasSetting(Shadow)</visible>
+							<animation type="focus" loop="false" reversible="false">
+								<effect type="zoom" start="95" end="110" center="auto" tween="sine" easing="out" time="200"/>
+							</animation>
+							<left>10</left>
+							<top>5</top>
+							<width>200</width>
+							<height>300</height>
+							<aspectratio>stretch</aspectratio>
+							<texture background="true" colordiffuse="black">$PARAM[artwork]</texture>
+							<visible>!Control.HasFocus($PARAM[list_id])</visible>
+						</control>
+						<control type="image">
+							<animation type="focus" loop="false" reversible="false">
+								<effect type="zoom" start="95" end="110" center="auto" tween="sine" easing="out" time="200"/>
+							</animation>
+							<left>5</left>
+							<top>0</top>
+							<width>200</width>
+							<height>300</height>
+							<aspectratio>stretch</aspectratio>
+							<texture background="true">$PARAM[artwork]</texture>
+							<visible>!Control.HasFocus($PARAM[list_id])</visible>
+						</control>
+					</control>
+					<control type="group">
+						<visible>Skin.HasSetting(homepageWidgetPlaycount)</visible>
+						<visible>!ListItem.Property(TotalEpisodes)</visible>
+						<animation type="focus" loop="false" reversible="false">
+							<effect type="zoom" start="95" end="108" center="auto" tween="sine" easing="out" time="200"/>
+						</animation>
+						<control type="image">
+							<left>5</left>
+							<top>265</top>
+							<width>200</width>
+							<height>35</height>
+							<aspectratio>stretch</aspectratio>
+							<texture>backgrounds/fade_50.png</texture>
+							<bordertexture></bordertexture>
+							<bordersize>2</bordersize>
+							<visible>ListItem.IsResumable | ListItem.IsPlaying | Integer.IsGreater(ListItem.Playcount,0)</visible>
+						</control>
+						<control type="label">
+							<left>5</left>
+							<top>270</top>
+							<width>200</width>
+							<height>20</height>
+							<font>font10</font>
+							<align>center</align>
+							<aligny>center</aligny>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<label>$INFO[ListItem.LastPlayed]</label>
+						</control>
+						<control type="image">
+							<right>15</right>
+							<top>264</top>
+							<width>35</width>
+							<height>35</height>
+							<aspectratio>keep</aspectratio>
+							<texture>overlaywatched.png</texture>
+							<visible>Integer.IsGreater(ListItem.Playcount,0)</visible>
+						</control>
+						<control type="image">
+							<right>15</right>
+							<top>264</top>
+							<width>35</width>
+							<height>35</height>
+							<aspectratio>keep</aspectratio>
+							<texture>overlaywatching.png</texture>
+							<visible>ListItem.IsResumable | ListItem.IsPlaying</visible>
+						</control>
+					</control>
+					<control type="group">
+						<visible>Skin.HasSetting(homepageWidgetPlaycount)</visible>
+						<visible>ListItem.Property(TotalEpisodes)</visible>
+						<animation type="focus" loop="false" reversible="false">
+							<effect type="zoom" start="95" end="108" center="auto" tween="sine" easing="out" time="200"/>
+						</animation>
+						<control type="image">
+							<left>5</left>
+							<top>265</top>
+							<width>200</width>
+							<height>35</height>
+							<aspectratio>stretch</aspectratio>
+							<texture>backgrounds/fade_50.png</texture>
+							<bordertexture></bordertexture>
+							<bordersize>2</bordersize>
+						</control>
+						<control type="image">
+							<right>15</right>
+							<top>264</top>
+							<width>35</width>
+							<height>35</height>
+							<aspectratio>keep</aspectratio>
+							<texture>icons/eye.png</texture>
+							<bordertexture></bordertexture>
+							<bordersize>2</bordersize>
+							<visible>ListItem.Property(TotalEpisodes)</visible>
+						</control>
+						<control type="label">
+							<left>5</left>
+							<top>270</top>
+							<width>200</width>
+							<height>20</height>
+							<font>font10</font>
+							<align>center</align>
+							<aligny>center</aligny>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<label>[B]$INFO[ListItem.Property(TotalEpisodes)] / $INFO[ListItem.Property(WatchedEpisodes)][/B]</label>
+						</control>
+					</control>
+					<control type="group">
+						<visible>Skin.HasSetting(homepageWidgetHideShell)</visible>
+						<visible>!String.IsEmpty(ListItem.Duration)</visible>
+						<visible> </visible>
+						<animation type="focus" loop="false" reversible="false">
+							<effect type="zoom" start="95" end="108" center="auto" tween="sine" easing="out" time="200"/>
+						</animation>
+						<control type="image">
+							<left>5</left>
+							<top>0</top>
+							<width>200</width>
+							<height>300</height>
+							<aspectratio aligny="bottom">stretch</aspectratio>
+							<texture colordiffuse="black">shell/stream.png</texture>
+						</control>
+						<control type="label">
+							<left>5</left>
+							<top>4</top>
+							<width>200</width>
+							<height>20</height>
+							<font>font10</font>
+							<align>center</align>
+							<aligny>center</aligny>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<label>STREAM</label>
+						</control>
+						<control type="group">
+							<visible>Library.HasContent(Movies)</visible>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/dvd.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,288)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/dvd.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,480)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/dvd.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,540)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/dvd.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,576)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/1080p.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,720)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/1080p.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,1080)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture background="true">shell/4k.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,4k)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture background="true">shell/set.png</texture>
+								<visible>ListItem.IsCollection</visible>
+							</control>
+							<control type="label">
+								<left>5</left>
+								<top>2</top>
+								<width>200</width>
+								<height>20</height>
+								<font>font10</font>
+								<align>center</align>
+								<aligny>center</aligny>
+								<textcolor>white</textcolor>
+								<shadowcolor>black</shadowcolor>
+								<label>FILMREIHE</label>
+								<visible>ListItem.IsCollection</visible>
+							</control>
+						</control>
+						<control type="group">
+							<visible>Library.HasContent(TVShows)</visible>
+							<visible>ListItem.Property(TotalEpisodes)</visible>
+							<visible>ListItem.Property(WatchedEpisodes)</visible>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/tvshow.png</texture>
+							</control>
+							<control type="label">
+								<left>5</left>
+								<top>2</top>
+								<width>200</width>
+								<height>20</height>
+								<font>font10</font>
+								<align>center</align>
+								<aligny>center</aligny>
+								<textcolor>white</textcolor>
+								<shadowcolor>black</shadowcolor>
+								<label>SERIE</label>
+							</control>
+						</control>
+					</control>
+				</focusedlayout>
+				<include content="$PARAM[contentInclude]">
+					<param name="content" value="$PARAM[content]" />
+					<param name="target" value="$PARAM[target]" />
+				</include>
+			</control>
+		</control>
+	</include>
+	<include name="WideWidget">
+		<control type="group" id="9003">
+			<centerleft>50%</centerleft>
+			<top>15%</top>
+			<width>1020</width>
+			<height>312</height>
+			<visible>!Window.IsVisible(Favourites)</visible>
+			<animation effect="fade" time="300" delay="500">WindowOpen</animation>
+			<animation effect="fade" time="200">WindowClose</animation>
+			<control type="label">
+				<centerleft>50%</centerleft>
+				<top>0</top>
+				<height>30</height>
+				<width>720</width>
+				<label>$INFO[Container(9000).ListItem.Property(widgetName)]</label>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>breadcrumb.secondary</font>
+				<textcolor>white</textcolor>
+				<shadowcolor>button.nf</shadowcolor>
+			</control>
+			<control type="list" id="$PARAM[list_id]">
+				<animation effect="slide" start="0,0" end="170,0" time="0" condition="String.IsEqual(Container($PARAM[list_id]).NumItems,2)">conditional</animation>
+				<animation effect="slide" start="0,0" end="340,0" time="0" condition="String.IsEqual(Container($PARAM[list_id]).NumItems,1)">conditional</animation>
+				<centerleft>50%</centerleft>
+				<top>35</top>
+				<width>1020</width>
+				<height>242</height>
+				<onleft>$PARAM[list_id]</onleft>
+				<onright>$PARAM[list_id]</onright>
+				<onup>915</onup>
+				<ondown condition="System.AddonIsEnabled(script.globalsearch)">608</ondown>
+				<ondown condition="!System.AddonIsEnabled(script.globalsearch)">603</ondown>
+				<viewtype label="535">list</viewtype>
+				<pagecontrol></pagecontrol>
+				<scrolltime>200</scrolltime>
+				<orientation>horizontal</orientation>
+				<focusposition>1</focusposition>
+				<movement>2</movement>
+				<itemlayout height="242" width="340">
+					<control type="image">
+						<visible>!Skin.HasSetting(Shadow)</visible>
+						<left>0</left>
+						<top>0</top>
+						<width>340</width>
+						<height>242</height>
+						<texture colordiffuse="black" background="true">backgrounds/white.png</texture>
+						<bordertexture>backgrounds/episode shadow small.png</bordertexture>
+						<bordersize>5</bordersize>
+					</control>
+					<control type="image">
+						<left>5</left>
+						<top>5</top>
+						<width>330</width>
+						<height>232</height>
+						<aspectratio aligny="center">keep</aspectratio>
+						<texture background="true">$PARAM[artwork]</texture>
+					</control>
+				</itemlayout>
+				<focusedlayout height="242" width="340">
+					<control type="image">
+						<visible>!Skin.HasSetting(Shadow)</visible>
+						<left>0</left>
+						<top>0</top>
+						<width>340</width>
+						<height>242</height>
+						<texture colordiffuse="black" background="true">backgrounds/white.png</texture>
+						<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</bordertexture>
+						<bordersize>5</bordersize>
+						<visible>Control.HasFocus($PARAM[list_id])</visible>
+					</control>
+					<control type="image">
+						<visible>!Skin.HasSetting(Shadow)</visible>
+						<left>0</left>
+						<top>0</top>
+						<width>340</width>
+						<height>242</height>
+						<texture colordiffuse="black" background="true">backgrounds/white.png</texture>
+						<bordertexture>backgrounds/episode shadow small.png</bordertexture>
+						<bordersize>5</bordersize>
+						<visible>!Control.HasFocus($PARAM[list_id])</visible>
+					</control>
+					<control type="image">
+						<left>5</left>
+						<top>5</top>
+						<width>330</width>
+						<height>232</height>
+						<aspectratio aligny="center">keep</aspectratio>
+						<texture background="true">$PARAM[artwork]</texture>
+					</control>
+					<control type="image">
+						<left>5</left>
+						<top>167</top>
+						<width>330</width>
+						<height>70</height>
+						<texture colordiffuse="$INFO[Skin.String(color.tertiary)]">backgrounds/white.png</texture>
+						<visible>Control.HasFocus($PARAM[list_id])</visible>
+					</control>
+					<control type="label">
+						<left>15</left>
+						<top>171</top>
+						<width>310</width>
+						<height>60</height>
+						<font>secondary.info.light</font>
+						<textcolor>$INFO[Skin.String(color.text)]</textcolor>
+						<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+						<align>left</align>
+						<label>$INFO[ListItem.Label]</label>
+						<scroll>true</scroll>
+						<visible>Control.HasFocus($PARAM[list_id])</visible>
+					</control>
+					<control type="label">
+						<left>15</left>
+						<top>201</top>
+						<width>300</width>
+						<height>60</height>
+						<font>secondary.info.light</font>
+						<textcolor>$INFO[Skin.String(color.text)]</textcolor>
+						<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+						<align>left</align>
+						<label>$INFO[ListItem.Label2]</label>
+						<scroll>true</scroll>
+						<visible>Control.HasFocus($PARAM[list_id])</visible>
+					</control>
+				</focusedlayout>
+				<include content="$PARAM[contentInclude]">
+					<param name="content" value="$PARAM[content]" />
+					<param name="target" value="$PARAM[target]" />
+				</include>
+			</control>
+			<include content="WidgetArrows">
+				<param name="list_id" value="$PARAM[list_id]" />
+			</include>
+		</control>
+	</include>
+	<include name="PosterWidget">
+		<control type="group" id="9003">
+			<onload>PlayMedia($ESCINFO[ListItem.Trailer],1)</onload>
+			<left>20</left>
+			<top>12%</top>
+			<width>1890</width>
+			<height>380</height>
+			<visible>!Window.IsVisible(Favourites)</visible>
+			<animation effect="fade" time="300" delay="500">WindowOpen</animation>
+			<animation effect="fade" time="200">WindowClose</animation>
+			<control type="group">
+				<visible>Control.HasFocus($PARAM[list_id])</visible>
+				<visible>Skin.HasSetting(homepageWidgetinfo)</visible>
+				<control type="group">
+					<visible>!String.IsEmpty(ListItem.Duration)</visible>
+					<control type="image">
+						<left>1270r</left>
+						<top>-500</top>
+						<width>1280</width>
+						<height>720</height>
+						<texture>$INFO[ListItem.Art(fanart)]</texture>
+					</control>
+					<control type="image">
+						<left>-20</left>
+						<top>-482</top>
+						<width>1920</width>
+						<height>1080</height>
+						<texture diffuse="backgrounds/backgrounddiffuse.png">$INFO[Skin.CurrentTheme,special://skin/extras/backgrounds/,.jpg]</texture>
+					</control>
+					<control type="image">
+						<left>-20</left>
+						<top>-482</top>
+						<width>1920</width>
+						<height>1080</height>
+						<texture diffuse="backgrounds/backgrounddiffuse.png">$INFO[Skin.String(CustomBackgroundPath)]</texture>
+						<visible>Skin.HasSetting(UseCustomBackground) + Skin.String(CustomBackgroundPath)</visible>
+					</control>
+				</control>
+				<control type="image">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>10</left>
+					<top>-475</top>
+					<width>400</width>
+					<height>155</height>
+					<aspectratio>keep</aspectratio>
+					<texture colordiffuse="black">$INFO[ListItem.Art(clearlogo)]</texture>
+				</control>
+				<control type="image">
+					<left>5</left>
+					<top>-480</top>
+					<width>400</width>
+					<height>155</height>
+					<aspectratio>keep</aspectratio>
+					<texture>$INFO[ListItem.Art(clearlogo)]</texture>
+				</control>
+				<control type="label">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>8</left>
+					<top>-367</top>
+					<height>30</height>
+					<width>730</width>
+					<label>[B]$INFO[ListItem.Label][/B]</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>font24_title</font>
+					<textcolor>black</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<visible>String.IsEmpty(ListItem.Art(clearlogo))</visible>
+					<visible>!String.IsEmpty(ListItem.RatingAndVotes)</visible>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
+					<left>5</left>
+					<top>-370</top>
+					<height>30</height>
+					<width>730</width>
+					<label>[B]$INFO[ListItem.Label][/B]</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>font24_title</font>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<visible>String.IsEmpty(ListItem.Art(clearlogo))</visible>
+					<visible>!String.IsEmpty(ListItem.RatingAndVotes)</visible>
+					<scroll>true</scroll>
+				</control>
+				<control type="image">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>655</left>
+					<top>-437</top>
+					<width>90</width>
+					<height>78</height>
+					<aspectratio>keep</aspectratio>
+					<texture colordiffuse="black">$VAR[mpaa]</texture>
+				</control>
+				<control type="image">
+					<left>650</left>
+					<top>-440</top>
+					<width>90</width>
+					<height>78</height>
+					<aspectratio>keep</aspectratio>
+					<texture>$VAR[mpaa]</texture>
+				</control>
+				<control type="image">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>13</left>
+					<top>-307</top>
+					<width>35</width>
+					<height>35</height>
+					<aspectratio>keep</aspectratio>
+					<texture colordiffuse="black">icons/calendar.png</texture>
+					<visible>!String.IsEmpty(ListItem.Premiered)</visible>
+				</control>
+				<control type="image">
+					<left>10</left>
+					<top>-310</top>
+					<width>35</width>
+					<height>35</height>
+					<aspectratio>keep</aspectratio>
+					<texture>icons/calendar.png</texture>
+					<visible>!String.IsEmpty(ListItem.Premiered)</visible>
+				</control>
+				<control type="label">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>63</left>
+					<top>-307</top>
+					<width>240</width>
+					<height>35</height>
+					<font>button2</font>
+					<align>left</align>
+					<aligny>center</aligny>
+					<textcolor>black</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[ListItem.Premiered]</label>
+					<visible>!String.IsEmpty(ListItem.Premiered)</visible>
+				</control>
+				<control type="label">
+					<left>60</left>
+					<top>-310</top>
+					<width>240</width>
+					<height>35</height>
+					<font>button2</font>
+					<align>left</align>
+					<aligny>center</aligny>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[ListItem.Premiered]</label>
+					<visible>!String.IsEmpty(ListItem.Premiered)</visible>
+				</control>
+				<control type="image">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>235</left>
+					<top>-307</top>
+					<width>35</width>
+					<height>35</height>
+					<aspectratio>keep</aspectratio>
+					<texture colordiffuse="black">icons/clock.png</texture>
+					<visible>!String.IsEmpty(ListItem.Duration)</visible>
+				</control>
+				<control type="image">
+					<left>230</left>
+					<top>-310</top>
+					<width>35</width>
+					<height>35</height>
+					<aspectratio>keep</aspectratio>
+					<texture>icons/clock.png</texture>
+					<visible>!String.IsEmpty(ListItem.Duration)</visible>
+				</control>
+				<control type="label">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>283</left>
+					<top>-307</top>
+					<width>240</width>
+					<height>35</height>
+					<font>button2</font>
+					<align>left</align>
+					<aligny>center</aligny>
+					<textcolor>black</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[ListItem.Duration]</label>
+					<visible>!String.IsEmpty(ListItem.Duration)</visible>
+				</control>
+				<control type="label">
+					<left>280</left>
+					<top>-310</top>
+					<width>240</width>
+					<height>35</height>
+					<font>button2</font>
+					<align>left</align>
+					<aligny>center</aligny>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[ListItem.Duration]</label>
+					<visible>!String.IsEmpty(ListItem.Duration)</visible>
+				</control>
+				<control type="image">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>418</left>
+					<top>-307</top>
+					<width>35</width>
+					<height>35</height>
+					<aspectratio>keep</aspectratio>
+					<texture colordiffuse="black">icons/favourites.png</texture>
+					<visible>!String.IsEmpty(ListItem.RatingAndVotes)</visible>
+				</control>
+				<control type="image">
+					<left>415</left>
+					<top>-310</top>
+					<width>35</width>
+					<height>35</height>
+					<aspectratio>keep</aspectratio>
+					<texture>icons/favourites.png</texture>
+					<visible>!String.IsEmpty(ListItem.RatingAndVotes)</visible>
+				</control>
+				<control type="label">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>463</left>
+					<top>-307</top>
+					<width>585</width>
+					<height>35</height>
+					<font>button2</font>
+					<align>left</align>
+					<aligny>center</aligny>
+					<textcolor>black</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[ListItem.RatingAndVotes]</label>
+					<visible>!String.IsEmpty(ListItem.RatingAndVotes)</visible>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
+					<left>460</left>
+					<top>-310</top>
+					<width>585</width>
+					<height>35</height>
+					<font>button2</font>
+					<align>left</align>
+					<aligny>center</aligny>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[ListItem.RatingAndVotes]</label>
+					<visible>!String.IsEmpty(ListItem.RatingAndVotes)</visible>
+					<scroll>true</scroll>
+				</control>
+				<control type="image">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>13</left>
+					<top>-252</top>
+					<width>35</width>
+					<height>35</height>
+					<aspectratio>keep</aspectratio>
+					<texture colordiffuse="black">icons/genre.png</texture>
+					<visible>!String.IsEmpty(ListItem.Genre)</visible>
+				</control>
+				<control type="image">
+					<left>10</left>
+					<top>-255</top>
+					<width>35</width>
+					<height>35</height>
+					<aspectratio>keep</aspectratio>
+					<texture>icons/genre.png</texture>
+					<visible>!String.IsEmpty(ListItem.Genre)</visible>
+				</control>
+				<control type="label">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>63</left>
+					<top>-252</top>
+					<width>660</width>
+					<height>35</height>
+					<font>button2</font>
+					<align>left</align>
+					<aligny>center</aligny>
+					<textcolor>black</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[ListItem.Genre]</label>
+					<visible>!String.IsEmpty(ListItem.Genre)</visible>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
+					<left>60</left>
+					<top>-255</top>
+					<width>660</width>
+					<height>35</height>
+					<font>button2</font>
+					<align>left</align>
+					<aligny>center</aligny>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[ListItem.Genre]</label>
+					<visible>!String.IsEmpty(ListItem.Genre)</visible>
+					<scroll>true</scroll>
+				</control>
+				<control type="textbox">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>8</left>
+					<top>-192</top>
+					<width>725</width>
+					<height>190</height>
+					<font>font12</font>
+					<align>justify</align>
+					<textcolor>black</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[ListItem.Tagline] $INFO[ListItem.Plot]</label>
+					<visible>!String.IsEmpty(ListItem.Duration)</visible>
+					<autoscroll time="2000" delay="6000" repeat="10000">true</autoscroll>
+				</control>
+				<control type="textbox">
+					<left>5</left>
+					<top>-195</top>
+					<width>725</width>
+					<height>190</height>
+					<font>font12</font>
+					<align>justify</align>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[ListItem.Tagline] [COLORwhite]$INFO[ListItem.Plot][/COLOR]</label>
+					<visible>!String.IsEmpty(ListItem.Duration)</visible>
+					<autoscroll time="2000" delay="6000" repeat="10000">true</autoscroll>
+				</control>
+			</control>
+			<control type="group">
+				<visible>!String.IsEmpty(ListItem.AudioChannels,flags/audio/,.png)</visible>
+				<left>465r</left>
+				<top>-29</top>
+				<control type="image">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>-84</left>
+					<top>2</top>
+					<width>86</width>
+					<height>33</height>
+					<texture colordiffuse="black">flags/resolution/HDR.png</texture>
+					<aspectratio>keep</aspectratio>
+					<visible>String.Contains(ListItem.Filename,HDR)</visible>
+				</control>
+				<control type="image">
+					<left>-86</left>
+					<top>0</top>
+					<width>86</width>
+					<height>33</height>
+					<texture>flags/resolution/HDR.png</texture>
+					<aspectratio>keep</aspectratio>
+					<visible>String.Contains(ListItem.Filename,HDR)</visible>
+				</control>
+				<control type="image">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>7</left>
+					<top>2</top>
+					<width>86</width>
+					<height>33</height>
+					<texture colordiffuse="black">$INFO[ListItem.VideoAspect,flags/aspectratio/,.png]</texture>
+					<aspectratio>keep</aspectratio>
+				</control>
+				<control type="image">
+					<left>5</left>
+					<top>0</top>
+					<width>86</width>
+					<height>33</height>
+					<texture>$INFO[ListItem.VideoAspect,flags/aspectratio/,.png]</texture>
+					<aspectratio>keep</aspectratio>
+				</control>
+				<control type="image">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>98</left>
+					<top>2</top>
+					<width>86</width>
+					<height>33</height>
+					<texture colordiffuse="black">$INFO[ListItem.VideoResolution,flags/resolution/,.png]</texture>
+					<aspectratio>keep</aspectratio>
+				</control>
+				<control type="image">
+					<left>96</left>
+					<top>0</top>
+					<width>86</width>
+					<height>33</height>
+					<texture>$INFO[ListItem.VideoResolution,flags/resolution/,.png]</texture>
+					<aspectratio>keep</aspectratio>
+				</control>
+				<control type="image">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>189</left>
+					<top>2</top>
+					<width>86</width>
+					<height>33</height>
+					<texture colordiffuse="black">$INFO[ListItem.VideoCodec,flags/videocodec/,.png]</texture>
+					<aspectratio>keep</aspectratio>
+				</control>
+				<control type="image">
+					<left>187</left>
+					<top>0</top>
+					<width>86</width>
+					<height>33</height>
+					<texture>$INFO[ListItem.VideoCodec,flags/videocodec/,.png]</texture>
+					<aspectratio>keep</aspectratio>
+				</control>
+				<control type="image">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>280</left>
+					<top>2</top>
+					<width>86</width>
+					<height>33</height>
+					<texture colordiffuse="black">$INFO[ListItem.AudioCodec,flags/audio/,.png]</texture>
+					<aspectratio>keep</aspectratio>
+					<visible>!String.Contains(ListItem.FilenameAndPath,.atmos)</visible>
+				</control>
+				<control type="image">
+					<left>278</left>
+					<top>0</top>
+					<width>86</width>
+					<height>33</height>
+					<texture>$INFO[ListItem.AudioCodec,flags/audio/,.png]</texture>
+					<aspectratio>keep</aspectratio>
+					<visible>!String.Contains(ListItem.FilenameAndPath,.atmos)</visible>
+				</control>
+				<control type="image">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>280</left>
+					<top>2</top>
+					<width>86</width>
+					<height>33</height>
+					<texture colordiffuse="black">flags/audio/atmos.png</texture>
+					<aspectratio>keep</aspectratio>
+					<visible>String.Contains(ListItem.FilenameAndPath,.atmos)</visible>
+				</control>
+				<control type="image">
+					<left>278</left>
+					<top>0</top>
+					<width>86</width>
+					<height>33</height>
+					<texture>flags/audio/atmos.png</texture>
+					<aspectratio>keep</aspectratio>
+					<visible>String.Contains(ListItem.FilenameAndPath,.atmos)</visible>
+				</control>
+				<control type="image">
+					<visible>!Skin.HasSetting(Shadow)</visible>
+					<left>371</left>
+					<top>2</top>
+					<width>86</width>
+					<height>33</height>
+					<texture colordiffuse="black">$INFO[ListItem.AudioChannels,flags/audio/,.png]</texture>
+					<aspectratio>keep</aspectratio>
+				</control>
+				<control type="image">
+					<left>369</left>
+					<top>0</top>
+					<width>86</width>
+					<height>33</height>
+					<texture>$INFO[ListItem.AudioChannels,flags/audio/,.png]</texture>
+					<aspectratio>keep</aspectratio>
+				</control>
+			</control>
+			<control type="label">
+				<visible>!Skin.HasSetting(Shadow)</visible>
+				<left>8</left>
+				<top>-22</top>
+				<right>5</right>
+				<height>30</height>
+				<width>1500</width>
+				<label>$INFO[Container(9000).ListItem.Property(widgetName)]:</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>button2</font>
+				<textcolor>black</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<visible>Control.HasFocus($PARAM[list_id])</visible>
+				<visible>String.IsEmpty(ListItem.RatingAndVotes)</visible>
+			</control>
+			<control type="label">
+				<left>5</left>
+				<top>-25</top>
+				<right>5</right>
+				<height>30</height>
+				<width>1500</width>
+				<label>[COLORwhite]$INFO[Container(9000).ListItem.Property(widgetName)]:[/COLOR] $INFO[ListItem.Label]</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>button2</font>
+				<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<visible>Control.HasFocus($PARAM[list_id])</visible>
+				<visible>String.IsEmpty(ListItem.RatingAndVotes)</visible>
+			</control>
+			<control type="label">
+				<visible>!Skin.HasSetting(Shadow)</visible>
+				<left>8</left>
+				<top>-22</top>
+				<right>5</right>
+				<height>30</height>
+				<width>1500</width>
+				<label>$INFO[Container(9000).ListItem.Property(widgetName)]:</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>button2</font>
+				<textcolor>black</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<visible>Control.HasFocus($PARAM[list_id])</visible>
+				<visible>!Skin.HasSetting(homepageWidgetinfo)</visible>
+			</control>
+			<control type="label">
+				<left>5</left>
+				<top>-25</top>
+				<right>5</right>
+				<height>30</height>
+				<width>1500</width>
+				<label>[COLORwhite]$INFO[Container(9000).ListItem.Property(widgetName)]:[/COLOR] $INFO[ListItem.Label]</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>button2</font>
+				<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<visible>Control.HasFocus($PARAM[list_id])</visible>
+				<visible>!Skin.HasSetting(homepageWidgetinfo)</visible>
+			</control>
+			<control type="list" id="$PARAM[list_id]">
+				<animation effect="slide" start="0,0" end="105,0" time="0" condition="String.IsEqual(Container($PARAM[list_id]).NumItems,4)">conditional</animation>
+				<animation effect="slide" start="0,0" end="210,0" time="0" condition="String.IsEqual(Container($PARAM[list_id]).NumItems,3)">conditional</animation>
+				<animation effect="slide" start="0,0" end="315,0" time="0" condition="String.IsEqual(Container($PARAM[list_id]).NumItems,2)">conditional</animation>
+				<animation effect="slide" start="0,0" end="420,0" time="0" condition="String.IsEqual(Container($PARAM[list_id]).NumItems,1)">conditional</animation>
+				<left>0</left>
+				<top>35</top>
+				<width>1890</width>
+				<height>330</height>
+				<onleft>$PARAM[list_id]</onleft>
+				<onright>$PARAM[list_id]</onright>
+				<onup>915</onup>
+				<ondown condition="System.AddonIsEnabled(script.globalsearch)">603</ondown>
+				<ondown condition="!System.AddonIsEnabled(script.globalsearch)">603</ondown>
+				<viewtype label="535">list</viewtype>
+				<pagecontrol></pagecontrol>
+				<scrolltime>200</scrolltime>
+				<orientation>horizontal</orientation>
+				<itemlayout height="330" width="210">
+					<control type="image">
+						<visible>!Skin.HasSetting(Shadow)</visible>
+						<left>10</left>
+						<top>5</top>
+						<width>200</width>
+						<height>300</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true" colordiffuse="black">$PARAM[artwork]</texture>
+						<bordertexture>backgrounds/poster shadow small.png</bordertexture>
+						<bordersize>2</bordersize>
+					</control>
+					<control type="image">
+						<left>5</left>
+						<top>0</top>
+						<width>200</width>
+						<height>300</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">$PARAM[artwork]</texture>
+						<bordertexture>backgrounds/poster shadow small.png</bordertexture>
+						<bordersize>2</bordersize>
+					</control>
+					<control type="group">
+						<visible>Skin.HasSetting(homepageWidgetPlaycount)</visible>
+						<visible>!ListItem.Property(TotalEpisodes)</visible>
+						<control type="image">
+							<left>5</left>
+							<top>265</top>
+							<width>200</width>
+							<height>35</height>
+							<aspectratio>stretch</aspectratio>
+							<texture>backgrounds/fade_50.png</texture>
+							<bordertexture></bordertexture>
+							<bordersize>2</bordersize>
+							<visible>ListItem.IsResumable | ListItem.IsPlaying | Integer.IsGreater(ListItem.Playcount,0)</visible>
+						</control>
+						<control type="image">
+							<right>15</right>
+							<top>264</top>
+							<width>35</width>
+							<height>35</height>
+							<aspectratio>keep</aspectratio>
+							<texture>overlaywatched.png</texture>
+							<visible>Integer.IsGreater(ListItem.Playcount,0)</visible>
+						</control>
+						<control type="label">
+							<left>5</left>
+							<top>270</top>
+							<width>200</width>
+							<height>20</height>
+							<font>font10</font>
+							<align>center</align>
+							<aligny>center</aligny>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<label>$INFO[ListItem.LastPlayed]</label>
+						</control>
+						<control type="image">
+							<right>15</right>
+							<top>264</top>
+							<width>35</width>
+							<height>35</height>
+							<aspectratio>keep</aspectratio>
+							<texture>overlaywatching.png</texture>
+							<visible>ListItem.IsResumable | ListItem.IsPlaying</visible>
+						</control>
+					</control>
+					<control type="group">
+						<visible>Skin.HasSetting(homepageWidgetPlaycount)</visible>
+						<visible>ListItem.Property(TotalEpisodes)</visible>
+						<control type="image">
+							<left>5</left>
+							<top>265</top>
+							<width>200</width>
+							<height>35</height>
+							<aspectratio>stretch</aspectratio>
+							<texture>backgrounds/fade_50.png</texture>
+							<bordertexture></bordertexture>
+							<bordersize>2</bordersize>
+						</control>
+						<control type="image">
+							<right>15</right>
+							<top>264</top>
+							<width>35</width>
+							<height>35</height>
+							<aspectratio>keep</aspectratio>
+							<texture>icons/eye.png</texture>
+							<bordertexture></bordertexture>
+							<bordersize>2</bordersize>
+							<visible>ListItem.Property(TotalEpisodes)</visible>
+						</control>
+						<control type="label">
+							<left>5</left>
+							<top>270</top>
+							<width>200</width>
+							<height>20</height>
+							<font>font10</font>
+							<align>center</align>
+							<aligny>center</aligny>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<label>[B]$INFO[ListItem.Property(TotalEpisodes)] / $INFO[ListItem.Property(WatchedEpisodes)][/B]</label>
+						</control>
+					</control>
+					<control type="group">
+						<visible>Skin.HasSetting(homepageWidgetHideShell)</visible>
+						<control type="image">
+							<left>5</left>
+							<top>0</top>
+							<width>200</width>
+							<height>300</height>
+							<aspectratio aligny="bottom">stretch</aspectratio>
+							<texture colordiffuse="black">shell/stream.png</texture>
+						</control>
+						<control type="label">
+							<left>5</left>
+							<top>4</top>
+							<width>200</width>
+							<height>20</height>
+							<font>font10</font>
+							<align>center</align>
+							<aligny>center</aligny>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<label>STREAM</label>
+						</control>
+						<control type="group">
+							<visible>Library.HasContent(Movies)</visible>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/dvd.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,288)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/dvd.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,480)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/dvd.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,540)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/dvd.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,576)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/1080p.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,720)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/1080p.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,1080)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture background="true">shell/4k.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,4k)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture background="true">shell/set.png</texture>
+								<visible>ListItem.IsCollection</visible>
+							</control>
+							<control type="label">
+								<left>5</left>
+								<top>2</top>
+								<width>200</width>
+								<height>20</height>
+								<font>font10</font>
+								<align>center</align>
+								<aligny>center</aligny>
+								<textcolor>white</textcolor>
+								<shadowcolor>black</shadowcolor>
+								<label>FILMREIHE</label>
+								<visible>ListItem.IsCollection</visible>
+							</control>
+						</control>
+						<control type="group">
+							<visible>Library.HasContent(TVShows)</visible>
+							<visible>ListItem.Property(TotalEpisodes)</visible>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/tvshow.png</texture>
+							</control>
+							<control type="label">
+								<left>5</left>
+								<top>2</top>
+								<width>200</width>
+								<height>20</height>
+								<font>font10</font>
+								<align>center</align>
+								<aligny>center</aligny>
+								<textcolor>white</textcolor>
+								<shadowcolor>black</shadowcolor>
+								<label>SERIE</label>
+							</control>
+						</control>
+					</control>
+				</itemlayout>
+				<focusedlayout height="330" width="210">
+					<control type="image">
+						<visible>!Skin.HasSetting(Shadow)</visible>
+						<animation type="focus" loop="false" reversible="false">
+							<effect type="zoom" start="95" end="110" center="auto" tween="sine" easing="out" time="200"/>
+						</animation>
+						<left>10</left>
+						<top>5</top>
+						<width>200</width>
+						<height>300</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true" colordiffuse="black">$PARAM[artwork]</texture>
+						<bordertexture colordiffuse="black">backgrounds/white.png</bordertexture>
+						<bordersize>4</bordersize>
+						<visible>Control.HasFocus($PARAM[list_id])</visible>
+					</control>
+					<control type="image">
+						<animation type="focus" loop="false" reversible="false">
+							<effect type="zoom" start="95" end="110" center="auto" tween="sine" easing="out" time="200"/>
+						</animation>
+						<left>5</left>
+						<top>0</top>
+						<width>200</width>
+						<height>300</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">$PARAM[artwork]</texture>
+						<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</bordertexture>
+						<bordersize>4</bordersize>
+						<visible>Control.HasFocus($PARAM[list_id])</visible>
+					</control>
+					<control type="image">
+						<visible>!Skin.HasSetting(Shadow)</visible>
+						<animation type="focus" loop="false" reversible="false">
+							<effect type="zoom" start="95" end="110" center="auto" tween="sine" easing="out" time="200"/>
+						</animation>
+						<left>10</left>
+						<top>5</top>
+						<width>200</width>
+						<height>300</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true" colordiffuse="black">$PARAM[artwork]</texture>
+						<bordertexture colordiffuse="black">backgrounds/white.png</bordertexture>
+						<bordersize>2</bordersize>
+						<visible>!Control.HasFocus($PARAM[list_id])</visible>
+					</control>
+					<control type="image">
+						<animation type="focus" loop="false" reversible="false">
+							<effect type="zoom" start="95" end="110" center="auto" tween="sine" easing="out" time="200"/>
+						</animation>
+						<left>5</left>
+						<top>0</top>
+						<width>200</width>
+						<height>300</height>
+						<aspectratio>stretch</aspectratio>
+						<texture background="true">$PARAM[artwork]</texture>
+						<bordertexture>backgrounds/poster shadow small.png</bordertexture>
+						<bordersize>2</bordersize>
+						<visible>!Control.HasFocus($PARAM[list_id])</visible>
+					</control>
+					<control type="group">
+						<visible>Skin.HasSetting(homepageWidgetPlaycount)</visible>
+						<visible>!ListItem.Property(TotalEpisodes)</visible>
+						<animation type="focus" loop="false" reversible="false">
+							<effect type="zoom" start="95" end="108" center="auto" tween="sine" easing="out" time="200"/>
+						</animation>
+						<control type="image">
+							<left>5</left>
+							<top>265</top>
+							<width>200</width>
+							<height>35</height>
+							<aspectratio>stretch</aspectratio>
+							<texture>backgrounds/fade_50.png</texture>
+							<bordertexture></bordertexture>
+							<bordersize>2</bordersize>
+							<visible>ListItem.IsResumable | ListItem.IsPlaying | Integer.IsGreater(ListItem.Playcount,0)</visible>
+						</control>
+						<control type="label">
+							<left>5</left>
+							<top>270</top>
+							<width>200</width>
+							<height>20</height>
+							<font>font10</font>
+							<align>center</align>
+							<aligny>center</aligny>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<label>$INFO[ListItem.LastPlayed]</label>
+						</control>
+						<control type="image">
+							<right>15</right>
+							<top>264</top>
+							<width>35</width>
+							<height>35</height>
+							<aspectratio>keep</aspectratio>
+							<texture>overlaywatched.png</texture>
+							<visible>Integer.IsGreater(ListItem.Playcount,0)</visible>
+						</control>
+						<control type="image">
+							<right>15</right>
+							<top>264</top>
+							<width>35</width>
+							<height>35</height>
+							<aspectratio>keep</aspectratio>
+							<texture>overlaywatching.png</texture>
+							<visible>ListItem.IsResumable | ListItem.IsPlaying</visible>
+						</control>
+					</control>
+					<control type="group">
+						<visible>Skin.HasSetting(homepageWidgetPlaycount)</visible>
+						<visible>ListItem.Property(TotalEpisodes)</visible>
+						<animation type="focus" loop="false" reversible="false">
+							<effect type="zoom" start="95" end="108" center="auto" tween="sine" easing="out" time="200"/>
+						</animation>
+						<control type="image">
+							<left>5</left>
+							<top>265</top>
+							<width>200</width>
+							<height>35</height>
+							<aspectratio>stretch</aspectratio>
+							<texture>backgrounds/fade_50.png</texture>
+							<bordertexture></bordertexture>
+							<bordersize>2</bordersize>
+						</control>
+						<control type="image">
+							<right>15</right>
+							<top>264</top>
+							<width>35</width>
+							<height>35</height>
+							<aspectratio>keep</aspectratio>
+							<texture>icons/eye.png</texture>
+							<bordertexture></bordertexture>
+							<bordersize>2</bordersize>
+							<visible>ListItem.Property(TotalEpisodes)</visible>
+						</control>
+						<control type="label">
+							<left>5</left>
+							<top>270</top>
+							<width>200</width>
+							<height>20</height>
+							<font>font10</font>
+							<align>center</align>
+							<aligny>center</aligny>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<label>[B]$INFO[ListItem.Property(TotalEpisodes)] / $INFO[ListItem.Property(WatchedEpisodes)][/B]</label>
+						</control>
+					</control>
+					<control type="group">
+						<visible>Skin.HasSetting(homepageWidgetHideShell)</visible>
+						<animation type="focus" loop="false" reversible="false">
+							<effect type="zoom" start="95" end="108" center="auto" tween="sine" easing="out" time="200"/>
+						</animation>
+						<control type="image">
+							<left>5</left>
+							<top>0</top>
+							<width>200</width>
+							<height>300</height>
+							<aspectratio aligny="bottom">stretch</aspectratio>
+							<texture colordiffuse="black">shell/stream.png</texture>
+						</control>
+						<control type="label">
+							<left>5</left>
+							<top>4</top>
+							<width>200</width>
+							<height>20</height>
+							<font>font10</font>
+							<align>center</align>
+							<aligny>center</aligny>
+							<textcolor>white</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<label>STREAM</label>
+						</control>
+						<control type="group">
+							<visible>Library.HasContent(Movies)</visible>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/dvd.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,288)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/dvd.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,480)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/dvd.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,540)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/dvd.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,576)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/1080p.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,720)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/1080p.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,1080)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture background="true">shell/4k.png</texture>
+								<visible>String.Contains(ListItem.VideoResolution,4k)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture background="true">shell/set.png</texture>
+								<visible>ListItem.IsCollection</visible>
+							</control>
+							<control type="label">
+								<left>5</left>
+								<top>2</top>
+								<width>200</width>
+								<height>20</height>
+								<font>font10</font>
+								<align>center</align>
+								<aligny>center</aligny>
+								<textcolor>white</textcolor>
+								<shadowcolor>black</shadowcolor>
+								<label>FILMREIHE</label>
+								<visible>ListItem.IsCollection</visible>
+							</control>
+						</control>
+						<control type="group">
+							<visible>Library.HasContent(TVShows)</visible>
+							<visible>ListItem.Property(TotalEpisodes)</visible>
+							<control type="image">
+								<left>5</left>
+								<top>0</top>
+								<width>200</width>
+								<height>300</height>
+								<aspectratio aligny="bottom">stretch</aspectratio>
+								<texture>shell/tvshow.png</texture>
+							</control>
+							<control type="label">
+								<left>5</left>
+								<top>2</top>
+								<width>200</width>
+								<height>20</height>
+								<font>font10</font>
+								<align>center</align>
+								<aligny>center</aligny>
+								<textcolor>white</textcolor>
+								<shadowcolor>black</shadowcolor>
+								<label>SERIE</label>
+							</control>
+						</control>
+					</control>
+				</focusedlayout>
+				<include content="$PARAM[contentInclude]">
+					<param name="content" value="$PARAM[content]" />
+					<param name="target" value="$PARAM[target]" />
+				</include>
+			</control>
+		</control>
+	</include>
+</includes>

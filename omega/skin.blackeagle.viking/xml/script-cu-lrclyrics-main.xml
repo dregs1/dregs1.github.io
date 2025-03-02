@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<controls>
+		<control type="image" id="1">
+			<left>0</left>
+			<top>0</top>
+			<width>100%</width>
+			<height>700</height>
+			<texture flipy="true">backgrounds/gradient_floor.png</texture>
+		</control>
+		<control type="group">
+			<left></left>
+			<width>1920</width>
+			<visible>![Window.IsActive(ShutdownMenu) | Window.IsActive(ContextMenu)]</visible>
+			<control type="group">
+				<control type="label">
+					<centerleft>50%</centerleft>
+					<top>20</top>
+					<width>1880</width>
+					<height>50</height>
+					<font>menu.title</font>
+					<align>center</align>
+					<aligny>center</aligny>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[MusicPlayer.Artist] - $INFO[MusicPlayer.Title]</label>
+				</control>
+				<control type="list" id="110">
+					<centerleft>50%</centerleft>
+					<top>80</top>
+					<width>1880</width>
+					<height>500</height>
+					<onleft>111</onleft>
+					<onright>111</onright>
+					<onup>110</onup>
+					<ondown>110</ondown>
+					<pagecontrol>111</pagecontrol>
+					<scrolltime>200</scrolltime>
+					<itemlayout height="50">
+						<control type="label">
+							<left>0</left>
+							<top>0</top>
+							<width>1880</width>
+							<height>50</height>
+							<font>menu.title</font>
+							<aligny>center</aligny>
+							<align>center</align>
+							<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+							<info>ListItem.Label</info>
+						</control>
+					</itemlayout>
+					<focusedlayout height="50">
+						<control type="label">
+							<left>0</left>
+							<top>0</top>
+							<width>1880</width>
+							<height>50</height>
+							<font>menu.title</font>
+							<aligny>center</aligny>
+							<align>center</align>
+							<shadowcolor>black</shadowcolor>
+							<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+							<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+							<label>$INFO[ListItem.Label]</label>
+							<visible>!Control.HasFocus(110)</visible>
+						</control>
+						<control type="label">
+							<left>0</left>
+							<top>0</top>
+							<width>1880</width>
+							<height>50</height>
+							<font>menu.title</font>
+							<aligny>center</aligny>
+							<align>center</align>
+							<shadowcolor>black</shadowcolor>
+							<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+							<label fallback="--">$INFO[ListItem.Label]</label>
+							<visible>Control.HasFocus(110)</visible>
+						</control>
+					</focusedlayout>
+				</control>
+				<control type="label">
+					<description>Scraper label</description>
+					<centerleft>50%</centerleft>
+					<top>600</top>
+					<width>1880</width>
+					<height>45</height>
+					<label>$LOCALIZE[31205] - $INFO[Control.GetLabel(200)]</label>
+					<font>kai.primary</font>
+					<align>center</align>
+					<aligny>center</aligny>
+				</control>
+				<control type="label" id="200">
+					<description>Scraper label</description>
+					<visible>false</visible>
+				</control>
+			</control>
+		</control>
+	</controls>
+</window>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includes>
+	<include name="PVRGuideViewTimeline">
+		<control type="group">
+			<visible>Control.IsVisible(10)</visible>
+			<include>VisibleFadeEffect</include>
+			<left>20</left>
+			<top>20</top>
+			<width>1880</width>
+			<height>783</height>
+			<control type="image">
+				<left>0</left>
+				<top>50</top>
+				<width>1880</width>
+				<height>2</height>
+				<aspectratio>stretch</aspectratio>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			<control type="epggrid" id="10">
+				<viewtype label="19032">list</viewtype>
+				<width>1880</width>
+				<height>700</height>
+				<pagecontrol>60</pagecontrol>
+				<scrolltime>350</scrolltime>
+				<timeblocks>30</timeblocks>
+				<rulerunit>6</rulerunit>
+				<onleft>101</onleft>
+				<onright>60</onright>
+				<onup>10</onup>
+				<ondown>10</ondown>
+				<onback>101</onback>
+				<rulerlayout height="70" width="60">
+					<control type="label" id="2">
+						<left>5</left>
+						<top>-5</top>
+						<width>51</width>
+						<height>70</height>
+						<font>label</font>
+						<textcolor>white</textcolor>
+						<aligny>center</aligny>
+						<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+						<shadowcolor>black</shadowcolor>
+						<align>left</align>
+						<label>$INFO[ListItem.Label]</label>
+					</control>
+				</rulerlayout>
+				<channellayout height="70" width="720">
+					<control type="image">
+						<width>700</width>
+						<height>60</height>
+						<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+					</control>
+					<control type="label">
+						<left>15</left>
+						<width>60</width>
+						<height>60</height>
+						<font>label</font>
+						<align>left</align>
+						<aligny>center</aligny>
+						<textcolor>white</textcolor>
+						<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+						<shadowcolor>black</shadowcolor>
+						<info>ListItem.ChannelNumberLabel</info>
+					</control>
+					<control type="label" id="1">
+						<left>85</left>
+						<width>450</width>
+						<height>60</height>
+						<font>label</font>
+						<aligny>center</aligny>
+						<textcolor>white</textcolor>
+						<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+						<shadowcolor>black</shadowcolor>
+						<align>left</align>
+						<label>$INFO[ListItem.ChannelName]</label>
+					</control>
+					<control type="image">
+						<left>560</left>
+						<top>0</top>
+						<width>140</width>
+						<height>60</height>
+						<align>right</align>
+						<aligny>center</aligny>
+						<aspectratio>keep</aspectratio>
+						<texture>$INFO[ListItem.Icon]</texture>
+					</control>
+				</channellayout>
+				<focusedchannellayout height="70" width="720">
+					<control type="image">
+						<width>700</width>
+						<height>60</height>
+						<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+					</control>
+					<control type="label">
+						<left>15</left>
+						<width>60</width>
+						<height>60</height>
+						<font>label</font>
+						<align>left</align>
+						<aligny>center</aligny>
+						<textcolor>white</textcolor>
+						<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+						<shadowcolor>black</shadowcolor>
+						<info>ListItem.ChannelNumberLabel</info>
+					</control>
+					<control type="label" id="1">
+						<left>85</left>
+						<width>450</width>
+						<height>60</height>
+						<font>label</font>
+						<aligny>center</aligny>
+						<textcolor>white</textcolor>
+						<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+						<shadowcolor>black</shadowcolor>
+						<align>left</align>
+						<label>$INFO[ListItem.ChannelName]</label>
+					</control>
+					<control type="image">
+						<left>560</left>
+						<top>0</top>
+						<width>140</width>
+						<height>60</height>
+						<align>right</align>
+						<aligny>center</aligny>
+						<aspectratio>keep</aspectratio>
+						<texture>$INFO[ListItem.Icon]</texture>
+					</control>
+				</focusedchannellayout>
+				<itemlayout height="70" width="60">
+					<control type="image" id="2">
+						<width>58</width>
+						<height>60</height>
+						<left>0</left>
+						<top>0</top>
+						<aspectratio>stretch</aspectratio>
+						<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+					</control>
+					<control type="label" id="1">
+						<left>10</left>
+						<top>0</top>
+						<width>38</width>
+						<height>60</height>
+						<font>label</font>
+						<aligny>center</aligny>
+						<textcolor>$INFO[Skin.String(color.text)]</textcolor>
+						<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+						<shadowcolor>black</shadowcolor>
+						<align>left</align>
+						<info>ListItem.Label</info>
+					</control>
+				</itemlayout>
+				<focusedlayout height="70" width="60">
+					<control type="image" id="2">
+						<width>58</width>
+						<height>60</height>
+						<left>0</left>
+						<top>0</top>
+						<aspectratio>stretch</aspectratio>
+						<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+					</control>
+					<control type="label" id="1">
+						<left>10</left>
+						<top>0</top>
+						<width>38</width>
+						<height>60</height>
+						<font>label</font>
+						<aligny>center</aligny>
+						<textcolor>white</textcolor>
+						<selectedcolor>$INFO[Skin.String(color.500)]</selectedcolor>
+						<shadowcolor>black</shadowcolor>
+						<align>left</align>
+						<info>ListItem.Label</info>
+					</control>
+				</focusedlayout>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>705</top>
+				<width>700</width>
+				<height>200</height>
+				<aspectratio>keep</aspectratio>
+				<texture background="true">$INFO[ListItem.Icon]</texture>
+				<aspectratio align="center" aligny="center">keep</aspectratio>
+			</control>
+			<control type="label">
+				<left>725</left>
+				<top>705</top>
+				<width>1155</width>
+				<height>30</height>
+				<label>$INFO[ListItem.Label]</label>
+				<font>label</font>
+				<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<scroll>true</scroll>
+			</control>
+			<control type="label">
+				<left>725</left>
+				<top>750</top>
+				<width>1155</width>
+				<height>30</height>
+				<label>$INFO[ListItem.StartTime]$INFO[ListItem.EndTime, - ]$INFO[ListItem.Genre, • ]</label>
+				<font>secondary.info.light</font>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<scroll>true</scroll>
+			</control>
+			<control type="textbox">
+				<left>725</left>
+				<top>800</top>
+				<width>1155</width>
+				<height>100</height>
+				<font>font12</font>
+				<align>justify</align>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<label>$INFO[ListItem.Plot]</label>
+				<autoscroll time="2000" delay="6000" repeat="10000">true</autoscroll>
+			</control>
+		</control>
+	</include>
+</includes>

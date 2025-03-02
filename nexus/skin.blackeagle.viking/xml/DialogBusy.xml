@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<controls>
+		<control type="group">
+			<left>0</left>
+			<top>0</top>
+			<width>100%</width>
+			<height>100%</height>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>100%</width>
+				<height>100%</height>
+				<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+				<aspectratio>stretch</aspectratio>
+			</control>
+			<control type="image">
+				<centerleft>50%</centerleft>
+				<centertop>50%</centertop>
+				<width>200</width>
+				<height>200</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">kodi_logo.png</texture>
+				<aspectratio>keep</aspectratio>
+				<animation effect="rotate" start="360" end="0" center="auto" time="5000" loop="true" condition="true">conditional</animation>
+			</control>
+			<control type="label">
+				<centerleft>50%</centerleft>
+				<centertop>60%</centertop>
+				<width>100%</width>
+				<height>100%</height>
+				<font>menu.title</font>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>center</align>
+				<aligny>center</aligny>
+				<label>$LOCALIZE[31966]</label>
+			</control>
+		</control>
+	</controls>
+</window>

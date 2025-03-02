@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol>3</defaultcontrol>
+	<include>CheckSkinColorsSet</include>
+	<controls>
+		<control type="image">
+			<left>0</left>
+			<top>0</top>
+			<width>1920</width>
+			<height>1080</height>
+			<texture>$INFO[Skin.CurrentTheme,special://skin/extras/backgrounds/,.jpg]</texture>
+		</control>
+		<control type="image">
+			<left>0</left>
+			<top>0</top>
+			<width>1920</width>
+			<height>1080</height>
+			<texture>$INFO[Skin.String(CustomBackgroundPath)]</texture>
+			<visible>Skin.HasSetting(UseCustomBackground) + Skin.String(CustomBackgroundPath)</visible>
+		</control>
+		<control type="image">
+			<left>0</left>
+			<top>0</top>
+			<width>100%</width>
+			<height>100%</height>
+			<texture>backgrounds/fade.png</texture>
+			<aspectratio>scale</aspectratio>
+			<visible>Skin.HasSetting(UseCustomBackground) + Skin.String(CustomBackgroundPath)</visible>
+		</control>
+		<control type="group">
+			<visible>!Skin.HasSetting(Touchmode)</visible>
+				<control type="image">
+					<right>20</right>
+					<top>25</top>
+					<width>60</width>
+					<height>60</height>
+					<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+				</control>
+				<control type="button" id="998">
+					<right>25</right>
+					<top>30</top>
+					<width>50</width>
+					<height>50</height>
+					<label></label>
+					<font/>
+					<onclick>ActivateWindow(home)</onclick>
+					<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">icons/home.png</texturefocus>
+					<texturenofocus colordiffuse="white">icons/home.png</texturenofocus>
+					<onleft>999</onleft>
+					<onright>999</onright>
+					<onup></onup>
+					<ondown></ondown>
+				</control>
+				<control type="image">
+					<right>100</right>
+					<top>25</top>
+					<width>60</width>
+					<height>60</height>
+					<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+				</control>
+				<control type="button" id="999">
+					<right>110</right>
+					<top>35</top>
+					<width>40</width>
+					<height>40</height>
+					<label></label>
+					<font/>
+					<onclick>back</onclick>
+					<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">icons/back.png</texturefocus>
+					<texturenofocus colordiffuse="white">icons/back.png</texturenofocus>
+					<onleft>9001</onleft>
+					<onright>998</onright>
+					<onup></onup>
+					<ondown></ondown>
+				</control>
+			</control>
+		<control type="group">
+			<visible>!Skin.HasSetting(View50HideClock)</visible>
+			<visible>!Player.HasAudio + !Skin.HasSetting(homepageMusicinfo)</visible>
+			<visible>!Player.HasVideo + !Skin.HasSetting(homepageVideoinfo)</visible>
+			<control type="label">
+				<top>125r</top>
+				<left>20</left>
+				<width>500</width>
+				<height>22</height>
+				<font>font14</font>
+				<align>left</align>
+				<aligny>center</aligny>
+				<label>$INFO[System.Date]</label>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+			</control>
+			<control type="label">
+				<top>80r</top>
+				<left>20</left>
+				<width>500</width>
+				<height>30</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>font35_title</font>
+				<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<label>$INFO[System.Time(hh:mm:ss)]</label>
+			</control>
+		</control>
+		<control type="image">
+			<left>0</left>
+			<top>935</top>
+			<width>1920</width>
+			<height>64</height>
+			<texture colordiffuse="$INFO[Skin.String(color.500)]">menu_bar_views.png</texture>
+		</control>
+		<control type="group">
+			<left>0</left>
+			<top>510</top>
+			<visible>Player.HasAudio + !Skin.HasSetting(homepageMusicinfo) + String.IsEmpty(Window(Videos).Property(PlayingBackgroundMedia))</visible>
+			<control type="group">
+				<control type="label">
+					<left>20</left>
+					<top>440</top>
+					<height>38</height>
+					<width>560</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb</font>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[Player.Title]</label>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
+					<left>20</left>
+					<top>470</top>
+					<height>38</height>
+					<width>560</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb.secondary</font>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[MusicPlayer.Artist] [COLORwhite]$INFO[MusicPlayer.Album]$INFO[musicplayer.discnumber, - $LOCALIZE[427]: ][/COLOR]</label>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
+					<left>20</left>
+					<top>500</top>
+					<height>38</height>
+					<width>560</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb.secondary</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[Player.Time] / $INFO[Player.Duration,]</label>
+					<scroll>true</scroll>
+				</control>
+			</control>
+		</control>
+		<control type="group">
+			<left>0</left>
+			<top>480</top>
+			<visible>Player.HasVideo + !Skin.HasSetting(homepageVideoinfo) + String.IsEmpty(Window(Videos).Property(PlayingBackgroundMedia))</visible>
+				<control type="group">
+				<visible>!VideoPlayer.Content(Movies) + !VideoPlayer.Content(Episodes) + !VideoPlayer.Content(LiveTV)</visible>
+				<control type="label">
+					<left>20</left>
+					<top>500</top>
+					<height>38</height>
+					<width>560</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb</font>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[Player.Title]</label>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
+					<left>20</left>
+					<top>530</top>
+					<height>38</height>
+					<width>560</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb.secondary</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[Player.Time] / $INFO[Player.Duration,]</label>
+				</control>
+			</control>
+			<control type="group">
+				<visible>VideoPlayer.Content(LiveTV)</visible>
+				<control type="label">
+					<left>20</left>
+					<top>470</top>
+					<height>38</height>
+					<width>560</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb</font>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[Player.Title]</label>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
+					<left>20</left>
+					<top>500</top>
+					<height>38</height>
+					<width>560</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb.secondary</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[VideoPlayer.ChannelName]</label>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
+					<left>20</left>
+					<top>530</top>
+					<height>38</height>
+					<width>560</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb.secondary</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[Player.Time] / $INFO[Player.Duration,]</label>
+				</control>
+			</control>
+			<control type="group">
+				<visible>VideoPlayer.Content(Movies)</visible>
+				<control type="label">
+					<left>20</left>
+					<top>470</top>
+					<height>38</height>
+					<width>560</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb</font>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[Player.Title]</label>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
+					<left>20</left>
+					<top>500</top>
+					<height>38</height>
+					<width>560</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb.secondary</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[VideoPlayer.Studio]</label>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
+					<left>20</left>
+					<top>530</top>
+					<height>38</height>
+					<width>560</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb.secondary</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[Player.Time] / $INFO[Player.Duration,]</label>
+				</control>
+			</control>
+			<control type="group">
+				<visible>VideoPlayer.Content(Episodes)</visible>
+				<control type="label">
+					<left>20</left>
+					<top>470</top>
+					<height>38</height>
+					<width>560</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb</font>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[Player.Title]</label>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
+					<left>20</left>
+					<top>500</top>
+					<height>38</height>
+					<width>560</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb.secondary</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[VideoPlayer.TVShowTitle] ($INFO[VideoPlayer.Season,$LOCALIZE[20373] , - ]$INFO[VideoPlayer.episode,$LOCALIZE[20359] ,])</label>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
+					<left>20</left>
+					<top>530</top>
+					<height>38</height>
+					<width>450</width>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>breadcrumb.secondary</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<label>$INFO[Player.Time] / $INFO[Player.Duration,]</label>
+				</control>
+			</control>
+		</control>
+		<control type="group">
+			<top>20</top>
+			<left>20</left>
+			<width>1880</width>
+			<height>783</height>
+			<visible>![Window.IsActive(PVRChannelManager) | Window.IsActive(PVRGroupManager) | Window.IsActive(script-RSS_Editor.xml)]</visible>
+			<control type="label">
+				<left>20</left>
+				<top>0</top>
+				<width>1880</width>
+				<height>60</height>
+				<font>info.title</font>
+				<align>center</align>
+				<aligny>center</aligny>
+				<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<label>$INFO[Control.GetLabel(2)] - $LOCALIZE[5]</label>
+			</control>
+			<control type="grouplist" id="3">
+				<left>0</left>
+				<top>100</top>
+				<width>700</width>
+				<height>645</height>
+				<itemgap>10</itemgap>
+				<onleft>5</onleft>
+				<onright>5</onright>
+				<onup>3</onup>
+				<ondown>20</ondown>
+			</control>
+			<control type="button" id="20">
+				<left>0</left>
+				<top>800</top>
+				<height>60</height>
+				<width>700</width>
+				<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texturefocus>
+				<texturenofocus colordiffuse="button.nf">backgrounds/white.png</texturenofocus>
+				<font>label</font>
+				<textcolor>white</textcolor>
+				<focusedcolor>white</focusedcolor>
+				<shadowcolor>black</shadowcolor>
+				<include>ButtonCommonValues</include>
+				<align>right</align>
+				<onleft>5</onleft>
+				<onright>5</onright>
+				<onup>3</onup>
+				<ondown>3</ondown>
+				<onclick>SettingsLevelChange</onclick>
+			</control>
+			<control type="label">
+				<left>25</left>
+				<top>800</top>
+				<height>60</height>
+				<width>305</width>
+				<label>31142</label>
+				<font>label</font>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>left</align>
+				<aligny>center</aligny>
+				<visible>!Control.HasFocus(20)</visible>
+			</control>
+			<control type="label">
+				<left>25</left>
+				<top>800</top>
+				<height>60</height>
+				<width>305</width>
+				<label>31142</label>
+				<font>label</font>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>left</align>
+				<aligny>center</aligny>
+				<visible>Control.HasFocus(20)</visible>
+			</control>
+			<control type="grouplist" id="5">
+				<left>785</left>
+				<top>100</top>
+				<width>1080</width>
+				<height>760</height>
+				<itemgap>10</itemgap>
+				<pagecontrol>60</pagecontrol>
+				<onleft>3</onleft>
+				<onright>60</onright>
+				<onup>5</onup>
+				<ondown>5</ondown>
+			</control>
+			<control type="scrollbar" id="60">
+				<left>0r</left>
+				<top>100</top>
+				<width>5</width>
+				<height>760</height>
+				<onleft>5</onleft>
+				<onright>3</onright>
+			</control>
+			<control type="textbox" id="6">
+				<left>800</left>
+				<top>890</top>
+				<width>1085</width>
+				<height>60</height>
+				<font>label</font>
+				<align>left</align>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+			</control>
+		</control>
+		<include>BehindDialogFadeOut</include>
+		<control type="button" id="10">
+			<left>0</left>
+			<width>700</width>
+			<height>60</height>
+			<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texturefocus>
+			<texturenofocus colordiffuse="button.nf">backgrounds/white.png</texturenofocus>
+			<font>label</font>
+			<textcolor>white</textcolor>
+			<focusedcolor>white</focusedcolor>
+			<shadowcolor>black</shadowcolor>
+			<include>ButtonCommonValues</include>
+		</control>
+		<control type="button" id="7">
+			<left>0</left>
+			<top>0</top>
+			<font>label</font>
+			<textcolor>white</textcolor>
+			<focusedcolor>white</focusedcolor>
+			<shadowcolor>black</shadowcolor>
+			<invalidcolor>invalid</invalidcolor>
+		</control>
+		<control type="radiobutton" id="8">
+			<left>0</left>
+			<top>0</top>
+			<font>label</font>
+			<textcolor>white</textcolor>
+			<focusedcolor>white</focusedcolor>
+			<shadowcolor>black</shadowcolor>
+		</control>
+		<control type="spincontrolex" id="9">
+			<left>0</left>
+			<top>0</top>
+			<font>label</font>
+			<textcolor>white</textcolor>
+			<focusedcolor>white</focusedcolor>
+			<shadowcolor>black</shadowcolor>
+			<reverse>yes</reverse>
+		</control>
+		<control type="edit" id="12">
+			<left>0</left>
+			<top>0</top>
+			<font>label</font>
+			<textcolor>white</textcolor>
+			<focusedcolor>white</focusedcolor>
+			<shadowcolor>black</shadowcolor>
+		</control>
+		<control type="sliderex" id="13">
+			<left>0</left>
+			<top>0</top>
+			<font>label</font>
+			<textcolor>white</textcolor>
+			<focusedcolor>white</focusedcolor>
+			<shadowcolor>black</shadowcolor>
+		</control>
+		<control type="label" id="14">
+			<left>0</left>
+			<top>0</top>
+			<height>60</height>
+			<font>label</font>
+			<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+			<shadowcolor>black</shadowcolor>
+			<textoffsetx>15</textoffsetx>
+			<aligny>center</aligny>
+		</control>
+		<control type="label" id="2">
+			<description>Fake Label so we can pass it value down to the one below</description>
+			<left>0</left>
+			<top>0</top>
+			<width>0</width>
+			<height>0</height>
+			<font></font>
+			<visible>false</visible>
+		</control>
+	</controls>
+</window>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<controls>
+		<control type="group">
+			<control type="image">
+				<left>580r</left>
+				<width>580</width>
+				<height>80</height>
+				<texture colordiffuse="black">backgrounds/white.png</texture>
+			</control>
+			<control type="image">
+				<left>575r</left>
+				<top>10</top>
+				<width>50</width>
+				<height>50</height>
+				<texture>icons/iconwarning.png</texture>
+			</control>
+			<control type="image">
+				<left>580r</left>
+				<top>0</top>
+				<width>2</width>
+				<height>79</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			<control type="image">
+				<left>580r</left>
+				<top>79</top>
+				<width>580</width>
+				<height>2</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			<control type="label" id="30">
+				<left>520r</left>
+				<top>5</top>
+				<width>510</width>
+				<height>27</height>
+				<font>kai.primary</font>
+				<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>center</align>
+				<aligny>center</aligny>
+				<scrollout>true</scrollout>
+				<pauseatend>2000</pauseatend>
+			</control>
+			<control type="label" id="31">
+				<left>520r</left>
+				<top>30</top>
+				<width>510</width>
+				<height>27</height>
+				<font>kai.secondary</font>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>center</align>
+				<aligny>center</aligny>
+				<scrollout>true</scrollout>
+				<pauseatend>2000</pauseatend>
+			</control>
+			<control type="progress" id="32">
+				<description>progress control</description>
+				<left>520r</left>
+				<top>65</top>
+				<width>510</width>
+				<height>5</height>
+			</control>
+		</control>
+	</controls>
+</window>

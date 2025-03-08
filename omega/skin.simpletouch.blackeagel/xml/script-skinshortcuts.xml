@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol always="true">300</defaultcontrol>
+	<controls>
+	
+		<control type="group">
+			<include>CommonBackground</include>
+			<include>VisibleFadeEffect</include>
+		    <visible>!Skin.HasSetting(Clock)</visible>
+		</control>
+	   <control type="group">
+		<left>30</left>
+		<control type="image">
+		    <left>-2</left>
+		    <top>17</top>
+		    <width>98.6%</width>
+		    <height>10.6%</height>
+		    <texture>homeshadow_1.png</texture>
+		 </control>
+		<control type="image">
+		    <left>0</left>
+		    <top>20</top>
+		    <width>98.4%</width>
+		    <height>10%</height>
+		    <texture colordiffuse="black">backgrounds/bg_fade_2.png</texture>
+			<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_3.png</bordertexture>
+			<bordersize>2</bordersize>
+		 </control>
+		 <control type="image">
+		    <left>-2</left>
+		    <top>947</top>
+		    <width>98.6%</width>
+		    <height>10.6%</height>
+		    <texture>homeshadow_2.png</texture>
+		  </control>
+		<control type="image">
+		    <left>0</left>
+		    <top>950</top>
+		    <width>98.4%</width>
+		    <height>10%</height>
+		    <texture colordiffuse="black">backgrounds/bg_fade_2.png</texture>
+			<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_3.png</bordertexture>
+			<bordersize>2</bordersize>
+		  </control>
+	    </control>	
+		<control type="group">
+		<visible>!Skin.HasSetting(Clock)</visible>
+			<control type="image">
+				<right>62</right>
+				<top>45</top>
+				<width>250</width>
+				<height>60</height>
+				<texture colordiffuse="FF2E2E2E">backgrounds/bg_fade_7.png</texture>
+				<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_4.png</bordertexture>
+			    <bordersize>2</bordersize>
+			</control>
+			<control type="label">
+				<right>177</right>
+				<top>45</top>
+				<width>200</width>
+				<height>60</height>
+				<align>right</align>
+				<aligny>center</aligny>
+				<font>fontContextMenu</font>
+				<textcolor>white</textcolor>
+				<label>$INFO[System.Time(hh:mm)]</label>
+			</control>
+			<control type="label">
+				<right>107</right>
+				<top>45</top>
+				<width>70</width>
+				<height>60</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>fontContextMenu</font>
+				<textcolor>white</textcolor>
+				<label>:$INFO[System.Time(ss)]</label>
+			</control>
+			<control type="image">
+				<left>60</left>
+				<top>45</top>
+				<width>250</width>
+				<height>60</height>
+				<texture colordiffuse="FF2E2E2E">backgrounds/bg_fade_7.png</texture>
+			    <bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_4.png</bordertexture>
+				<bordersize>2</bordersize>
+			</control>
+			<control type="label">
+				<left>111</left>
+				<top>45</top>
+				<width>360</width>
+				<height>60</height>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>fontContextMenu</font>
+				<textcolor>white</textcolor>
+				<label>$INFO[System.Date(dd:mm:yyyy]</label>
+			</control>
+		</control>
+		<control type="group">
+			<visible>Skin.HasSetting(Touchmode)</visible>
+			<control type="image">
+				<left>60</left>
+				<top>110r</top>
+				<width>70</width>
+				<height>70</height>
+				<texture colordiffuse="FF2E2E2E">backgrounds/bg_fade_7.png</texture>
+				<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_4.png</bordertexture>
+				<bordersize>2</bordersize>
+			</control>
+			<control type="button">
+				<description>Back push button</description>
+				<left>55</left>
+				<top>115r</top>
+				<width>80</width>
+				<height>80</height>
+				<label></label>
+				<font/>
+				<onclick>back</onclick>
+				<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">icons/back.png</texturefocus>
+				<texturenofocus colordiffuse="FFFFFFFF">icons/back.png</texturenofocus>
+			</control>
+			<control type="image">
+				<right>70</right>
+				<top>110r</top>
+				<width>70</width>
+				<height>70</height>
+				<texture colordiffuse="FF2E2E2E">backgrounds/bg_fade_7.png</texture>
+				<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_4.png</bordertexture>
+				<bordersize>2</bordersize>
+			</control>
+			<control type="button">
+				<description>Home push button</description>
+				<right>65</right>
+				<top>115r</top>
+				<width>80</width>
+				<height>80</height>
+				<label></label>
+				<font/>
+				<onclick>ActivateWindow(home)</onclick>
+				<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">icons/home.png</texturefocus>
+				<texturenofocus colordiffuse="FFFFFFFF">icons/home.png</texturenofocus>
+			</control>
+		</control>
+		
+		<!--all content-->
+		<control type="group">
+		    <animation effect="slide" start="2015,0" end="0,0" time="400" tween="quadratic" easing="out">WindowOpen</animation>
+			<animation effect="slide" start="0,0" end="-2015,0" time="400" tween="quadratic" easing="out">WindowClose</animation>
+			<animation effect="slide" start="-2015,0" end="0,0" time="400" tween="quadratic" easing="out">Visible</animation>
+			<animation effect="slide" start="0,0" end="-2015,0" time="400" tween="quadratic" easing="out">Hidden</animation>
+			<left>40</left>
+			<centertop>50%</centertop>
+			<width>1800</width>
+			<height>783</height>
+			<control type="image">
+				<left>-2</left>
+				<top>-3</top>
+				<width>1845.1</width>
+				<height>656.2</height>
+				<texture>homeshadow_2.png</texture>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>1840</width>
+				<height>650</height>
+				<texture colordiffuse="black">backgrounds/bg_fade_2.png</texture>
+			    <bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_5.png</bordertexture>
+				<bordersize>2</bordersize>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>455</width>
+				<height>650</height>
+				<texture colordiffuse="black">backgrounds/bg_fade_2.png</texture>
+			    <bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_5.png</bordertexture>
+				<bordersize>2</bordersize>
+			</control>
+			<control type="image">
+				<left>-2</left>
+				<top>667</top>
+				<width>1845.1</width>
+				<height>116</height>
+				<texture>homeshadow_1.png</texture>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>670</top>
+				<width>1840</width>
+				<height>110</height>
+				<texture colordiffuse="black">backgrounds/bg_fade_2.png</texture>
+			    <bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_6.png</bordertexture>
+				<bordersize>2</bordersize>
+			</control>
+			<!--main content-->
+			<control type="group">
+				<!--title-->
+				<control type="label" id="500">
+				<include>VisibleFadeEffect</include>
+					<left>20</left>
+					<top>-100</top>
+					<width>1800</width>
+					<height>60</height>
+					<font>menu.title</font>
+					<align>center</align>
+					<aligny>center</aligny>
+					<textcolor>white</textcolor>
+					<label></label>
+				</control>
+				<control type="group">
+					<left>10</left>
+					<top>105</top>
+					<!--shortcuts-->
+					<control type="list" id="211">
+					    <top>20</top>
+						<width>435</width>
+						<height>490</height>
+						<itemgap>5</itemgap>
+						<pagecontrol>31</pagecontrol>
+						<onleft>304</onleft>
+						<onright>300</onright>
+						<onup>211</onup>
+						<ondown>308</ondown>
+						<itemlayout width="585" height="70">
+						<control type="image">
+						   <height>60</height>
+						   <width>435</width>
+						   <texture colordiffuse="FF2E2E2E">backgrounds/bg_fade_7.png</texture>
+				           <bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_3.png</bordertexture>
+				           <bordersize>2</bordersize>
+					     </control>
+					     <control type="label">
+						   <top>-7</top>
+						   <left>-10</left>
+						   <width>455</width>
+						   <aligny>center</aligny>
+						   <align>center</align>
+						   <textcolor>white</textcolor>
+						   <shadowcolor>black</shadowcolor>
+						   <label>$INFO[ListItem.Label]</label>
+						 </control>
+					    </itemlayout>
+					   <focusedlayout width="585" height="70">
+					   <control type="image">
+						  <height>60</height>
+						  <width>645</width>
+						  <texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+						  <animation effect="fade" start="100" end="30" time="100" condition="![Control.HasFocus(211) | Control.HasFocus(302) | Control.HasFocus(303) | Control.HasFocus(304)]">Conditional</animation>
+						</control>
+						<control type="label">
+						  <top>-7</top>
+						  <left>-10</left>
+						  <width>455</width>
+						  <aligny>center</aligny>
+						  <align>center</align>
+						  <label>$INFO[ListItem.Label]</label>
+						  <textcolor>white</textcolor>
+						  <shadowcolor>black</shadowcolor>
+						</control>
+					  </focusedlayout>
+					</control>
+					<!--inline controls-->
+				    <control type="grouplist" id="1000">
+					  <left>500</left>
+					  <top>-80</top>
+					  <width>1995</width>
+					  <height>525</height>
+					  <itemgap>170</itemgap>
+					  <orientation>horizontal</orientation>
+					  <!--up button-->
+					  <include content="AnimatedCircleButtonGroup">
+						<param name="button-id" value="303" />
+						<param name="button-width" value="170" />
+						<param name="button-texture" value="upbutton" />
+						<param name="button-label" value="$ADDON[script.skinshortcuts 32002]" />
+						<param name="button-onup" value="9001" />
+						<param name="button-ondown" value="300" />
+						<param name="button-onleft" value="211" />
+						<param name="button-onright" value="304" />
+					 </include>
+					<!--down button-->
+					 <include content="AnimatedCircleButtonGroup">
+						<param name="button-id" value="304" />
+						<param name="button-width" value="200" />
+						<param name="button-texture" value="downbutton" />
+						<param name="button-label" value="$ADDON[script.skinshortcuts 32003]" />
+						<param name="button-onup" value="9001" />
+						<param name="button-ondown" value="300" />
+						<param name="button-onleft" value="303" />
+						<param name="button-onright" value="302" />
+					</include>
+					<!--delete button-->
+					<include content="AnimatedCircleButtonGroup">
+						<param name="button-id" value="302" />
+						<param name="button-width" value="150" />
+						<param name="button-texture" value="nobutton" />
+						<param name="button-label" value="$ADDON[script.skinshortcuts 32001]" />
+						<param name="button-onup" value="9001" />
+						<param name="button-ondown" value="300" />
+						<param name="button-onleft" value="304" />
+						<param name="button-onright" value="301" />
+					</include>
+					<!--add button-->
+					<include content="AnimatedCircleButtonGroup">
+						<param name="button-id" value="301" />
+						<param name="button-width" value="125" />
+						<param name="button-texture" value="addbutton" />
+						<param name="button-label" value="$ADDON[script.skinshortcuts 32000]" />
+						<param name="button-onup" value="9001" />
+						<param name="button-ondown" value="300" />
+						<param name="button-onleft" value="302" />
+						<param name="button-onright" value="31" />
+					 </include>
+				   </control>
+					<!--scrollbar-->
+					<control type="scrollbar" id="31">
+						<left>-22</left>
+						<top>20</top>
+						<height>480</height>
+						<onleft>300</onleft>
+						<onright>302</onright>
+					</control>
+					<control type="image">
+				       <left>190</left>
+				       <top>-75</top>
+				       <width>65</width>
+				       <height>65</height>
+				       <texture colordiffuse="$INFO[Skin.String(color.500)]">icons/kodi.png</texture>
+			        </control>
+					<!---control area-->
+					<control type="grouplist" id="300">
+					    <top>20</top>
+						<left>455</left>
+						<width>1365</width>
+						<height>780</height>
+						<onleft>211</onleft>
+						<onright>211</onright>
+						<onup>300</onup>
+						<ondown>10</ondown>
+						<itemgap>0</itemgap>
+						<!--change shortcut-->
+						<control type="button" id="401">
+							<width>1365</width>
+							<textcolor>white</textcolor>
+					        <shadowcolor>black</shadowcolor>
+							<label>$ADDON[script.skinshortcuts 32048]</label>
+						</control>
+						<!--change label-->
+						<control type="button" id="305">
+							<width>1365</width>
+							<textcolor>white</textcolor>
+					        <shadowcolor>black</shadowcolor>
+							<label>$ADDON[script.skinshortcuts 32025]</label>
+							<label2>$INFO[Container(211).ListItem.Label]</label2>
+						</control>
+						<!--change action-->
+						<control type="button" id="307">
+							<width>1365</width>
+							<textcolor>white</textcolor>
+					        <shadowcolor>black</shadowcolor>
+							<label>$ADDON[script.skinshortcuts 32027] </label>
+							<label2> .  $INFO[Container(211).ListItem.Property(displaypath)]</label2>
+						</control>
+						<!--background-->
+					    <control type="button" id="310">
+						    <width>1365</width>
+							<textcolor>white</textcolor>
+					        <shadowcolor>black</shadowcolor>
+						    <label>$ADDON[script.skinshortcuts 32045]</label>
+						    <label2>$INFO[Container(211).ListItem.Property(background)]</label2>
+						    <enable>!String.IsEqual(Container(211).ListItem.Property(skinshortcuts-disabled),True)</enable>
+					    </control>
+						<!--change widget-->
+					    <control type="button" id="312">
+						    <width>1365</width>
+							<textcolor>white</textcolor>
+					        <shadowcolor>black</shadowcolor>
+						    <label>$ADDON[script.skinshortcuts 32044]</label>
+						    <label2>$INFO[Container(211).ListItem.Property(widgetName)]</label2>
+						    <visible>String.IsEqual(Window.Property(groupname), mainmenu)</visible>
+						    <enable>!String.IsEqual(Container(211).ListItem.Property(skinshortcuts-disabled),True)</enable>
+					    </control>
+						<!--change widget layout-->
+					    <control type="button" id="3001">
+						    <width>1365</width>
+							<textcolor>white</textcolor>
+					        <shadowcolor>black</shadowcolor>
+							<label>Widget Layout</label>
+						    <label>$LOCALIZE[31610]</label>
+						    <label2>$INFO[Container(211).ListItem.Property(widgetLayout)]</label2>
+						    <visible>!String.IsEmpty(Container(211).ListItem.Property(widgetPath))</visible>
+						    <enable>!String.IsEqual(Container(211).ListItem.Property(skinshortcuts-disabled),True)</enable>
+					    </control>
+						<!--edit sub-menu-->
+						<control type="button" id="405">
+							<width>1365</width>
+							<textcolor>white</textcolor>
+					        <shadowcolor>black</shadowcolor>
+							<label>$ADDON[script.skinshortcuts 32072]</label>
+							<visible>String.IsEqual(Window.Property("groupname"),mainmenu)</visible>
+						</control>
+						<!--enable/disable item-->
+						<control type="radiobutton" id="313">
+							<width>1365</width>
+							<textcolor>white</textcolor>
+					        <shadowcolor>black</shadowcolor>
+							<selected>String.IsEqual(Container(211).ListItem.Property(skinshortcuts-disabled),True)</selected>
+							<label>$LOCALIZE[24021]</label>
+						</control>
+						<!--add item-->
+						<control type="button" id="301">
+							<width>1365</width>
+						</control>
+					</control>
+				</control>
+				<!--bottom buttons-->
+				<control type="grouplist" id="9001">
+					<centerleft>50%</centerleft>
+					<top>90r</top>
+					<width>1350</width>
+					<height>60</height>
+					<align>justify</align>
+					<orientation>horizontal</orientation>
+					<onleft>9001</onleft>
+					<onright>9001</onright>
+					<onup>301</onup>
+					<ondown>401</ondown>
+					<!--reset button-->
+					<include content="AnimatedCircleButtonGroup">
+						<param name="button-id" value="308" />
+						<param name="button-width" value="275" />
+						<param name="button-texture" value="refreshbutton" />
+						<param name="button-label" value="$ADDON[script.skinshortcuts 32028]" />
+						<param name="button-onup" value="211" />
+						<param name="button-ondown" value="211" />
+						<param name="button-onleft" value="10" />
+						<param name="button-onright" value="10" />
+					</include>
+					<!--ok button-->
+					<include content="AnimatedCircleButtonGroup">
+						<param name="button-id" value="10" />
+						<param name="button-width" value="130" />
+						<param name="button-texture" value="yesbutton" />
+						<param name="button-label" value="186" />
+						<param name="button-onclick" value="Close" />
+						<param name="button-onup" value="301" />
+						<param name="button-ondown" value="401" />
+						<param name="button-onleft" value="308" />
+						<param name="button-onright" value="308" />
+					</include>
+				</control>
+			</control>
+		</control>
+		<include>BehindDialogFadeOut</include>
+	</controls>
+</window>

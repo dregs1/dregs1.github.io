@@ -2175,6 +2175,30 @@
 	</extension>
 </addon>
 
+<addon id="skin.simpletouch.blackeagle" version="21.7" name=" Black Eagle[COLORred] TOUCH[/COLOR]" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
+	<requires>
+		<import addon="xbmc.gui" version="5.17.0"/>
+		<import addon="script.skinshortcuts" version="2.0.3"/>
+		<import addon="plugin.video.themoviedb.helper" version="4.10.14"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">A simple skin for TV &amp; mobile devices</summary>
+		<summary lang="en_US">A simple skin for TV &amp; mobile devices</summary>
+		<description lang="en_GB">The Black Eagel Se Simple Touch Reloaded Skin is a Mod created by the Team Black Eagle</description>
+		<forum></forum>
+		<source></source>
+		<platform>all</platform>
+		<assets>
+			<icon>resources/icon.jpg</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot.png</screenshot>
+	    </assets>
+	</extension>
+</addon>
+
 <addon id="slyguy.disney.plus" name="Disney+" provider-name="Slyguy" version="0.4.8">
   <requires>
     <import addon="script.module.slyguy"/>

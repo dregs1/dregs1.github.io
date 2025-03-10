@@ -403,7 +403,7 @@
 							<right>0</right>
 							<top>0</top>
 							<height>100%</height>
-							<texture colordiffuse="black">backgrounds/bg_fade_2.png</texture>
+							<texture colordiffuse="black">backgrounds/bg_fade_21.png</texture>
 					        <bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_3.png</bordertexture>
 					        <bordersize>1</bordersize>
 						</control>
@@ -455,7 +455,7 @@
 					<top>0</top>
 					<width>$PARAM[dialog-width]</width>
 					<height>$PARAM[title-height]</height>
-					<texture colordiffuse="black">backgrounds/bg_fade_2.png</texture>
+					<texture colordiffuse="black">backgrounds/bg_fade_21.png</texture>
 				    <bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_3.png</bordertexture>
 				    <bordersize>1</bordersize>
 				</control>
@@ -467,7 +467,7 @@
 						<left>0</left>
 						<width>$PARAM[dialog-width]</width>
 						<height>$PARAM[buttonbar-height]</height>
-						<texture colordiffuse="black">backgrounds/bg_fade_2.png</texture>
+						<texture colordiffuse="black">backgrounds/bg_fade_21.png</texture>
 				        <bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_3.png</bordertexture>
 				        <bordersize>1</bordersize>
 					</control>
@@ -667,7 +667,7 @@
 			<top>1.9%</top>
 			<width>430</width>
 			<height>96%</height>
-			<texture colordiffuse="black">backgrounds/bg_fade_2.png</texture>
+			<texture colordiffuse="black">backgrounds/bg_fade_21.png</texture>
 		    <bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_5.png</bordertexture>
 		    <bordersize>2</bordersize>
 		</control>
@@ -736,7 +736,7 @@
 				<left>30</left>
 				<width>$PARAM[dialog-glowwidth]</width>
 				<height>97%</height>
-				<texture colordiffuse="black">backgrounds/bg_fade_2.png</texture>
+				<texture colordiffuse="black"></texture>
 				<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_5.png</bordertexture>
 				<bordersize>2</bordersize>
 				<animation effect="fade" start="100" end="85" time="0" condition="$PARAM[background-fade]">Conditional</animation>
@@ -746,7 +746,7 @@
 				<left>30</left>
 				<width>$PARAM[dialog-glowwidth]</width>
 				<height>97%</height>
-				<texture colordiffuse="black">backgrounds/bg_fade_2.png</texture>
+				<texture colordiffuse="black"></texture>
 				<bordertexture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/bg_fade_5.png</bordertexture>
 				<bordersize>2</bordersize>
 				<animation effect="fade" start="100" end="85" time="0" condition="$PARAM[background-fade]">Conditional</animation>

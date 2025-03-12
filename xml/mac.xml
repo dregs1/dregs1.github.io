@@ -40,16 +40,20 @@
 
 #name [COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_11[/COLOR]
 #url http://power4kiptv.info:8080 
-#mac 00:1A:79:10:d5:c1
+#mac 00:1A:79:08:4a:04
 
 #name [COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_12[/COLOR]
 #url http://paristv.net:8080 
-#mac 00:1A:79:13:55:A6
+#mac 00:1A:79:90:E8:A1
 
 #name [COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_13[/COLOR]
 #url http://spacextv.live:8080 
-#mac 00:1A:79:10:3F:73
+#mac 00:1A:79:77:06:3F
 
 #name [COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_14[/COLOR]
 #url http://ggddnss2.com:8080 
-#mac 00:1A:79:10:3F:73
+#mac 00:1A:79:64:39:CD
+
+#name [COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_15[/COLOR]
+#url http://line.dino.ws/ 
+#mac 00:1A:79:C5:27:42

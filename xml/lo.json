@@ -12,7 +12,7 @@
         
         {
         "name": "[COLORorange] Portugal [/COLOR]",
-        "url": "http://going.kikakukikaku.xyz:8080/get.php?username=jorgevicente&password=11102022&type=m3u_plus&output=mpegts",
+        "url": "http://going.kikakukikaku.xyz:8080/get.php?username=josepicoto&password=nunotomas&type=m3u_plus",
         "image": "https://i.imgur.com/ShitfSI.png"
     }, 
         {
@@ -22,7 +22,7 @@
         },
          {
         "name": "[COLORorange] Portugal [/COLOR]",
-        "url": "http://pegasus.tvvip.live:8080/get.php?username=paulo555aguas&password=2900setubal44&type=m3u_plus",
+        "url": "http://manutanplus.space:8080/get.php?username=toniobico&password=xLtV9fvX9b&type=m3u_plus",
         "image": "https://i.imgur.com/ShitfSI.png"
         },
         {
@@ -57,17 +57,17 @@
     },
         {
         "name": "[COLORorange] Brasil [/COLOR]",
-        "url": "http://84.16.252.219:2095/get.php?username=suspected-TR1-tWRP9jfZlz&password=qE0FSg2p0Y&type=m3u_plus",
+        "url": "http://centralmago.click/get.php?username=bismark01&password=bismark01&type=m3u_plus",
         "image": "https://i.imgur.com/jfmROxJ.png"
         },
     {
         "name": "[COLORorange] Mundial [/COLOR]",
-        "url": "http://pro.ipcover.lol:8080/get.php?username=evelyne02&password=17122020&type=m3u_plus",
+        "url": "http://digi-play.ru:8080/get.php?username=zanfir_vasile_razvan&password=Tt1UXcMpGo&type=m3u_plus",
         "image": "https://i.imgur.com/jfmROxJ.png"
     } ,
         {
         "name": "[COLORorange] Espanha [/COLOR]",
-        "url": "http://myapktvbox.viewdns.net:8000/get.php?username=SobriPippo&password=HMZGY0GPqC&type=m3u_plus",
+        "url": "http://redima.pro:8880/get.php?username=WILSON1&password=0320&type=m3u_plus&output=ts",
         "image": "https://i.imgur.com/jfmROxJ.png"
     } ,
         {
@@ -77,22 +77,10 @@
     }  ,
         {
         "name": "[COLORorange] Espanha [/COLOR]",
-        "url": "http://aft65.ddns.me:8000/get.php?username=Gustavojaime&password=KtD6FFMG46&type=m3u_plus",
+        "url": "http://maveniptv.net:8080/get.php?username=mohamedasobhy92&password=Random123&type=m3u_plus",
         "image": "https://i.imgur.com/ntH68nd.png"
     }  ,
         {
-        "name": "[COLORorange] Espanha [/COLOR]",
-        "url": "http://ultrapremium.cloud/get.php?username=leonardo7188&password=dYbwbQFYQWdS&type=m3u_plus",
-        "image": "https://i.imgur.com/ntH68nd.png"
-        }
-        ,
-        {
-        "name": "[COLORorange] Espanha [/COLOR]",
-        "url": "http://live.loltv.xyz:8080/get.php?username=migueljimenezangeles&password=5x9wSJqDCQ&type=m3u_plus",
-        "image": "https://i.imgur.com/ntH68nd.png"
-        }
-        ,
-    {
         "name": "[COLORorange] Musica [/COLOR]",
         "url": "https://raw.githubusercontent.com/dregs1/dregs1.github.io/main/xml/lomusica.json",
         "image": "https://i.imgur.com/k790Jyg.png"

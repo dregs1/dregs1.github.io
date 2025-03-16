@@ -3,7 +3,7 @@
   id="pvr.aguia.de.fogosimple"
   version="20.6.4"
   name="AGUIA.DE.FOGO Simple Client"
-  provider-name="Black Eagle">
+  provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
 <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>

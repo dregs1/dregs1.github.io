@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="pvr.aguia.de.fogosimple"
-  version="20.6.3"
+  version="20.6.4"
   name="AGUIA.DE.FOGO Simple Client"
   provider-name="Black Eagle">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
 <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
-<import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.8"/>
+<import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.9"/>
 <import addon="kodi.binary.global.network" minversion="1.0.0" version="1.0.4"/>
 <import addon="kodi.binary.global.tools" minversion="1.0.0" version="1.0.4"/>
-<import addon="kodi.binary.instance.pvr" minversion="8.2.0" version="8.3.0"/>
-    <import addon="inputstream.ffmpegdirect" minversion="21.0.0"/>
-    <import addon="inputstream.adaptive" minversion="21.0.0"/>
-    <import addon="inputstream.rtmp" minversion="21.0.0"/>
+<import addon="kodi.binary.instance.pvr" minversion="9.2.0" version="9.2.0"/>
+    <import addon="inputstream.ffmpegdirect" minversion="22.0.0"/>
+    <import addon="inputstream.adaptive" minversion="22.0.0"/>
+    <import addon="inputstream.rtmp" minversion="22.0.0"/>
   </requires>
   <extension
     point="kodi.pvrclient"
@@ -39,6 +39,6 @@
     <disclaimer lang="en_US">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
     <disclaimer lang="pt_BR">Este é um software instável! Os autores não são responsáveis por falhas nas reproduções, horários incorretos no EPG, horas perdidas ou quaisquer outros efeitos indesejáveis.</disclaimer>
     <disclaimer lang="pt_PT">Este software é instável! Os autores não podem ser responsabilizados por gravações falhadas, temporizadores incorretos, horas desperdiçadas ou qualquer outro tipo de efeitos indesejáveis...</disclaimer>
-    <path>pvr.aguia.de.fogosimple+windows-x86_64/pvr.aguia.de.fogosimple-20.6.3.zip</path>
+    <path>pvr.aguia.de.fogosimple+windows-x86_64/pvr.aguia.de.fogosimple-20.6.4.zip</path>
   </extension>
 </addon>

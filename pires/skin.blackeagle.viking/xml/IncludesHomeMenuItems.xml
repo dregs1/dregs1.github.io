@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includes>
+	<include name="HomeSubMenu">
+		<control type="group">
+			<animation type="WindowOpen" reversible="false">
+				<effect type="fade" start="0" end="100" time="300" delay="200" />
+			</animation>
+			<animation type="WindowClose" reversible="false">
+				<effect type="fade" start="100" end="0" time="300" />
+			</animation>
+			<animation effect="slide" start="0,0" end="0,65" time="300" tween="quadratic" easing="out" condition="Control.HasFocus(9901) | Control.HasFocus(9902) | Control.HasFocus(9904) | Control.HasFocus(89001) | Control.HasFocus(89002)">Conditional</animation>
+			<control type="group">
+				<visible>!String.IsEqual(Container(9901).NumItems,0)</visible>
+				<left>896</left>
+				<top>98</top>
+				<width>128</width>
+				<height>46</height>
+				<control type="button" id="9903">
+					<left>0</left>
+					<top>0</top>
+					<width>128</width>
+					<height>46</height>
+					<font></font>
+					<texturefocus colordiffuse="black">hassubbg_h.png</texturefocus>
+					<texturenofocus colordiffuse="black">hassubbg_h.png</texturenofocus>
+				</control>
+				<control type="button" id="9902">
+					<left>0</left>
+					<top>0</top>
+					<width>128</width>
+					<height>46</height>
+					<font></font>
+					<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">hassub_h.png</texturefocus>
+					<texturenofocus colordiffuse="$INFO[Skin.String(color.500)]">hassub_h.png</texturenofocus>
+				</control>
+				<control type="image">
+					<left>48</left>
+					<top>1</top>
+					<width>32</width>
+					<height>32</height>
+					<texture colordiffuse="black">previous-32.png</texture>
+					<animation effect="rotate" start="270" end="90" center="auto" time="0" condition="true">Conditional</animation>
+					<animation effect="rotate" start="0" end="180" center="auto" time="200" condition="Control.HasFocus(9901) | Control.HasFocus(9902) | Control.HasFocus(9904) | Control.HasFocus(89001) | Control.HasFocus(89002)">Conditional</animation>
+				</control>
+				<control type="image">
+					<left>48</left>
+					<top>1</top>
+					<width>32</width>
+					<height>32</height>
+					<texture colordiffuse="white">previous-32.png</texture>
+					<animation effect="rotate" start="270" end="90" center="auto" time="0" condition="true">Conditional</animation>
+					<animation effect="rotate" start="0" end="180" center="auto" time="200" condition="Control.HasFocus(9901) | Control.HasFocus(9902) | Control.HasFocus(9904) | Control.HasFocus(89001) | Control.HasFocus(89002)">Conditional</animation>
+				</control>
+			</control>
+			<control type="button" id="9904">
+				<left>280</left>
+				<top>33</top>
+				<width>1360</width>
+				<height>120</height>
+				<label></label>
+				<font></font>
+				<texturenofocus></texturenofocus>
+				<texturefocus></texturefocus>
+				<visible>true</visible>
+				<onleft>9901</onleft>
+				<onright>9901</onright>
+				<onup>9901</onup>
+				<ondown>9901</ondown>
+			</control>
+			<control type="fixedlist" id="9901">
+				<visible allowhiddenfocus="true">Control.HasFocus(9901) | Control.HasFocus(9902) | Control.HasFocus(9904) | Control.HasFocus(89001) | Control.HasFocus(89002)</visible>
+				<left>285</left>
+				<top>42</top>
+				<width>1350</width>
+				<height>60</height>
+				<onup>9000</onup>
+				<ondown>9002</ondown>
+				<itemgap>0</itemgap>
+				<focusposition>2</focusposition>
+				<movement>2</movement>
+				<orientation>Horizontal</orientation>
+				<animation effect="slide" start="0,0" end="-135,0" time="0" condition="String.IsEqual(Container(9901).NumItems,2) | String.IsEqual(Container(9901).NumItems,4)">conditional</animation>
+				<animation effect="fade" time="200" delay="200">Hidden</animation>
+				<itemlayout width="270" height="60">
+					<control type="image">
+						<height>60</height>
+						<width>270</width>
+						<texture colordiffuse="$INFO[Skin.String(color.tertiary)]">backgrounds/white.png</texture>
+					</control>
+					<control type="label">
+						<height>60</height>
+						<width>270</width>
+						<align>center</align>
+						<aligny>center</aligny>
+						<font>button</font>
+						<textcolor>$INFO[Skin.String(color.text)]</textcolor>
+						<info>ListItem.Label</info>
+					</control>
+				</itemlayout>
+				<focusedlayout width="270" height="60">
+					<control type="image">
+						<height>60</height>
+						<width>270</width>
+						<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+						<visible>Control.HasFocus(9901)</visible>
+					</control>
+					<control type="label">
+						<height>60</height>
+						<width>270</width>
+						<align>center</align>
+						<aligny>center</aligny>
+						<font>button</font>
+						<textcolor>white</textcolor>
+						<info>ListItem.Label</info>
+						<visible>Control.HasFocus(9901)</visible>
+					</control>
+					<control type="image">
+						<height>60</height>
+						<width>270</width>
+						<texture colordiffuse="$INFO[Skin.String(color.tertiary)]">backgrounds/white.png</texture>
+						<visible>!Control.HasFocus(9901)</visible>
+					</control>
+					<control type="label">
+						<height>60</height>
+						<width>270</width>
+						<align>center</align>
+						<aligny>center</aligny>
+						<font>button</font>
+						<textcolor>$INFO[Skin.String(color.text)]</textcolor>
+						<info>ListItem.Label</info>
+						<visible>!Control.HasFocus(9901)</visible>
+					</control>
+				</focusedlayout>
+				<content>
+					<include>skinshortcuts-submenu</include>
+				</content>
+			</control>
+		</control>
+	</include>
+</includes>

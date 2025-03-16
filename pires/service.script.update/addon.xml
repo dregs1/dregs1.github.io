@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="service.script.update" name="Update Service disney" version="2.2" provider-name="flechanegra">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+	       <import addon="script.module.six" />
+        <import addon="script.module.requests"/>
+    </requires>
+    <extension point="xbmc.service" library="service.py" start="login" />
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <language>de</language>
+        <summary lang="de"> Update Service</summary>
+        <description lang="en">[COLOR red]Update Service[/COLOR] [COLORorange] Service[/COLOR] [COLORorange]é um script da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+		<platform>all</platform>
+		<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
+</extension>
+</addon>

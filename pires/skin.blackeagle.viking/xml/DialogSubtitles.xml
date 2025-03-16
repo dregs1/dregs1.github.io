@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window type="dialog">
+	<controls>
+		<control type="group" id="250">
+			<visible>!Window.IsActive(ShutdownMenu)</visible>
+			<centerleft>50%</centerleft>
+			<top>200</top>
+			<width>1200</width>
+			<height>680</height>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>1200</width>
+				<height>680</height>
+				<aspectratio>stretch</aspectratio>
+				<texture>$INFO[Skin.CurrentTheme,special://skin/extras/backgrounds/,.jpg]</texture>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>1200</width>
+				<height>2</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>2</width>
+				<height>680</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>678</top>
+				<width>1200</width>
+				<height>2</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			<control type="image">
+				<left>1198</left>
+				<top>0</top>
+				<width>2</width>
+				<height>680</height>
+				<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+			</control>
+			<control type="button" id="8999">
+				<description>Fake button for mouse control</description>
+				<left>1350</left>
+				<top>0</top>
+				<width>120</width>
+				<height>100%</height>
+				<label></label>
+				<font></font>
+				<texturenofocus></texturenofocus>
+				<texturefocus></texturefocus>
+				<visible>true</visible>
+				<onfocus>SetFocus(150)</onfocus>
+			</control>
+			<control type="group">
+				<control type="image" id="110">
+					<description>Service Logo</description>
+					<left>20</left>
+					<top>20</top>
+					<width>375</width>
+					<height>60</height>
+					<aspectratio>keep</aspectratio>
+				</control>
+				<control type="label" id="140">
+					<description>textarea</description>
+					<right>20</right>
+					<top>25</top>
+					<width>1170</width>
+					<height>50</height>
+					<font>kai.secondary</font>
+					<align>right</align>
+					<aligny>center</aligny>
+					<textcolor>white</textcolor>
+					<wrapmultiline>true</wrapmultiline>
+				</control>
+			</control>
+			<control type="group">
+				<control type="list" id="120">
+					<left>50</left>
+					<top>150</top>
+					<width>1200</width>
+					<height>420</height>
+					<onleft>99</onleft>
+					<onright>99</onright>
+					<onup>120</onup>
+					<ondown>120</ondown>
+					<viewtype label="535">list</viewtype>
+					<pagecontrol>121</pagecontrol>
+					<scrolltime>200</scrolltime>
+					<itemlayout width="1200" height="70">
+						<control type="image">
+							<top>0</top>
+							<left>0</left>
+							<right>100</right>
+							<height>60</height>
+							<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+						</control>
+						<control type="image">
+							<left>10</left>
+							<top>8</top>
+							<width>39</width>
+							<height>39</height>
+							<texture>Subtitles/flags/$INFO[ListItem.Thumb].png</texture>
+						</control>
+						<control type="label">
+							<left>60</left>
+							<top>0</top>
+							<width>135</width>
+							<height>60</height>
+							<font>label</font>
+							<aligny>center</aligny>
+							<selectedcolor>selected</selectedcolor>
+							<align>left</align>
+							<info>ListItem.Label</info>
+						</control>
+						<control type="label">
+							<top>0</top>
+							<left>200</left>
+							<right>110</right>
+							<font>label</font>
+							<aligny>center</aligny>
+							<selectedcolor>selected</selectedcolor>
+							<align>left</align>
+							<info>ListItem.Label2</info>
+						</control>
+					</itemlayout>
+					<focusedlayout width="1200" height="70">
+						<control type="image">
+							<top>0</top>
+							<left>0</left>
+							<right>100</right>
+							<height>60</height>
+							<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+						</control>
+						<control type="image">
+							<left>10</left>
+							<top>8</top>
+							<width>39</width>
+							<height>39</height>
+							<texture>Subtitles/flags/$INFO[ListItem.Thumb].png</texture>
+						</control>
+						<control type="label">
+							<left>60</left>
+							<top>0</top>
+							<width>135</width>
+							<height>60</height>
+							<font>label</font>
+							<aligny>center</aligny>
+							<textcolor>white</textcolor>
+							<selectedcolor>selected</selectedcolor>
+							<align>left</align>
+							<info>ListItem.Label</info>
+						</control>
+						<control type="label">
+							<top>0</top>
+							<left>200</left>
+							<right>110</right>
+							<height>60</height>
+							<font>label</font>
+							<aligny>center</aligny>
+							<textcolor>white</textcolor>
+							<selectedcolor>selected</selectedcolor>
+							<align>left</align>
+							<info>ListItem.Label2</info>
+						</control>
+					</focusedlayout>
+				</control>
+				<control type="group" id="130">
+					<control type="grouplist">
+						<left>60</left>
+						<top>65r</top>
+						<width>908</width>
+						<height>60</height>
+						<orientation>horizontal</orientation>
+						<itemgap>8</itemgap>
+						<control type="image">
+							<width>45</width>
+							<height>45</height>
+							<texture>DefaultIconInfo.png</texture>
+						</control>
+						<control type="label">
+							<description>notification</description>
+							<width min="15" max="840">auto</width>
+							<height>45</height>
+							<label>$LOCALIZE[31413]</label>
+							<aligny>center</aligny>
+						</control>
+					</control>
+				</control>
+				<control type="button" id="99">
+						<top>75r</top>
+						<right>50</right>
+						<width>250</width>
+						<height>60</height>
+						<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texturefocus>
+						<texturenofocus colordiffuse="button.nf">backgrounds/white.png</texturenofocus>
+						<font>label</font>
+						<textcolor>white</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<shadowcolor>black</shadowcolor>
+						<align>center</align>
+						<label>Schließen</label>
+						<onclick>Close</onclick>
+						<onup>120</onup>
+						<ondown>120</ondown>
+						<onleft></onleft>
+						<onright></onright>
+					</control>
+				</control>
+			</control>
+	</controls>
+</window>

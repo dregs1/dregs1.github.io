@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol always="true">9000</defaultcontrol>
+	<onload>RunScript(script.skinshortcuts,type=buildxml&amp;mainmenuID=9000&amp;group=mainmenu&amp;options=noGroups)</onload>
+	<onload condition="Skin.HasSetting(StopVideoOnBack) + !Player.HasAudio">PlayerControl(Stop)</onload>
+	<include>CheckSkinColorsSet</include>
+	<controls>
+		<control type="image">
+			<left></left>
+			<top>0</top>
+			<width>2320</width>
+			<height>1080</height>
+			<texture>$INFO[Skin.CurrentTheme,special://skin/extras/backgrounds/,.jpg]</texture>
+		</control>
+		<control type="image">
+			<left></left>
+			<top>0</top>
+			<width>1920</width>
+			<height>1080</height>
+			<texture>$INFO[Skin.String(CustomBackgroundPath)]</texture>
+			<visible>Skin.HasSetting(UseCustomBackground) + Skin.String(CustomBackgroundPath)</visible>
+		</control>
+		<control type="image">
+			<left>0</left>
+			<top>0</top>
+			<width>100%</width>
+			<height>100%</height>
+			<texture>backgrounds/fade.png</texture>
+			<aspectratio>scale</aspectratio>
+			<visible>Skin.HasSetting(UseCustomBackground) + Skin.String(CustomBackgroundPath)</visible>
+		</control>
+		<control type="group">
+			<control type="label">
+				<visible>!Skin.HasSetting(Shadow)</visible>
+				<left>5</left>
+				<top>165</top>
+				<height>100</height>
+				<width>1920</width>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>title1</font>
+				<textcolor>black</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<label></label>
+			</control>
+			<control type="label">
+				<left>0</left>
+				<top>160</top>
+				<height>100</height>
+				<width>1920</width>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>title1</font>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<label></label>
+			</control>
+			<control type="label">
+				<left>1720</left>
+				<top>203</top>
+				<height>100</height>
+				<width>1920</width>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font></font>
+				<textcolor>gold</textcolor>
+				<shadowcolor>gold</shadowcolor>
+				<label></label>
+			</control>
+			<control type="label">
+				<left>1720</left>
+				<top>200</top>
+				<height>100</height>
+				<width>1920</width>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font></font>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<label></label>
+			</control>
+			<control type="label">
+				<visible>!Skin.HasSetting(Shadow)</visible>
+				<left>3</left>
+				<top>308</top>
+				<height>50</height>
+				<width>1920</width>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>title2</font>
+				<textcolor>black</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<label></label>
+			</control>
+			<control type="label">
+				<left>0</left>
+				<top>305</top>
+				<height>50</height>
+				<width>1920</width>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>title2</font>
+				<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<label></label>
+			</control>
+		</control>
+		<control type="group">
+			<width>1920</width>
+			<centerleft>50%</centerleft>
+			<control type="group">
+				<left>0</left>
+				<top>37%</top>
+				<control type="group">
+					<visible>Player.HasAudio + !Skin.HasSetting(homepageMusicinfo)</visible>
+					<control type="label">
+						<visible>!Skin.HasSetting(Shadow)</visible>
+						<left>23</left>
+						<top>553</top>
+						<height>50</height>
+						<width>560</width>
+						<align>left</align>
+						<aligny>center</aligny>
+						<font>breadcrumb</font>
+						<textcolor>black</textcolor>
+						<shadowcolor>black</shadowcolor>
+						<label>$INFO[MusicPlayer.Title]  $INFO[MusicPlayer.Artist] $INFO[MusicPlayer.Album]</label>
+						<scroll>true</scroll>
+					</control>
+					<control type="label">
+						<left>20</left>
+						<top>550</top>
+						<height>50</height>
+						<width>560</width>
+						<align>left</align>
+						<aligny>center</aligny>
+						<font>breadcrumb</font>
+						<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+						<shadowcolor>black</shadowcolor>
+						<label>$INFO[MusicPlayer.Title] [COLORwhite]$INFO[MusicPlayer.Artist] $INFO[MusicPlayer.Album][/COLOR]</label>
+						<scroll>true</scroll>
+					</control>
+					<control type="label">
+						<visible>!Skin.HasSetting(Shadow)</visible>
+						<left>23</left>
+						<top>603</top>
+						<height>50</height>
+						<width>650</width>
+						<align>left</align>
+						<aligny>center</aligny>
+						<font>breadcrumb</font>
+						<textcolor>black</textcolor>
+						<shadowcolor>black</shadowcolor>
+						<label>Tempo de execução atual: $INFO[MusicPlayer.Time] de $INFO[MusicPlayer.Duration]</label>
+						<visible>!String.IsEmpty(MusicPlayer.Duration)</visible>
+						<scroll>true</scroll>
+					</control>
+					<control type="label">
+						<left>20</left>
+						<top>600</top>
+						<height>50</height>
+						<width>650</width>
+						<align>left</align>
+						<aligny>center</aligny>
+						<font>breadcrumb</font>
+						<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+						<shadowcolor>black</shadowcolor>
+						<label>[COLORwhite]Tempo de execução atual:[/COLOR] $INFO[MusicPlayer.Time] [COLORwhite]de[/COLOR] $INFO[MusicPlayer.Duration]</label>
+						<visible>!String.IsEmpty(MusicPlayer.Duration)</visible>
+						<scroll>true</scroll>
+					</control>
+				</control>
+				<control type="group">
+					<visible>Player.HasVideo + !Skin.HasSetting(homepageVideoinfo)</visible>
+					<control type="group">
+						<visible>VideoPlayer.Content(LiveTV)</visible>
+						<control type="label">
+							<visible>!Skin.HasSetting(Shadow)</visible>
+							<left>23</left>
+							<top>553</top>
+							<height>50</height>
+							<width>560</width>
+							<align>left</align>
+							<aligny>center</aligny>
+							<font>breadcrumb</font>
+							<textcolor>black</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<label>$INFO[VideoPlayer.ChannelName] $INFO[Player.Title]</label>
+							<scroll>true</scroll>
+						</control>
+						<control type="label">
+							<left>20</left>
+							<top>550</top>
+							<height>50</height>
+							<width>560</width>
+							<align>left</align>
+							<aligny>center</aligny>
+							<font>breadcrumb</font>
+							<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<label>[COLORwhite]$INFO[VideoPlayer.ChannelName][/COLOR] $INFO[Player.Title]</label>
+							<scroll>true</scroll>
+						</control>
+						<control type="label">
+							<visible>!Skin.HasSetting(Shadow)</visible>
+							<left>23</left>
+							<top>603</top>
+							<height>50</height>
+							<width>650</width>
+							<align>left</align>
+							<aligny>center</aligny>
+							<font>breadcrumb</font>
+							<textcolor>black</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<label>Von $INFO[VideoPlayer.StartTime] bis $INFO[VideoPlayer.EndTime]</label>
+							<visible>!String.IsEmpty(VideoPlayer.StartTime)</visible>
+							<scroll>true</scroll>
+						</control>
+						<control type="label">
+							<left>20</left>
+							<top>600</top>
+							<height>50</height>
+							<width>650</width>
+							<align>left</align>
+							<aligny>center</aligny>
+							<font>breadcrumb</font>
+							<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<label>[COLORwhite]De[/COLOR] $INFO[VideoPlayer.StartTime] [COLORwhite]até[/COLOR] $INFO[VideoPlayer.EndTime]</label>
+							<visible>!String.IsEmpty(VideoPlayer.StartTime)</visible>
+							<scroll>true</scroll>
+						</control>
+					</control>
+					<control type="group">
+						<visible>!VideoPlayer.Content(LiveTV)</visible>
+						<control type="label">
+							<visible>!Skin.HasSetting(Shadow)</visible>
+							<left>23</left>
+							<top>553</top>
+							<height>50</height>
+							<width>560</width>
+							<align>left</align>
+							<aligny>center</aligny>
+							<font>breadcrumb</font>
+							<textcolor>black</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<label>$INFO[Player.Title]</label>
+							<scroll>true</scroll>
+						</control>
+						<control type="label">
+							<left>20</left>
+							<top>550</top>
+							<height>50</height>
+							<width>560</width>
+							<align>left</align>
+							<aligny>center</aligny>
+							<font>breadcrumb</font>
+							<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<label>$INFO[Player.Title]</label>
+							<scroll>true</scroll>
+						</control>
+						<control type="label">
+							<visible>!Skin.HasSetting(Shadow)</visible>
+							<left>23</left>
+							<top>603</top>
+							<height>50</height>
+							<width>650</width>
+							<align>left</align>
+							<aligny>center</aligny>
+							<font>breadcrumb</font>
+							<textcolor>black</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<label>Tempo de execução atual: $INFO[Player.Time] Termina em: $INFO[Player.FinishTime(hh:mm:ss)]</label>
+							<visible>!String.IsEmpty(Player.FinishTime)</visible>
+							<scroll>true</scroll>
+						</control>
+						<control type="label">
+							<left>20</left>
+							<top>600</top>
+							<height>50</height>
+							<width>650</width>
+							<align>left</align>
+							<aligny>center</aligny>
+							<font>breadcrumb</font>
+							<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<label>[COLORwhite]Tempo de execução atual:[/COLOR] $INFO[Player.Time] [COLORwhite]Termina em:[/COLOR] $INFO[Player.FinishTime(hh:mm:ss)]</label>
+							<visible>!String.IsEmpty(Player.FinishTime)</visible>
+							<scroll>true</scroll>
+						</control>
+					</control>
+				</control>
+				<control type="group">
+					<left>20r</left>
+					<top>470</top>
+					<visible>String.IsEmpty(Window(Videos).Property(PlayingBackgroundMedia))</visible>
+					<control type="group">
+						<visible>Player.HasMedia</visible>
+						<control type="group" id="600">
+							<left>210r</left>
+							<onup>9007</onup>
+							<ondown>9000</ondown>
+							<defaultcontrol></defaultcontrol>
+							<enable>Player.HasMedia</enable>
+							<control type="group">
+								<visible>!VideoPlayer.Content(LiveTV)</visible>
+								<visible>!Player.HasAudio</visible>
+								<control type="image">
+									<visible>!Skin.HasSetting(Shadow)</visible>
+									<top>3</top>
+									<left>3</left>
+									<width>50</width>
+									<height>50</height>
+									<label></label>
+									<texture colordiffuse="black">icons/stop.png</texture>
+								</control>
+								<control type="button" id="604">
+									<left>0</left>
+									<width>50</width>
+									<height>50</height>
+									<label></label>
+									<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">icons/stop.png</texturefocus>
+									<texturenofocus>icons/stop.png</texturenofocus>
+									<onleft>904</onleft>
+									<onright>603</onright>
+									<onup></onup>
+									<ondown></ondown>
+									<onclick>PlayerControl(Stop)</onclick>
+								</control>
+								<control type="image">
+									<visible>!Skin.HasSetting(Shadow)</visible>
+									<top>3</top>
+									<left>73</left>
+									<width>50</width>
+									<height>50</height>
+									<texture colordiffuse="black">icons/pause.png</texture>
+									<visible>Player.Playing</visible>
+								</control>
+								<control type="image">
+									<visible>!Skin.HasSetting(Shadow)</visible>
+									<top>3</top>
+									<left>73</left>
+									<width>50</width>
+									<height>50</height>
+									<texture colordiffuse="black">icons/play2.png</texture>
+									<visible>Player.Paused</visible>
+								</control>
+								<control type="togglebutton" id="603">
+									<left>70</left>
+									<width>50</width>
+									<height>50</height>
+									<label></label>
+									<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">icons/pause.png</texturefocus>
+									<texturenofocus>icons/pause.png</texturenofocus>
+									<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
+									<alttexturefocus colordiffuse="$INFO[Skin.String(color.500)]">icons/play2.png</alttexturefocus>
+									<alttexturenofocus>icons/play2.png</alttexturenofocus>
+									<onleft>604</onleft>
+									<onright>607</onright>
+									<onup></onup>
+									<ondown></ondown>
+									<onclick>PlayerControl(Play)</onclick>
+								</control>
+								<control type="image">
+									<visible>!Skin.HasSetting(Shadow)</visible>
+									<top>3</top>
+									<left>143</left>
+									<width>50</width>
+									<height>50</height>
+									<texture colordiffuse="black">icons/fullscreen.png</texture>
+								</control>
+								<control type="button" id="607">
+									<left>140</left>
+									<width>50</width>
+									<height>50</height>
+									<label></label>
+									<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">icons/fullscreen.png</texturefocus>
+									<texturenofocus>icons/fullscreen.png</texturenofocus>
+									<onleft>603</onleft>
+									<onright>604</onright>
+									<onup></onup>
+									<ondown></ondown>
+									<onclick>fullscreen</onclick>
+								</control>
+							</control>
+							<control type="group" id="600">
+								<visible>VideoPlayer.Content(LiveTV)</visible>
+								<visible>!Player.HasAudio</visible>
+								<control type="image">
+									<visible>!Skin.HasSetting(Shadow)</visible>
+									<top>3</top>
+									<left>3</left>
+									<width>50</width>
+									<height>50</height>
+									<texture colordiffuse="black">icons/stop.png</texture>
+								</control>
+								<control type="button" id="603">
+									<left>0</left>
+									<width>50</width>
+									<height>50</height>
+									<label></label>
+									<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">icons/stop.png</texturefocus>
+									<texturenofocus>icons/stop.png</texturenofocus>
+									<onleft>904</onleft>
+									<onright>604</onright>
+									<onup></onup>
+									<ondown></ondown>
+									<onclick>PlayerControl(Stop)</onclick>
+								</control>
+								<control type="image">
+									<visible>!Skin.HasSetting(Shadow)</visible>
+									<top>3</top>
+									<left>73</left>
+									<width>50</width>
+									<height>50</height>
+									<texture colordiffuse="black">icons/pause.png</texture>
+									<visible>Player.Playing</visible>
+								</control>
+								<control type="image">
+									<visible>!Skin.HasSetting(Shadow)</visible>
+									<top>3</top>
+									<left>73</left>
+									<width>50</width>
+									<height>50</height>
+									<texture colordiffuse="black">icons/play2.png</texture>
+									<visible>Player.Paused</visible>
+								</control>
+								<control type="togglebutton" id="604">
+									<left>70</left>
+									<width>50</width>
+									<height>50</height>
+									<label></label>
+									<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">icons/pause.png</texturefocus>
+									<texturenofocus>icons/pause.png</texturenofocus>
+									<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
+									<alttexturefocus colordiffuse="$INFO[Skin.String(color.500)]">icons/play2.png</alttexturefocus>
+									<alttexturenofocus>icons/play2.png</alttexturenofocus>
+									<onleft>603</onleft>
+									<onright>605</onright>
+									<onup></onup>
+									<ondown></ondown>
+									<onclick>PlayerControl(Play)</onclick>
+									<enable>Player.PauseEnabled</enable>
+									<animation effect="fade" start="100" end="30" time="100" condition="!Player.PauseEnabled">Conditional</animation>
+								</control>
+								<control type="image">
+									<visible>!Skin.HasSetting(Shadow)</visible>
+									<top>3</top>
+									<left>143</left>
+									<width>50</width>
+									<height>50</height>
+									<texture colordiffuse="black">icons/fullscreen.png</texture>
+								</control>
+								<control type="button" id="605">
+									<left>140</left>
+									<width>50</width>
+									<height>50</height>
+									<label></label>
+									<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">icons/fullscreen.png</texturefocus>
+									<texturenofocus>icons/fullscreen.png</texturenofocus>
+									<onleft>604</onleft>
+									<onright>603</onright>
+									<onup></onup>
+									<ondown></ondown>
+									<onclick>fullscreen</onclick>
+								</control>
+							</control>
+							<control type="group" id="600">
+								<visible>Player.HasAudio</visible>
+								<control type="image">
+									<visible>!Skin.HasSetting(Shadow)</visible>
+									<top>3</top>
+									<left>3</left>
+									<width>50</width>
+									<height>50</height>
+									<texture colordiffuse="black">icons/stop.png</texture>
+								</control>
+								<control type="button" id="603">
+									<left>0</left>
+									<width>50</width>
+									<height>50</height>
+									<label></label>
+									<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">icons/stop.png</texturefocus>
+									<texturenofocus>icons/stop.png</texturenofocus>
+									<onleft>904</onleft>
+									<onright>604</onright>
+									<onup></onup>
+									<ondown></ondown>
+									<onclick>PlayerControl(Stop)</onclick>
+								</control>
+								<control type="image">
+									<visible>!Skin.HasSetting(Shadow)</visible>
+									<top>3</top>
+									<left>73</left>
+									<width>50</width>
+									<height>50</height>
+									<texture colordiffuse="black">icons/pause.png</texture>
+									<visible>Player.Playing</visible>
+								</control>
+								<control type="image">
+									<visible>!Skin.HasSetting(Shadow)</visible>
+									<top>3</top>
+									<left>73</left>
+									<width>50</width>
+									<height>50</height>
+									<texture colordiffuse="black">icons/play2.png</texture>
+									<visible>Player.Paused</visible>
+								</control>
+								<control type="togglebutton" id="604">
+									<left>70</left>
+									<width>50</width>
+									<height>50</height>
+									<label></label>
+									<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">icons/pause.png</texturefocus>
+									<texturenofocus>icons/pause.png</texturenofocus>
+									<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
+									<alttexturefocus colordiffuse="$INFO[Skin.String(color.500)]">icons/play2.png</alttexturefocus>
+									<alttexturenofocus>icons/play2.png</alttexturenofocus>
+									<onleft>603</onleft>
+									<onright>605</onright>
+									<onup></onup>
+									<ondown></ondown>
+									<onclick>PlayerControl(Play)</onclick>
+									<enable>Player.PauseEnabled</enable>
+									<animation effect="fade" start="100" end="30" time="100" condition="!Player.PauseEnabled">Conditional</animation>
+								</control>
+								<control type="image">
+									<visible>!Skin.HasSetting(Shadow)</visible>
+									<top>3</top>
+									<left>143</left>
+									<width>50</width>
+									<height>50</height>
+									<texture colordiffuse="black">icons/fullscreen.png</texture>
+								</control>
+								<control type="button" id="605">
+									<left>140</left>
+									<width>50</width>
+									<height>50</height>
+									<label></label>
+									<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">icons/fullscreen.png</texturefocus>
+									<texturenofocus>icons/fullscreen.png</texturenofocus>
+									<onleft>604</onleft>
+									<onright>603</onright>
+									<onup>9007</onup>
+									<ondown>9000</ondown>
+									<onclick>fullscreen</onclick>
+								</control>
+							</control>
+						</control>
+					</control>
+				</control>
+				<control type="group">
+					<top>135</top>
+					<control type="image">
+						<visible>!Skin.HasSetting(Shadow)</visible>
+						<left>3</left>
+						<top>378</top>
+						<width>1920</width>
+						<height>110</height>
+						<texture colordiffuse="black">menu_bar.png</texture>
+					</control>
+					<control type="image">
+						<left>0</left>
+						<top>375</top>
+						<width>1920</width>
+						<height>110</height>
+						<texture colordiffuse="$INFO[Skin.String(color.500)]">menu_bar.png</texture>
+					</control>
+					<control type="group">
+					<visible>!Skin.HasSetting(homepageWeatherinfo) + !String.IsEmpty(Weather.Plugin)</visible>
+						<control type="image">
+							<visible>!Skin.HasSetting(Shadow)</visible>
+							<top>-102</top>
+							<left>368</left>
+							<width>70</width>
+							<height>70</height>
+							<aspectratio>keep</aspectratio>
+							<texture colordiffuse="black">$INFO[Weather.ConditionsIcon]</texture>
+						</control>
+						<control type="image">
+							<top>-105</top>
+							<left>365</left>
+							<width>70</width>
+							<height>70</height>
+							<aspectratio>keep</aspectratio>
+							<texture>$INFO[Weather.ConditionsIcon]</texture>
+						</control>
+						<control type="label">
+							<visible>!Skin.HasSetting(Shadow)</visible>
+							<top>-74</top>
+							<left>453</left>
+							<width>590</width>
+							<height>22</height>
+							<font>font14</font>
+							<align>left</align>
+							<aligny>center</aligny>
+							<label>[B]$INFO[Window(Weather).Property(Current.Temperature)][/B] $INFO[System.TemperatureUnits]  $INFO[Window(Weather).Property(Current.Condition)]</label>
+							<textcolor>black</textcolor>
+							<shadowcolor>black</shadowcolor>
+						</control>
+						<control type="label">
+							<top>-77</top>
+							<left>450</left>
+							<width>590</width>
+							<height>22</height>
+							<font>font14</font>
+							<align>left</align>
+							<aligny>center</aligny>
+							<label>[B]$INFO[Window(Weather).Property(Current.Temperature)][/B] $INFO[System.TemperatureUnits]  [COLORwhite]$INFO[Window(Weather).Property(Current.Condition)][/COLOR]</label>
+							<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+							<shadowcolor>black</shadowcolor>
+						</control>
+					</control>
+					<control type="group">
+					<visible>!Skin.HasSetting(homepageWeatherinfo)</visible>
+						<control type="label">
+							<visible>!Skin.HasSetting(Shadow)</visible>
+							<top>-74</top>
+							<left>968</left>
+							<width>590</width>
+							<height>22</height>
+							<font>font14</font>
+							<align>right</align>
+							<aligny>center</aligny>
+							<label>[B]$INFO[System.Time(hh:mm:ss)][/B]  $INFO[System.Date]</label>
+							<textcolor>black</textcolor>
+							<shadowcolor>black</shadowcolor>
+						</control>
+						<control type="label">
+							<top>-77</top>
+							<left>965</left>
+							<width>590</width>
+							<height>22</height>
+							<font>font14</font>
+							<align>right</align>
+							<aligny>center</aligny>
+							<label>[B]$INFO[System.Time(hh:mm:ss)][/B]  [COLORwhite]$INFO[System.Date][/COLOR]</label>
+							<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+							<shadowcolor>black</shadowcolor>
+						</control>
+					</control>
+					<control type="panel" id="9000">
+						<centerleft>50%</centerleft>
+						<top>10</top>
+						<width>1200</width>
+						<height>240</height>
+						<onleft>9000</onleft>
+						<onright>9000</onright>
+						<onup condition="System.AddonIsEnabled(script.globalsearch)">608</onup>
+						<onup condition="!System.AddonIsEnabled(script.globalsearch)">603</onup>
+						<ondown>900</ondown>
+						<pagecontrol></pagecontrol>
+						<scrolltime>300</scrolltime>
+						<focusposition>2</focusposition>
+						<movement>1</movement>
+						<orientation>vertical</orientation>
+						<itemlayout height="80" width="300">
+							<control type="image">
+								<left>5</left>
+								<top>5</top>
+								<width>290</width>
+								<height>70</height>
+								<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+							</control>
+							<control type="label">
+								<left>10</left>
+								<top>8</top>
+								<width>280</width>
+								<height>60</height>
+								<font>main.menu</font>
+								<textcolor>white</textcolor>
+								<align>center</align>
+								<aligny>center</aligny>
+								<label>$INFO[ListItem.Label]</label>
+							</control>
+						</itemlayout>
+						<focusedlayout height="80" width="300">
+							<control type="image">
+								<left>5</left>
+								<top>5</top>
+								<width>290</width>
+								<height>70</height>
+								<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+								<visible>!Control.HasFocus(9000)</visible>
+							</control>
+							<control type="label">
+								<left>10</left>
+								<top>8</top>
+								<width>280</width>
+								<height>60</height>
+								<font>main.menu</font>
+								<textcolor>white</textcolor>
+								<align>center</align>
+								<aligny>center</aligny>
+								<label>$INFO[ListItem.Label]</label>
+								<visible>!Control.HasFocus(9000)</visible>
+							</control>
+							<control type="image">
+								<visible>!Skin.HasSetting(Shadow)</visible>
+								<left>8</left>
+								<top>8</top>
+								<width>290</width>
+								<height>70</height>
+								<texture colordiffuse="black">backgrounds/white.png</texture>
+								<visible>Control.HasFocus(9000)</visible>
+							</control>
+							<control type="image">
+								<left>5</left>
+								<top>5</top>
+								<width>290</width>
+								<height>70</height>
+								<texture colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texture>
+								<visible>Control.HasFocus(9000)</visible>
+							</control>
+							<control type="label">
+								<visible>!Skin.HasSetting(Shadow)</visible>
+								<left>13</left>
+								<top>11</top>
+								<width>280</width>
+								<height>60</height>
+								<font>main.menu</font>
+								<textcolor>black</textcolor>
+								<align>center</align>
+								<aligny>center</aligny>
+								<label>$INFO[ListItem.Label]</label>
+								<visible>Control.HasFocus(9000)</visible>
+							</control>
+							<control type="label">
+								<left>10</left>
+								<top>8</top>
+								<width>280</width>
+								<height>60</height>
+								<font>main.menu</font>
+								<textcolor>white</textcolor>
+								<align>center</align>
+								<aligny>center</aligny>
+								<label>$INFO[ListItem.Label]</label>
+								<visible>Control.HasFocus(9000)</visible>
+							</control>
+						</focusedlayout>
+						<content>
+							<include>skinshortcuts-mainmenu</include>
+						</content>
+					</control>
+					<control type="group">
+						<top>315</top>
+						<control type="button" id="900">
+							<left>770</left>
+							<top>0</top>
+							<width>70</width>
+							<height>70</height>
+							<label></label>
+							<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texturefocus>
+							<texturenofocus colordiffuse="button.nf">backgrounds/white.png</texturenofocus>
+							<onleft>903</onleft>
+							<onright>901</onright>
+							<onup>9000</onup>
+							<ondown>9000</ondown>
+							<onclick>ActivateWindow(ShutdownMenu)</onclick>
+						</control>
+						<control type="image">
+							<visible>!Skin.HasSetting(Shadow)</visible>
+							<left>783</left>
+							<top>13</top>
+							<width>50</width>
+							<height>50</height>
+							<texture colordiffuse="black">icons/power.png</texture>
+						</control>
+						<control type="image">
+							<left>780</left>
+							<top>10</top>
+							<width>50</width>
+							<height>50</height>
+							<texture>icons/power.png</texture>
+						</control>
+						<control type="button" id="901">
+							<left>850</left>
+							<top>0</top>
+							<width>70</width>
+							<height>70</height>
+							<label></label>
+							<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texturefocus>
+							<texturenofocus colordiffuse="button.nf">backgrounds/white.png</texturenofocus>
+							<onleft>900</onleft>
+							<onright>902</onright>
+							<onup>9000</onup>
+							<ondown>9000</ondown>
+							<onclick>ActivateWindow(Favourites)</onclick>
+						</control>
+						<control type="image">
+							<visible>!Skin.HasSetting(Shadow)</visible>
+							<left>863</left>
+							<top>13</top>
+							<width>50</width>
+							<height>50</height>
+							<texture colordiffuse="black">icons/favourites.png</texture>
+						</control>
+						<control type="image">
+							<left>860</left>
+							<top>10</top>
+							<width>50</width>
+							<height>50</height>
+							<texture>icons/favourites.png</texture>
+						</control>
+						<control type="button" id="902">
+							<left>930</left>
+							<top>0</top>
+							<width>70</width>
+							<height>70</height>
+							<label></label>
+							<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texturefocus>
+							<texturenofocus colordiffuse="button.nf">backgrounds/white.png</texturenofocus>
+							<onleft>901</onleft>
+							<onright>903</onright>
+							<onup>9000</onup>
+							<ondown>9000</ondown>
+							<onclick>ActivateWindow(AddonBrowser)</onclick>
+						</control>
+						<control type="image">
+							<visible>!Skin.HasSetting(Shadow)</visible>
+							<left>943</left>
+							<top>13</top>
+							<width>50</width>
+							<height>50</height>
+							<texture colordiffuse="black">icons/addons.png</texture>
+						</control>
+						<control type="image">
+							<left>940</left>
+							<top>10</top>
+							<width>50</width>
+							<height>50</height>
+							<texture>icons/addons.png</texture>
+						</control>
+						<control type="button" id="903">
+							<left>1010</left>
+							<top>0</top>
+							<width>70</width>
+							<height>70</height>
+							<label></label>
+							<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texturefocus>
+							<texturenofocus colordiffuse="button.nf">backgrounds/white.png</texturenofocus>
+							<onleft>902</onleft>
+							<onright>904</onright>
+							<onup>9000</onup>
+							<ondown>9000</ondown>
+							<onclick>ActivateWindow(FileManager)</onclick>
+						</control>
+						<control type="image">
+							<visible>!Skin.HasSetting(Shadow)</visible>
+							<left>1023</left>
+							<top>13</top>
+							<width>50</width>
+							<height>50</height>
+							<texture colordiffuse="black">icons/filemanager.png</texture>
+						</control>
+						<control type="image">
+							<left>1020</left>
+							<top>10</top>
+							<width>50</width>
+							<height>50</height>
+							<texture>icons/filemanager.png</texture>
+						</control>
+						<control type="button" id="904">
+							<left>1090</left>
+							<top>0</top>
+							<width>70</width>
+							<height>70</height>
+							<label></label>
+							<texturefocus colordiffuse="$INFO[Skin.String(color.500)]">backgrounds/white.png</texturefocus>
+							<texturenofocus colordiffuse="button.nf">backgrounds/white.png</texturenofocus>
+							<onleft>903</onleft>
+							<onright>604</onright>
+							<onup>9000</onup>
+							<ondown>9000</ondown>
+							<onclick>ActivateWindow(Settings)</onclick>
+						</control>
+						<control type="image">
+							<visible>!Skin.HasSetting(Shadow)</visible>
+							<left>1103</left>
+							<top>13</top>
+							<width>50</width>
+							<height>50</height>
+							<texture colordiffuse="black">icons/skin.png</texture>
+						</control>
+						<control type="image">
+							<left>1100</left>
+							<top>10</top>
+							<width>50</width>
+							<height>50</height>
+							<texture>icons/skin.png</texture>
+						</control>
+					</control>
+				</control>
+			</control>
+		</control>
+		<control type="group">
+			<left>22</left>
+			<right>18</right>
+			<top>28r</top>
+			<control type="group">
+				<visible>system.getbool(lookandfeel.enablerssfeeds)</visible>
+				<visible>!Skin.HasSetting(Shadow)</visible>
+				<control type="rss">
+					<centerleft>50%</centerleft>
+					<height>30</height>
+					<width>100%</width>
+					<font>breadcrumb.secondary</font>
+					<urlset>1</urlset>
+					<textcolor>black</textcolor>
+					<titlecolor>black</titlecolor>
+					<headlinecolor>black</headlinecolor>
+					<shadowcolor>black</shadowcolor>
+				</control>
+			</control>
+		</control>
+		<control type="group">
+			<left>20</left>
+			<right>20</right>
+			<top>30r</top>
+			<control type="group">
+				<visible>system.getbool(lookandfeel.enablerssfeeds)</visible>
+				<control type="rss">
+					<centerleft>50%</centerleft>
+					<height>30</height>
+					<width>100%</width>
+					<font>breadcrumb.secondary</font>
+					<urlset>1</urlset>
+					<textcolor>$INFO[Skin.String(color.500)]</textcolor>
+					<titlecolor>$INFO[Skin.String(color.500)]</titlecolor>
+					<headlinecolor>white</headlinecolor>
+					<shadowcolor>black</shadowcolor>
+				</control>
+			</control>
+		</control>
+		<include>BehindDialogFadeOut</include>
+	</controls>
+</window>

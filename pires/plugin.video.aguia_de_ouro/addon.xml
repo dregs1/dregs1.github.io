@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.aguia_de_ouro" version="1.1.8" name="[COLOR red]Águia [COLOR black]de [COLOR gold]Ouro[/COLOR]" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
+	<requires>
+		<import addon="script.module.six" />
+		<import addon="script.module.kodi-six" />
+		<import addon="script.module.requests" optional="true"/>
+		<import addon="script.module.websocket" version="0.50.0"  optional="true"/>
+		<import addon="script.module.youtube.dl" optional="true"/>
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="script.module.dateutil" optional="true" />
+		<import addon="script.module.resolveurl" optional="true"/>
+		<import addon="script.module.urlresolver" optional="true"/>
+		<import addon="script.module.cloudscraper" optional="true"/>
+		<import addon="script.module.inputstreamhelper" optional="true"/>
+		<import addon="script.module.slproxy" optional="true"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+    </extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>desportos e mais...</summary>
+		<description>
+AVISO LEGAL:
+Este addon não aloja nenhum conteudo mostrado.
+Todo o conteudo encuentra-se livremente na internet.
+Não se aceita nenhuma responsabilidade pelo uso deste addon.
+¡Enjoyyyy!
+		</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/1.jpg</screenshot>
+			<screenshot>resources/screenshots/2.jpg</screenshot>
+			<screenshot>resources/screenshots/3.jpg</screenshot>
+		</assets>
+		<news></news>
+	</extension>
+</addon>

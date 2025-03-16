@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window>
+	<defaultcontrol always="true">6</defaultcontrol>
+	<menucontrol>9000</menucontrol>
+	<controls>
+		<control type="group">
+			<include>Window_OpenClose_Header_Animation</include>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>1920</width>
+				<height>82</height>
+				<texture border="1">Header.png</texture>
+			</control>
+			<control type="grouplist">
+				<include>Breadcrumbs</include>
+				<include>Breadcrumbs-Settings-ColorPicker</include>
+			</control>
+		</control>
+		<control type="group">
+			<animation effect="fade" start="0" end="100" time="350" delay="350">WindowOpen</animation>
+			<animation effect="fade" start="100" end="0" time="350">WindowClose</animation>
+			<control type="image">
+				<left>230</left>
+				<top>132</top>
+				<width>1464</width>
+				<height>818</height>
+				<texture border="17">panel.png</texture>
+				<bordersize>25</bordersize>
+			</control>
+			<control type="image">
+				<left>300</left>
+				<top>68</top>
+				<width>1320</width>
+				<height>98</height>
+				<texture diffuse="underlay5-diffuse.png" border="0,10,0,10">underlay4.png</texture>
+			</control>
+			<control type="label" id="1">
+				<left>-15</left>
+				<top>-15</top>
+				<width>1</width>
+				<height>1</height>
+				<visible>false</visible>
+			</control>
+			<control type="button" id="99">
+				<left>660</left>
+				<top>90</top>
+				<width>600</width>
+				<height>52</height>
+				<label>$INFO[Control.GetLabel(1)]</label>
+				<font>font-23</font>
+				<textcolor>white</textcolor>
+				<focusedcolor>white</focusedcolor>
+				<align>center</align>
+				<texturenofocus border="7">button-nofocus.png</texturenofocus>
+				<texturefocus border="7">button-focus.png</texturefocus>
+				<onup>6</onup>
+				<ondown>6</ondown>
+				<onclick>noop</onclick>
+			</control>
+			<control type="panel" id="6">
+				<left>300</left>
+				<top>202</top>
+				<width>1320</width>
+				<height>682</height>
+				<itemlayout width="120" height="85.25">
+					<control type="image">
+						<width>120</width>
+						<height>85.25</height>
+						<texture>black.png</texture>
+					</control>
+					<control type="image">
+						<width>120</width>
+						<height>85.25</height>
+						<texture>cover-diffuse3.png</texture>
+						<bordersize>2</bordersize>
+						<colordiffuse>$INFO[ListItem.Label2]</colordiffuse>
+					</control>
+				</itemlayout>
+				<focusedlayout width="120" height="85.25">
+					<control type="group">
+						<animation effect="zoom" time="300" tween="sine" easing="inout" start="100" end="125" center="auto">Focus</animation>
+						<control type="image">
+							<width>120</width>
+							<height>85.25</height>
+							<texture>cover-diffuse3.png</texture>
+							<bordersize>2</bordersize>
+							<colordiffuse>$INFO[ListItem.Label2]</colordiffuse>
+						</control>
+					</control>
+				</focusedlayout>
+			</control>
+			<control type="group">
+				<include>Window_OpenClose_Settings_Bottom_Animation</include>
+				<control type="image">
+					<left>360</left>
+					<top>960</top>
+					<width>1200</width>
+					<height>150</height>
+					<texture diffuse="underlay-diffuse.png" border="0,10,0,10">underlay4.png</texture>
+				</control>
+				<control type="textbox">
+					<left>360</left>
+					<top>981</top>
+					<width>1200</width>
+					<height>96</height>
+					<align>center</align>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<font>font-20</font>
+					<label>[UPPERCASE]$INFO[ListItem.Label][CR]$INFO[ListItem.Label2,#][/UPPERCASE]</label>
+				</control>
+			</control>
+		</control>
+	</controls>
+</window>

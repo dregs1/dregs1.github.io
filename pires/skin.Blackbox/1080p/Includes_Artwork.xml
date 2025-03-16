@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<includes>
+	<include name="cdart-home">
+		<control type="image">
+			<left>1224</left>
+			<top>6</top>
+			<width>213</width>
+			<height>213</height>
+			<texture fallback="disc.png" diffuse="disc_mask.png" background="true">$VAR[PlayerArtworkDisc]</texture>
+			<aspectratio>keep</aspectratio>
+			<include>cdartspinhome</include>
+		</control>
+	</include>
+	<include name="cdart-jukebox">
+		<control type="image">
+			<left>810</left>
+			<top>585</top>
+			<width>300</width>
+			<height>300</height>
+			<texture fallback="disc.png" diffuse="disc_mask.png" background="true">$VAR[PlayerArtworkDisc]</texture>
+			<aspectratio>keep</aspectratio>
+			<include>cdartspinjukebox</include>
+			<visible>Player.HasAudio</visible>
+		</control>
+	</include>
+	<include name="cdart-musicvisualisation">
+		<control type="image">
+			<width>300</width>
+			<height>300</height>
+			<left>52</left>
+			<top>-6</top>
+			<texture fallback="disc.png" diffuse="disc_mask.png" background="true">$VAR[PlayerArtworkDisc]</texture>
+			<aspectratio>keep</aspectratio>
+			<include>cdartspin</include>
+		</control>
+	</include>
+	<include name="clearart-dialogfullscreeninfo">
+		<control type="image" id="7017">
+			<left>15</left>
+			<top>274</top>
+			<width>418</width>
+			<height>236</height>
+			<texture background="true">$VAR[PlayerArtworkClearlogo]</texture>
+			<aspectratio align="center" aligny="bottom">keep</aspectratio>
+			<include>VisibleFadeEffect</include>
+			<animation effect="slide" start="-345,0" end="0,0" time="300">WindowOpen</animation>
+			<animation effect="slide" start="0,0" end="-345,0" time="300">WindowClose</animation>
+		</control>
+	</include>
+	<include name="clearart-dialogseekbar">
+		<control type="image" id="7019">
+			<left>1</left>
+			<top>94</top>
+			<width>418</width>
+			<height>236</height>
+			<texture background="true">$VAR[PlayerArtworkClearlogo]</texture>
+			<aspectratio align="right" aligny="bottom">keep</aspectratio>
+			<include>VisibleFadeEffect</include>
+			<visible>VideoPlayer.Content(Episodes) + Window.IsVisible(FullscreenVideo) + !Window.IsVisible(FullscreenInfo) + !Window.IsVisible(VideoOSD) + ![String.Contains(Player.FolderPath,pvr://) | String.Contains(Player.FolderPath,http://) | String.Contains(Player.FolderPath,https://) | String.Contains(Player.FolderPath,htsp://)]</visible>
+		</control>
+	</include>
+	<include name="logo-artists">
+		<control type="image">
+			<left>15</left>
+			<top>45</top>
+			<width>345</width>
+			<height>134</height>
+			<texture background="true">$VAR[ArtworkLogo]</texture>
+			<fadetime>IconCrossfadeTime</fadetime>
+			<animation effect="rotate" start="0" end="15" center="auto" time="0" condition="true">Conditional</animation>
+			<visible>[Control.IsVisible(50) | Control.IsVisible(55) | Control.IsVisible(595)] + ![String.Contains(ListItem.Path,plugin://) | String.Contains(ListItem.Path,special://musicplaylists/) | String.Contains(Container.FolderPath,plugin://) | String.Contains(Container.FolderPath,addons://)]</visible>
+		</control>
+	</include>
+	<include name="logo-artists-visualisation">
+		<control type="image">
+			<left>15</left>
+			<top>45</top>
+			<width>345</width>
+			<height>134</height>
+			<texture background="true">$VAR[PlayerArtworkLogo]</texture>
+			<fadetime>IconCrossfadeTime</fadetime>
+			<animation effect="rotate" start="0" end="15" center="auto" time="0" condition="true">Conditional</animation>
+			<animation effect="fade" start="100" end="20" time="0" condition="![String.IsEqual(Visualisation.Name,waveform) | String.IsEqual(Visualisation.Name,spectrum) | String.IsEmpty(Visualisation.Name)] + !Skin.HasSetting(Vis-Visualization)">Conditional</animation>
+		</control>
+	</include>
+	<include name="logo-movies">
+		<control type="image">
+			<left>15</left>
+			<top>45</top>
+			<width>345</width>
+			<height>134</height>
+			<texture background="true">$VAR[ArtworkLogo]</texture>
+			<fadetime>IconCrossfadeTime</fadetime>
+			<animation effect="rotate" start="0" end="15" center="auto" time="0" condition="true">Conditional</animation>
+			<animation effect="slide" start="0,0" end="0,38" time="0" condition="Control.IsVisible(57)">Conditional</animation>
+			<visible>[Control.IsVisible(50) | Control.IsVisible(55) | Control.IsVisible(57) | Control.IsVisible(590) | Control.IsVisible(596)] + [Container.Content(Movies) | Container.Content(Sets)] + ![String.Contains(ListItem.Path,plugin://) | String.Contains(ListItem.Path,special://videoplaylists/) | String.Contains(Container.FolderPath,plugin://) | String.Contains(Container.FolderPath,addons://)]</visible>
+		</control>
+	</include>
+	<include name="logo-tv">
+		<control type="image">
+			<left>15</left>
+			<top>45</top>
+			<width>345</width>
+			<height>134</height>
+			<texture background="true">$VAR[ArtworkLogo]</texture>
+			<fadetime>IconCrossfadeTime</fadetime>
+			<animation effect="rotate" start="0" end="15" center="auto" time="0" condition="true">Conditional</animation>
+			<visible>[Control.IsVisible(50) | Control.IsVisible(55) | Control.IsVisible(590) | Control.IsVisible(596)] + [Container.Content(TVShows) | Container.Content(Seasons) | Container.Content(Episodes)] + ![String.Contains(ListItem.Path,plugin://) | String.Contains(ListItem.Path,special://videoplaylists/) | String.Contains(Container.FolderPath,plugin://) | String.Contains(Container.FolderPath,addons://)]</visible>
+		</control>
+	</include>
+</includes>

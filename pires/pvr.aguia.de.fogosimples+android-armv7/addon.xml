@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-  id="pvr.aguia.de.fogosimples"
+  id="pvr.aguia.de.fogosimple"
   version="20.6.4"
-  name="AGUIA.DE.FOGO Simples Client"
+  name="AGUIA.DE.FOGO Simple Client"
   provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
@@ -175,6 +175,6 @@
     <disclaimer lang="tr_TR">Bu kararsız bir yazılımdır! Yazanlar oynatma hatası, yanlış EPG zamanları, harcanmış saatler ya da diğer etkilerden sorumlu değildir.</disclaimer>
     <disclaimer lang="zh_CN">作者不对播放失败、错误的电子节目单时间造成时间浪费或其它不良影响负责。</disclaimer>
     <disclaimer lang="zh_TW">這是測試中的軟體！原創作者無法針對以下情況負責：包括播放失敗，不正確的電子節目表，多餘的時數，或任何不可預期的不良影響。</disclaimer>
-    <path>pvr.aguia.de.fogosimple+android-armv7/pvr.aguia.de.fogosimples-20.6.4.zip</path>
+    <path>pvr.aguia.de.fogosimple+android-armv7/pvr.aguia.de.fogosimple-20.6.4.zip</path>
   </extension>
 </addon>

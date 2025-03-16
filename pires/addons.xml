@@ -2192,12 +2192,57 @@ provider-name="jurialmunkey">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
 <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
-<import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.7"/>
+<import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.8"/>
+<import addon="kodi.binary.global.network" minversion="1.0.0" version="1.0.4"/>
 <import addon="kodi.binary.global.tools" minversion="1.0.0" version="1.0.4"/>
-<import addon="kodi.binary.instance.pvr" minversion="8.2.0" version="8.2.0"/>
-    <import addon="inputstream.ffmpegdirect" minversion="1.19.0"/>
-    <import addon="inputstream.adaptive" minversion="2.6.6"/>
-    <import addon="inputstream.rtmp" minversion="3.4.0"/>
+<import addon="kodi.binary.instance.pvr" minversion="8.2.0" version="8.3.0"/>
+    <import addon="inputstream.ffmpegdirect" minversion="21.0.0"/>
+    <import addon="inputstream.adaptive" minversion="21.0.0"/>
+    <import addon="inputstream.rtmp" minversion="21.0.0"/>
+  </requires>
+  <extension
+    point="kodi.pvrclient"
+    library_windows="pvr.aguia.de.fogosimple.dll"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>windows-x86_64</platform>
+    <license>GPL-2.0-or-later</license>
+    <source>https://github.com/kodi-pvr/pvr.iptvsimple</source>
+    <forum>https://forum.kodi.tv/forumdisplay.php?fid=215</forum>
+    <assets>
+      <fanart>fanart.jpg</fanart>
+      <icon>icon.png</icon>
+    </assets>
+    <summary lang="en_GB">Kodi PVR addon for IPTV support.</summary>
+    <summary lang="en_US">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+    <summary lang="pt_BR">Addon de PVR no Kodi com suporte a IPTV. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+    <summary lang="pt_PT">Add-on PVR do Kodi para suporte de IPTV. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+    <description lang="en_GB">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.&amp;#10;    &amp;#10;For documentation visit: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/README.md&amp;#10;    </description>
+    <description lang="en_US">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
+    <description lang="pt_BR">O cliente de PVR IPTV Simple Client oferece suporte para listas m3u, transmissão de TV ao vivo de fontes multicast/unicast, transmissão de rádios e, ainda, suporte a guia de programação eletrônico - EPG.</description>
+    <description lang="pt_PT">Cliente IPTV Simple PVR com suporte a listas de reprodução m3u, transmissão de TV em direto de fontes multidifusão/unidifusão, ouvir estações de rádio e EPG.</description>
+    <disclaimer lang="en_GB">The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+    <disclaimer lang="en_US">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+    <disclaimer lang="pt_BR">Este é um software instável! Os autores não são responsáveis por falhas nas reproduções, horários incorretos no EPG, horas perdidas ou quaisquer outros efeitos indesejáveis.</disclaimer>
+    <disclaimer lang="pt_PT">Este software é instável! Os autores não podem ser responsabilizados por gravações falhadas, temporizadores incorretos, horas desperdiçadas ou qualquer outro tipo de efeitos indesejáveis...</disclaimer>
+    <path>pvr.aguia.de.fogosimple+windows-x86_64/pvr.aguia.de.fogosimple-20.6.3.zip</path>
+  </extension>
+</addon>
+
+<addon
+  id="pvr.aguia.de.fogosimples"
+  version="20.6.4"
+  name="AGUIA.DE.FOGO Simples Client"
+  provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
+  <requires>
+<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
+<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
+<import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.9"/>
+<import addon="kodi.binary.global.network" minversion="1.0.0" version="1.0.4"/>
+<import addon="kodi.binary.global.tools" minversion="1.0.0" version="1.0.4"/>
+<import addon="kodi.binary.instance.pvr" minversion="9.2.0" version="9.2.0"/>
+    <import addon="inputstream.ffmpegdirect" minversion="22.0.0"/>
+    <import addon="inputstream.adaptive" minversion="22.0.0"/>
+    <import addon="inputstream.rtmp" minversion="22.0.0"/>
   </requires>
   <extension
     point="kodi.pvrclient"
@@ -2359,51 +2404,7 @@ provider-name="jurialmunkey">
     <disclaimer lang="tr_TR">Bu kararsız bir yazılımdır! Yazanlar oynatma hatası, yanlış EPG zamanları, harcanmış saatler ya da diğer etkilerden sorumlu değildir.</disclaimer>
     <disclaimer lang="zh_CN">作者不对播放失败、错误的电子节目单时间造成时间浪费或其它不良影响负责。</disclaimer>
     <disclaimer lang="zh_TW">這是測試中的軟體！原創作者無法針對以下情況負責：包括播放失敗，不正確的電子節目表，多餘的時數，或任何不可預期的不良影響。</disclaimer>
-    <path>pvr.aguia.de.fogosimple+android-armv7/pvr.aguia.de.fogosimple-20.6.3.zip</path>
-  </extension>
-</addon>
-
-<addon
-  id="pvr.aguia.de.fogosimple"
-  version="20.6.3"
-  name="AGUIA.DE.FOGO Simple Client"
-  provider-name="Black Eagle">
-  <requires>
-<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
-<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
-<import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.8"/>
-<import addon="kodi.binary.global.network" minversion="1.0.0" version="1.0.4"/>
-<import addon="kodi.binary.global.tools" minversion="1.0.0" version="1.0.4"/>
-<import addon="kodi.binary.instance.pvr" minversion="8.2.0" version="8.3.0"/>
-    <import addon="inputstream.ffmpegdirect" minversion="21.0.0"/>
-    <import addon="inputstream.adaptive" minversion="21.0.0"/>
-    <import addon="inputstream.rtmp" minversion="21.0.0"/>
-  </requires>
-  <extension
-    point="kodi.pvrclient"
-    library_windows="pvr.aguia.de.fogosimple.dll"/>
-  <extension point="xbmc.addon.metadata">
-    <platform>windows-x86_64</platform>
-    <license>GPL-2.0-or-later</license>
-    <source>https://github.com/kodi-pvr/pvr.iptvsimple</source>
-    <forum>https://forum.kodi.tv/forumdisplay.php?fid=215</forum>
-    <assets>
-      <fanart>fanart.jpg</fanart>
-      <icon>icon.png</icon>
-    </assets>
-    <summary lang="en_GB">Kodi PVR addon for IPTV support.</summary>
-    <summary lang="en_US">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="pt_BR">Addon de PVR no Kodi com suporte a IPTV. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="pt_PT">Add-on PVR do Kodi para suporte de IPTV. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <description lang="en_GB">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.&amp;#10;    &amp;#10;For documentation visit: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/README.md&amp;#10;    </description>
-    <description lang="en_US">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-    <description lang="pt_BR">O cliente de PVR IPTV Simple Client oferece suporte para listas m3u, transmissão de TV ao vivo de fontes multicast/unicast, transmissão de rádios e, ainda, suporte a guia de programação eletrônico - EPG.</description>
-    <description lang="pt_PT">Cliente IPTV Simple PVR com suporte a listas de reprodução m3u, transmissão de TV em direto de fontes multidifusão/unidifusão, ouvir estações de rádio e EPG.</description>
-    <disclaimer lang="en_GB">The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-    <disclaimer lang="en_US">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-    <disclaimer lang="pt_BR">Este é um software instável! Os autores não são responsáveis por falhas nas reproduções, horários incorretos no EPG, horas perdidas ou quaisquer outros efeitos indesejáveis.</disclaimer>
-    <disclaimer lang="pt_PT">Este software é instável! Os autores não podem ser responsabilizados por gravações falhadas, temporizadores incorretos, horas desperdiçadas ou qualquer outro tipo de efeitos indesejáveis...</disclaimer>
-    <path>pvr.aguia.de.fogosimple+windows-x86_64/pvr.aguia.de.fogosimple-20.6.3.zip</path>
+    <path>pvr.aguia.de.fogosimple+android-armv7/pvr.aguia.de.fogosimples-20.6.4.zip</path>
   </extension>
 </addon>
 

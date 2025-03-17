@@ -1,2 +1,2 @@
-portal"http://zupanet.live:8080/"
-00:1A:79:85:E2:75
+portal"http://cb-tv.xyz:8080/"
+00:1A:79:b7:a0:e8

@@ -1,2 +1,2 @@
-portal"http://1234up.com:8080/"
-00:1A:79:C8:26:BB
+portal"http://download.best-ott.me/"
+00:1A:79:13:1B:C4

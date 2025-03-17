@@ -1,2 +1,2 @@
-portal"http://cb-tv.xyz:8080/"
-00:1A:79:b7:a0:e8
+portal"http://600600.org:8080/"
+00:1A:79:bc:2D:58

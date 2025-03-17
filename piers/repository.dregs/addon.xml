@@ -11,9 +11,9 @@
     <hashes>false</hashes>
 </dir>
 <dir minversion="29.9.9">
-      <info compressed="true">https://raw.github.com/dregs1/dregs1.github.io/master/pires/addons.xml</info>
-      <checksum>https://raw.github.com/dregs1/dregs1.github.io/master/pires/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.github.com/dregs1/dregs1.github.io/master/pires</datadir>
+      <info compressed="true">https://raw.github.com/dregs1/dregs1.github.io/master/piers/addons.xml</info>
+      <checksum>https://raw.github.com/dregs1/dregs1.github.io/master/piers/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/dregs1/dregs1.github.io/master/piers</datadir>
       <hashes>false</hashes>
   </dir>
 <dir minversion="20.0.0">

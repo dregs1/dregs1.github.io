@@ -1,2 +1,2 @@
-portal"http://power4kiptv.info:8080/"
-00:1A:79:10:d5:c1
+portal"http://xcmaster.live:8080/"
+00:1A:79:57:20:B1

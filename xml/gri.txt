@@ -1,2 +1,2 @@
-portal"http://45.139.122.199:8080/"
-00:1A:79:AD:E0:34
+portal"http://one4alltech.net:8080/"
+00:1A:79:AB:69:5F

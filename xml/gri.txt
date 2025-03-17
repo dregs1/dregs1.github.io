@@ -1,2 +1,2 @@
-portal"http://one4alltech.net:8080/"
-00:1A:79:AB:69:5F
+portal"http://power4kiptv.info:8080/"
+00:1A:79:10:d5:c1

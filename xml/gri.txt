@@ -1,2 +1,2 @@
-portal"http://mag.myox.me:80/"
-00:1A:79:c1:3d:ec
+portal"http://l1iptv.xyz/"
+00:1A:79:BD:8C:40

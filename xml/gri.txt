@@ -1,2 +1,2 @@
-portal"http://600600.org:8080/"
-00:1A:79:bc:2D:58
+portal"http://promaxhd.com:8080/"
+00:1a:79:45:f9:59

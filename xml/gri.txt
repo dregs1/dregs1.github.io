@@ -1,2 +1,2 @@
-portal"http://promaxhd.com:8080/"
-00:1a:79:45:f9:59
+portal"http://trex.8kott.xyz:80/"
+00:1A:79:07:10:4F

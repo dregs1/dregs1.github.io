@@ -1,2 +1,2 @@
-portal"http://34mix.com:8080/"
-00:1A:79:4A:BD:E3
+portal"http://zupanet.live:8080/"
+00:1A:79:85:E2:75

@@ -1,2 +1,2 @@
-portal"http://l1iptv.xyz/"
-00:1A:79:BD:8C:40
+portal"http://king.viviotv.xyz/"
+00:1A:79:C1:21:90

@@ -1,2 +1,2 @@
-portal"http://7.iptvon.tv.123tv.to/"
-00:1A:79:A5:32:A6
+portal"http://34mix.com:8080/"
+00:1A:79:4A:BD:E3

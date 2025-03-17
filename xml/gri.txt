@@ -1,2 +1,2 @@
-portal"http://download.best-ott.me/"
-00:1A:79:13:1B:C4
+portal"http://mag.myox.me:80/"
+00:1A:79:c1:3d:ec

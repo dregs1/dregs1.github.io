@@ -760,38 +760,6 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
 	</extension>
 </addon>
 
-<addon id="plugin.video.anonimo" version="0.1" name="Anonimo" provider-name="Flixbox ">
-<requires>
-		<import addon="script.module.six" />
-		<import addon="script.module.kodi-six" />
-		<import addon="script.module.requests" optional="true"/>
-		<import addon="script.module.websocket" version="0.50.0"  optional="true"/>
-		<import addon="script.module.youtube.dl" optional="true"/>
-		<import addon="plugin.video.youtube" optional="true" />
-		<import addon="script.module.dateutil" optional="true" />
-		<import addon="script.module.resolveurl" optional="true"/>
-		<import addon="script.module.urlresolver" optional="true"/>
-		<import addon="script.module.cloudscraper" optional="true"/>
-		<import addon="script.module.inputstreamhelper" optional="true"/>
-		<import addon="script.module.slproxy" optional="true"/>
-	</requires>
- <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">OBRIGADO POR USAR NOSSO ADD-ON</summary>
-    <description lang="en"> ADD-ON ANÔNIMO  É APENAS UM AGREGADOR DE LINK' PARA FLIXBOX, NELE VOCÊS PODEM ACHAR FILMES,SÉRIES, ETC. TODOS OS LINKS SÃO ENCONTRADOS NA INTERNET. NÃO SOMOS RESPONSÁVEIS PELOS ARQUIVOS AQUI ENCONTRADOS.</description>
-    <platform>all</platform>
-	<assets>
-	<icon>icon.png</icon>
-    <fanart>fanart.jpg</fanart>
-    <screenshot>resources/screenshots/1.jpg</screenshot>
-    <screenshot>resources/screenshots/2.jpg</screenshot>
-    <screenshot>resources/screenshots/3.jpg</screenshot>
-</assets>
-  </extension>
-</addon>
-
 <addon id="plugin.video.arrownegra.play.tv" name="[COLORgrey]ArrowNegra[/COLOR] [COLORred]Play[/COLOR] [COLORcyan]Tv[/COLOR]" version="1.9.1.7" provider-name="[COLOR orange]Black Eagle[/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>

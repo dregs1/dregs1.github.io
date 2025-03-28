@@ -1234,7 +1234,7 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
 </extension>
 </addon>
 
-<addon id="plugin.video.K-PT" name="[COLOR blue]K[COLORwhite]-[COLORgreen]P[COLORred]T[/COLOR]" version="2.1.6" provider-name="[COLOR orange]@By_Black_Eagla[/COLOR]">
+<addon id="plugin.video.K-PT" name="[COLOR blue]K[COLORwhite]-[COLORgreen]P[COLORred]T[/COLOR]" version="2.1.8" provider-name="[COLOR orange]@By_Black_Eagla[/COLOR]">
   <extension point="xbmc.python.pluginsource"
 			library="default.py">
 		<provides>video</provides>

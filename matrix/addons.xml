@@ -1063,13 +1063,12 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
     </extension>
 </addon>
 
-<addon id="plugin.video.fenix-mac" name="[COLORcyan]fenix[COLORgrey]Mac[/COLOR]" version="1.8.5" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
+<addon id="plugin.video.fenix-mac" name="[COLORcyan]fenix[COLORgrey]Mac[/COLOR]" version="1.8.7" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
 <requires>
-    	<import addon="script.module.resolveurl"/>
-	    <import addon="script.module.requests"/>
-		<import addon="script.module.six"/>
-		<import addon="script.module.kodi-six" />
-		<import addon="script.module.web-pdb" />
+    	<!--<import addon="script.module.resolveurl" /> -->
+        <import addon="script.module.requests"/>
+        <import addon="script.module.six"/>
+        <import addon="script.module.web-pdb" />
   </requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>

@@ -90,13 +90,7 @@
         "url": "http://streamprostk.com:2082/get.php?username=977213337face&password=040820iptv&type=m3u_plus",
         "image": "https://i.imgur.com/ntH68nd.png"
     },
-        {
-        "name": "[COLORorange] Latinos [/COLOR]",
-        "url": "http://ip.sitelco.cl:25461/get.php?username=pamela@tclogistic.cl&password=979586478&type=m3u&output=mpegts
-",
-        "image": "https://i.imgur.com/ntH68nd.png"
-    },
-{
+      {
         "name": "[COLORorange] Musica [/COLOR]",
         "url": "https://raw.githubusercontent.com/dregs1/dregs1.github.io/main/xml/lomusica.json",
         "image": "https://i.imgur.com/k790Jyg.png"

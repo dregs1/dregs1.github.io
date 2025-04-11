@@ -1455,6 +1455,26 @@ provider-name="jurialmunkey">
 </extension>
 </addon>
 
+<addon id="plugin.video.viking.tv.online" name="[COLORyellow]Viking [COLORgrey] TV [COLORgold]Online[/COLOR]" version="0.1.6" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
+  <extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="en">[COLOR maroon] Canais de Televisão, desportos e mais...[/COLOR] </summary>
+	<language>en</language>
+	<description lang="en">[COLOR grey]viking [COLORyellow]tv.online[COLORgold]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET! (ESTE ADDON FEITO PRA O REPOSITORIO VIKINS/dregs1)[/COLOR]</description>
+	<platform>all</platform>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+		<screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+	</assets>
+  </extension>
+</addon>
+
 <addon id="plugin.video.x-codes" name="[COLOR chocolate]X[/COLOR][COLORwhite]-[/COLOR][COLORgold]Codes[/COLOR]" version="2.1.9" provider-name="[COLOR red]Black[/COLOR][COLORdarkgrey]Eagle[/COLOR]">	<requires>
 		<import addon="script.module.requests" version="2.27.1"/>
 	</requires>

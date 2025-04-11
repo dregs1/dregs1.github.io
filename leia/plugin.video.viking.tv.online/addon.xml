@@ -1,0 +1,24 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.viking.tv.online" name="[COLORyellow]Viking [COLORgrey]TV [COLORgold]Online[/COLOR]" version="1.5" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">">
+  <requires>
+        <import addon="script.module.six" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.kodi-six" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+ 	</extension>  
+<extension point="xbmc.addon.metadata">
+		<summary>Canais de Televisão, desportos e mais...</summary>
+		<description lang="en">[COLOR grey]viking [COLORyellow]tv.online[COLORgold]é um addon da familia blackeagle.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET! (ESTE ADDON FEITO PRA O REPOSITORIO VIKINS)dregs1[/COLOR]</description>
+		<platform>all</platform>
+		<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+    </assets>
+  </extension>
+</addon>

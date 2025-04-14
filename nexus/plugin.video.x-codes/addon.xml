@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.x-codes" name="[COLOR chocolate]X[/COLOR][COLORwhite]-[/COLOR][COLORgold]Codes[/COLOR]" version="2.1.9" provider-name="[COLOR red]Black[/COLOR][COLORdarkgrey]Eagle[/COLOR]">	<requires>
+<addon id="plugin.video.x-codes" name="[COLOR chocolate]X[/COLOR][COLORwhite]-[/COLOR][COLORgold]Codes[/COLOR]" version="3.2.1" provider-name="[COLOR red]Black[/COLOR][COLORdarkgrey]Eagle[/COLOR]">	<requires>
 		<import addon="script.module.requests" version="2.27.1"/>
 	</requires>
   <extension point="xbmc.python.pluginsource"

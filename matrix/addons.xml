@@ -873,7 +873,7 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
   </extension>
 </addon>
 
-<addon id="plugin.video.daddylivehd" name="DaddyLiveHD" version="5.01" provider-name="FubuZ">
+<addon id="plugin.video.daddylivehd" name="DaddyLiveHD" version="5.04" provider-name="FubuZ">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" />
@@ -890,7 +890,6 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
         <website>https://daddylive.sx/</website>
         <assets>
             <icon>resources/icon.png</icon>
-            <fanart>resources/fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>

@@ -48,6 +48,11 @@
           </constraints>
           <control type="spinner" format="string" />
 		</setting>
+		<setting id="dst_enabled" type="boolean" label="30118" help="30119">
+          <level>0</level>
+          <default>false</default>
+          <control type="toggle" />
+		</setting>
 	  </group>
 	</category>
 	<category id="advanced" label="30112">
@@ -63,14 +68,6 @@
 		<setting id="schedule_path" type="string" label="30114" help="30115">
 		  <level>0</level>
 		  <default>schedule/schedule-generated.php</default>
-		  <constraints>
-			<allowempty>true</allowempty>
-		  </constraints>
-		  <control type="edit" format="string" />
-		</setting>
-		<setting id="stream_path" type="string" label="30116" help="30117">
-		  <level>0</level>
-		  <default>.newkso.ru</default>
 		  <constraints>
 			<allowempty>true</allowempty>
 		  </constraints>

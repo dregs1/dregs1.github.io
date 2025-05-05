@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<addon id="plugin.video.daddylivehd" name="DaddyLiveHD" version="5.01" provider-name="FubuZ">
+<addon id="plugin.video.daddylivehd" name="DaddyLiveHD" version="5.04" provider-name="FubuZ">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" />
@@ -16,7 +16,6 @@
         <website>https://daddylive.sx/</website>
         <assets>
             <icon>resources/icon.png</icon>
-            <fanart>resources/fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>

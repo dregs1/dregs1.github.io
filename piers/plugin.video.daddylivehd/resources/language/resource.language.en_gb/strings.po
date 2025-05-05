@@ -102,10 +102,20 @@ msgstr ""
 
 #. Setting name
 msgctxt "#30116"
-msgid "Video stream URL:"
+msgid ""
 msgstr ""
 
 #. Description of setting
 msgctxt "#30117"
-msgid "Enter new video stream URL string (if the streams don't play). If you entered something by mistake, just use the button Defaults and OK."
+msgid ""
+msgstr ""
+
+#. Setting name
+msgctxt "#30118"
+msgid "Daylight Saving/Summer Time (DST):"
+msgstr ""
+
+#. Description of setting
+msgctxt "#30119"
+msgid "Toggle ON/OFF. Toggle ON adds +1 hour to the Timezone."
 msgstr ""

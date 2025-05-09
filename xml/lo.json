@@ -8,14 +8,12 @@
         "name": "[COLORorange] Portugal [/COLOR]",
         "url": "http://alienserver.cyou:8080/get.php?username=dsVlY5vcUU&password=kXqF2SzEva&type=m3u_plus",
         "image": "https://i.imgur.com/ShitfSI.png"
-    },
-        
-        {
+    },{
         "name": "[COLORorange] Portugal [/COLOR]",
         "url": "http://going.kikakukikaku.xyz:8080/get.php?username=josepicoto&password=nunotomas&type=m3u_plus",
         "image": "https://i.imgur.com/ShitfSI.png"
-    }, 
-        {
+    },
+{
         "name": "[COLORorange] Portugal [/COLOR]",
         "url": "http://supg.nl:80/get.php?username=paulo1234&password=paulo1234&type=m3u_plus&output=ts",
         "image": "https://i.imgur.com/ShitfSI.png"
@@ -94,7 +92,8 @@
         "name": "[COLORorange] Latinos [/COLOR]",
         "url": "http://playtv44.com:8080/get.php?username=SANDRAS432&password=123456&type=m3u_plus",
         "image": "https://i.imgur.com/ntH68nd.png"
-    },{
+    },
+{
         "name": "[COLORorange] Musica [/COLOR]",
         "url": "https://raw.githubusercontent.com/dregs1/dregs1.github.io/main/xml/lomusica.json",
         "image": "https://i.imgur.com/k790Jyg.png"

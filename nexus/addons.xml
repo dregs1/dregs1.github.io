@@ -662,7 +662,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.aguia.hentai.18" name="[COLORlime]AGUIA[/COLOR] [COLORyellow]HENTAI+18[/COLOR]" version="0.0.2" provider-name="@By_Black Eagle">
+<addon id="plugin.video.aguia.hentai.18" name="[COLORlime]AGUIA[/COLOR] [COLORyellow]HENTAI+18[/COLOR]" version="0.1.3" provider-name="@By_Black Eagle">
     <requires>
         <import addon="script.module.simplejson" />
         <import addon="script.module.six" />

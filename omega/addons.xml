@@ -1011,7 +1011,7 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
 
 </addon>
 
-<addon id="plugin.video.espada.dragao" name="[COLOR yellow]ESPADA[COLORgrey]DRAGÃO[/COLOR]" version="1.8" provider-name="[COLOR orange]@by_blak_eagle[/COLOR]">
+<addon id="plugin.video.espada.dragao" name="[COLOR yellow]ESPADA[COLORgrey]DRAGÃO[/COLOR]" version="2.4" provider-name="[COLOR orange]@by_blak_eagle[/COLOR]">
         <requires>
         <import addon="script.module.simplejson" />
         <import addon="script.module.six" />

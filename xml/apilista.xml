@@ -1,10 +1,3 @@
-name=brasil 
-http://dns.nadyne.best:80/get.php?username=Daviane083&password=Lac8&type=m3u_plus&output=m3u8
-http://zuhu.xyz:80/get.php?username=58533064&password=42083094&type=m3u_plus
-http://tvsbt.top:80/get.php?username=994536255&password=676754405&type=m3u_plus&output=ts
-http://srv.cldplay.net:80/get.php?username=Wa1uGs&password=mQd88w&type=m3u_plus
-http://newoneblack.site:80/get.php?username=h9e4b9vu&password=4mc4nvp8&type=m3u_plus
-http://dns.nadyne.best:80/xmltv.php?username=000055657789&password=213156589090&type=m3u_plus
 name=Portugal 
 http://going.kikakukikaku.xyz:8080/get.php?username=carlosbarbosa1&password=11092021&type=m3u&output=ts
 http://invale.party:80/get.php?username=joaquimvieira&password=cLa45R7GHF&type=m3u_plus&output=m3u8
@@ -14,6 +7,13 @@ name=Espanha
 http://svipapi1.top:8080/get.php?username=VODMAX5601743401760001&password=3bf9a59f07e9&type=m3u_plus
 http://toda.la.razon.angel.spaniptv.giize.com:8080/get.php?username=Primeloy&password=k7WJM3QbWUfs&type=m3u_plus
 http://esproututt.top:8080/get.php?username=es7171736045146002&password=3b06e9b5173c&type=m3u_plus
+name=brasil 
+http://dns.nadyne.best:80/get.php?username=Daviane083&password=Lac8&type=m3u_plus&output=m3u8
+http://zuhu.xyz:80/get.php?username=58533064&password=42083094&type=m3u_plus
+http://tvsbt.top:80/get.php?username=994536255&password=676754405&type=m3u_plus&output=ts
+http://srv.cldplay.net:80/get.php?username=Wa1uGs&password=mQd88w&type=m3u_plus
+http://newoneblack.site:80/get.php?username=h9e4b9vu&password=4mc4nvp8&type=m3u_plus
+http://dns.nadyne.best:80/xmltv.php?username=000055657789&password=213156589090&type=m3u_plus
 name=Almenha 
 http://laz.hurguven.win:8080/get.php?username=ilkerozen&password=21052019ozk&type=m3u_plus
 http://67.xmsat.win:8080/get.php?username=tlt0909202210&password=0909202210&type=m3u_plus

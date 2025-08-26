@@ -1275,7 +1275,7 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
   </extension>
 </addon>
 
-<addon id="plugin.video.loboespada" name="[COLORred]Lobo[COLORgrey]espada[/COLOR]" version="2.3" provider-name="[COLORgold]by_black_eagle[/COLOR]">
+<addon id="plugin.video.loboespada" name="[COLORred]Lobo[COLORgrey]espada[/COLOR]" version="2.7" provider-name="[COLORgold]by_black_eagle[/COLOR]">
 <requires>
     	<import addon="script.module.resolveurl"/>
 	    <import addon="script.module.requests"/>

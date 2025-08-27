@@ -1,18 +1,33 @@
 #EXTM3U
-#EXTINF:-1,M. LaLiga UHD
+#EXTINF:-1,M. LaLiga 4k
 acestream://d15a0eaf825b5f8f94259d5209688a7e97e6acde
 
-#EXTINF:-1,M. LaLiga UHD 2
+#EXTINF:-1,M. LaLiga 4k 2
 acestream://cc9b7f5fe416069a2110da0909b0f915043c468b
 
-#EXTINF:-1,LaLiga Bar nuevo
-acestream://aa82e7d4f03061f2144a2f4be22f2e2210d42280
+#EXTINF:-1,Liga de Campeones 4k
+acestream://7b8d9d280e8a3a9ccbdf560a63b3652b4f0d6f13
+
+#EXTINF:-1,Liga de Campeones FHD nuevo
+acestream://778f08cbae9596ed9e8b2ae0af33ee7a6fe24c6a
+
+#EXTINF:-1,Liga de Campeones FHD nuevo 2
+acestream://afbf2a479c5a5072698139f0f556ef3e77a99bd0
+
+#EXTINF:-1,Liga de Campeones FHD nuevo 3
+acestream://6d88c66c89f3dbe1e6dacb5a8f7c9a98b12e6c63
+
+#EXTINF:-1,Liga de Campeones FHD nuevo 4
+acestream://a9025d4e168764248d33129c30940502cea0e1c2
+
+#EXTINF:-1,Liga de Campeones FHD nuevo 5
+acestream://47223e64a576c21bd61e818a42397a753d34fba5
 
 #EXTINF:-1, Liga Bar 1080P
 acestream://94d34491106e00394835c8cb68aa94481339b53f
 
-#EXTINF:-1, Movistar La Liga 1080 MultiAudio
-acestream://d3de78aebe544611a2347f54d5796bd87f16c92d
+#EXTINF:-1, M. LaLiga 1080
+acestream://00c9bc9c5d7d87680a5a6bed349edfa775a89947
 
 #EXTINF:-1, Movistar La Liga 1080 MultiAudio
 acestream://6d05b31e5e8fdae312fbd57897363a7b10ddb163
@@ -45,7 +60,7 @@ acestream://608b0faf7d3d25f6fe5dba13d5e4b4142949990e
 acestream://94d34491106e00394835c8cb68aa94481339b53f
 
 #EXTINF:-1,DAZN LaLiga 1080 MultiAudio
-acestream://110d441ddc9713a7452588770d2bc85504672f47
+acestream://74defb8f4ed3a917fd07c21b34f43c17107ec618
 
 #EXTINF:-1,DAZN LaLiga 1080 MultiAudio
 acestream://ec29289b0b14756e686c03a501bae1efa05be70c
@@ -113,11 +128,8 @@ acestream://cc5782d37ae6b6e0bab396dd64074982d0879046
 #EXTINF:-1, M. deportes 7 1080
 acestream://070f82d6443a52962d6a2ed9954c979b29404932
 
-#EXTINF:-1, M.L. Campeones 1080 Multiaudio
-acestream://0a26e20f39845e928411e09a124374fccb6e1478
-
-#EXTINF:-1, M.L. Campeones 1080 MultiAudio
-acestream://775abd8697715c48a357906d40734ccd2a10513c
+#EXTINF:-1, M.L. Campeones 1080p
+acestream://97df5b7824948972d041d8ca2a4d29c90b641bc9
 
 #EXTINF:-1, M.L. Campeones 720
 acestream://8edb264520569b2280c5e86b2dc734e120032903

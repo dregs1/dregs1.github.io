@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-	id="plugin.video.griffin.TV.mac" version="0.2" name="[COLORred]Griffin [COLORwhite]TV[/COLOR]" provider-name="[COLORgold]por_black_eagle[/COLOR]">
+	id="plugin.video.griffin.TV.mac" version="1.6" name="[COLORred]Griffin [COLORwhite]TV[/COLOR]" provider-name="[COLORgold]por_black_eagle[/COLOR]">
   <requires>    		
     	<!--<import addon="script.module.resolveurl" /> -->   	
         <import addon="script.module.requests"/>

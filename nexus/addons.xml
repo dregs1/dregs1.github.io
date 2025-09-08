@@ -1085,7 +1085,7 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
     </extension>
 </addon>
 
-<addon id="plugin.video.fenix-mac" name="[COLORcyan]fenix[COLORgrey]Mac[/COLOR]" version="1.8.7" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
+<addon id="plugin.video.fenix-mac" name="[COLORcyan]fenix[COLORgrey]Mac[/COLOR]" version="1.8.9" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
 <requires>
     	<!--<import addon="script.module.resolveurl" /> -->
         <import addon="script.module.requests"/>

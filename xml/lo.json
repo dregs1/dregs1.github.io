@@ -42,7 +42,7 @@
     "servidores": [
       { "nome": "Mundial 1", "url": "http://pamporea.xyz:8080/get.php?username=AN227436&password=F5bfP3499iuRxKmm7pb2HjDZKITFDj&type=m3u_plus", "imagem": "https://i.imgur.com/jfmROxJ.png" },
       { "nome": "Mundial 2", "url": "http://z7gln8l.xyz/get.php?username=jairo1947&password=Hg98654321&type=m3u_plus", "imagem": "https://i.imgur.com/jfmROxJ.png" },
-      { "nome": "Mundial 3", "url": "URL_DO_TERCEIRO_SERVIDOR_AQUI", "imagem": "https://i.imgur.com/jfmROxJ.png" }
+      { "nome": "Mundial 3", "url": "http://alfatv.lat:2082/get.php?username=Satelite&password=NHUWPepmnyv4&type=m3u_plus", "imagem": "https://i.imgur.com/jfmROxJ.png" }
     ]
   },
   {

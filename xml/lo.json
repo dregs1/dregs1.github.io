@@ -42,8 +42,8 @@
     "icon": "https://i.imgur.com/jfmROxJ.png",
     "fanart": "https://i.imgur.com/n4ysh7J.jpg",
     "servidores": [
-      { "nome": "Mundial 1", "url": "http://lemon.catchmeifyo.com:8000/get.php?username=087147268161&password=076059488613&type=m3u_plus", "imagem": "https://i.imgur.com/jfmROxJ.png" },
-      { "nome": "Mundial 2", "url": "http://decoder.mare7.co:80/get.php?username=marcoalfferramenta&password=sasy&type=m3u_plus", "imagem": "https://i.imgur.com/jfmROxJ.png" },
+      { "nome": "Mundial 1", "url": "http://lupin.deusmaster.xyz:8080/get.php?username=Uj7UQlSgNJ&password=KydDRneQTL&type=m3u_plus&output=ts", "imagem": "https://i.imgur.com/jfmROxJ.png" },
+      { "nome": "Mundial 2", "url": "http://vipbftn.xyz:8080/get.php?username=VIP0125173697175244&password=11737217471119&type=m3u_plus", "imagem": "https://i.imgur.com/jfmROxJ.png" },
       { "nome": "Mundial 3", "url": "http://alfatv.lat:2082/get.php?username=Satelite&password=NHUWPepmnyv4&type=m3u_plus", "imagem": "https://i.imgur.com/jfmROxJ.png" }
     ]
   },

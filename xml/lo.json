@@ -52,9 +52,9 @@
     "icon": "https://i.imgur.com/ntH68nd.png",
     "fanart": "https://i.imgur.com/n4ysh7J.jpg",
     "servidores": [
-      { "nome": "Latinos 1", "url": "http://nocable.cc:8080/get.php?username=glasermike@ymail.com&password=275eua40aw&type=m3u_plus", "imagem": "https://i.imgur.com/ntH68nd.png" },
-      { "nome": "Latinos 2", "url": "http://sdmx.vip:80/get.php?username=RestreamSDMX1&password=YxTajqLPZCbMtQzC&type=m3u_plus", "imagem": "https://i.imgur.com/ntH68nd.png" },
-      { "nome": "Latinos 3", "url": "http://zonastream.fun:80/get.php?username=Laica2424T&password=Lhh4QqKmY6Yf&type=m3u_plus&output=m3u8", "imagem": "https://i.imgur.com/ntH68nd.png" }
+      { "nome": "Latinos 1", "url": "http://home-playtv.com:2082/get.php?username=AlbertoChaves&password=REFYJ&type=m3u_plus&output=ts", "imagem": "https://i.imgur.com/ntH68nd.png" },
+      { "nome": "Latinos 2", "url": "http://bstv.online:8080/get.php?username=1afan46&password=2524157458h&type=m3u_plus&output=m3u8", "imagem": "https://i.imgur.com/ntH68nd.png" },
+      { "nome": "Latinos 3", "url": "http://pixelmax.link:8085/get.php?username=MiguelTutillo&password=0996143516MT&type=m3u_plus&output=m3u8", "imagem": "https://i.imgur.com/ntH68nd.png" }
     ]
   },
   {

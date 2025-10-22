@@ -982,6 +982,25 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
 	</extension>
 </addon>
 
+<addon id="plugin.video.eagleevil" name="[COLORred]Eag[COLORgrey]le [COLORgold]Evil[/COLOR]" version="1.3" provider-name="[COLOR orange]@By_Black_Eagle [/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+ <extension point="xbmc.addon.metadata">
+<summary>Canais de Televisão, desportos e mais...</summary>
+		<description lang="en">[COLOR red]Eagle  [/COLOR] [COLORorange]Evil[/COLOR] [COLORorange]é um addon da familia Black Eagle .TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+		<platform>all</platform>
+		<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
+</extension>
+</addon>
+
 <addon
 	id="plugin.video.eagleteam.mac" version="1.3" name="[COLOR silver]Eagle[COLOR dimgrey] Team [/COLOR][COLOR white] MAC [/COLOR]" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
 <requires>

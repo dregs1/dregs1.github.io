@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 # *
 # *  Copyright (C) 2012-2013 Garrett Brown
 # *  Copyright (C) 2010      j48antialias
@@ -21,99 +22,76 @@
 # *  Based on code by j48antialias:
 # *  https://anarchintosh-projects.googlecode.com/files/addons_xml_generator.py
 
-""" addons.xml generator """
+"""
+addons.xml generator – bereinigte Version
+"""
 
 import os
 import sys
+import hashlib
 
+# Pfade festlegen
 dir_path = os.path.dirname(os.path.realpath(__file__))
 addonsxml_file = os.path.join(dir_path, "addons.xml")
 addons_md5 = os.path.join(dir_path, "addons.xml.md5")
 
-# Compatibility with 3.0, 3.1 and 3.2 not supporting u"" literals
-if sys.version < '3':
-    import codecs
-    def u(x):
-        return codecs.unicode_escape_decode(x)[0]
-else:
-    def u(x):
-        return x
+def u(x):
+    return x  # Für Python 3 keine Umwandlung nötig
 
 class Generator:
     """
-        Generates a new addons.xml file from each addons addon.xml file
-        and a new addons.xml.md5 hash file. Must be run from the root of
-        the checked-out repo. Only handles single depth folder structure.
+    Generiert eine neue addons.xml-Datei aus allen addon.xml-Dateien im Ordner
+    und erstellt eine passende MD5-Hashdatei dazu.
     """
+
     def __init__(self):
-        # generate files
         self._generate_addons_file()
         self._generate_md5_file()
-        # notify user
-        print("Finished updating addons xml and md5 files")
-    
+        print("✔ Fertig: addons.xml und addons.xml.md5 wurden aktualisiert.")
+
     def _generate_addons_file(self):
-        # addon list
-        #addons = os.listdir( "." )
         addons = os.listdir(dir_path)
-        # final addons text
-        addons_xml = u("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<addons>\n")
-        # loop thru and add each addons addon.xml file
+        addons_xml = u('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<addons>\n')
+
         for addon in addons:
-            addon = os.path.join(dir_path, addon)
+            addon_path = os.path.join(dir_path, addon)
             try:
-                # skip any file or .svn folder or .git folder
-                if (not os.path.isdir(addon) or addon.endswith(".svn") or addon.endswith(".git")): continue
-                # create path
-                _path = os.path.join(addon, "addon.xml")
-                # split lines for stripping
-                xml_lines = open(_path, "r" ).read().splitlines()
-                # new addon
+                if (not os.path.isdir(addon_path) or addon.endswith(".svn") or addon.endswith(".git")):
+                    continue
+
+                addon_xml_path = os.path.join(addon_path, "addon.xml")
+                with open(addon_xml_path, "r", encoding="utf-8") as f:
+                    xml_lines = f.read().splitlines()
+
                 addon_xml = ""
-                # loop thru cleaning each line
                 for line in xml_lines:
-                    # skip encoding format line
-                    if (line.find("<?xml") >= 0): continue
-                    # add line
-                    if sys.version < '3':
-                        addon_xml += unicode(line.rstrip() + "\n", "UTF-8")
-                    else:
-                        addon_xml += line.rstrip() + "\n"
-                # we succeeded so add to our final addons.xml text
+                    if "<?xml" in line:
+                        continue
+                    addon_xml += line.rstrip() + "\n"
+
                 addons_xml += addon_xml.rstrip() + "\n\n"
+
             except Exception as e:
-                # missing or poorly formatted addon.xml
-                print("Excluding %s for %s" % (_path, e))
-        # clean and add closing tag
+                print(f"⚠ Ausschluss von {addon_path} wegen Fehler: {e}")
+
         addons_xml = addons_xml.strip() + u("\n</addons>\n")
-        # save file
-        self._save_file(addons_xml.encode( "UTF-8" ), file=addonsxml_file)
-    
+        self._save_file(addons_xml.encode("utf-8"), file=addonsxml_file)
+
     def _generate_md5_file(self):
-        # create a new md5 hash
         try:
-            import md5
-            m = md5.new(open(addonsxml_file, "r").read()).hexdigest()
-        except ImportError:
-            import hashlib
-            m = hashlib.md5(open(addonsxml_file, "r", encoding="UTF-8").read().encode("UTF-8") ).hexdigest()
-        
-        # save file
-        try:
-            self._save_file( m.encode( "UTF-8" ), file=addons_md5)
+            with open(addonsxml_file, "r", encoding="utf-8") as f:
+                content = f.read().encode("utf-8")
+            m = hashlib.md5(content).hexdigest()
+            self._save_file(m.encode("utf-8"), file=addons_md5)
         except Exception as e:
-            # oops
-            print("An error occurred creating addons.xml.md5 file!\n%s" %e)
-    
+            print(f"❌ Fehler beim Erstellen von addons.xml.md5: {e}")
+
     def _save_file(self, data, file):
         try:
-            # write data to the file (use b for Python 3)
-            open(file, "wb").write(data)
+            with open(file, "wb") as f:
+                f.write(data)
         except Exception as e:
-            # oops
-            print("An error occurred saving %s file!\n%s"%(file, e))
+            print(f"❌ Fehler beim Speichern von {file}: {e}")
 
-
-if ( __name__ == "__main__" ):
-    # start
+if __name__ == "__main__":
     Generator()

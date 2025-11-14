@@ -2,7 +2,7 @@
 <addon 
     id="plugin.audio.aguiafm"
     name="[COLOR gold]Águia[/COLOR] [COLOR cyan]FM[/COLOR]"
-    version="2.3.2" 
+    version="2.3.3" 
     provider-name="Black Eagle">
     <requires>
 		<import addon="xbmc.python" version="3.0.0"/>

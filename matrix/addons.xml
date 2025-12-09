@@ -639,7 +639,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.aguia-branca" name="[COLOR maroon]ÁGUIA[/COLOR] [COLOR gold]BRANCA[/COLOR]" version="22.49" provider-name="[COLOR yellow]by_black_eagle[/COLOR]">
+<addon id="plugin.video.aguia-branca" name="[COLOR maroon]ÁGUIA[/COLOR] [COLOR gold]BRANCA[/COLOR]" version="22.51" provider-name="[COLOR yellow]by_black_eagle[/COLOR]">
     <requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests" version="2.25.1+matrix.1"/>

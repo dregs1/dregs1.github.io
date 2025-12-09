@@ -2,8 +2,8 @@
   "portals": [
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_1[/COLOR]",
-      "url": "http://webhop.xyz:8080",
-      "mac": "00:1A:79:0F:1B:55"
+      "url": "http://api-tx24.proxytx.cloud:80",
+      "mac": "00:1A:79:3e:c3:59"
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_2[/COLOR]",
@@ -72,8 +72,8 @@
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_15[/COLOR]",
-      "url": "http://25new.xyz:8080",
-      "mac": "00:1A:79:c5:f2:a0"
+      "url": "http://c.proserver.in:8080",
+      "mac": "00:1A:79:41:7a:a9"
     }
   ]
 }

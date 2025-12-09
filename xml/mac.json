@@ -2,8 +2,8 @@
   "portals": [
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_1[/COLOR]",
-      "url": "http://api-tx24.proxytx.cloud:80",
-      "mac": "00:1A:79:3e:c3:59"
+      "url": "http://m3u.best-smarter.me:80",
+      "mac": "00:1A:79:7C:33:5E"
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_2[/COLOR]",
@@ -72,8 +72,8 @@
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_15[/COLOR]",
-      "url": "http://c.proserver.in:8080",
-      "mac": "00:1A:79:41:7a:a9"
+      "url": "http://19801-pamela.ott-cdn.me:80",
+      "mac": "00:1A:79:C3:64:47"
     }
   ]
 }

@@ -980,7 +980,7 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
 	</extension>
 </addon>
 
-<addon id="plugin.video.eagleevil" name="[COLORred]Eag[COLORgrey]le [COLORgold]Evil[/COLOR]" version="1.5" provider-name="[COLOR orange]@By_Black_Eagle [/COLOR]">
+<addon id="plugin.video.eagleevil" name="[COLORred]Eag[COLORgrey]le [COLORgold]Evil[/COLOR]" version="1.6" provider-name="[COLOR orange]@By_Black_Eagle [/COLOR]">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests"/>

@@ -1,0 +1,76 @@
+[
+  {
+    "categoria": "Portugal",
+    "icon": "https://i.imgur.com/ShitfSI.png",
+    "fanart": "https://i.imgur.com/n4ysh7J.jpg",
+    "servidores": [
+      { "nome": "Portugal 1", "url": "http://recvod.xyz:8080/get.php?username=Jorgfrance&password=Zndkckdkk&type=m3u_plus", "imagem": "https://i.imgur.com/ShitfSI.png" },
+      { "nome": "Portugal 2", "url": "http://mustachez.eu:8080/get.php?username=Agostinho&password=ReRAmG22&type=m3u_plus", "imagem": "https://i.imgur.com/ShitfSI.png" },
+      { "nome": "Portugal 3", "url": "http://recvod.xyz:8080/get.php?username=restcbvod&password=mMcf262AmNCe&type=m3u_plus", "imagem": "https://i.imgur.com/ShitfSI.png" },
+      { "nome": "Portugal 4", "url": "http://paulserver.xyz/get.php?username=nunopedreiro10&password=qiOJnqYJSE&type=m3u_plus", "imagem": "https://i.imgur.com/ShitfSI.png" },
+      { "nome": "Portugal 5", "url": "http://55432.eu:8080/get.php?username=HJvdfpazktWx&password=fdHVstkgfbAw&type=m3u_plus", "imagem": "https://i.imgur.com/HBClycv.png" },
+      { "nome": "Portugal 6", "url": "http://op.dolipa.com:8080/get.php?username=hnbxflwv&password=J5raqU8c08&type=m3u_plus", "imagem": "https://i.imgur.com/HBClycv.png" },
+      { "nome": "Portugal 7", "url": "http://recvod.xyz:8080/get.php?username=restcbvod&password=mMcf262AmNCe&type=m3u_plus", "imagem": "https://i.imgur.com/HBClycv.png" }
+    ]
+  },
+  {
+    "categoria": "Brasil",
+    "icon": "https://i.imgur.com/HBClycv.png",
+    "fanart": "https://i.imgur.com/n4ysh7J.jpg",
+    "servidores": [
+      { "nome": "Brasil 1", "url": "http://hxznew.xyz:80/get.php?username=17991968815&password=toninhodalu23&type=m3u_plus&output=ts", "imagem": "https://i.imgur.com/ShitfSI.png" },
+      { "nome": "Brasil 2", "url": "http://onemais.top/get.php?username=456498&password=1651358&type=m3u", "imagem": "https://i.imgur.com/HBClycv.png" },
+      { "nome": "Brasil 3", "url": "http://titanplay.pw:8080/get.php?username=1261568336&password=5792716365&type=m3u_plus", "imagem": "https://i.imgur.com/HBClycv.png" },
+      { "nome": "Brasil 4", "url": "http://xpornsta1.sbs:80/get.php?username=46256028&password=86862086&type=m3u_plus", "imagem": "https://i.imgur.com/HBClycv.png" },
+      { "nome": "Brasil 5", "url": "http://onemais.top/get.php?username=111111&password=111111&type=m3u_plus", "imagem": "https://i.imgur.com/HBClycv.png" },
+      { "nome": "Brasil 6", "url": "http://nomadbox.live:80/get.php?username=0021733321&password=4914577538&type=m3u_plus&output=ts", "imagem": "https://i.imgur.com/HBClycv.png" },
+      { "nome": "Brasil 7", "url": "http://ratotionpurp.top/get.php?username=360121095&password=Q360z4362q&type=m3u_plus&output=ts", "imagem": "https://i.imgur.com/jfmROxJ.png" }
+    ]
+  },
+  {
+    "categoria": "Espanha",
+    "icon": "https://i.imgur.com/jfmROxJ.png",
+    "fanart": "https://i.imgur.com/n4ysh7J.jpg",
+    "servidores": [
+      { "nome": "Espanha 1", "url": "http://tv.proyectox.vip:8080/get.php?username=lrodriguez181&password=bJjsNCDWU3&type=m3u_plus&output=ts", "imagem": "https://i.imgur.com/jfmROxJ.png" },
+      { "nome": "Espanha 2", "url": "http://tv.proyectox.vip:8080/get.php?username=872Latin19&password=BLQ6t23Ods&type=m3u_plus", "imagem": "https://i.imgur.com/ntH68nd.png" },
+      { "nome": "Espanha 3", "url": "http://vipketseyket.top:8080/get.php?username=VIP015131741015568362&password=f6bc3ba4b6d2&type=m3u_plus", "imagem": "https://i.imgur.com/ntH68nd.png" }
+    ]
+  },
+  {
+    "categoria": "Mundial",
+    "icon": "https://i.imgur.com/jfmROxJ.png",
+    "fanart": "https://i.imgur.com/n4ysh7J.jpg",
+    "servidores": [
+      { "nome": "Mundial 1", "url": "http://d.suki.fratar.ti.jebe.kcer.ulitanu.gentv.to:8080/get.php?username=DGZHXeKx9V&password=TvjP3eWhEp&type=m3u_plus&output=m3u8", "imagem": "https://i.imgur.com/jfmROxJ.png" },
+      { "nome": "Mundial 2", "url": "http://restream-live.realiptv.to:8080/get.php?username=62335403&password=89236696&type=m3u_plus&output=m3u8", "imagem": "https://i.imgur.com/jfmROxJ.png" },
+      { "nome": "Mundial 3", "url": "http://nuhygo.shop:8080/get.php?username=fenerli22&password=qAQ5uzc0pQ&type=m3u_plus&output=m3u8", "imagem": "https://i.imgur.com/jfmROxJ.png" }
+    ]
+  },
+  {
+    "categoria": "Latinos",
+    "icon": "https://i.imgur.com/ntH68nd.png",
+    "fanart": "https://i.imgur.com/n4ysh7J.jpg",
+    "servidores": [
+      { "nome": "Latinos 1", "url": "http://lomejortv.xyz:8080/get.php?username=BRAVO&password=TFJRT&type=m3u_plus", "imagem": "https://i.imgur.com/ntH68nd.png" },
+      { "nome": "Latinos 2", "url": "http://tv.zapping.life:8080/get.php?username=xyH7XlAw3J&password=c88d17a21ee7&type=m3u_plus", "imagem": "https://i.imgur.com/ntH68nd.png" },
+      { "nome": "Latinos 3", "url": "http://tv.proyectox.vip:8080/get.php?username=uribeclara1&password=f4CEEOQsR2&type=m3u_plus", "imagem": "https://i.imgur.com/ntH68nd.png" }
+    ]
+  },
+  {
+    "categoria": "Música",
+    "icon": "https://i.imgur.com/k790Jyg.png",
+    "fanart": "https://i.imgur.com/n4ysh7J.jpg",
+    "servidores": [
+      { "nome": "Música", "url": "https://raw.githubusercontent.com/dregs1/dregs1.github.io/main/xml/lomusica.json", "imagem": "https://i.imgur.com/k790Jyg.png" }
+    ]
+  },
+  {
+    "categoria": "Filmes",
+    "icon": "https://i.imgur.com/3mNVyJo.png",
+    "fanart": "https://i.imgur.com/n4ysh7J.jpg",
+    "servidores": [
+      { "nome": "Filmes", "url": "https://raw.githubusercontent.com/dregs1/dregs1.github.io/main/xml/filmes.json", "imagem": "https://i.imgur.com/3mNVyJo.png" }
+    ]
+  }
+]

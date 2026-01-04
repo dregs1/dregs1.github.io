@@ -1,0 +1,10 @@
+{
+  "servidores": [
+    {
+      "nome": "Espanha (Servidor 1)",
+      "host": "http://pcommanderapi.top:8080",
+      "username": "691719577382169",
+      "password": "83d4a97246c1"
+    }
+  ]
+}

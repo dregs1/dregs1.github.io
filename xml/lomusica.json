@@ -1,0 +1,15 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/aC1sFjTt1gY/maxresdefault.jpg" group-title="musica",Italy: m2o TV
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR]&maxbitrate=0&Buffer=20971520&url=https://streamcdni1-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/chunklist_b3214053.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/aC1sFjTt1gY/maxresdefault.jpg" group-title="musica",Italy: m2o TV
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR]&maxbitrate=0&Buffer=20971520&url=https://streamcdni1-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/chunklist_b3214053.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/aC1sFjTt1gY/maxresdefault.jpg" group-title="musica",Italy: m2o TV
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR]&maxbitrate=0&Buffer=20971520&url=https://streamcdni1-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/chunklist_b3214053.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/aC1sFjTt1gY/maxresdefault.jpg" group-title="musica",Italy: m2o TV
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR]&maxbitrate=0&Buffer=20971520&url=https://streamcdni1-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/play1.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/aC1sFjTt1gY/maxresdefault.jpg" group-title="Radio",Italy: m2o TV
+plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=[COLOR cyan]@by_black_eagle[/COLOR]&maxbitrate=0&Buffer=20971520&url=https://streamcdni1-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/chunklist_b3214053.m3u8

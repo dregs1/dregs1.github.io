@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.fenix-mac" name="[COLORcyan]fenix[COLORgrey]Mac[/COLOR]" version="1.8.9" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
+<addon id="plugin.video.fenix-mac" name="[COLORcyan]fenix[COLORgrey]Mac[/COLOR]" version="2.1.2" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
 <requires>    		
     	<!--<import addon="script.module.resolveurl" /> -->
         <import addon="script.module.requests"/>	

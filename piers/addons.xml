@@ -871,27 +871,6 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
     </extension>
 </addon>
 
-<addon id="plugin.video.blackeagleplaylist" name="[COLOR red]Blackeagle[/COLOR][COLOR black]Playlist[/COLOR] [COLORcyan]Matrix[/COLOR]" version="1.0.6" provider-name="[COLOR orange]@by_blak_eagle[/COLOR]">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.requests" version="2.22.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">blackeagleplaylist</summary>
-    <summary lang="en">[COLOR red][B]Blackeagle[/B][/COLOR] [COLOR black][B]playlist[/B][/COLOR] [COLORorange][B]é um addon da familia Black Eagle.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</summary>
-    <description lang="en">[COLOR red][B]Blackeagle[/B][/COLOR] [COLOR black][B]playlist[/B][/COLOR] [COLORorange][B]é um addon da familia Black Eagle.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</description>
-    <language>en de</language>
-    <platform>all</platform>
-      <assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
-
 <addon id="plugin.video.Dwight_Farrokh_Lista" name="[COLORred] Dwight_[COLORgold]Farrokh_Lista[/COLOR]" version="2.8" provider-name="[COLORred] Dwight_[COLORgold]Farrokh_Lista[/COLOR]+[COLORgold]by_black_eagle[/COLOR]">
   <extension point="xbmc.python.pluginsource"
 			library="default.py">
@@ -1120,7 +1099,7 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
 </extension>
 </addon>
 
-<addon id="plugin.video.fenix-mac" name="[COLORcyan]fenix[COLORgrey]Mac[/COLOR]" version="1.8.9" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
+<addon id="plugin.video.fenix-mac" name="[COLORcyan]fenix[COLORgrey]Mac[/COLOR]" version="2.1.2" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
 <requires>
     	<!--<import addon="script.module.resolveurl" /> -->
         <import addon="script.module.requests"/>

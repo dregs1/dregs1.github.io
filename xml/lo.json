@@ -5,11 +5,11 @@
     "fanart": "https://i.imgur.com/n4ysh7J.jpg",
     "servidores": [
       { "nome": "Portugal 1", "url": "http://recvod.xyz:8080/get.php?username=Jorgfrance&password=Zndkckdkk&type=m3u_plus", "imagem": "https://i.imgur.com/ShitfSI.png" },
-      { "nome": "Portugal 2", "url": "http://coutotv.ddns.net:8080/get.php?username=Paulovelhote&password=tfKC3Bp&type=m3u_plus&output=m3u8", "imagem": "https://i.imgur.com/ShitfSI.png" },
+      { "nome": "Portugal 2", "url": "https://r3donion.xyz:443/get.php?username=PedroAmigoDavidSoeiro&password=5RewGu2zAMeF&type=m3u&output=ts", "imagem": "https://i.imgur.com/ShitfSI.png" },
       { "nome": "Portugal 3", "url": "http://recvod.xyz:8080/get.php?username=restcbvod&password=mMcf262AmNCe&type=m3u_plus", "imagem": "https://i.imgur.com/ShitfSI.png" },
       { "nome": "Portugal 4", "url": "https://r3donion.xyz:443/get.php?username=nelsonMarta&password=RFSfrHbAhe4T&type=m3u_plus&output=mpegts", "imagem": "https://i.imgur.com/ShitfSI.png" },
       { "nome": "Portugal 5", "url": "http://p0gh5667.com:8080/get.php?username=rVtdD2xk5w&password=gu035iYvNe&type=m3u_plus", "imagem": "https://i.imgur.com/HBClycv.png" },
-      { "nome": "Portugal 6", "url": "http://tv.streamid.tv:8080/get.php?username=mariovenenciano0190&password=0190venenciano&type=m3u_plus&output=mpegts", "imagem": "https://i.imgur.com/HBClycv.png" },
+      { "nome": "Portugal 6", "url": "http://tv.streamid.tv:8080/get.php?username=AntonioAedo&password=Antonio&type=m3u_plus", "imagem": "https://i.imgur.com/HBClycv.png" },
       { "nome": "Portugal 7", "url": "http://recvod.xyz:8080/get.php?username=restcbvod&password=mMcf262AmNCe&type=m3u_plus", "imagem": "https://i.imgur.com/HBClycv.png" }
     ]
   },
@@ -43,7 +43,7 @@
     "fanart": "https://i.imgur.com/n4ysh7J.jpg",
     "servidores": [
       { "nome": "Mundial 1", "url": "http://playtvpremium.xyz:8080/get.php?username=56984699680w1&password=310724zplayer&type=m3u_plus&output=m3u8", "imagem": "https://i.imgur.com/jfmROxJ.png" },
-      { "nome": "Mundial 2", "url": "http://kaantv.net:8000/get.php?username=kaan5058&password=6esedfy25&type=m3u_plus&output=m3u8", "imagem": "https://i.imgur.com/jfmROxJ.png" },
+      { "nome": "Mundial 2", "url": "http://filex.tv:8080/get.php?username=0300511616RGB&password=0300511616RGB&type=m3u_plus", "imagem": "https://i.imgur.com/jfmROxJ.png" },
       { "nome": "Mundial 3", "url": "http://domy1000.bumbleshrimp.com:8080/get.php?username=domenicoferrar&password=xdPCHVpVkE&type=m3u_plus&output=mpegts", "imagem": "https://i.imgur.com/jfmROxJ.png" }
     ]
   },

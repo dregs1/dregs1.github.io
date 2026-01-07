@@ -536,4 +536,5 @@ http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206945&extension=ts
 #EXTINF:-1 tvg-logo="http://digitalteck.xyz/images/dtech.logo.png" group-title="LIVE PT 24/7",LAREIRA "DIGITALTECH"
 http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=398629&extension=ts
 #EXTINF:-1 tvg-logo="http://digitalteck.xyz/images/dtech.logo.png" group-title="LIVE PT 24/7",MAN VS. BABY "DIGITALTECH"
+
 http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=406011&extension=ts

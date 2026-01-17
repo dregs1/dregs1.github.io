@@ -2,7 +2,7 @@
   "servidores": [
     {
       "nome": "Portugal (Servidor 1)",
-      "host": "http://proxpanel.pro:80
+      "host": "http://proxpanel.pro:80",
       "username": "lol",
       "password": "lol"
     }

@@ -999,6 +999,29 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
 </extension>
 </addon>
 
+<addon id="plugin.video.eaglem2o.tv" name="[COLOR yellow]Eagle.M2o.TV[/COLOR]" version="1.0.1" provider-name="[COLOR orange]by_black_eagle[/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.beautifulsoup4" version="4.9.3"/>
+        <import addon="script.module.requests" version="2.25.1"/>
+        <import addon="inputstream.adaptive" version="2.6.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="pt_BR">[COLOR lightblue]Assista m2o TV ao vivo - Eagle Edition[/COLOR]</summary>
+        <description lang="pt_BR">[COLOR white]O [/COLOR][COLOR yellow]EagleM2o[/COLOR][COLOR white] utiliza um resolvedor dinâmico para extrair o sinal da m2o TV diretamente do site oficial, garantindo funcionamento contínuo mesmo após atualizações no site.[/COLOR]</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+        <disclaimer lang="pt_BR">[COLOR red]Atenção:[/COLOR][COLOR white] O autor deste addon não hospeda nenhum conteúdo. O addon apenas extrai o player do site oficial m2o.it.[/COLOR]</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon
 	id="plugin.video.eagleteam.mac" version="1.3" name="[COLOR silver]Eagle[COLOR dimgrey] Team [/COLOR][COLOR white] MAC [/COLOR]" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
 <requires>

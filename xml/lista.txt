@@ -1,0 +1,540 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-gX-Krhe_vAU/WB3MK3D8H7I/AAAAAAAAFRo/ETXZYgFgn0oMP09hPyGX2UtZMTuQ5-0yACLcB/s1600/RTP%2B1%2BHD.png" group-title="PORTUGAL",RTP 1 FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166277&extension=ts
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-gX-Krhe_vAU/WB3MK3D8H7I/AAAAAAAAFRo/ETXZYgFgn0oMP09hPyGX2UtZMTuQ5-0yACLcB/s1600/RTP%2B1%2BHD.png" group-title="PORTUGAL",RTP 1 HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166278&extension=ts
+#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-VBfZaw8u6Yw/WKjYLII3rbI/AAAAAAAAFq0/eZFYhK6uKSAX1_xmtl5UNwDdtAaWKtkgACLcB/s1600/RTP%2B2.png" group-title="PORTUGAL",RTP 2 FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166279&extension=ts
+#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-VBfZaw8u6Yw/WKjYLII3rbI/AAAAAAAAFq0/eZFYhK6uKSAX1_xmtl5UNwDdtAaWKtkgACLcB/s1600/RTP%2B2.png" group-title="PORTUGAL",RTP 2 HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166280&extension=ts
+#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-7vXgJWAr2Ts/WDtddM8jW3I/AAAAAAAAFjc/F_Rfh2htVckckkZIxaIogJtVyIoJt8SCwCLcB/s1600/SIC%2BHD.png" group-title="PORTUGAL",SIC FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166281&extension=ts
+#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-7vXgJWAr2Ts/WDtddM8jW3I/AAAAAAAAFjc/F_Rfh2htVckckkZIxaIogJtVyIoJt8SCwCLcB/s1600/SIC%2BHD.png" group-title="PORTUGAL",SIC HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166282&extension=ts
+#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-7vXgJWAr2Ts/WDtddM8jW3I/AAAAAAAAFjc/F_Rfh2htVckckkZIxaIogJtVyIoJt8SCwCLcB/s1600/SIC%2BHD.png" group-title="PORTUGAL",SIC PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166283&extension=ts
+#EXTINF:-1 tvg-logo="https://2.bp.blogspot.com/-dReNu8WPljk/WKte3PskyZI/AAAAAAAAFrk/mF0U5J62n6w3dyg5WI8PocRCko_MEf7KgCLcB/s1600/TVI.png" group-title="PORTUGAL",TVI FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166284&extension=ts
+#EXTINF:-1 tvg-logo="https://2.bp.blogspot.com/-dReNu8WPljk/WKte3PskyZI/AAAAAAAAFrk/mF0U5J62n6w3dyg5WI8PocRCko_MEf7KgCLcB/s1600/TVI.png" group-title="PORTUGAL",TVI HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166285&extension=ts
+#EXTINF:-1 tvg-logo="https://2.bp.blogspot.com/-dReNu8WPljk/WKte3PskyZI/AAAAAAAAFrk/mF0U5J62n6w3dyg5WI8PocRCko_MEf7KgCLcB/s1600/TVI.png" group-title="PORTUGAL",TVI PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166286&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/v_tvi.png" group-title="PORTUGAL",V+ TVI FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166287&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/v_tvi.png" group-title="PORTUGAL",V+ TVI HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166288&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-a1LgTR7B-ws/WB3MMdbuCZI/AAAAAAAAFSo/EBpwlAUkgC49OIKcJY4OeTd6kdRgtk92ACLcB/s1600/TVI%2BReality.png" group-title="PORTUGAL",TVI REALITY FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=207448&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-a1LgTR7B-ws/WB3MMdbuCZI/AAAAAAAAFSo/EBpwlAUkgC49OIKcJY4OeTd6kdRgtk92ACLcB/s1600/TVI%2BReality.png" group-title="PORTUGAL",TVI REALITY FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166289&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-a1LgTR7B-ws/WB3MMdbuCZI/AAAAAAAAFSo/EBpwlAUkgC49OIKcJY4OeTd6kdRgtk92ACLcB/s1600/TVI%2BReality.png" group-title="PORTUGAL",TVI REALITY CAM1
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=223537&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-a1LgTR7B-ws/WB3MMdbuCZI/AAAAAAAAFSo/EBpwlAUkgC49OIKcJY4OeTd6kdRgtk92ACLcB/s1600/TVI%2BReality.png" group-title="PORTUGAL",TVI REALITY CAM2
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=223538&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-a1LgTR7B-ws/WB3MMdbuCZI/AAAAAAAAFSo/EBpwlAUkgC49OIKcJY4OeTd6kdRgtk92ACLcB/s1600/TVI%2BReality.png" group-title="PORTUGAL",TVI REALITY CAM3
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=223539&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-a1LgTR7B-ws/WB3MMdbuCZI/AAAAAAAAFSo/EBpwlAUkgC49OIKcJY4OeTd6kdRgtk92ACLcB/s1600/TVI%2BReality.png" group-title="PORTUGAL",TVI REALITY CAM4
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=223540&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-a1LgTR7B-ws/WB3MMdbuCZI/AAAAAAAAFSo/EBpwlAUkgC49OIKcJY4OeTd6kdRgtk92ACLcB/s1600/TVI%2BReality.png" group-title="PORTUGAL",TVI REALITY MOSAICO PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=223541&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz//Picons/sicmulher_2.png" group-title="PORTUGAL",SIC MULHER FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166291&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz//Picons/sicmulher_2.png" group-title="PORTUGAL",SIC MULHER HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166292&extension=ts
+#EXTINF:-1 tvg-logo="https://2.bp.blogspot.com/-uWdl_O_KB9g/WDtddAYE5LI/AAAAAAAAFjY/VbBtP4FkIn47qQNdysUSF_HTmrukVmnHgCLcB/s1600/SIC%2BCaras%2BHD.png" group-title="PORTUGAL",SIC CARAS FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166293&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-cPBnm-irXfU/WDrqHHF2EtI/AAAAAAAAFeo/NsYVHY6886EbyyHSEZHufO_5MPtgZPEKgCLcB/s1600/SIC%2BCaras.png" group-title="PORTUGAL",SIC CARAS HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166294&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/SICNOVELAS.png" group-title="PORTUGAL",SIC NOVELAS PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=275490&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/Sic.Replay.png" group-title="PORTUGAL",SIC REPLAY PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=324162&extension=ts
+#EXTINF:-1 tvg-logo="http://logo.protv.cc/picons-dino/logos/dizi.png" group-title="PORTUGAL",DIZI PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=325610&extension=ts
+#EXTINF:-1 tvg-logo="https://2.bp.blogspot.com/-d9da1RzOwkM/WDtdeVrGYWI/AAAAAAAAFkQ/OxZYUvVTuXoyN0gw7t40I6ooMlxv4u-LwCLcB/s1600/SIC%2BRadical.png" group-title="PORTUGAL",SIC RADICAL FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166295&extension=ts
+#EXTINF:-1 tvg-logo="https://2.bp.blogspot.com/-d9da1RzOwkM/WDtdeVrGYWI/AAAAAAAAFkQ/OxZYUvVTuXoyN0gw7t40I6ooMlxv4u-LwCLcB/s1600/SIC%2BRadical.png" group-title="PORTUGAL",SIC RADICAL HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166296&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/SIC_Internacional.png" group-title="PORTUGAL",SIC INTERNACIONAL PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=323833&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz//Picons/canalq.png" group-title="PORTUGAL",CANAL Q HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166297&extension=ts
+#EXTINF:-1 tvg-logo="https://2.bp.blogspot.com/-dWNRMWROVig/WB8teBVMcLI/AAAAAAAAFV0/OLjZpFdAf5su5dCSH40NYMVGfEfi80aCQCLcB/s1600/Porto%2BCanal.png" group-title="PORTUGAL",PORTO CANAL FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166298&extension=ts
+#EXTINF:-1 tvg-logo="https://2.bp.blogspot.com/-dWNRMWROVig/WB8teBVMcLI/AAAAAAAAFV0/OLjZpFdAf5su5dCSH40NYMVGfEfi80aCQCLcB/s1600/Porto%2BCanal.png" group-title="PORTUGAL",PORTO CANAL HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166299&extension=ts
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/TVI_%C3%81frica_%282017%E2%80%932020%29.svg/797px-TVI_%C3%81frica_%282017%E2%80%932020%29.svg.png" group-title="PORTUGAL",TVI AFRICA
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=316265&extension=ts
+#EXTINF:-1 tvg-logo="https://2.bp.blogspot.com/-0eQhvMAc7TA/WEcxg9ftAzI/AAAAAAAAFmM/iTfKnoaIuh8vH-Azc9iQBOvQWiFTJvIFgCLcB/s1600/RTP%2B%25C3%2581frica.png" group-title="PORTUGAL",RTP AFRICA HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166300&extension=ts
+#EXTINF:-1 tvg-logo="https://2.bp.blogspot.com/-Jx1bSo-8Rpk/VSZNqoxtBHI/AAAAAAAAEvE/rGJ_e03Ho7s/s1600/RTP%2BA%C3%A7ores.png" group-title="PORTUGAL",RTP ACORES HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166301&extension=ts
+#EXTINF:-1 tvg-logo="https://2.bp.blogspot.com/-XR3oEaqlZck/WB3MLpUoCJI/AAAAAAAAFSI/uA86QfWu_fANG39O0MiPnr-zZG8f5PfyACLcB/s1600/RTP%2BMem%25C3%25B3ria.png" group-title="PORTUGAL",RTP MEMORIA PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166302&extension=ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/dMXQgX1/RTP-Internacional-Logotipo-2016.png" group-title="PORTUGAL",RTP INTERNACIONAL PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166303&extension=ts
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-dw1AvSiX9HA/VSZNrFSBUHI/AAAAAAAAEvU/6uqGrc9HecU/s1600/RTP%2BMadeira.png" group-title="PORTUGAL",RTP MADEIRA PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166304&extension=ts
+#EXTINF:-1 tvg-logo="https://digital110.xyz/Picons/mosaico.NOTICIAS.png" group-title="PORTUGAL",NOTICIAS MOSAICO FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=403477&extension=ts
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-9wqZ7rXxheY/WDtdeEQ1DXI/AAAAAAAAFj8/BNt3YjOhT10KGTUj7vBmNuQRcV0zJb7pwCLcB/s1600/SIC%2BNot%25C3%25ADcias%2BHD.png" group-title="PORTUGAL",SIC NOTICIAS FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166305&extension=ts
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-BPWLCfUsfAs/WDrqHd6Tn4I/AAAAAAAAFew/SrNwwE1zeUA0gBJYHMvpkO-AhUH9t7PSwCLcB/s1600/SIC%2BNot%25C3%25ADcias.png" group-title="PORTUGAL",SIC NOTICIAS HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166306&extension=ts
+#EXTINF:-1 tvg-logo="https://marketeer.sapo.pt/wp-content/uploads/2021/07/cnn-portugal.png" group-title="PORTUGAL",CNN PORTUGAL FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166307&extension=ts
+#EXTINF:-1 tvg-logo="https://marketeer.sapo.pt/wp-content/uploads/2021/07/cnn-portugal.png" group-title="PORTUGAL",CNN PORTUGAL HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166308&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-yIZhvI7rTus/WDrqBgtZxEI/AAAAAAAAFbA/OzMWgsQg6Aw_gJac9mhCyi6C3Naf-XmwQCLcB/s1600/CM%2BTV.png" group-title="PORTUGAL",CMTV FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166309&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-yIZhvI7rTus/WDrqBgtZxEI/AAAAAAAAFbA/OzMWgsQg6Aw_gJac9mhCyi6C3Naf-XmwQCLcB/s1600/CM%2BTV.png" group-title="PORTUGAL",CMTV HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=207427&extension=ts
+#EXTINF:-1 tvg-logo="https://digital110.xyz/PICONS/PT/newnowpt.png" group-title="PORTUGAL",NEWS NOW FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=335043&extension=ts
+#EXTINF:-1 tvg-logo="https://digital110.xyz/PICONS/PT/newnowpt.png" group-title="PORTUGAL",NEWS NOW HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=404709&extension=ts
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-DXPsHo1f9SY/WB3MLUwb2hI/AAAAAAAAFSA/m2SDN-px_dE5xJmPtdXlHtJbWlrhzAmRgCLcB/s1600/RTP%2B3.png" group-title="PORTUGAL",RTP 3 HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166311&extension=ts
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-DXPsHo1f9SY/WB3MLUwb2hI/AAAAAAAAFSA/m2SDN-px_dE5xJmPtdXlHtJbWlrhzAmRgCLcB/s1600/RTP%2B3.png" group-title="PORTUGAL",RTP 3 PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166312&extension=ts
+#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-pgrehA4uSag/WDrqAorIqQI/AAAAAAAAFaQ/9XKHO2_2UMwaVv-Pxian1Dpzzzyjj1eUACLcB/s1600/AR%2BTV.png" group-title="PORTUGAL",ARTV PARLAMENTO PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166313&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz//Picons/11fpf_2.png" group-title="PORTUGAL",CANAL 11 FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166314&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz//Picons/11fpf_2.png" group-title="PORTUGAL",CANAL 11 HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166315&extension=ts
+#EXTINF:-1 tvg-logo="https://digital110.xyz/Picons/sporttvmosaico.png" group-title="PORTUGAL",SPORT TV MOSAICO FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=403476&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/sportvmais.png" group-title="PORTUGAL",SPORT TV + FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166316&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/sportvmais.png" group-title="PORTUGAL",SPORT TV + HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166317&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/sportv1.png" group-title="PORTUGAL",SPORT TV 1 FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166318&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/sportv1.png" group-title="PORTUGAL",SPORT TV 1 HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=207409&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/sportv1.png" group-title="PORTUGAL",SPORT TV 1 PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166319&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/sportv2.png" group-title="PORTUGAL",SPORT TV 2 FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166320&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/sportv2.png" group-title="PORTUGAL",SPORT TV 2 HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166321&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/sportv2.png" group-title="PORTUGAL",SPORT TV 2 PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=348978&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/sportv3.png" group-title="PORTUGAL",SPORT TV 3 FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166322&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/sportv3.png" group-title="PORTUGAL",SPORT TV 3 HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166323&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/sportv3.png" group-title="PORTUGAL",SPORT TV 3 PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=348979&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/sportv4.png" group-title="PORTUGAL",SPORT TV 4 FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166324&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/sportv4.png" group-title="PORTUGAL",SPORT TV 4 HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166325&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/sportv4.png" group-title="PORTUGAL",SPORT TV 4 PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=348980&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/sportv5.png" group-title="PORTUGAL",SPORT TV 5 FHD
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166326&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/sportv5.png" group-title="PORTUGAL",SPORT TV 5 HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166327&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/sportv5.png" group-title="PORTUGAL",SPORT TV 5 PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=348981&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/sportv6.png" group-title="PORTUGAL",SPORT TV 6 FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166328&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/sportv6.png" group-title="PORTUGAL",SPORT TV 6 HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166329&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/sportv6.png" group-title="PORTUGAL",SPORT TV 6 PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=348982&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/sporttv7_pt.png" group-title="PORTUGAL",SPORT TV 7 FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=339389&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/sporttv7_pt.png" group-title="PORTUGAL",SPORT TV 7 HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=348983&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/sporttv7_pt.png" group-title="PORTUGAL",SPORT TV 7 PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=339381&extension=ts
+#EXTINF:-1 tvg-logo="https://digital110.xyz/Picons/daznmosaico.png" group-title="PORTUGAL",DAZN MOSAICO FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=403475&extension=ts
+#EXTINF:-1 tvg-logo="https://digital110.xyz//PICONS/PT/dazn1.png" group-title="PORTUGAL",DAZN 1 FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166330&extension=ts
+#EXTINF:-1 tvg-logo="https://digital110.xyz//PICONS/PT/dazn1.png" group-title="PORTUGAL",DAZN 1 HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166331&extension=ts
+#EXTINF:-1 tvg-logo="https://digital110.xyz//PICONS/PT/dazn2.png" group-title="PORTUGAL",DAZN 2 FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166332&extension=ts
+#EXTINF:-1 tvg-logo="https://digital110.xyz//PICONS/PT/dazn2.png" group-title="PORTUGAL",DAZN 2 HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166333&extension=ts
+#EXTINF:-1 tvg-logo="https://digital110.xyz//PICONS/PT/dazn3.png" group-title="PORTUGAL",DAZN 3 FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166334&extension=ts
+#EXTINF:-1 tvg-logo="https://digital110.xyz//PICONS/PT/dazn3.png" group-title="PORTUGAL",DAZN 3 HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166335&extension=ts
+#EXTINF:-1 tvg-logo="https://digital110.xyz//PICONS/PT/dazn4.png" group-title="PORTUGAL",DAZN 4 FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166336&extension=ts
+#EXTINF:-1 tvg-logo="https://digital110.xyz//PICONS/PT/dazn4.png" group-title="PORTUGAL",DAZN 4 HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166337&extension=ts
+#EXTINF:-1 tvg-logo="https://digital110.xyz//PICONS/PT/dazn5.png" group-title="PORTUGAL",DAZN 5 FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166338&extension=ts
+#EXTINF:-1 tvg-logo="https://digital110.xyz//PICONS/PT/dazn5.png" group-title="PORTUGAL",DAZN 5 HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166339&extension=ts
+#EXTINF:-1 tvg-logo="https://2.bp.blogspot.com/-igOxk6_FHZM/WDrqBF6g_xI/AAAAAAAAFaw/i_UpPMOxRqEx05kAlFJ98g2S20rEqc7GACLcB/s1600/BTV%2BHD.png" group-title="PORTUGAL",BENFICA TV FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166342&extension=ts
+#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-mQtJyMSVEF4/WDrqBfCiEcI/AAAAAAAAFa4/ikjnsHEOBzUntEZgLDKzxqe6TNbiv3BBgCLcB/s1600/BTV.png" group-title="PORTUGAL",BENFICA TV HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166343&extension=ts
+#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-mQtJyMSVEF4/WDrqBfCiEcI/AAAAAAAAFa4/ikjnsHEOBzUntEZgLDKzxqe6TNbiv3BBgCLcB/s1600/BTV.png" group-title="PORTUGAL",BENFICA TV PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166344&extension=ts
+#EXTINF:-1 tvg-logo="https://2.bp.blogspot.com/-igOxk6_FHZM/WDrqBF6g_xI/AAAAAAAAFaw/i_UpPMOxRqEx05kAlFJ98g2S20rEqc7GACLcB/s1600/BTV%2BHD.png" group-title="PORTUGAL",BENFICA TV EXPERIENCE
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=314584&extension=ts
+#EXTINF:-1 tvg-logo="https://2.bp.blogspot.com/-pAVUD7pyOpY/WDrqJlMRoXI/AAAAAAAAFgY/O2U0I7Yy98wY5JFUOUKGegeQym5GZoRSACLcB/s1600/Sporting%2BTV%2BHD.png" group-title="PORTUGAL",SPORTING TV FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166345&extension=ts
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-4gk2BX8QIQ8/WDrqJ1O9oTI/AAAAAAAAFgg/8AvmigyRL9o5r0J9tDRZ3y98rvoEkvwAACLcB/s1600/Sporting%2BTV.png" group-title="PORTUGAL",SPORTING TV HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166346&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz//Picons/abolatv_2.png" group-title="PORTUGAL",A Bola TV FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166347&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz//Picons/abolatv_2.png" group-title="PORTUGAL",A BOLA TV HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166348&extension=ts
+#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-_EJLG3X0LLk/TljSeB3x6KI/AAAAAAAAAho/n1d9FLoQzuI/s1600/PFC.png" group-title="PORTUGAL",PFC PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166349&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz//Picons/nba_2.png" group-title="PORTUGAL",SPORT TV NBA FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166350&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz//Picons/nba_2.png" group-title="PORTUGAL",SPORT TV NBA HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166351&extension=ts
+#EXTINF:-1 tvg-logo="https://digital110.xyz/PICONS/PT/eurosport1_pt.png" group-title="PORTUGAL",EUROSPORT 1 FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166352&extension=ts
+#EXTINF:-1 tvg-logo="https://digital110.xyz/PICONS/PT/eurosport1_pt.png" group-title="PORTUGAL",EUROSPORT 1 HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166353&extension=ts
+#EXTINF:-1 tvg-logo="https://digital110.xyz/PICONS/PT/eurosport2_pt.png" group-title="PORTUGAL",EUROSPORT 2 FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166354&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/fightnetwork_2.png" group-title="PORTUGAL",FIGHT NETWORK FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166355&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-F8Z7ILnIuiM/WDrqDuifzJI/AAAAAAAAFcY/zqO9rm18UsYQcjQQrz_5Mg4ItXfA1jm2wCLcB/s1600/Fuel%2BTV%2BHD.png" group-title="PORTUGAL",Fuel TV FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166356&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz//Picons/motorvision_2.png" group-title="PORTUGAL",MOTORVISION PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166357&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/tvctop_2.png" group-title="PORTUGAL",TV CINE TOP FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166358&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/tvctop_2.png" group-title="PORTUGAL",TV CINE TOP HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166359&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/tvcedition_2.png" group-title="PORTUGAL",TV CINE EDITION FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166360&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/tvcedition_2.png" group-title="PORTUGAL",TV CINE EDITION HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166361&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/tvcemotion_2.png" group-title="PORTUGAL",TV CINE EMOTION FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166362&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/tvcemotion_2.png" group-title="PORTUGAL",TV CINE EMOTION HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166363&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/tvcaction_2.png" group-title="PORTUGAL",TV CINE ACTION FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166364&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/tvcaction_2.png" group-title="PORTUGAL",TV CINE ACTION HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166365&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz//Picons/NOSstudio.png" group-title="PORTUGAL",NOS STUDIOS FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166366&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz//Picons/NOSstudio.png" group-title="PORTUGAL",NOS STUDIOS PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166367&extension=ts
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/HWD_logo.svg/1280px-HWD_logo.svg.png" group-title="PORTUGAL",HOLLYWOOD FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166368&extension=ts
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/HWD_logo.svg/1280px-HWD_logo.svg.png" group-title="PORTUGAL",HOLLYWOOD HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166369&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-mHEz-7oSIXw/VSene5r6G5I/AAAAAAAAEyE/4R-rWWL9nyo/s1600/Cinemundo%2Blogo%2B1.png" group-title="PORTUGAL",CINEMUNDO FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166370&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-tkCyQv2RtAc/VSene6nLQtI/AAAAAAAAEx8/FLegKRckKmY/s1600/Cinemundo.png" group-title="PORTUGAL",CINEMUNDO HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166371&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-XjQ3rAjTjxo/WB8ta3OQ54I/AAAAAAAAFTo/zQN8MdpJJ7sFuFcPfPUIKrSKbsjpYuI5gCLcB/s1600/AMC.png" group-title="PORTUGAL",AMC FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166372&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-XjQ3rAjTjxo/WB8ta3OQ54I/AAAAAAAAFTo/zQN8MdpJJ7sFuFcPfPUIKrSKbsjpYuI5gCLcB/s1600/AMC.png" group-title="PORTUGAL",AMC HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166373&extension=ts
+#EXTINF:-1 tvg-logo="https://d9hhrg4mnvzow.cloudfront.net/get.blazetv.com/allie/f2979d30-btv-logo-dark_0m806y0m806y000000001.png" group-title="PORTUGAL",AMC BREAK FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166374&extension=ts
+#EXTINF:-1 tvg-logo="https://d9hhrg4mnvzow.cloudfront.net/get.blazetv.com/allie/f2979d30-btv-logo-dark_0m806y0m806y000000001.png" group-title="PORTUGAL",AMC BREAK HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166375&extension=ts
+#EXTINF:-1 tvg-logo="https://parsefiles.back4app.com/EqXj3CWkTa9Ens1sPrzQkKMbBdnc6bYbHKR2qvRE/51c0855767fd526abf8b81d9881d2a72_LOGO-AMC-CRIME-black.png" group-title="PORTUGAL",AMC CRIME FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166376&extension=ts
+#EXTINF:-1 tvg-logo="https://parsefiles.back4app.com/EqXj3CWkTa9Ens1sPrzQkKMbBdnc6bYbHKR2qvRE/51c0855767fd526abf8b81d9881d2a72_LOGO-AMC-CRIME-black.png" group-title="PORTUGAL",AMC CRIME HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166377&extension=ts
+#EXTINF:-1 tvg-logo="https://digital110.xyz//PICONS/PT/Star_Movies_hd.png" group-title="PORTUGAL",STAR MOVIES FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166378&extension=ts
+#EXTINF:-1 tvg-logo="https://digital110.xyz//PICONS/PT/Star_movies.png" group-title="PORTUGAL",STAR MOVIES HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166379&extension=ts
+#EXTINF:-1 tvg-logo="https://digital110.xyz/PICONS/PT/Star_channel_hd.png" group-title="PORTUGAL",STAR FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166380&extension=ts
+#EXTINF:-1 tvg-logo="https://digital110.xyz/PICONS/PT/Star_channel.png" group-title="PORTUGAL",STAR HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166381&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz//PICONS/PT/Star_crime_hd.png" group-title="PORTUGAL",STAR CRIME FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166382&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz//PICONS/PT/Star_crime.png" group-title="PORTUGAL",STAR CRIME HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166383&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz//PICONS/PT/Star_life_hd.png" group-title="PORTUGAL",STAR LIFE FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166384&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz//PICONS/PT/Star_life.png" group-title="PORTUGAL",STAR LIFE HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166385&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz//PICONS/PT/Star_comedy_hd.png" group-title="PORTUGAL",STAR COMEDY FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166386&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz//PICONS/PT/Star_Comedy.png" group-title="PORTUGAL",STAR COMEDY HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166387&extension=ts
+#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-2pwXjSrkvms/WB8tbfsimwI/AAAAAAAAFT8/zXJVCNoKez8x6gHJmSzbtBB_LA1gjxCMQCLcB/s1600/AXN%2Blogo.png" group-title="PORTUGAL",AXN FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166388&extension=ts
+#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-2pwXjSrkvms/WB8tbfsimwI/AAAAAAAAFT8/zXJVCNoKez8x6gHJmSzbtBB_LA1gjxCMQCLcB/s1600/AXN%2Blogo.png" group-title="PORTUGAL",AXN HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166389&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-Q3dFAl8mRNs/WDrqBMJoPuI/AAAAAAAAFao/PqRVEJj3gQUoXSneK_g-SSjPh2N0qFJzACLcB/s1600/AXN%2BWhite%2BHD.png" group-title="PORTUGAL",AXN WHITE FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166390&extension=ts
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-QbLUcgtEkyU/WB8tbIsAlqI/AAAAAAAAFT0/DEUtD-l-SAww9PrHpq5mwFhXnm4qBxH8QCLcB/s1600/AXN%2BWhite%2Blogo.png" group-title="PORTUGAL",AXN WHITE HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166391&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/axnmovies_2.png" group-title="PORTUGAL",AXN MOVIES FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166392&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/axnmovies_2.png" group-title="PORTUGAL",AXN MOVIES HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166393&extension=ts
+#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-H7qLQn9bSXo/WDtdfFWG95I/AAAAAAAAFko/Ch5cXz1KhlgzyAOo-egJRyorxOIHrzDRwCLcB/s1600/Syfy%2BHD.png" group-title="PORTUGAL",SYFY FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166394&extension=ts
+#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-CCcjsa3ukyE/WDtdfQIiMAI/AAAAAAAAFkw/i_MbiJGL_AYBUGrP-lGp6I8HHuNiRkE4gCLcB/s1600/Syfy.png" group-title="PORTUGAL",SYFY HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166395&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/nationalgeographichd_2.png" group-title="PORTUGAL",NATIONAL GEOGRAPHIC FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166396&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/nationalgeographic_2.png" group-title="PORTUGAL",NATIONAL GEOGRAPHIC HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166397&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/natgeowildhd_2.png" group-title="PORTUGAL",NATIONAL GEOGRAPHIC WILD FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166398&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/natgeowild_2.png" group-title="PORTUGAL",NATIONAL GEOGRAPHIC WILD HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166399&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/discoverychannelhd_2.png" group-title="PORTUGAL",DISCOVERY CHANNEL FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166400&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/discoverychannel_2.png" group-title="PORTUGAL",DISCOVERY CHANNEL HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166401&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-Qp9B7KRV-eQ/TljSRgch8UI/AAAAAAAAAew/v7X5eywBp_g/s1600/Hist%25C3%25B3ria.png" group-title="PORTUGAL",HISTORIA HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166402&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-Qp9B7KRV-eQ/TljSRgch8UI/AAAAAAAAAew/v7X5eywBp_g/s1600/Hist%25C3%25B3ria.png" group-title="PORTUGAL",HISTORIA PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166403&extension=ts
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-mEyziw0xBco/WB3MKmGMcxI/AAAAAAAAFRg/_XDIWS7Js_cdHmTsRPX2ErFLXMUthkoKwCLcB/s1600/Odisseia.png" group-title="PORTUGAL",ODISSEIA FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166404&extension=ts
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-mEyziw0xBco/WB3MKmGMcxI/AAAAAAAAFRg/_XDIWS7Js_cdHmTsRPX2ErFLXMUthkoKwCLcB/s1600/Odisseia.png" group-title="PORTUGAL",ODISSEIA HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166405&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/idinvestigationdiscoveryd.png" group-title="PORTUGAL",ID INVESTIGATION DISCOVERY HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166406&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-Yq8po_kg7Iw/WDrqCRAMgHI/AAAAAAAAFbg/CKVZe_GVu5EpVRJ4XJ17kyXmT1UkMf_XgCLcB/s1600/Ca%25C3%25A7a%2Be%2BPesca.png" group-title="PORTUGAL",CACA E PESCA HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166407&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-P1Kf6A161FI/TljR_l-pNoI/AAAAAAAAAa4/n2AhQG2uIpA/s1600/Ca%25C3%25A7avision.png" group-title="PORTUGAL",CACAVISION PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166409&extension=ts
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/Toros_TV.png" group-title="PORTUGAL",TOROS TV PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166410&extension=ts
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/2014_Disney_Channel_logo.svg/2560px-2014_Disney_Channel_logo.svg.png" group-title="PORTUGAL",DISNEY CHANNEL PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166411&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/disneyjunior_2.png" group-title="PORTUGAL",DISNEY JUNIOR HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166412&extension=ts
+#EXTINF:-1 tvg-logo="https://www.pngitem.com/pimgs/m/29-291927_disney-plus-logo-png-transparent-png.png" group-title="PORTUGAL",DISNEY + PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=275410&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/disneypixar.png" group-title="PORTUGAL",DISNEY PIXAR
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206973&extension=ts
+#EXTINF:-1 tvg-logo="http://i.imgur.com/h1bERcs.png" group-title="PORTUGAL",DISNEY MARVEL PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=275407&extension=ts
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-cNHL-nCipi4/WDrqBx1qryI/AAAAAAAAFbM/7lWs_9i8VJIItU8trsFrjWP3rrdD2BFFACLcB/s1600/Canal%2BPanda.png" group-title="PORTUGAL",CANAL PANDA HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166413&extension=ts
+#EXTINF:-1 tvg-logo="https://digital110.xyz/PICONS/PT/panda_kids.png" group-title="PORTUGAL",PANDA KIDS HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=275404&extension=ts
+#EXTINF:-1 tvg-logo="https://2.bp.blogspot.com/-fVP7Wopmnjk/UxStDpAbr5I/AAAAAAAAEeo/KUwKve9IDuc/s1600/Biggs.png" group-title="PORTUGAL",PANDA BIGGS HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166414&extension=ts
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/c/ca/Baby_TV.png" group-title="PORTUGAL",BABY TV PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166416&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-MzelGDJvnHo/TljScA7e4HI/AAAAAAAAAhI/6pNn_hlV-bY/s1600/Nickelodeon.png" group-title="PORTUGAL",NICKELODEON PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166417&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/nickjr_2.png" group-title="PORTUGAL",NICK JR. PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166418&extension=ts
+#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-Q1FdWCcxFy4/WDtddep3QqI/AAAAAAAAFjo/ftsA1O7174AJ51G7tmj-tZCy-ykAZB1UwCLcB/s1600/SIC%2BK%2BHD.png" group-title="PORTUGAL",SIC K FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166419&extension=ts
+#EXTINF:-1 tvg-logo="https://2.bp.blogspot.com/-chiJn-Q6O3w/WDtddkGyRuI/AAAAAAAAFj0/qC_c8R5pN20uHi9ITqyImc03r-Mif6NVgCLcB/s1600/SIC%2BK.png" group-title="PORTUGAL",SIC K HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166420&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/cartoonnetwork_2.png" group-title="PORTUGAL",CARTOON NETWORK HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166421&extension=ts
+#EXTINF:-1 tvg-logo="https://digital110.xyz/PICONS/PT/lolly_kids_pt.png" group-title="PORTUGAL",LOLLY KIDS HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=275405&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/cartoonito.png" group-title="PORTUGAL",CARTONITO HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=275406&extension=ts
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/originals/4e/fd/fd/4efdfddc6dafa48064a41f9b6f1d6293.png" group-title="PORTUGAL",E! ENTERTAINMENT HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166424&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-SN1ztIPyfkc/WDrqEp6W0OI/AAAAAAAAFdE/GS_bKn0PN4kJ4gQ4i0Wa_-LlIsS213otACLcB/s1600/Kuriakos%2BTV.png" group-title="PORTUGAL",KURIAKOS TV HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166425&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/localvisao.png" group-title="PORTUGAL",LOCALVISAO TV HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166426&extension=ts
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-DNgVc8BQkLA/WEcxgUFpHOI/AAAAAAAAFl8/-2rFGg0Rb50y0XJGLe6o582rhvSgwKkKACLcB/s1600/Food%2BNetwork.png" group-title="PORTUGAL",FOOD NETWORK HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166427&extension=ts
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-eCNwpNfmoGo/TqxmhkTfpKI/AAAAAAAAAuM/iCnp45tIXWI/s1600/TLC.png" group-title="PORTUGAL",TLC HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166428&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-3GizqGw2ljM/WDrqDU9x7pI/AAAAAAAAFcM/7-3xLt2V_3cAWyBse_X5XQfOPxqfnDoRQCLcB/s1600/Fashion%2BTV.png" group-title="PORTUGAL",FASHION TV HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166429&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/travelchannel_2.png" group-title="PORTUGAL",TRAVEL CHANNEL HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166430&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/cancaonova.png" group-title="PORTUGAL",CANCAO NOVA PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166431&extension=ts
+#EXTINF:-1 tvg-logo="https://www.fatima.pt/img/layout/tile-wide.png" group-title="PORTUGAL",FATIMA TV PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166432&extension=ts
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/UNIFE_logo.png" group-title="PORTUGAL",UNIFÉ PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=222147&extension=ts
+#EXTINF:-1 tvg-logo="https://uploads-eu-west-1.insided.com/nos-pt/attachment/4f8fb888-2ed7-4de5-86cb-bc4ddc6eb23e.png" group-title="PORTUGAL",CASA & COZINHA HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166433&extension=ts
+#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-WoqIrJLUgMk/WDrqAbaRmkI/AAAAAAAAFaM/hOAfHKUwZPwArJahGs_GWJQEwVOrVp23ACLcB/s1600/24%2BKitchen%2BHD.png" group-title="PORTUGAL",24 KITCHEN HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166434&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/dogtv.png" group-title="PORTUGAL",DOG TV PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166435&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-BPost_25TfM/WDrqEaQMU5I/AAAAAAAAFc0/rci37PzlhfMHqi_9zhuVU3MWsLhKGVGUQCLcB/s1600/Globo.png" group-title="PORTUGAL",GLOBO HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166436&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-BPost_25TfM/WDrqEaQMU5I/AAAAAAAAFc0/rci37PzlhfMHqi_9zhuVU3MWsLhKGVGUQCLcB/s1600/Globo.png" group-title="PORTUGAL",GLOBO PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166437&extension=ts
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a2/Globo_Now_logo_2018.png" group-title="PORTUGAL",GLOBO NOW HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166438&extension=ts
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a2/Globo_Now_logo_2018.png" group-title="PORTUGAL",GLOBO NOW PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166439&extension=ts
+#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-aurRIGbWAho/WDrqG5YKPKI/AAAAAAAAFec/OMAsRBqD5E4XxxnIiq5JSq-1jr0w80IGACLcB/s1600/Record%2BTV.png" group-title="PORTUGAL",TV RECORD HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166440&extension=ts
+#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-aurRIGbWAho/WDrqG5YKPKI/AAAAAAAAFec/OMAsRBqD5E4XxxnIiq5JSq-1jr0w80IGACLcB/s1600/Record%2BTV.png" group-title="PORTUGAL",TV RECORD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166441&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/recordnews.png" group-title="PORTUGAL",RECORD NEWS PT 
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=226032&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/euronews_2.png" group-title="PORTUGAL",EURONEWS PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166442&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/tpa_2.png" group-title="PORTUGAL",TPA INTERNACIONAL PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166443&extension=ts
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/c/c6/Zap_Viva_%28logo%29.png" group-title="PORTUGAL",ZAP VIVA HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166444&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/tcvinternational.png" group-title="PORTUGAL",TCV HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=207259&extension=ts
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/ssMhJxZC/c7234-tcvinternacionallogo1.png" group-title="PORTUGAL",TCV INTERNACIONAL 
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=400349&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/PICONS/PT/tvzimbo.png" group-title="PORTUGAL",TV ZIMBO PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=343274&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-v4SUR69xFZo/WDrqFHFcXyI/AAAAAAAAFdQ/7mIlNRNtrwoxRgmZjmndyhqZb1M1NhSrgCLcB/s1600/MCM%2BPop.png" group-title="PORTUGAL",MCM POP PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166445&extension=ts
+#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-DsQ_cUPwHdg/WB3RqCAkM_I/AAAAAAAAFTM/iJGJdMZgZp03pcNU7AOfQFxWN7N2mLUowCLcB/s1600/MTV%2BHD.png" group-title="PORTUGAL",MTV HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166446&extension=ts
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/--rbGria_Nts/TljSYy15-kI/AAAAAAAAAgY/XL9OdPzHTBY/s1600/MTV.png" group-title="PORTUGAL",MTV PORTUGAL PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166447&extension=ts
+#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-C8mAknQ2OxQ/VSeoD60T8AI/AAAAAAAAE0s/07LAk7kMwFQ/s1600/Afro%2BMusic%2BChannel.png" group-title="PORTUGAL",AFRO MUSIC PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166448&extension=ts
+#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-BP0if9z8SR0/WDtdf4PgVCI/AAAAAAAAFlA/zAM-ZcSffuAdau6q3IMdx2gqm6Trb4XrwCLcB/s1600/Trace%2BToca.png" group-title="PORTUGAL",TRACE TOCA PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166449&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/traceurban_2.png" group-title="PORTUGAL",TRACE URBAN HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166450&extension=ts
+#EXTINF:-1 tvg-logo="http://digital110.xyz/Picons/iconcerts_2.png" group-title="PORTUGAL",I CONCERTS FHD
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166451&extension=ts
+#EXTINF:-1 tvg-logo="https://digital110.xyz/PICONS/PT/mtv00s.png" group-title="PORTUGAL",MTV 00s PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=166453&extension=ts
+#EXTINF:-1 tvg-logo="https://digital110.xyz/PICONS/PT/almalusa.png" group-title="PORTUGAL",ALMA LUSA FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=275403&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",CINEMA STEVEN SEAGAL "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206922&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",STALLONE VS SCHWARZENEGGER "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206924&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",CINEMA BUD SPENCER "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206926&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",CINEMA EM CASA "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206927&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",PRO CINEMA "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206928&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",CINEMA INDIANO "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206929&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",CINEMA VAN DAMME "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206939&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",STRONG BY ZUMBA "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206941&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",FOLCLORE-DESGARRADAS "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206946&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",MIRACULOUS "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206947&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",FILMES WESTERN "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206948&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",CAFE CONCERTO "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206949&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",CANAL PETER RABBIT "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206950&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",DREAMWORKS "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206951&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",CANAL SUSPENSE/TERROR "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206953&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",RALLY MANIA "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206956&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",PJ MASKS "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206957&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",CANAL MOTO GP "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206958&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",CINEMA KIDS PT "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206966&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",MARVEL STUDIOS "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206961&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",BOOBA "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206972&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",DC "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206975&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",ANIMAÇAO ANOS 70"DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206977&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",FAMÍLIA ESPECIAL "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206978&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",CANAL LUCAS NETO TV "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206970&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",CINEMA 007 "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206938&extension=ts
+#EXTINF:-1 tvg-logo="http://digital120.xyz/PICONS/PT/OPTO_HD.png" group-title="LIVE PT 24/7",OPTO HD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206919&extension=ts
+#EXTINF:-1 tvg-logo="http://digital120.xyz/PICONS/PT/OPTO_FHD.png" group-title="LIVE PT 24/7",OPTO FHD PT
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=275397&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",DISNEY MOVIES "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206954&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",MARVEL SERIES "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206976&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",CINEMA JACKIE CHAN "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206930&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",CINEMA FICÇÃO CIENTIFICA "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206937&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",MARRADAS "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206940&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",APAIXONADOS POR SERIES "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206964&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",TOM E OS AMIGOS "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206960&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",CINEMA ARTES MARCIAIS "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206925&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",NETFLIX "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206944&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",NETFLIX KIDS "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206965&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",CINEMA COMEDIA "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206935&extension=ts
+#EXTINF:-1 tvg-logo="http://digitalteck.xyz/images/dtech.logo.png" group-title="LIVE PT 24/7",A CASA DE BONECAS DA GABY "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=299865&extension=ts
+#EXTINF:-1 tvg-logo="http://digitalteck.xyz/images/dtech.logo.png" group-title="LIVE PT 24/7",SANTIAGO DOS MARES "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=308080&extension=ts
+#EXTINF:-1 tvg-logo="http://digitalteck.xyz/images/dtech.logo.png" group-title="LIVE PT 24/7",MASHA E O URSO "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=299864&extension=ts
+#EXTINF:-1 tvg-logo="http://digitalteck.xyz/images/dtech.logo.png" group-title="LIVE PT 24/7",THE BOSS BABY: Back in Business "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=299863&extension=ts
+#EXTINF:-1 tvg-logo="http://digitalteck.xyz/images/dtech.logo.png" group-title="LIVE PT 24/7",THE BOSS BABY: Back in the Crib "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=299862&extension=ts
+#EXTINF:-1 tvg-logo="http://digitalteck.xyz/images/dtech.logo.png" group-title="LIVE PT 24/7",HOMEM vs ABELHA "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=299861&extension=ts
+#EXTINF:-1 tvg-logo="http://digitalteck.xyz/images/dtech.logo.png" group-title="LIVE PT 24/7",PATRULHA PATA "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=299308&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",APANHADOS "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206955&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",CINEMA PORTUGUES "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206923&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",PORTUGAL TAL E QUAL “DIGITALTECH”
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206974&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",DISNEY + "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206959&extension=ts
+#EXTINF:-1 tvg-logo="http://digitalteck.xyz/images/dtech.logo.png" group-title="LIVE PT 24/7",CURRAL DE MOINAS SERIE "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=299305&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",CINEMA ESTREIAS "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206921&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",CINEMA FANTASIA "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206934&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",CINEMA MUSICAL "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206933&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",CINEMA GUERRA "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206932&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",CINEMA TOM CRUISE "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206931&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",JOAO KLEBER SHOW "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206952&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",Pi 100 Pé "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206943&extension=ts
+#EXTINF:-1 tvg-logo="http://digitalteck.xyz/images/dtech.logo.png" group-title="LIVE PT 24/7",TOP SERTANEJO "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=308674&extension=ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wKhxoKu.png" group-title="LIVE PT 24/7",RIR ATE CAIR "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=206945&extension=ts
+#EXTINF:-1 tvg-logo="http://digitalteck.xyz/images/dtech.logo.png" group-title="LIVE PT 24/7",LAREIRA "DIGITALTECH"
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=398629&extension=ts
+#EXTINF:-1 tvg-logo="http://digitalteck.xyz/images/dtech.logo.png" group-title="LIVE PT 24/7",MAN VS. BABY "DIGITALTECH"
+
+http://242025.xyz:80/play/live.php?mac=TOKENPH&stream=406011&extension=ts

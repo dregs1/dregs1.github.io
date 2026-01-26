@@ -42,8 +42,8 @@
     "icon": "https://i.imgur.com/jfmROxJ.png",
     "fanart": "https://i.imgur.com/n4ysh7J.jpg",
     "servidores": [
-      { "nome": "Mundial 1", "url": "http://tv.zapping.life:8080/get.php?username=HDPinguino123dkdkkDDFFDFa&password=al3q83JYkd&type=m3u_plus&output=ts", "imagem": "https://i.imgur.com/jfmROxJ.png" },
-      { "nome": "Mundial 2", "url": "http://www.ve406.venus.fastwebserver.de:25461/get.php?username=AlbanianGangTV&password=TelegramGroupTV&type=m3u_plus&output=mpegts", "imagem": "https://i.imgur.com/jfmROxJ.png" },
+      { "nome": "Mundial 1", "url": "http://eu3.visiolinks.com:2082/get.php?username=330061733448955&password=929151&type=m3u_plus&output=m3u8", "imagem": "https://i.imgur.com/jfmROxJ.png" },
+      { "nome": "Mundial 2", "url": "http://tv.iptv-chal.net:2052/get.php?username=Yoan12mois&password=777333000&type=m3u_plus&output=m3u8", "imagem": "https://i.imgur.com/jfmROxJ.png" },
       { "nome": "Mundial 3", "url": "http://domy1000.bumbleshrimp.com:8080/get.php?username=domenicoferrar&password=xdPCHVpVkE&type=m3u_plus&output=mpegts", "imagem": "https://i.imgur.com/jfmROxJ.png" }
     ]
   },

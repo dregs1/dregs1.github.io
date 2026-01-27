@@ -1,0 +1,285 @@
+{
+  "playlists": [
+    {
+      "pais": "[COLOR orange]Emirados Ãrabes Unidos[/COLOR]",
+      "icon": "https://flagcdn.com/w320/ae.png",
+      "fanat": "https://flagcdn.com/w320/ae.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels AE[/COLOR]", "url": "https://www.apsattv.com/aelg.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]Argentina[/COLOR]",
+      "icon": "https://flagcdn.com/w320/ar.png",
+      "fanat": "https://flagcdn.com/w320/ar.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels AR[/COLOR]", "url": "https://www.apsattv.com/arlg.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]Ãustria[/COLOR]",
+      "icon": "https://flagcdn.com/w320/at.png",
+      "fanat": "https://flagcdn.com/w320/at.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels AT[/COLOR]", "url": "https://www.apsattv.com/atlg.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]AustrÃ¡lia[/COLOR]",
+      "icon": "https://flagcdn.com/w320/au.png",
+      "fanat": "https://flagcdn.com/w320/au.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels AU[/COLOR]", "url": "https://www.apsattv.com/aulg.m3u" },
+        { "servico": "[COLOR orange]Samsung TV Plus AU[/COLOR]", "url": "https://www.apsattv.com/ssungaus.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]BÃ©lgica[/COLOR]",
+      "icon": "https://flagcdn.com/w320/be.png",
+      "fanat": "https://flagcdn.com/w320/be.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels BE[/COLOR]", "url": "https://www.apsattv.com/belg.m3u" },
+        { "servico": "[COLOR orange]Samsung TV Plus BE[/COLOR]", "url": "https://www.apsattv.com/ssungbelg.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]Brasil[/COLOR]",
+      "icon": "https://flagcdn.com/w320/br.png",
+      "fanat": "https://flagcdn.com/w320/br.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels BR[/COLOR]", "url": "https://www.apsattv.com/brlg.m3u" },
+        { "servico": "[COLOR orange]Samsung TV Plus BR[/COLOR]", "url": "https://www.apsattv.com/ssungbra.m3u" },
+        { "servico": "[COLOR orange]Movieark[/COLOR]", "url": "https://www.apsattv.com/moviearkbr.m3u" },
+        { "servico": "[COLOR orange]Redeitv[/COLOR]", "url": "https://www.apsattv.com/redeitv.m3u" },
+        { "servico": "[COLOR orange]SoulTV[/COLOR]", "url": "https://www.apsattv.com/soultv.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]CanadÃ¡[/COLOR]",
+      "icon": "https://flagcdn.com/w320/ca.png",
+      "fanat": "https://flagcdn.com/w320/ca.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels CA[/COLOR]", "url": "https://www.apsattv.com/calg.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]SuÃ­Ã§a[/COLOR]",
+      "icon": "https://flagcdn.com/w320/ch.png",
+      "fanat": "https://flagcdn.com/w320/ch.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels CH[/COLOR]", "url": "https://www.apsattv.com/chlg.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]Chile[/COLOR]",
+      "icon": "https://flagcdn.com/w320/cl.png",
+      "fanat": "https://flagcdn.com/w320/cl.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels CL[/COLOR]", "url": "https://www.apsattv.com/cllg.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]ColÃ´mbia[/COLOR]",
+      "icon": "https://flagcdn.com/w320/co.png",
+      "fanat": "https://flagcdn.com/w320/co.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels CO[/COLOR]", "url": "https://www.apsattv.com/colg.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]Alemanha[/COLOR]",
+      "icon": "https://flagcdn.com/w320/de.png",
+      "fanat": "https://flagcdn.com/w320/de.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels DE[/COLOR]", "url": "https://www.apsattv.com/delg.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]Dinamarca[/COLOR]",
+      "icon": "https://flagcdn.com/w320/dk.png",
+      "fanat": "https://flagcdn.com/w320/dk.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels DK[/COLOR]", "url": "https://www.apsattv.com/dklg.m3u" },
+        { "servico": "[COLOR orange]Samsung TV Plus DK[/COLOR]", "url": "https://www.apsattv.com/ssungden.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]Espanha[/COLOR]",
+      "icon": "https://flagcdn.com/w320/es.png",
+      "fanat": "https://flagcdn.com/w320/es.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels ES[/COLOR]", "url": "https://www.apsattv.com/eslg.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]FinlÃ¢ndia[/COLOR]",
+      "icon": "https://flagcdn.com/w320/fi.png",
+      "fanat": "https://flagcdn.com/w320/fi.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels FI[/COLOR]", "url": "https://www.apsattv.com/filg.m3u" },
+        { "servico": "[COLOR orange]Samsung TV Plus FI[/COLOR]", "url": "https://www.apsattv.com/ssungfin.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]FranÃ§a[/COLOR]",
+      "icon": "https://flagcdn.com/w320/fr.png",
+      "fanat": "https://flagcdn.com/w320/fr.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels FR[/COLOR]", "url": "https://www.apsattv.com/frlg.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]Reino Unido[/COLOR]",
+      "icon": "https://flagcdn.com/w320/gb.png",
+      "fanat": "https://flagcdn.com/w320/gb.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels GB[/COLOR]", "url": "https://www.apsattv.com/gblg.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]Irlanda[/COLOR]",
+      "icon": "https://flagcdn.com/w320/ie.png",
+      "fanat": "https://flagcdn.com/w320/ie.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels IE[/COLOR]", "url": "https://www.apsattv.com/ielg.m3u" },
+        { "servico": "[COLOR orange]Samsung TV Plus IE[/COLOR]", "url": "https://www.apsattv.com/ssungire.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]Ãndia[/COLOR]",
+      "icon": "https://flagcdn.com/w320/in.png",
+      "fanat": "https://flagcdn.com/w320/in.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels IN[/COLOR]", "url": "https://www.apsattv.com/inlg.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]ItÃ¡lia[/COLOR]",
+      "icon": "https://flagcdn.com/w320/it.png",
+      "fanat": "https://flagcdn.com/w320/it.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels IT[/COLOR]", "url": "https://www.apsattv.com/itlg.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]JapÃ£o[/COLOR]",
+      "icon": "https://flagcdn.com/w320/jp.png",
+      "fanat": "https://flagcdn.com/w320/jp.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels JP[/COLOR]", "url": "https://www.apsattv.com/jplg.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]Coreia do Sul[/COLOR]",
+      "icon": "https://flagcdn.com/w320/kr.png",
+      "fanat": "https://flagcdn.com/w320/kr.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels KR[/COLOR]", "url": "https://www.apsattv.com/krlg.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]Luxemburgo[/COLOR]",
+      "icon": "https://flagcdn.com/w320/lu.png",
+      "fanat": "https://flagcdn.com/w320/lu.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels LU[/COLOR]", "url": "https://www.apsattv.com/lulg.m3u" },
+        { "servico": "[COLOR orange]Samsung TV Plus LU[/COLOR]", "url": "https://www.apsattv.com/ssunglux.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]MÃ©xico[/COLOR]",
+      "icon": "https://flagcdn.com/w320/mx.png",
+      "fanat": "https://flagcdn.com/w320/mx.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels MX[/COLOR]", "url": "https://www.apsattv.com/mxlg.m3u" },
+        { "servico": "[COLOR orange]Samsung TV Plus MX[/COLOR]", "url": "https://www.apsattv.com/ssungmex.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]PaÃ­ses Baixos[/COLOR]",
+      "icon": "https://flagcdn.com/w320/nl.png",
+      "fanat": "https://flagcdn.com/w320/nl.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels NL[/COLOR]", "url": "https://www.apsattv.com/nllg.m3u" },
+        { "servico": "[COLOR orange]Samsung TV Plus NL[/COLOR]", "url": "https://www.apsattv.com/ssungneth.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]Noruega[/COLOR]",
+      "icon": "https://flagcdn.com/w320/no.png",
+      "fanat": "https://flagcdn.com/w320/no.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels NO[/COLOR]", "url": "https://www.apsattv.com/nolg.m3u" },
+        { "servico": "[COLOR orange]Samsung TV Plus NO[/COLOR]", "url": "https://www.apsattv.com/ssungnor.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]Nova ZelÃ¢ndia[/COLOR]",
+      "icon": "https://flagcdn.com/w320/nz.png",
+      "fanat": "https://flagcdn.com/w320/nz.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels NZ[/COLOR]", "url": "https://www.apsattv.com/nzlg.m3u" },
+        { "servico": "[COLOR orange]Samsung TV Plus NZ[/COLOR]", "url": "https://www.apsattv.com/ssungnz.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]Peru[/COLOR]",
+      "icon": "https://flagcdn.com/w320/pe.png",
+      "fanat": "https://flagcdn.com/w320/pe.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels PE[/COLOR]", "url": "https://www.apsattv.com/pelg.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]Portugal[/COLOR]",
+      "icon": "https://flagcdn.com/w320/pt.png",
+      "fanat": "https://flagcdn.com/w320/pt.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels PT[/COLOR]", "url": "https://www.apsattv.com/ptlg.m3u" },
+        { "servico": "[COLOR orange]Samsung TV Plus PT[/COLOR]", "url": "https://www.apsattv.com/ssungpor.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]Singapura[/COLOR]",
+      "icon": "https://flagcdn.com/w320/sg.png",
+      "fanat": "https://flagcdn.com/w320/sg.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels SG[/COLOR]", "url": "https://www.apsattv.com/sglg.m3u" },
+        { "servico": "[COLOR orange]Samsung TV Plus SG[/COLOR]", "url": "https://www.apsattv.com/ssungsg.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]SuÃ©cia[/COLOR]",
+      "icon": "https://flagcdn.com/w320/se.png",
+      "fanat": "https://flagcdn.com/w320/se.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels SE[/COLOR]", "url": "https://www.apsattv.com/selg.m3u" },
+        { "servico": "[COLOR orange]Samsung TV Plus SE[/COLOR]", "url": "https://www.apsattv.com/ssungswe.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]TailÃ¢ndia[/COLOR]",
+      "icon": "https://flagcdn.com/w320/th.png",
+      "fanat": "https://flagcdn.com/w320/th.png",
+      "links": [
+        { "servico": "[COLOR orange]Samsung TV Plus TH[/COLOR]", "url": "https://www.apsattv.com/ssungth.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]Filipinas[/COLOR]",
+      "icon": "https://flagcdn.com/w320/ph.png",
+      "fanat": "https://flagcdn.com/w320/ph.png",
+      "links": [
+        { "servico": "[COLOR orange]Samsung TV Plus PH[/COLOR]", "url": "https://www.apsattv.com/ssungph.m3u" }
+      ]
+    },
+    {
+      "pais": "[COLOR orange]Estados Unidos[/COLOR]",
+      "icon": "https://flagcdn.com/w320/us.png",
+      "fanat": "https://flagcdn.com/w320/us.png",
+      "links": [
+        { "servico": "[COLOR orange]LG Channels US[/COLOR]", "url": "https://www.apsattv.com/uslg.m3u" }
+      ]
+    }
+  ]
+}

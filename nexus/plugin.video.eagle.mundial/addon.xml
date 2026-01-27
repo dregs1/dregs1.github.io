@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.eagle.mundial" name="[COLOR yellow]Eagle Mundial[/COLOR]" version="1.0.1" provider-name="[COLOR orange]by_black_eagle[/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.beautifulsoup4" version="4.9.3"/>
+        <import addon="script.module.requests" version="2.25.1"/>
+        <import addon="inputstream.adaptive" version="2.6.0"/>
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="pt_BR">[COLOR lightblue]Assista canais e streams globais - Eagle Mundial[/COLOR]</summary>
+
+        <description lang="pt_BR">
+            [COLOR white]O [/COLOR][COLOR yellow]Eagle Mundial[/COLOR][COLOR white] utiliza um resolvedor dinâmico para extrair sinais de fontes oficiais públicas ao redor do mundo, garantindo funcionamento contínuo mesmo após atualizações nos sites de origem.[/COLOR]
+        </description>
+
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+
+        <disclaimer lang="pt_BR">
+            [COLOR red]Atenção:[/COLOR][COLOR white] O autor deste addon não hospeda nenhum conteúdo. O addon apenas extrai players de fontes oficiais públicas.[/COLOR]
+        </disclaimer>
+
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>

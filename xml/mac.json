@@ -57,8 +57,8 @@
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_12[/COLOR]",
-      "url": "http://www.fonziptv.com:8080",
-      "mac": "00:1A:79:4E:50:ED"
+      "url": "http://mag.trx-ott.com:80",
+      "mac": "00:1A:79:FB:2E:1A"
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_13[/COLOR]",
@@ -72,8 +72,8 @@
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_15[/COLOR]",
-      "url": "http://10431-plan.ott-cdn.me:80",
-      "mac": "00:1A:79:B5:59:0F"
+      "url": "http://45.139.122.199:2095",
+      "mac": "00:1A:79:57:BA:8D"
     }
   ]
 }

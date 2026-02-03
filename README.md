@@ -1,7 +1,10 @@
-DREGS REPOSITORY
-# Versão Actual: 2.36
-Instruções para a adição deste repo:
+<div align="center">
+  <img src="https://i.imgur.com/fn58dH2.png" width="260" alt="Dregs Logo">
+</div>
 
+DREGS REPOSITORY  
+# Versão Actual: 2.36  
+Instruções para a adição deste repo:
 
 <p align="left">
   <ul>

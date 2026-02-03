@@ -8,7 +8,6 @@
 </div>
 
 ---
-
 ## 🟠 **Instruções para a adição deste repo**
 
 - 📁 Ir para o **Kodi gestor de ficheiros**

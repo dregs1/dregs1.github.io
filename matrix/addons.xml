@@ -990,6 +990,44 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
     </extension>
 </addon>
 
+<addon id="plugin.video.eagle.pluto.tv" name="[COLOR orange]Eagle[/COLOR] Pluto TV" version="1.0.0" provider-name="[COLOR red]blackeagle[/COLOR]">
+
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.beautifulsoup4" version="4.9.3"/>
+        <import addon="script.module.requests" version="2.25.1"/>
+        <import addon="inputstream.adaptive" version="21.0.0"/>
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+
+        <summary lang="pt_PT">[COLOR lightblue]Canais gratuitos Pluto TV[/COLOR]</summary>
+
+        <description lang="pt_PT">
+            [COLOR lightblue]Eagle Pluto TV[/COLOR] oferece acesso a canais gratuitos da Pluto TV.
+            Addon desenvolvido por [COLOR orange]blackeagle[/COLOR], com contribuições de links por
+            [COLOR yellow]HelmerLuzo[/COLOR].
+            Todos os direitos, marcas e conteúdos pertencem a [COLOR lightgreen]Pluto TV[/COLOR].
+        </description>
+
+        <news lang="pt_PT">[COLOR lightgreen]v1.0.0: Lançamento inicial para Kodi 21 (Omega)[/COLOR]</news>
+
+        <platform>all</platform>
+        <license>GPL-2.0-only</license>
+        <language>pt</language>
+
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+
+</addon>
+
 <addon id="plugin.video.eagle.vod" name="[COLOR maroon]Eagle[/COLOR] [COLOR gold]Vod[/COLOR]" version="0.2" provider-name="[COLOR orange]@by_blak_eagle[/COLOR]">
     <requires>
 		<import addon="xbmc.python" version="3.0.0"/>
@@ -1081,44 +1119,6 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
     </assets>
 		<language>es</language>
 	</extension>
-
-</addon>
-
-<addon id="plugin.video.eagle.pluto.tv" name="[COLOR orange]Eagle[/COLOR] Pluto TV" version="1.0.0" provider-name="[COLOR red]blackeagle[/COLOR]">
-
-    <requires>
-        <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="script.module.beautifulsoup4" version="4.9.3"/>
-        <import addon="script.module.requests" version="2.25.1"/>
-        <import addon="inputstream.adaptive" version="21.0.0"/>
-    </requires>
-
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-
-    <extension point="xbmc.addon.metadata">
-
-        <summary lang="pt_PT">[COLOR lightblue]Canais gratuitos Pluto TV[/COLOR]</summary>
-
-        <description lang="pt_PT">
-            [COLOR lightblue]Eagle Pluto TV[/COLOR] oferece acesso a canais gratuitos da Pluto TV.  
-            Addon desenvolvido por [COLOR orange]blackeagle[/COLOR], com contribuições de links por  
-            [COLOR yellow]HelmerLuzo[/COLOR].  
-            Todos os direitos, marcas e conteúdos pertencem a [COLOR lightgreen]Pluto TV[/COLOR].
-        </description>
-
-        <news lang="pt_PT">[COLOR lightgreen]v1.0.0: Lançamento inicial para Kodi 21 (Omega)[/COLOR]</news>
-
-        <platform>all</platform>
-        <license>GPL-2.0-only</license>
-        <language>pt</language>
-
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
 
 </addon>
 

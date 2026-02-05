@@ -2,8 +2,8 @@
   "portals": [
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_1[/COLOR]",
-      "url": "http://tvpn.xyz:80",
-      "mac": "00:1A:79:c2:04:96"
+      "url": "http://edge.bz:8080",
+      "mac": "00:1A:79:11:8A:8B"
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_2[/COLOR]",

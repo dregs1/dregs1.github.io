@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.flash.brasil" name="[COLOR orange]Flash[/COLOR][COLORlime]Brasil[/COLOR]" version="3.6.9" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
+  <extension point="xbmc.python.pluginsource"
+      library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">[COLORred]Flash[COLORgold]Brasil[/COLOR]</summary>
+    <language>en</language>
+    <description lang="en_GB">[COLOR gold]Flash[/COLOR] [COLOR lime]Brasil[/COLOR] [COLORorange]is an add-on from the  Blackeagle family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</description>
+    <platform>all</platform>
+    <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+  </extension>
+</addon>

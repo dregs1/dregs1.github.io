@@ -1218,7 +1218,7 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
 	</extension>
 </addon>
 
-<addon id="plugin.video.flash.brasil" name="[COLOR orange]Flash[/COLOR][COLORlime]Brasil[/COLOR]" version="3.6.7" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
+<addon id="plugin.video.flash.brasil" name="[COLOR orange]Flash[/COLOR][COLORlime]Brasil[/COLOR]" version="3.6.9" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
   <extension point="xbmc.python.pluginsource"
       library="default.py">
     <provides>video</provides>

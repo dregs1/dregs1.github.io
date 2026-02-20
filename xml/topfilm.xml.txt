@@ -1,1 +1,1 @@
-
+http://jamboso.com:80/get.php?username=6089084975&password=3581573488&type=m3u_plus

@@ -1,1 +1,1 @@
-http://ibo.playmove.org:80/get.php?username=Rosana001&password=24022022&type=m3u_plus&output=m3u8
+

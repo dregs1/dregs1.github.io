@@ -1,1 +1,1 @@
-http://sansuygtv.site:80/get.php?username=edujesus&password=silva98uita&type=m3u_plus&output=m3u8
+http://ibo.playmove.org:80/get.php?username=Rosana001&password=24022022&type=m3u_plus&output=m3u8

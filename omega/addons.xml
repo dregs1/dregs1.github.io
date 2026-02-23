@@ -914,6 +914,32 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
 </extension>
 </addon>
 
+<addon id="plugin.video.eagle-portugal" name="[COLOR green]EAGLE[/COLOR] [COLOR red]PORTUGAL[/COLOR]" version="0.2" provider-name="[COLOR gold]by_black_eagle[/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.25.1+matrix.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+
+        <summary lang="en">[COLOR green]TV AO VIVO, FILMES E SÉRIES[/COLOR] [COLOR red]COM CONTEÚDO DISPONÍVEL ONLINE[/COLOR]</summary>
+
+        <description lang="en">[COLOR green]Eagle[/COLOR] [COLOR red]Portugal[/COLOR] [COLOR gold]é um addon criado por blackeagle. TODOS OS LINKS ESTÃO DISPONÍVEIS NA INTERNET![/COLOR]</description>
+
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources/screenshots/1.jpg</screenshot>
+            <screenshot>resources/screenshots/2.jpg</screenshot>
+            <screenshot>resources/screenshots/3.jpg</screenshot>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="plugin.video.eagle.ace" name="[COLORskyblue]Eagle [COLORbrown]Ace[/COLOR]" version="1.5" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="3.0.0" /> <!-- Kodi en Python 3 -->

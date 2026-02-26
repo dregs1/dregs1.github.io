@@ -2,13 +2,13 @@
   "portals": [
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_1[/COLOR]",
-      "url": "http://diginador.icu:80",
-      "mac": "00:1A:79:F0:07:63"
+      "url": "http://owliptv.gentv.to:8080",
+      "mac": "00:1A:79:54:ED:AE"
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_2[/COLOR]",
-      "url": "http://bsiptv.123tv.to:8080",
-      "mac": "00:1A:79:39:3B:54"
+      "url": "http://glupiec.gnojek.pedal.123tv.to:8080",
+      "mac": "00:1A:79:F7:A6:DC"
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_3[/COLOR]",

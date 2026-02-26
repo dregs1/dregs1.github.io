@@ -58,13 +58,7 @@
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_12[/COLOR]",
       "url": "http://dragoniptv.de",
-      "mac": "00:1A:79:D2:09:95"
-    },
-    {
-      "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_13[/COLOR]",
-      "url": "http://dragoniptv.de",
-      "mac": "00:1A:79:b6:25:7c"
-    
+      "mac": "00:1A:79:D2:09:95"    
     }
   ]
 }

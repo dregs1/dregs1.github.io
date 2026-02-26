@@ -2,8 +2,8 @@
   "portals": [
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_1[/COLOR]",
-      "url": "http://zlocko.se.nabija.na.kitu.jay.jay.okochi.streamtv.to:8080",
-      "mac": "00:1A:79:39:DE:88"
+      "url": "http://dragoniptv.de",
+      "mac": "00:1A:79:D2:09:95"
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_2[/COLOR]",
@@ -49,16 +49,7 @@
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_10[/COLOR]",
       "url": "http://vip1002.112421.net:2050",
       "mac": "00:1A:79:35:6F:0A"
-    },
-    {
-      "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_11[/COLOR]",
-      "url": "http://backup.xp1.tv",
-      "mac": "00:1A:79:37:00:B7"
-    },
-    {
-      "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_12[/COLOR]",
-      "url": "http://dragoniptv.de",
-      "mac": "00:1A:79:D2:09:95"    
+   
     }
   ]
 }

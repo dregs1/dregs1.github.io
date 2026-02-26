@@ -2,8 +2,8 @@
   "portals": [
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_1[/COLOR]",
-      "url": "http://owliptv.gentv.to:8080",
-      "mac": "00:1A:79:54:ED:AE"
+      "url": "http://zlocko.se.nabija.na.kitu.jay.jay.okochi.streamtv.to:8080",
+      "mac": "00:1A:79:39:DE:88"
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_2[/COLOR]",
@@ -69,11 +69,6 @@
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_14[/COLOR]",
       "url": "http://main.light-ott.net",
       "mac": "00:1A:79:AA:71:16"
-    },
-    {
-      "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_15[/COLOR]",
-      "url": "http://masterofiptv.pro:80",
-      "mac": "00:1A:79:00:99:84"
     }
   ]
 }

@@ -2,13 +2,13 @@
   "portals": [
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_1[/COLOR]",
-      "url": "http://masterofiptv.pro:80",
-      "mac": "00:1A:79:B5:9C:C3"
+      "url": "http://dragoniptv.de",
+      "mac": "00:1A:79:D2:09:95"
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_2[/COLOR]",
-      "url": "http://line.tvdsz.cc",
-      "mac": "00:1A:79:12:EC:B1"
+      "url": "http://pstv.fr:8080",
+      "mac": "00:1A:79:B9:E1:B1"
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_3[/COLOR]",
@@ -17,18 +17,18 @@
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_4[/COLOR]",
-      "url": "http://germanytv.live:8080",
-      "mac": "00:1A:79:10:DF:68"
+      "url": "http://proxy.plus55.xyz",
+      "mac": "00:1A:79:62:95:73"
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_5[/COLOR]",
-      "url": "http://germanytv.live:8080",
-      "mac": "00:1A:79:22:21:71"
+      "url": "http://1234up.com",
+      "mac": "00:1A:79:AD:F8:A2"
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_6[/COLOR]",
-      "url": "http://line.tvdsz.cc",
-      "mac": "00:1A:79:FB:13:A1"
+      "url": "http://tetuansat.sbs:80",
+      "mac": "00:1A:79:38:8e:64"
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_7[/COLOR]",
@@ -38,7 +38,7 @@
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_8[/COLOR]",
       "url": "http://vip1002.112421.net:2050",
-      "mac": "00:1A:79:C3:19:54"
+      "mac": "00:1A:79:D7:19:54"
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_9[/COLOR]",
@@ -47,33 +47,9 @@
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_10[/COLOR]",
-      "url": "http://vip1002.112421.net:2050",
-      "mac": "00:1A:79:35:6F:0A"
-    },
-    {
-      "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_11[/COLOR]",
-      "url": "http://backup.xp1.tv",
-      "mac": "00:1A:79:37:00:B7"
-    },
-    {
-      "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_12[/COLOR]",
-      "url": "http://dragoniptv.de",
-      "mac": "00:1A:79:D2:09:95"
-    },
-    {
-      "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_13[/COLOR]",
-      "url": "http://dragoniptv.de",
-      "mac": "00:1A:79:b6:25:7c"
-    },
-    {
-      "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_14[/COLOR]",
-      "url": "http://main.light-ott.net",
-      "mac": "00:1A:79:AA:71:16"
-    },
-    {
-      "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_15[/COLOR]",
-      "url": "http://masterofiptv.pro:80",
-      "mac": "00:1A:79:00:99:84"
+      "url": "http://iiiiillllllfd.funtogether.xyz:8080",
+      "mac": "00:1A:79:48:5B:16"
+   
     }
   ]
 }

@@ -1123,7 +1123,7 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
 </addon>
 
 <addon
-	id="plugin.video.eagleteam.mac" version="1.3" name="[COLOR silver]Eagle[COLOR dimgrey] Team [/COLOR][COLOR white] MAC [/COLOR]" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
+	id="plugin.video.eagleteam.mac" version="1.4" name="[COLOR silver]Eagle[COLOR dimgrey] Team [/COLOR][COLOR white] MAC [/COLOR]" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
 <requires>
     	<import addon="script.module.resolveurl"/>
 	    <import addon="script.module.requests"/>

@@ -782,36 +782,6 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
 </extension>
 </addon>
 
-<addon id="plugin.video.arrownegra.play.tv" name="[COLORgrey]ArrowNegra[/COLOR] [COLORred]Play[/COLOR] [COLORcyan]Tv[/COLOR]" version="1.9.1.7" provider-name="[COLOR orange]Black Eagle[/COLOR]">
-	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.requests"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="pt">[COLOR lime]arrownegra.play.tv[/COLOR][COLORorange]é um addon da familia Black Eagle.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
-		<disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
-		<platform>all</platform>
-		<language>en</language>
-		<license>GPL-2.0-or-later</license>
-		<forum></forum>
-		<website></website>
-		<email></email>
-		<source></source>
-		<news></news>
-		<disclaimer lang="en">The author of this add-on does not host any of the content which is found and has no affiliation with any of the content providers. This add-on simply searches websites for content. Use at your own risk!</disclaimer>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<banner></banner>
-			<clearlogo></clearlogo>
-			<screenshot></screenshot>
-		</assets>
-	</extension>
-</addon>
-
 <addon id="plugin.video.black.lince" name="[COLORred]black [COLORgrey] lince[/COLOR]" version="1.3" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
   <extension point="xbmc.python.pluginsource"
 			library="default.py">
@@ -1334,27 +1304,6 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
 
 </addon>
 
-<addon id="plugin.video.infinity" name="[COLORorange]Infinity[/COLOR]" version="1.1.7" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
-  <extension point="xbmc.python.pluginsource"
-			library="default.py">
-		<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-		<summary lang="pt">[COLORorange]Infinity[/COLOR] [COLORorange]é um addon da familia  Blackeagle.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
-		<description lang="pt">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]é um addon da familia  Blackeagle.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
-    <disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
-	<disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
-    <platform>all</platform>
-	<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-		 <screenshot>resources/screenshots/1.jpg</screenshot>
-       <screenshot>resources/screenshots/2.jpg</screenshot>
-       <screenshot>resources/screenshots/3.jpg</screenshot>
-	</assets>
-  </extension>
-</addon>
-
 <addon id="plugin.video.jetproxy" version="1.0.4" name="JetProxy" provider-name="t4ils">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
@@ -1393,30 +1342,6 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
        <screenshot>resources/screenshots/3.jpg</screenshot>
 	</assets>
   </extension>
-</addon>
-
-<addon id="plugin.video.loboespada" name="[COLORred]Lobo[COLORgrey]espada[/COLOR]" version="2.7" provider-name="[COLORgold]by_black_eagle[/COLOR]">
-<requires>
-    	<import addon="script.module.resolveurl"/>
-	    <import addon="script.module.requests"/>
-		<import addon="script.module.six"/>
-
-  </requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-<provides>video</provides>
-	</extension>
-<extension point="xbmc.addon.metadata">
-		<summary>Canais de Televisão, desportos e mais...</summary>
-		<description lang="en">[COLOR red]Lobo[/COLOR] [COLORorange]espada[/COLOR] [COLORorange]é um addon da familia BlackEagleagle Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
-		<platform>all</platform>
-		<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-       <screenshot>resources/screenshots/1.jpg</screenshot>
-       <screenshot>resources/screenshots/2.jpg</screenshot>
-       <screenshot>resources/screenshots/3.jpg</screenshot>
-    </assets>
-</extension>
 </addon>
 
 <addon id="plugin.video.predator.portal" name="[COLOR red]predator [COLORorange]portal[/COLOR]" version="1.0.3" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">

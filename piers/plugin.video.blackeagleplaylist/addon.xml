@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.blackeagleplaylist" name="[COLOR red]Blackeagle[/COLOR][COLOR black]Playlist[/COLOR] [COLORcyan]Matrix[/COLOR]" version="1.0.6" provider-name="[COLOR orange]@by_blak_eagle[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests" version="2.22.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">blackeagleplaylist</summary>
+    <summary lang="en">[COLOR red][B]Blackeagle[/B][/COLOR] [COLOR black][B]playlist[/B][/COLOR] [COLORorange][B]é um addon da familia Black Eagle.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</summary>
+    <description lang="en">[COLOR red][B]Blackeagle[/B][/COLOR] [COLOR black][B]playlist[/B][/COLOR] [COLORorange][B]é um addon da familia Black Eagle.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</description>
+    <language>en de</language>
+    <platform>all</platform>
+      <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>

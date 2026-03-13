@@ -1344,6 +1344,32 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
   </extension>
 </addon>
 
+<addon id="plugin.video.k-pt.mac" name="[COLOR yellow]K-PT [/COLOR][COLOR orange ]Mac [/COLOR]" version="0.1" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
+	<requires>
+    	<import addon="script.module.resolveurl"/>
+	    <import addon="script.module.requests"/>
+		<import addon="script.module.six"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="en">[COLOR yellow]K-PT MAC[/COLOR][COLORorange][B]is an add-on from the  Black Eagle family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</summary>
+	<summary lang="pt">[COLOR yellow]K-PT MAC[/COLOR][COLORorange][B]é um addon da familia Black Eagle .TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
+	<disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
+	<disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+	    <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+	</assets>
+  </extension>
+</addon>
+
 <addon id="plugin.video.predator.portal" name="[COLOR red]predator [COLORorange]portal[/COLOR]" version="1.0.3" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
   <requires>
         <import addon="script.module.six" />

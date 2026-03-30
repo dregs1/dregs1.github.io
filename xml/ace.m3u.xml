@@ -1,12 +1,12 @@
 #EXTM3U
-#EXTINF:-1,M. LaLiga 4k
+#EXTINF:-1,M. LaLiga
 acestream://4b528d10eaad747ddf52251206177573ee3e9f74
 
-#EXTINF:-1,M. LaLiga 4k 2
-acestream://cc9b7f5fe416069a2110da0909b0f915043c468b
+#EXTINF:-1,M. LaLiga Dzn 2
+acestream://4955867fad3bc92e5b4c36045699fc277800fb18
 
-#EXTINF:-1,Dazn La Liga 
-acestream://e2b8a4aba2f4ea3dd68992fcdb65c9e62d910b05
+#EXTINF:-1,Movistar La liga
+acestream://107c3ce5a5d2527c9f06e4eab87477201791f231
 
 #EXTINF:-1,Liga de Campeones FHD nuevo
 acestream://778f08cbae9596ed9e8b2ae0af33ee7a6fe24c6a

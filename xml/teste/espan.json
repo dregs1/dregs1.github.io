@@ -4,9 +4,9 @@
       "id": "server1",
       "name": "Servidor 1 ES",
       "type": "stalker",
-      "portal_url": "http://exclusifott.pro:80",
+      "portal_url": "http://mag.trexlive.me:8000",
       "macs": [
-        "00:1A:79:00:25:8A"
+        "00:1A:79:C4:35:DA"
       ]
     }
   ]

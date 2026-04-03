@@ -4,9 +4,9 @@
       "id": "server1",
       "name": "Servidor 1 ES",
       "type": "stalker",
-      "portal_url": "http://mag.trexlive.me:8000",
+      "portal_url": "http://wolfdtv.xyz:80",
       "macs": [
-        "00:1A:79:B6:48:D0"
+        "00:1A:79:B8:FB:09"
       ]
     }
   ]

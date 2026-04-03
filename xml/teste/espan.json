@@ -4,9 +4,9 @@
       "id": "server1",
       "name": "Servidor 1 ES",
       "type": "stalker",
-      "portal_url": "http://fronline.cc:80",
+      "portal_url": "http://dinoon.sbs:80",
       "macs": [
-        "00:1A:79:B5:49:D5"
+        "00:1A:79:84:6e:74"
       ]
     }
   ]

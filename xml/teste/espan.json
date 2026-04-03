@@ -4,9 +4,9 @@
       "id": "server1",
       "name": "Servidor 1 ES",
       "type": "stalker",
-      "portal_url": "http://dinoon.sbs:80",
+      "portal_url": "http://line.liveott.ru:80",
       "macs": [
-        "00:1A:79:84:6e:74"
+        "00:1A:79:d5:69:03"
       ]
     }
   ]

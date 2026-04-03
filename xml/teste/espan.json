@@ -4,9 +4,9 @@
       "id": "server1",
       "name": "Servidor 1 ES",
       "type": "stalker",
-      "portal_url": "http://line.liveott.ru",
+      "portal_url": "http://exclusifott.pro:80",
       "macs": [
-        "00:1A:79:48:22:BF"
+        "00:1A:79:00:25:8A"
       ]
     }
   ]

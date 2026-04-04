@@ -4,9 +4,9 @@
       "id": "server1",
       "name": "Servidor 1 ES",
       "type": "stalker",
-      "portal_url": "http://mag.trexlive.me",
+      "portal_url": "http://185.243.7.190:80",
       "macs": [
-        "00:1A:79:BA:1E:59"
+        "00:1A:79:27:7F:9B"
       ]
     }
   ]

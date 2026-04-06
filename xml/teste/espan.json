@@ -4,9 +4,9 @@
       "id": "server1",
       "name": "Servidor 1 ES",
       "type": "stalker",
-      "portal_url": "http://wolfdtv.xyz:80",
+      "portal_url": "http://line.cloud-ott.net:80",
       "macs": [
-        "00:1A:79:E8:F1:A4"
+        "00:1A:79:72:38:7E"
       ]
     }
   ]

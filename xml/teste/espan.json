@@ -4,9 +4,9 @@
       "id": "server1",
       "name": "Servidor 1 ES",
       "type": "stalker",
-      "portal_url": "http://saray68.darktv.nl",
+      "portal_url": "http://line.cloud-ott.net:80",
       "macs": [
-        "00:1A:79:9D:70:95"
+        "00:1A:79:72:38:7E"
       ]
     }
   ]

@@ -4,9 +4,9 @@
       "id": "server1",
       "name": "Servidor 1 ES",
       "type": "stalker",
-      "portal_url": "http://1234up.com",
+      "portal_url": "http://jellyiptv.streamtv.to:8080",
       "macs": [
-        "00:1A:79:D2:1D:F4"
+        "00:1A:79:4F:D7:E8"
       ]
     }
   ]

@@ -4,9 +4,9 @@
       "id": "server1",
       "name": "Servidor 1 ES",
       "type": "stalker",
-      "portal_url": "http://700730.org:8080",
+      "portal_url": "http://line.cloud-ott.net:80",
       "macs": [
-        "00:1A:79:D3:B1:77"
+        "00:1A:79:72:38:7E"
       ]
     }
   ]

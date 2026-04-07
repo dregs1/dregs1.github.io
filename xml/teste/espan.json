@@ -13,9 +13,9 @@
       "id": "server2",
       "name": "Servidor 2 ES",
       "type": "stalker",
-      "portal_url": "http://majestic-ott.com:80",
+      "portal_url": "http://line.liveott.ru:80",
       "macs": [
-        "00:1A:79:6e:b9:06"
+        "00:1A:79:10:42:60"
       ]
     }
   ]

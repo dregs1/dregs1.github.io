@@ -8,6 +8,16 @@
       "macs": [
         "00:1A:79:72:38:7E"
       ]
+    },
+    {
+      "id": "server2",
+      "name": "Servidor 2 ES",
+      "type": "stalker",
+      "portal_url": "http://cam.access.ly:80",
+      "macs": [
+        "00:1A:79:c7:58:32"
+      ]
     }
   ]
-}               
+}
+             

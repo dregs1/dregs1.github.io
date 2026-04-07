@@ -13,9 +13,9 @@
       "id": "server2",
       "name": "Servidor 2 ES",
       "type": "stalker",
-      "portal_url": "http://xp1.tv:80",
+      "portal_url": "http://bulut001.com:8080",
       "macs": [
-        "00:1A:79:F3:C7:96"
+        "00:1A:79:10:e0:67"
       ]
     }
   ]

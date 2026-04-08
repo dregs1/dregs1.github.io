@@ -932,28 +932,28 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
 </extension>
 </addon>
 
-<addon id="plugin.video.eagle.blvck" name="[COLORred]EAGLE[COLORgrey]BLVCK[/COLOR]" version="1.0" provider-name="[COLOR orange]By_Black_Eagle[/COLOR]">
-	<requires>
-		<import addon="xbmc.python" version="3.0.1"/>
-		<import addon="script.module.requests" version="2.27.1"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon_entry.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<reuselanguageinvoker>true</reuselanguageinvoker>
-		<platform>all</platform>
-		<summary>Canais de Televisão, desportos e mais...</summary>
-		<description lang="en">[COLOR red]EAGLE [/COLOR] [COLORorange]BLVCK[/COLOR] [COLORorange]é um addon da familia Black Eagle .TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
-		<platform>all</platform>
-		<assets>
+<addon id="plugin.video.eagle.espana" name="[COLOR yellow]Eagle[COLOR orange] Espana[/COLOR]" version="1.2" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="en">[COLOR yellow]Eagle Espana[/COLOR][COLORorange][B]is an add-on from the  Blackeagle family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</summary>
+	<summary lang="pt">[COLOR yellow]Eagle Espana[/COLOR][COLORorange][B]é um addon da familia Black Eagle .TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
+	<disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
+	<disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
+    <platform>all</platform>
+	<assets>
        <icon>icon.png</icon>
        <fanart>fanart.jpg</fanart>
-       <screenshot>resources/screenshots/1.jpg</screenshot>
+	    <screenshot>resources/screenshots/1.jpg</screenshot>
        <screenshot>resources/screenshots/2.jpg</screenshot>
        <screenshot>resources/screenshots/3.jpg</screenshot>
-    </assets>
-    </extension>
+	</assets>
+  </extension>
 </addon>
 
 <addon id="plugin.video.eagle.mundial" name="[COLOR yellow]Eagle Mundial[/COLOR]" version="1.0.1" provider-name="[COLOR orange]by_black_eagle[/COLOR]">
@@ -1154,29 +1154,6 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
             <icon>icon.png</icon>
         </assets>
     </extension>
-</addon>
-<addon id="plugin.video.eagle.espana" name="[COLOR yellow]Eagle[COLOR orange] Espana[/COLOR]" version="1.2" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.requests"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="main.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-	<summary lang="en">[COLOR yellow]Eagle Espana[/COLOR][COLORorange][B]is an add-on from the  Blackeagle family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</summary>
-	<summary lang="pt">[COLOR yellow]Eagle Espana[/COLOR][COLORorange][B]é um addon da familia Black Eagle .TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
-	<disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
-	<disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
-    <platform>all</platform>
-	<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-	    <screenshot>resources/screenshots/1.jpg</screenshot>
-       <screenshot>resources/screenshots/2.jpg</screenshot>
-       <screenshot>resources/screenshots/3.jpg</screenshot>
-	</assets>
-  </extension>
 </addon>
 
 <addon id="plugin.video.falcon" name="[COLORred]Fal [COLORgrey]con[/COLOR]" version="1.7" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">

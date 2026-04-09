@@ -910,7 +910,7 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
     </extension>
 </addon>
 
-<addon id="plugin.video.eagle.ace" name="[COLORskyblue]Eagle [COLORbrown]Ace[/COLOR]" version="1.5" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
+<addon id="plugin.video.eagle.ace" name="[COLORskyblue]Eagle [COLORbrown]Ace[/COLOR]" version="1.6" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="3.0.0" /> <!-- Kodi en Python 3 -->
     <import addon="script.module.requests" version="2.22.0" /> <!-- Compatible con Python 3 -->

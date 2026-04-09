@@ -1,16 +1,114 @@
 [
-    {
-        "name": "DAZN 4",
-        "acestream_id": "110d441ddc9713a7452588770d2bc85504672f47",
-        "start_time": "",
-        "description": "LaLiga"
-    },
-    {
-        "name": "BT SPORT 1 [reino unido]",
-        "acestream_id": "efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b",
-        "start_time": "",
-        "description": "LaLiga"
-    }
-    
-
+  {
+    "name": "ELEVEN DAZN 1 --> NEW LOOP",
+    "acestream_id": "969e14989a98c62518a7640741dbf15d90212d1a",
+    "start_time": "",
+    "description": "FUTBOL INT",
+    "logo": "https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%201.png"
+  },
+  {
+    "name": "ELEVEN DAZN 1 --> SPORT TV",
+    "acestream_id": "7ac2d74ef6df9d15012992d7e0e635a95f58c652",
+    "start_time": "",
+    "description": "FUTBOL INT",
+    "logo": "https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%201.png"
+  },
+  {
+    "name": "ELEVEN DAZN 1 --> SPORT TV",
+    "acestream_id": "36cad67fed5a739757a9db844a551aa845a8d51b",
+    "start_time": "",
+    "description": "FUTBOL INT",
+    "logo": "https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%201.png"
+  },
+  {
+    "name": "ELEVEN DAZN 1 HD --> SPORT TV",
+    "acestream_id": "14407b00d454cb7dc0d70aa26e8bbc554f457f00",
+    "start_time": "",
+    "description": "FUTBOL INT",
+    "logo": "https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%201.png"
+  },
+  {
+    "name": "ELEVEN DAZN 2 --> NEW LOOP",
+    "acestream_id": "27573fb01690fd55b25c07ae2180ee44b1ad8a7c",
+    "start_time": "",
+    "description": "FUTBOL INT",
+    "logo": "https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%202.png"
+  },
+  {
+    "name": "ELEVEN DAZN 2 --> SPORT TV",
+    "acestream_id": "d08013df6e437a1fdf1e0c34f573fdf6a40c7fce",
+    "start_time": "",
+    "description": "FUTBOL INT",
+    "logo": "https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%202.png"
+  },
+  {
+    "name": "ELEVEN DAZN 2 HD --> SPORT TV",
+    "acestream_id": "54a4a28882d3cae1ca19de5d4b022ebea40351f9",
+    "start_time": "",
+    "description": "FUTBOL INT",
+    "logo": "https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%202.png"
+  },
+  {
+    "name": "ELEVEN DAZN 3 --> NEW LOOP",
+    "acestream_id": "33246d7ad41db9ad7654f0d553b5e7500363d1b8",
+    "start_time": "",
+    "description": "FUTBOL INT",
+    "logo": "https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%203.png"
+  },
+  {
+    "name": "ELEVEN DAZN 3 --> SPORT TV",
+    "acestream_id": "dae7d1251f069516cc0a9c8f15f6639d2a17df1e",
+    "start_time": "",
+    "description": "FUTBOL INT",
+    "logo": "https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%203.png"
+  },
+  {
+    "name": "ELEVEN DAZN 3 HD --> SPORT TV",
+    "acestream_id": "b146ee4b6e16c9df58e27bd02ffd6cea840ff212",
+    "start_time": "",
+    "description": "FUTBOL INT",
+    "logo": "https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%203.png"
+  },
+  {
+    "name": "ELEVEN DAZN 4 --> NEW LOOP",
+    "acestream_id": "3c0cfbeb4075be58baa32e41dabee3c75b8a80e6",
+    "start_time": "",
+    "description": "FUTBOL INT",
+    "logo": "https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%204.png"
+  },
+  {
+    "name": "ELEVEN DAZN 4 --> SPORT TV",
+    "acestream_id": "0f32c0131a2d9444996410801f4e18b04384db98",
+    "start_time": "",
+    "description": "FUTBOL INT",
+    "logo": "https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%204.png"
+  },
+  {
+    "name": "ELEVEN DAZN 4 HD --> SPORT TV",
+    "acestream_id": "458a0ddd7d193f6d2750cd14d03a47f47a808e09",
+    "start_time": "",
+    "description": "FUTBOL INT",
+    "logo": "https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%204.png"
+  },
+  {
+    "name": "ELEVEN DAZN 5 --> NEW LOOP",
+    "acestream_id": "2c9a996c060d157ff63109c5b999d55bbc2ffd95",
+    "start_time": "",
+    "description": "FUTBOL INT",
+    "logo": "https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%205.png"
+  },
+  {
+    "name": "ELEVEN DAZN 5 --> SPORT TV",
+    "acestream_id": "4dbe63b44fc4f439f5b634c0d2aa7e0cccad808a",
+    "start_time": "",
+    "description": "FUTBOL INT",
+    "logo": "https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%205.png"
+  },
+  {
+    "name": "ELEVEN DAZN 6 --> SPORT TV",
+    "acestream_id": "50b6d2b5fd59fefb9f4fd2176994d418f2b94a80",
+    "start_time": "",
+    "description": "FUTBOL INT",
+    "logo": "https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%206.png"
+  }
 ]

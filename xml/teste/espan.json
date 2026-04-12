@@ -39,8 +39,8 @@
       "id": "server6",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]6 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://vpn.onair8k.xyz:80",
-      "macs": ["00:1A:79:c4:23:bd"]
+      "portal_url": "http://45.139.122.199:8080",
+      "macs": ["00:1A:79:A9:9D:5B"]
     },
     {
       "id": "server7",
@@ -60,8 +60,8 @@
       "id": "server9",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]9 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://vpn.kissane.store:80",
-      "macs": ["00:1A:79:72:e2:10"]
+      "portal_url": "http://xp1.tv",
+      "macs": ["00:1A:79:AA:8E:E9"]
     },
     {
       "id": "server10",

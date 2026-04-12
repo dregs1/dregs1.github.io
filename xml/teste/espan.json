@@ -39,8 +39,8 @@
       "id": "server6",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]6 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://iptvswiss.com.123tv.to:8080",
-      "macs": ["00:1A:79:47:08:EF"]
+      "portal_url": "http://line.ciao-ott.net:80",
+      "macs": ["00:1A:79:57:8F:F7"]
     },
     {
       "id": "server7",

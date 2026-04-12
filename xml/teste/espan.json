@@ -32,8 +32,8 @@
       "id": "server5",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]5 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://ip.king-cobra.eu:8080",
-      "macs": ["00:1A:79:FF:E7:51"]
+      "portal_url": "http://elt.ipfr.tv",
+      "macs": ["00:1A:79:F1:AE:79"]
     },
     {
       "id": "server6",

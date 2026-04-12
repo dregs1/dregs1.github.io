@@ -60,15 +60,15 @@
       "id": "server9",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]9 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://smart-oott.xyz",
-      "macs": ["00:1A:79:7A:96:26"]
+      "portal_url": "http://ztv01.info:8080",
+      "macs": ["00:1A:79:10:E1:DB"]
     },
     {
       "id": "server10",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]10 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://18951-silent.cdn-o2.me",
-      "macs": ["00:1A:79:D3:14:FA"]
+      "portal_url": "http://line.vueott.com:80",
+      "macs": ["00:1A:79:32:C9:11"]
     }
   ]
 }

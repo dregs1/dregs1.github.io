@@ -53,15 +53,15 @@
       "id": "server8",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]8 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://foxysoe.com:80",
-      "macs": ["00:1A:79:99:78:AF"]
+      "portal_url": "http://mag.marsweb.co:80",
+      "macs": ["00:1A:79:7F:1E:97"]
     },
     {
       "id": "server9",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]9 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://misaiptv.gentv.to:8080",
-      "macs": ["00:1A:79:66:09:FC"]
+      "portal_url": "http://iptv.darktv.in:80",
+      "macs": ["00:1A:79:4F:35:79"]
     },
     {
       "id": "server10",

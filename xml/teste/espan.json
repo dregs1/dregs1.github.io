@@ -18,8 +18,8 @@
       "id": "server3",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]3 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://funmitra.com:8080",
-      "macs": ["00:1A:79:73:66:CC"]
+      "portal_url": "http://ss.2665.ninja:8080",
+      "macs": ["00:1A:79:B2:3A:19"]
     },
     {
       "id": "server4",
@@ -32,8 +32,8 @@
       "id": "server5",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]5 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://204.52.191.254:80",
-      "macs": ["00:1A:79:81:88:0B"]
+      "portal_url": "http://ip.king-cobra.eu:8080",
+      "macs": ["00:1A:79:FF:E7:51"]
     },
     {
       "id": "server6",

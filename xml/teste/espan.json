@@ -18,57 +18,57 @@
       "id": "server3",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]3 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://example-portal3.com:8000",
-      "macs": ["00:1A:79:AB:CD:01"]
+      "portal_url": "http://a01.live:8080",
+      "macs": ["00:2a:01:92:79:b3"]
     },
     {
       "id": "server4",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]4 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://line-ott.biz:80",
-      "macs": ["00:1A:79:AB:CD:02"]
+      "portal_url": "http://4y-ott.online",
+      "macs": ["00:1A:79:EF:47:45"]
     },
     {
       "id": "server5",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]5 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://portal-dns5.net:8080",
-      "macs": ["00:1A:79:AB:CD:03"]
+      "portal_url": "http://i511hq.xyz",
+      "macs": ["00:1A:79:EB:F9:93"]
     },
     {
       "id": "server6",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]6 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://fast-stream6.com:8888",
-      "macs": ["00:1A:79:AB:CD:04"]
+      "portal_url": "http://specialdn.com",
+      "macs": ["00:1A:79:5A:13:8B"]
     },
     {
       "id": "server7",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]7 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://line.cloud-ott.net:80",
-      "macs": ["00:1A:79:AB:CD:05"]
+      "portal_url": "http://nxtbox.uk",
+      "macs": ["00:1A:79:D3:38:C6"]
     },
     {
       "id": "server8",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]8 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://bulut008.com:8080",
-      "macs": ["00:1A:79:AB:CD:06"]
+      "portal_url": "http://wowtv.cc",
+      "macs": ["00:1A:79:B9:14:F4"]
     },
     {
       "id": "server9",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]9 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://mag-portal9.io:80",
-      "macs": ["00:1A:79:AB:CD:07"]
+      "portal_url": "http://smart-oott.xyz",
+      "macs": ["00:1A:79:7A:96:26"]
     },
     {
       "id": "server10",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]10 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://server10-iptv.net:25461",
-      "macs": ["00:1A:79:AB:CD:08"]
+      "portal_url": "http://18951-silent.cdn-o2.me",
+      "macs": ["00:1A:79:D3:14:FA"]
     }
   ]
 }

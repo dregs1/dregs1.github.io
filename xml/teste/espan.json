@@ -39,15 +39,15 @@
       "id": "server6",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]6 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://mxhd.asia:8080",
-      "macs": ["00:1A:79:6F:8B:C4"]
+      "portal_url": "http://pro.true8k.xyz:80",
+      "macs": ["00:1A:79:61:0F:8C"]
     },
     {
       "id": "server7",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]7 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://mag.ugoiptv.com:80",
-      "macs": ["00:1A:79:D1:8E:DF"]
+      "portal_url": "http://owliptv.streamtv.to:8080",
+      "macs": ["00:1A:79:BA:F5:3A"]
     },
     {
       "id": "server8",

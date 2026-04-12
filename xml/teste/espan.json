@@ -5,19 +5,70 @@
       "name": "Servidor 1 ES",
       "type": "stalker",
       "portal_url": "http://line.cloud-ott.net:80",
-      "macs": [
-        "00:1A:79:72:38:7E"
-      ]
+      "macs": ["00:1A:79:72:38:7E"]
     },
     {
       "id": "server2",
       "name": "Servidor 2 ES",
       "type": "stalker",
       "portal_url": "http://bulut001.com:8080",
-      "macs": [
-        "00:1A:79:10:e0:67"
-      ]
+      "macs": ["00:1A:79:10:e0:67"]
+    },
+    {
+      "id": "server3",
+      "name": "Servidor 3 ES",
+      "type": "stalker",
+      "portal_url": "http://example-portal3.com:8000",
+      "macs": ["00:1A:79:AB:CD:01"]
+    },
+    {
+      "id": "server4",
+      "name": "Servidor 4 ES",
+      "type": "stalker",
+      "portal_url": "http://line-ott.biz:80",
+      "macs": ["00:1A:79:AB:CD:02"]
+    },
+    {
+      "id": "server5",
+      "name": "Servidor 5 ES",
+      "type": "stalker",
+      "portal_url": "http://portal-dns5.net:8080",
+      "macs": ["00:1A:79:AB:CD:03"]
+    },
+    {
+      "id": "server6",
+      "name": "Servidor 6 ES",
+      "type": "stalker",
+      "portal_url": "http://fast-stream6.com:8888",
+      "macs": ["00:1A:79:AB:CD:04"]
+    },
+    {
+      "id": "server7",
+      "name": "Servidor 7 ES",
+      "type": "stalker",
+      "portal_url": "http://line.cloud-ott.net:80",
+      "macs": ["00:1A:79:AB:CD:05"]
+    },
+    {
+      "id": "server8",
+      "name": "Servidor 8 ES",
+      "type": "stalker",
+      "portal_url": "http://bulut008.com:8080",
+      "macs": ["00:1A:79:AB:CD:06"]
+    },
+    {
+      "id": "server9",
+      "name": "Servidor 9 ES",
+      "type": "stalker",
+      "portal_url": "http://mag-portal9.io:80",
+      "macs": ["00:1A:79:AB:CD:07"]
+    },
+    {
+      "id": "server10",
+      "name": "Servidor 10 ES",
+      "type": "stalker",
+      "portal_url": "http://server10-iptv.net:25461",
+      "macs": ["00:1A:79:AB:CD:08"]
     }
   ]
 }
-             

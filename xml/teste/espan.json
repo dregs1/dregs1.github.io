@@ -18,15 +18,15 @@
       "id": "server3",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]3 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://a01.live:8080",
-      "macs": ["00:2a:01:92:79:b3"]
+      "portal_url": "http://zeroonemac1.xyz:8080",
+      "macs": ["00:1A:79:13:53:7D"]
     },
     {
       "id": "server4",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]4 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://4y-ott.online",
-      "macs": ["00:1A:79:EF:47:45"]
+      "portal_url": "http://b1.jinbox.nl:80",
+      "macs": ["00:1A:79:4F:AC:25"]
     },
     {
       "id": "server5",

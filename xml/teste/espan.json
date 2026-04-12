@@ -18,8 +18,8 @@
       "id": "server3",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]3 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://mag.trexlive.me",
-      "macs": ["00:1A:79:1C:0A:15"]
+      "portal_url": "http://ip.sltv.be:8080",
+      "macs": ["00:1A:79:14:DF:07"]
     },
     {
       "id": "server4",

@@ -60,8 +60,8 @@
       "id": "server9",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]9 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://iptv.darktv.in:80",
-      "macs": ["00:1A:79:4F:35:79"]
+      "portal_url": "http://700730.org:8080",
+      "macs": ["00:1A:79:D7:D4:A8"]
     },
     {
       "id": "server10",

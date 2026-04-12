@@ -32,8 +32,8 @@
       "id": "server5",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]5 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://line.vueott.com:80",
-      "macs": ["00:1A:79:72:6C:32"]
+      "portal_url": "http://204.52.191.254:80",
+      "macs": ["00:1A:79:81:88:0B"]
     },
     {
       "id": "server6",

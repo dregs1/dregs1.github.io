@@ -18,15 +18,15 @@
       "id": "server3",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]3 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://zeroonemac1.xyz:8080",
-      "macs": ["00:1A:79:13:53:7D"]
+      "portal_url": "http://globalgnet2.live:80",
+      "macs": ["00:1A:79:B5:01:07"]
     },
     {
       "id": "server4",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]4 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://b1.jinbox.nl:80",
-      "macs": ["00:1A:79:4F:AC:25"]
+      "portal_url": "http://appzero1.com:8080",
+      "macs": ["00:1A:79:AF:3B:4C"]
     },
     {
       "id": "server5",

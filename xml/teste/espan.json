@@ -39,8 +39,8 @@
       "id": "server6",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]6 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://3.iptv11.is:80",
-      "macs": ["00:1A:79:05:43:09"]
+      "portal_url": "http://line.cloud-ott.net:80",
+      "macs": ["00:1A:79:7A:04:D8"]
     },
     {
       "id": "server7",
@@ -60,8 +60,8 @@
       "id": "server9",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]9 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://mag.jee-ott.xyz:80",
-      "macs": ["00:1A:79:9C:9F:1C"]
+      "portal_url": "http://line.cloud-ott.net:80",
+      "macs": ["00:1A:79:B6:3C:BA"]
     },
     {
       "id": "server10",

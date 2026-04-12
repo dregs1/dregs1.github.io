@@ -39,29 +39,29 @@
       "id": "server6",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]6 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://trxx.in",
-      "macs": ["00:1A:79:BE:24:B1"]
+      "portal_url": "http://tan-tan.sbs:80",
+      "macs": ["00:1A:79:CE:26:30"]
     },
     {
       "id": "server7",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]7 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://alpha-2ott.me",
-      "macs": ["00:1A:79:22:02:39"]
+      "portal_url": "http://tvmoultv.xyz:80",
+      "macs": ["00:1B:79:48:00:09"]
     },
     {
       "id": "server8",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]8 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://elt.ipfr.tv",
-      "macs": ["00:1A:79:fb:05:a5"]
+      "portal_url": "http://foxysoe.com:80",
+      "macs": ["00:1A:79:99:78:AF"]
     },
     {
       "id": "server9",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]9 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://cineplus-hd.com:80",
-      "macs": ["00:1A:79:0e:7f:d0"]
+      "portal_url": "http://misaiptv.gentv.to:8080",
+      "macs": ["00:1A:79:66:09:FC"]
     },
     {
       "id": "server10",

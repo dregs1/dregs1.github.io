@@ -39,8 +39,8 @@
       "id": "server6",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]6 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://mag.dino.ws:80",
-      "macs": ["00:1A:79:B5:F7:B2"]
+      "portal_url": "http://3.iptv11.is:80",
+      "macs": ["00:1A:79:05:43:09"]
     },
     {
       "id": "server7",

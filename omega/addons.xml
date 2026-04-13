@@ -1506,7 +1506,7 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
     </extension>
 </addon>
 
-<addon id="plugin.video.steel_eagle" name="[COLORgrey]Steel [COLORmaroon]Eagle[/COLOR]" version="1.0.4" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
+<addon id="plugin.video.steel_eagle" name="[COLORgrey]Steel [COLORmaroon]Eagle[/COLOR]" version="2.1.5" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
    <extension point="xbmc.python.pluginsource"
 			library="default.py">
 		<provides>video</provides>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.black.lince" name="[COLORred]black [COLORgrey] lince[/COLOR]" version="1.3" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
+<addon id="plugin.video.black.lince" name="[COLORred]black [COLORgrey] lince[/COLOR]" version="1.4" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
   <extension point="xbmc.python.pluginsource"
 			library="default.py">
 		<provides>video</provides>

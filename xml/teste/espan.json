@@ -4,8 +4,8 @@
       "id": "server1",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]1 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://procdnnet.eu",
-      "macs": ["00:1A:79:A8:32:57"]
+      "portal_url": "http://misaiptv.gentv.to:8080",
+      "macs": ["00:1A:79:B5:05:68"]
     },
     {
       "id": "server2",

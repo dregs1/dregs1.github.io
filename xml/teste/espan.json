@@ -4,8 +4,8 @@
       "id": "server1",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]1 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://royalibox.com:80",
-      "macs": ["00:1A:79:D6:0F:AA"]
+      "portal_url": "http://klaratv.com",
+      "macs": ["00:1A:79:CF:65:4F"]
     },
     {
       "id": "server2",

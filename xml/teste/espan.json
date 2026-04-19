@@ -4,8 +4,8 @@
       "id": "server1",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]1 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://103.176.90.26",
-      "macs": ["00:1A:79:43:98:7E"]
+      "portal_url": "http://royalibox.com:80",
+      "macs": ["00:1A:79:D6:0F:AA"]
     },
     {
       "id": "server2",

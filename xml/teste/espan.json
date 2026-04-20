@@ -25,8 +25,8 @@
       "id": "server4",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]4 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://mag.dino.ws:80",
-      "macs": ["00:1A:79:66:77:1a"]
+      "portal_url": "http://100main.cc:80",
+      "macs": ["00:1A:79:80:0F:2E"]
     },
     {
       "id": "server5",

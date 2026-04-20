@@ -18,8 +18,8 @@
       "id": "server3",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]3 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://elt.ipfr.tv",
-      "macs": ["00:1A:79:D8:4B:A1"]
+      "portal_url": "http://fastopen.live:8080",
+      "macs": ["00:1A:79:48:F6:EF"]
     },
     {
       "id": "server4",

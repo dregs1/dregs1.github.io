@@ -4,8 +4,8 @@
       "id": "server1",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]1 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://line.cloud-ott.net:80",
-      "macs": ["00:1A:79:72:38:7E"]
+      "portal_url": "http://boss.ddns.net:80",
+      "macs": ["00:1A:79:44:87:A7"]
     },
     {
       "id": "server2",
@@ -18,15 +18,15 @@
       "id": "server3",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]3 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://elt.ipfr.tv",
-      "macs": ["00:1A:79:D8:4B:A1"]
+      "portal_url": "http://700730.org:8080",
+      "macs": ["00:1A:79:D4:68:88"]
     },
     {
       "id": "server4",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]4 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://mag.senpay25.com",
-      "macs": ["00:1A:79:B7:0C:1B"]
+      "portal_url": "http://700730.org:8080",
+      "macs": ["00:1A:79:D2:1C:8F"]
     },
     {
       "id": "server5",

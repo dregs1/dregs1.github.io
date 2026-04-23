@@ -2,8 +2,8 @@
   "portals": [
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_1[/COLOR]",
-      "url": "http://dragoniptv.de",
-      "mac": "00:1A:79:D2:09:95"
+      "url": "http://zeroonemac1.xyz:8080",
+      "mac": "00:1A:79:BA:B6:D1"
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_2[/COLOR]",
@@ -12,13 +12,13 @@
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_3[/COLOR]",
-      "url": "http://bulut001.com:8080",
-      "mac": "00:1A:79:10:E1:CA"
+      "url": "http://tkiptv.net:80",
+      "mac": "00:1A:79:1A:6B:53"
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_4[/COLOR]",
-      "url": "http://proxy.plus55.xyz",
-      "mac": "00:1A:79:62:95:73"
+      "url": "http://main.light-ott.net:80",
+      "mac": "00:1B:79:F9:3A:02"
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_5[/COLOR]",
@@ -27,18 +27,18 @@
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_6[/COLOR]",
-      "url": "http://tetuansat.sbs:80",
-      "mac": "00:1A:79:38:8e:64"
+      "url": "http://fastopen.live:8080",
+      "mac": "00:1A:79:B0:1E:3D"
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_7[/COLOR]",
-      "url": "http://bulut001.com:8080",
-      "mac": "00:1A:79:10:DF:F6"
+      "url": "http://tkiptv.net:80",
+      "mac": "00:1A:79:79:DA:88"
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_8[/COLOR]",
-      "url": "http://vip1002.112421.net:2050",
-      "mac": "00:1A:79:D7:19:54"
+      "url": "http://main.light-ott.net:80",
+      "mac": "00:1A:79:A3:C0:ED"
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_9[/COLOR]",
@@ -47,8 +47,8 @@
     },
     {
       "name": "[COLOR gold]Águia [COLOR cyan]Branca [COLOR red]portal_10[/COLOR]",
-      "url": "http://iiiiillllllfd.funtogether.xyz:8080",
-      "mac": "00:1A:79:48:5B:16"
+      "url": "http://4kpro2.com:8789",
+      "mac": "00:1A:79:04:8F:1D"
    
     }
   ]

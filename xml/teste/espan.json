@@ -25,8 +25,8 @@
       "id": "server4",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]4 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://m.devbox.tv",
-      "macs": ["00:1A:79:19:5F:35"]
+      "portal_url": "http://204.52.191.254:80",
+      "macs": ["00:1A:79:F5:50:C9"]
     },
     {
       "id": "server5",

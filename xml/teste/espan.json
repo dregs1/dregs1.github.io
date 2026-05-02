@@ -18,8 +18,8 @@
       "id": "server3",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]3 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://256.myvnc.com",
-      "macs": ["00:1A:79:03:9D:C0"]
+      "portal_url": "http://fastrunner.live:8080",
+      "macs": ["00:1A:79:B4:E3:17"]
     },
     {
       "id": "server4",

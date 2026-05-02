@@ -46,8 +46,8 @@
       "id": "server7",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]7 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://recreativa.tecnologiashd.com:8080",
-      "macs": ["00:1A:79:C2:48:28"]
+      "portal_url": "http://foxbleu.pro:80",
+      "macs": ["00:1A:79:44:CD:4E"]
     },
     {
       "id": "server8",

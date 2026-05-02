@@ -46,8 +46,8 @@
       "id": "server7",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]7 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://700730.org:8080",
-      "macs": ["00:1A:79:BA:DB:C8"]
+      "portal_url": "http://fastrunner.live:8080",
+      "macs": ["00:1A:79:C2:12:F9"]
     },
     {
       "id": "server8",

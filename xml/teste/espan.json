@@ -18,15 +18,15 @@
       "id": "server3",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]3 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://256.myvnc.com",
-      "macs": ["00:1A:79:03:9D:C0"]
+      "portal_url": "http://line.asalico.com:80",
+      "macs": ["00:1A:79:5A:2F:E5"]
     },
     {
       "id": "server4",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]4 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://line.moja-teve9.me",
-      "macs": ["00:1A:79:B6:C1:73"]
+      "portal_url": "http://tab.myvnc.com:80",
+      "macs": ["00:1A:79:B6:2D:B1"]
     },
     {
       "id": "server5",
@@ -46,8 +46,8 @@
       "id": "server7",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]7 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://700730.org:8080",
-      "macs": ["00:1A:79:B0:4F:4D"]
+      "portal_url": "http://foxbleu.pro:80",
+      "macs": ["00:1A:79:44:CD:4E"]
     },
     {
       "id": "server8",

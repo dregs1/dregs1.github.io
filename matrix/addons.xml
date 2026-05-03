@@ -951,7 +951,7 @@ Addon criado por BlackEagle.
     </extension>
 </addon>
 
-<addon id="plugin.video.eagle.espana" name="[COLOR yellow]Eagle[COLOR orange] Espana[/COLOR]" version="1.2" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
+<addon id="plugin.video.eagle.espana" name="[COLOR yellow]Eagle[COLOR orange] Espana[/COLOR]" version="2.4" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>

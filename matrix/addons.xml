@@ -907,7 +907,7 @@ Addon criado por BlackEagle.
 </extension>
 </addon>
 
-<addon id="plugin.video.eagle.blvck" name="[COLORred]EAGLE[COLORgrey]BLVCK[/COLOR]" version="1.0" provider-name="[COLOR orange]By_Black_Eagle[/COLOR]">
+<addon id="plugin.video.eagle.blvck" name="[COLORred]EAGLE[COLORgrey]BLVCK[/COLOR]" version="1.2" provider-name="[COLOR orange]By_Black_Eagle[/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.27.1"/>

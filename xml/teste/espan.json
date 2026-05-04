@@ -18,8 +18,13 @@
       "id": "server3",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]3 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://line.asalico.com:80",
-      "macs": ["00:1A:79:5A:2F:E5"]
+      "portal_url": "http://exclusifott.pro:80",
+       "macs": [
+           "00:1A:79:7E:60:F3",
+           "00:1A:79:84:33:35",
+           "00:1A:79:B4:B6:62",
+           "00:1A:79:BF:A4:45",
+           "00:1A:79:C7:C8:7F"]
     },
     {
       "id": "server4",

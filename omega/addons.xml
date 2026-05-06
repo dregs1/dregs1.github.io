@@ -1000,7 +1000,7 @@ Acesse categorias e vídeos recentes do site Carioca diretamente no Kodi.[/COLOR
     </extension>
 </addon>
 
-<addon id="plugin.video.eagle.olhosnatv" name="[COLOR yellow]Black[/COLOR] [COLOR lime]Olhos na TV[/COLOR]" version="0.2" provider-name="[COLOR orange]Black Eagle[/COLOR]">
+<addon id="plugin.video.eagle.olhosnatv" name="[COLOR yellow]Eagle[/COLOR] [COLOR lime]Olhos na TV[/COLOR]" version="0.3" provider-name="[COLOR orange]Black Eagle[/COLOR]">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.25.1"/>

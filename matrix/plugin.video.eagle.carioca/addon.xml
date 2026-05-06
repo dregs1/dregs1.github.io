@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.eagle.carioca" name="[COLOR yellow]Eagle[/COLOR] [COLOR lime]Carioca[/COLOR]" version="1.0.0" provider-name="[COLOR orange]Black Eagle[/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.25.1"/>
+        <import addon="script.module.beautifulsoup4" version="4.9.3"/>
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="pt_BR">[COLOR yellow]Addon para assistir vídeos do Carioca[/COLOR]</summary>
+
+        <description lang="pt_BR">
+[COLOR yellow]AVISO LEGAL:
+Este addon não aloja, armazena ou distribui qualquer conteúdo.
+Todo o conteúdo apresentado encontra‑se livremente disponível na internet.
+O criador não se responsabiliza pelo uso indevido deste addon.
+
+Addon criado por BlackEagle.
+Acesse categorias e vídeos recentes do site Carioca diretamente no Kodi.[/COLOR]
+        </description>
+
+        <platform>all</platform>
+
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources/screenshots/1.jpg</screenshot>
+            <screenshot>resources/screenshots/2.jpg</screenshot>
+            <screenshot>resources/screenshots/3.jpg</screenshot>
+        </assets>
+    </extension>
+
+</addon>

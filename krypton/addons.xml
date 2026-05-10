@@ -33,29 +33,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.blackarrow18" name="[COLORlime]black[/COLOR] [COLORmaroon]arrow18[/COLOR]" version="1.1.8" provider-name="@by_Black Eagle">
-    <requires>
-        <import addon="script.module.simplejson" />
-        <import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />
-    </requires>
-       <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-	</extension>
-<extension point="xbmc.addon.metadata">
-		<summary>Canais de adultos</summary>
-		<description lang="en">[COLOR red]black[/COLOR] [COLORorange]arrow18[/COLOR] [COLORorange]Ã© um addon da familia Black Eagle.TODOS OS LINKS ESTÃƒO DISPONIVEIS NA INTERNET![/COLOR]</description>
-		<platform>all</platform>
-		<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-       <screenshot>resources/screenshots/1.jpg</screenshot>
-       <screenshot>resources/screenshots/2.jpg</screenshot>
-       <screenshot>resources/screenshots/3.jpg</screenshot>
-    </assets>
-    </extension>
-</addon>
-
 <addon id="plugin.video.Dwight_Farrokh_Lista" name="[COLORred] Dwight_[COLORgold]Farrokh_Lista[/COLOR]" version="2.5" provider-name="[COLORred] Dwight_[COLORgold]Farrokh_Lista[/COLOR]+[COLORgold]by_black_eagle[/COLOR]">
   <requires>
         <import addon="script.module.six" />
@@ -107,30 +84,6 @@
 		<language>es</language>
 	</extension>
 
-</addon>
-
-<addon id="plugin.video.EspadaNegra" name="[COLOR silver]Espada[COLOR dimgrey] Negra [/COLOR]" version="1.2.9" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
-  <requires>
-    <import addon="script.module.pycryptodome" />
-    <import addon="script.module.dateutil" />
-    <import addon="script.module.pyamf" />
-    <import addon="script.module.kodi-six" />
-    <import addon="script.module.future" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.routing" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-  <summary lang="en">Espanda Negra</summary>
-  <description lang="en">[COLOR silver]Espada[COLOR dimgrey] Negra [/COLOR] [COLORorange]Ã© um addon da familia Blackeagle Team.TODOS OS LINKS ESTÃƒO DISPONIVEIS NA INTERNET![/COLOR]</description>
-    <disclaimer lang="en_GB">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content.</disclaimer>
-  <assets>
-    <icon>icon.png</icon>
-    <fanart>fanart.jpg</fanart>
-  </assets>
-</extension>
 </addon>
 
 <addon id="plugin.video.f4mTester" version="3.0.1.1" name="f4mTester" provider-name="Shani">
@@ -235,30 +188,6 @@
 		<language>pt</language>
 	</extension>
 
-</addon>
-
-<addon id="plugin.video.predator.portal" name="[COLOR red]predator [COLORorange]portal[/COLOR]" version="1.0.3" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
-  <requires>
-        <import addon="script.module.six" />
-        <import addon="script.module.requests" />
-        <import addon="script.module.kodi-six" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
- 	</extension>
-<extension point="xbmc.addon.metadata">
-		<summary>Canais de TelevisÃ£o, desportos e mais...</summary>
-		<description lang="en">[COLOR red]predator[/COLOR] [COLORorange]portal[/COLOR] [COLORorange]Ã© um addon da familia blackeagle team.TODOS OS LINKS ESTÃƒO DISPONIVEIS NA INTERNET![/COLOR]</description>
-		<platform>all</platform>
-		<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-       <screenshot>resources/screenshots/1.jpg</screenshot>
-       <screenshot>resources/screenshots/2.jpg</screenshot>
-       <screenshot>resources/screenshots/3.jpg</screenshot>
-    </assets>
-  </extension>
 </addon>
 
 <addon id="plugin.video.resolverurl_player" version="1.0.0" name="[B]RESOLVER PLAYER[/B]" provider-name="OnePlay Team">

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.eagle.tv.online"
+       name="[COLOR yellow]Eagle TV[/COLOR] [COLOR lime]Online[/COLOR]"
+       version="1.0.3"
+       provider-name="By_Black_Eagle">
+
+    <requires>
+        <import addon="script.module.six"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.kodi-six"/>
+    </requires>
+
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Only for the best!!!</summary>
+
+        <description lang="pt">
+            [COLOR lime]Eagle TV Online[/COLOR]
+            [COLOR orange]é um addon da família Blackeagle Team. TODOS OS LINKS ESTÃO DISPONÍVEIS NA INTERNET![/COLOR]
+        </description>
+
+        <language>en</language>
+        <platform>all</platform>
+
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources/screenshots/1.jpg</screenshot>
+            <screenshot>resources/screenshots/2.jpg</screenshot>
+            <screenshot>resources/screenshots/3.jpg</screenshot>
+        </assets>
+    </extension>
+
+</addon>

@@ -1332,7 +1332,7 @@ O autor não se responsabiliza por qualquer conteúdo exibido, transmitido ou di
 </extension>
 </addon>
 
-<addon id="plugin.video.k-pt.mac" name="[COLOR yellow]K-PT [/COLOR][COLOR orange ]Mac [/COLOR]" version="0.1" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
+<addon id="plugin.video.k-pt.mac" name="[COLOR yellow]K-PT [/COLOR][COLOR orange ]Mac [/COLOR]" version="1.0.9" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
 	<requires>
     	<import addon="script.module.resolveurl"/>
 	    <import addon="script.module.requests"/>

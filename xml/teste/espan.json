@@ -11,22 +11,22 @@
       "id": "server2",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]2 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://4kpro2.com:8789",
-      "macs": ["00:1A:79:04:8F:1D"]
+      "portal_url": "http://cineplus-hd.com:80",
+      "macs": ["00:1A:79:A9:DF:98"]
     },
     {
       "id": "server3",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]3 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://trxad.top:80",
-       "macs": ["00:1A:79:B6:48:75"]
+      "portal_url": "http://raptor-tv.com:80",
+       "macs": ["00:1A:79:E6:61:AA"]
     },
     {
       "id": "server4",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]4 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://dksmedia.tv:80",
-            "macs": ["00:1A:79:BB:E3:A9"]
+      "portal_url": "http://185.80.197.39",
+            "macs": ["00:1A:79:BC:49:23"]
     },
     {
       "id": "server5",

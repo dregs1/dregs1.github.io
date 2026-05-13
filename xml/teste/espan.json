@@ -11,15 +11,15 @@
       "id": "server2",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]2 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://iptvnow.nl",
-      "macs": ["00:1A:79:3E:73:40"]
+      "portal_url": "http://weaseltv.live",
+      "macs": ["00:1A:79:E8:C2:10"]
     },
     {
       "id": "server3",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]3 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://009900.live:8080",
-       "macs": ["00:1A:79:48:70:C4"]
+      "portal_url": "http://line.asalico.com",
+       "macs": ["00:1A:79:D2:2F:F0"]
     },
     {
       "id": "server4",

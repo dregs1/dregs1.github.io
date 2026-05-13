@@ -11,15 +11,15 @@
       "id": "server2",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]2 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://cineplus-hd.com:80",
-      "macs": ["00:1A:79:A9:DF:98"]
+      "portal_url": "http://fastrunner.live:8080",
+      "macs": ["00:1A:79:19:3C:0A"]
     },
     {
       "id": "server3",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]3 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://raptor-tv.com:80",
-       "macs": ["00:1A:79:E6:61:AA"]
+      "portal_url": "http://3tv.pro:80",
+       "macs": ["00:1A:79:73:6C:54"]
     },
     {
       "id": "server4",

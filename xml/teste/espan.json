@@ -18,8 +18,8 @@
       "id": "server3",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]3 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://exclusifott.pro:80",
-       "macs": ["00:1A:79:C7:C8:7F"]
+      "portal_url": "http://iptvgarden.streamtv.to:8080",
+       "macs": ["00:1A:79:C0:1C:3A"]
     },
     {
       "id": "server4",

@@ -25,8 +25,8 @@
       "id": "server4",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]4 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://185.80.197.39",
-            "macs": ["00:1A:79:BC:49:23"]
+      "portal_url": "http://hans_monika.streamtv.to:8080",
+            "macs": ["00:1A:79:C9:D9:E8"]
     },
     {
       "id": "server5",

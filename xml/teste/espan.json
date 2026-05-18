@@ -5,50 +5,28 @@
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]1 ES[/COLOR]",
       "type": "stalker",
       "portal_url": "http://line.smootvone.vip",
-      "macs": ["00:1A:79:B6:49:B7"]
+      "macs": ["00:1A:79:B6:49:54"]
     },
     {
       "id": "server2",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]2 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://line.iptvhunt.com:80",
-      "macs": ["00:1A:79:19:43:03"]
+      "portal_url": "http://weaseltv.live",
+      "macs": ["00:1A:79:E8:C2:10"]
     },
     {
       "id": "server3",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]3 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://exclusifott.pro:80",
-       "macs": [
-           "00:1A:79:7E:60:F3",
-           "00:1A:79:84:33:35",
-           "00:1A:79:B4:B6:62",
-           "00:1A:79:BF:A4:45",
-           "00:1A:79:C7:C8:7F"]
+      "portal_url": "http://me.mdmfista.com",
+       "macs": ["00:1A:79:C3:30:B2"]
     },
     {
       "id": "server4",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]4 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://fronline.cc:80",
-            "macs": [
-                "00:1A:79:A1:EC:48",
-                "00:1A:79:85:1A:06",
-                "00:1A:79:47:35:8F",
-                "00:1A:79:C5:93:4A",
-                "00:1A:79:AE:43:77",
-                "00:1A:79:73:78:EE",
-                "00:1A:79:F6:AA:98",
-                "00:1A:79:85:54:F1",
-                "00:1A:79:D5:D8:03",
-                "00:1A:79:2E:3D:86",
-                "00:1A:79:04:F0:8C",
-                "00:1A:79:78:21:B4",
-                "00:1A:79:91:6F:BE",
-                "00:1A:79:30:91:16",
-                "00:1A:79:A2:E8:ED",
-                "00:1A:79:14:94:05",
-                "00:1A:79:24:15:E0"]
+      "portal_url": "http://weaseltv.live",
+            "macs": ["00:1A:79:E8:C2:10"]
     },
     {
       "id": "server5",

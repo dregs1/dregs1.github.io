@@ -1036,7 +1036,7 @@ O autor não se responsabiliza por qualquer conteúdo exibido, transmitido ou di
 
 </addon>
 
-<addon id="plugin.video.eagle.tv.online" name="[COLOR yellow]Eagle TV[/COLOR] [COLOR lime]Online[/COLOR]" version="1.0.3" provider-name="[COLOR orange]@By_Black_Eagle[/COLOR]">
+<addon id="plugin.video.eagle.tv.online" name="[COLOR yellow]Eagle TV[/COLOR] [COLOR lime]Online[/COLOR]" version="1.1.4" provider-name="[COLOR orange]@By_Black_Eagle[/COLOR]">
   <extension point="xbmc.python.pluginsource"
             library="default.py">
         <provides>video</provides>

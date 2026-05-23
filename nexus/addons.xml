@@ -2780,6 +2780,42 @@ v5.1.2 (2020-03-21) by enen92
 	</extension>
 </addon>
 
+<addon id="skin.eagle.unity" name="[COLOR red]Ea[COLOR grey]gle[COLOR gold]Unity[/COLOR]" version="0.19.5" provider-name="[COLOR orange]@By_Black_Eagle [/COLOR]">
+	<requires>
+		<import addon="xbmc.gui" version="5.17.0"/>
+		<import addon="script.skinshortcuts" version="1.1.4"/>
+	</requires>
+
+	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
+		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
+		<res width="1920" height="1280" aspect="3:2" default="false" folder="xml" />
+		<res width="1920" height="1200" aspect="16:10" default="false" folder="xml" />
+		<res width="2040" height="1080" aspect="17:9" default="false" folder="xml" />
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
+		<res width="2338" height="1080" aspect="19.5:9" default="false" folder="xml" />
+		<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
+	</extension>
+
+	<extension point="xbmc.addon.metadata">
+
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshot01.jpg</screenshot>
+			<screenshot>resources/screenshot02.jpg</screenshot>
+			<screenshot>resources/screenshot03.jpg</screenshot>
+		</assets>
+
+		<summary lang="pt_PT">[COLOR yellow]Uma skin material para Kodi modificada por BlackEagle[/COLOR]</summary>
+
+		<description lang="pt_PT">[COLOR yellow]Unity é uma adaptação da skin Confluence baseada em Material Design, modificada e otimizada por BlackEagle.[/COLOR]</description>
+
+		<disclaimer lang="pt_PT">[COLOR yellow]Mais informações sobre esta skin podem ser encontradas nos fóruns do Kodi.[/COLOR]</disclaimer>
+
+	</extension>
+</addon>
+
 <addon id="skin.simpletouch.blackeagle" version="21.8" name=" Black Eagle[COLORred] TOUCH[/COLOR]" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0"/>

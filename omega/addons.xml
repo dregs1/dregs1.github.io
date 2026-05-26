@@ -1200,7 +1200,7 @@ O autor não se responsabiliza por qualquer conteúdo exibido, transmitido ou di
     </extension>
 </addon>
 
-<addon id="plugin.video.fenix-mac" name="[COLORcyan]fenix[COLORgrey]Mac[/COLOR]" version="2.1.2" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
+<addon id="plugin.video.fenix-mac" name="[COLORcyan]fenix[COLORgrey]Mac[/COLOR]" version="2.1.4" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
 <requires>
     	<!--<import addon="script.module.resolveurl" /> -->
         <import addon="script.module.requests"/>
@@ -1284,7 +1284,7 @@ O autor não se responsabiliza por qualquer conteúdo exibido, transmitido ou di
 </addon>
 
 <addon
-	id="plugin.video.griffin.TV.mac" version="1.7" name="[COLORred]Griffin [COLORwhite]TV[/COLOR]" provider-name="[COLORgold]por_black_eagle[/COLOR]">
+	id="plugin.video.griffin.TV.mac" version="1.1.7" name="[COLORred]Griffin [COLORwhite]TV[/COLOR]" provider-name="[COLORgold]por_black_eagle[/COLOR]">
   <requires>
     	<!--<import addon="script.module.resolveurl" /> -->
         <import addon="script.module.requests"/>

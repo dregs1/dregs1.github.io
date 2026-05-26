@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="skin.eagle.unity" name="[COLOR red]Ea[COLOR grey]gle[COLOR gold]Unity[/COLOR]" version="0.19.5" provider-name="[COLOR orange]@By_Black_Eagle [/COLOR]">
 	<requires>
-		<import addon="xbmc.gui" version="5.17.0"/>
-		<import addon="script.skinshortcuts" version="1.1.4"/>
+		<import addon="xbmc.gui" version="5.14.0"/>
+		<import addon="script.skinshortcuts" version="1.0.8"/>
 	</requires>
 
 	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">

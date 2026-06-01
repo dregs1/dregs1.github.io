@@ -18,8 +18,8 @@
       "id": "server3",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]3 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://owl.planetdigitaliptv.123tv.to:8080",
-       "macs": ["00:1A:79:B4:4B:A1"]
+      "portal_url": "http://premium-itvv.com:8789",
+       "macs": ["00:1A:79:7A:2D:0B"]
     },
     {
       "id": "server4",

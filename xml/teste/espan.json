@@ -18,8 +18,8 @@
       "id": "server3",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]3 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://me.mdmfista.com",
-       "macs": ["00:1A:79:C3:30:B2"]
+      "portal_url": "http://elt.ipfr.tv",
+       "macs": ["00:1A:79:FB:50:85"]
     },
     {
       "id": "server4",
@@ -33,7 +33,7 @@
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]5 ES[/COLOR]",
       "type": "stalker",
       "portal_url": "http://elt.ipfr.tv",
-      "macs": ["00:1A:79:F1:AE:79"]
+      "macs": ["00:1A:79:BF:60:3E"]
     },
     {
       "id": "server6",
@@ -68,7 +68,7 @@
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]10 ES[/COLOR]",
       "type": "stalker",
       "portal_url": "http://elt.ipfr.tv",
-      "macs": ["00:1A:79:BE:7E:BC"]
+      "macs": ["00:1A:79:C6:C3:07"]
     }
   ]
 }

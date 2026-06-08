@@ -1036,6 +1036,32 @@ O autor não se responsabiliza por qualquer conteúdo exibido, transmitido ou di
 
 </addon>
 
+<addon id="plugin.video.eagle.playlist" name="[COLOR yellow]Eagle [/COLOR] [COLOR lime]Playlist[/COLOR]" version="1.1.2" provider-name="[COLOR orange]@By_Black_Eagle[/COLOR]">
+
+	<requires>
+		<import addon="script.module.requests" version="2.27.1"/>
+	</requires>
+
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">[COLOR maroon] Only for the best!!![/COLOR]</summary>
+		<language>en</language>
+		<description lang="pt">[COLOR lime]Eagle Playlist [/COLOR][COLOR orange] é um addon da família Blackeagle Team. TODOS OS LINKS ESTÃO DISPONÍVEIS NA INTERNET![/COLOR]</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/1.jpg</screenshot>
+			<screenshot>resources/screenshots/2.jpg</screenshot>
+			<screenshot>resources/screenshots/3.jpg</screenshot>
+		</assets>
+	</extension>
+
+</addon>
+
 <addon id="plugin.video.eagle.tv.online" name="[COLOR yellow]Eagle TV[/COLOR] [COLOR lime]Online[/COLOR]" version="1.1.4" provider-name="[COLOR orange]@By_Black_Eagle[/COLOR]">
   <extension point="xbmc.python.pluginsource"
             library="default.py">

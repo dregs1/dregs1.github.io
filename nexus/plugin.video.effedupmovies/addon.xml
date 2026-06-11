@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.effedupmovies"
+       name="Effed Up Movies"
+       version="1.0.8"
+       provider-name="zeus768">
+
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Effed Up Movies — extreme cinema streaming</summary>
+    <description lang="en_GB">Stream extreme and disturbing films from effedupmovies.com. Browse 41 real site categories, search titles, and play HLS streams instantly. Metadata and posters via TMDB with site poster fallback.</description>
+    <disclaimer lang="en_GB">This addon streams adult extreme content. You must be 18+ and agree to the disclaimer on launch. Not suitable for minors.</disclaimer>
+    <language/>
+    <platform>all</platform>
+    <license>GPL v2</license>
+    <website>https://www.effedupmovies.com</website>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+    <news>
+v1.0.5 - Fixed genres not opening on Windows: added SSL context (CERT_NONE) to all urllib calls so Kodi on Windows never fails certificate verification. NOTE: If removed categories still appear, fully uninstall the old addon first (Addons > My addons > right-click > Uninstall), then reinstall v1.0.5.
+
+v1.0.4 - Removed Gay/CrossDressing/Trans and Violence Against Animals. Rewrote scraper to urllib only (zero external dependencies).
+
+v1.0.3 - All genres use real WordPress category slugs and IDs scraped from the live site.
+
+v1.0.2 - Fixed fullscreen warning image via onInit. Infinite pagination.
+
+v1.0.1 - Fullscreen disclaimer, WP REST API scraper, TMDB metadata, genre icons.
+
+v1.0.0 - Initial Release.
+    </news>
+  </extension>
+
+</addon>

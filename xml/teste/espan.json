@@ -18,8 +18,8 @@
       "id": "server3",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]3 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://erdin1.com:8000",
-       "macs": ["00:1A:79:BD:7F:A4"]
+      "portal_url": "http://ip.sltv.be:8080",
+       "macs": ["00:1A:79:10:EB:B9"]
     },
     {
       "id": "server4",

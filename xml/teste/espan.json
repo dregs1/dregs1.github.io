@@ -11,8 +11,8 @@
       "id": "server2",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]2 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://saray68.darktv.nl",
-      "macs": ["00:1A:79:F0:13:27"]
+      "portal_url": "http://line.cloud-ott.net",
+      "macs": ["00:1A:79:30:36:64"]
     },
     {
       "id": "server3",
@@ -25,8 +25,8 @@
       "id": "server4",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]4 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://owliptv.streamtv.to:8080",
-            "macs": ["00:1A:79:D1:A3:1B"]
+      "portal_url": "http://onfireboxtv.com",
+            "macs": ["00:1a:79:70:35:46"]
     },
     {
       "id": "server5",

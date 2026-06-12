@@ -25,8 +25,8 @@
       "id": "server4",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]4 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://onfireboxtv.com",
-            "macs": ["00:1a:79:70:35:46"]
+      "portal_url": "http://activeiptv.sbs:80",
+            "macs": ["00:1A:79:A2:EE:39"]
     },
     {
       "id": "server5",

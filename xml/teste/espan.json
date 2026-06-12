@@ -11,8 +11,8 @@
       "id": "server2",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]2 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://fastrunner.live:8080",
-      "macs": ["00:1A:79:C3:1F:C8"]
+      "portal_url": "http://fusiontv.store:80",
+      "macs": ["00:1A:79:00:00:77"]
     },
     {
       "id": "server3",

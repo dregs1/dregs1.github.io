@@ -11,8 +11,8 @@
       "id": "server2",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]2 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://klaratv.com:80",
-      "macs": ["00:1A:79:D6:DD:66"]
+      "portal_url": "http://sbhgoldpro.org",
+      "macs": ["00:1A:79:B6:E4:7B"]
     },
     {
       "id": "server3",
@@ -25,8 +25,8 @@
       "id": "server4",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]4 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://skipcf.cwdn.cx:80",
-            "macs": ["00:1A:79:AF:16:59"]
+      "portal_url": "http://mag.senpay25.com:80",
+            "macs": ["00:1A:79:7B:AD:5E"]
     },
     {
       "id": "server5",

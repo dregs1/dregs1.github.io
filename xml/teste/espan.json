@@ -11,8 +11,8 @@
       "id": "server2",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]2 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://infinity-ott.com:80",
-      "macs": ["00:1A:79:BA:74:F1"]
+      "portal_url": "http://185.80.197.39:80",
+      "macs": ["00:1A:79:F0:13:27"]
     },
     {
       "id": "server3",

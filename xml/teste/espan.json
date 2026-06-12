@@ -32,8 +32,8 @@
       "id": "server5",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]5 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://piraci.streamtv.to:8080",
-      "macs": ["00:1A:79:C1:94:A4"]
+      "portal_url": "http://91.208.115.23:80",
+      "macs": ["00:1A:79:13:50:6A"]
     },
     {
       "id": "server6",

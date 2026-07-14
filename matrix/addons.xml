@@ -1062,6 +1062,23 @@ O autor não se responsabiliza por qualquer conteúdo exibido, transmitido ou di
 
 </addon>
 
+<addon id="plugin.video.eagle.tuga" name="[COLOR orange]Eagle [/COLOR][COLORlime]Tuga[/COLOR]" version="1.1" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
+  <extension point="xbmc.python.pluginsource"
+      library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">[COLORred]Eagle [COLORgold]Tuga[/COLOR]</summary>
+    <language>en</language>
+    <description lang="en_GB">[COLOR gold]Eagle [/COLOR] [COLOR lime]Tuga[/COLOR] [COLORorange]is an add-on from the  Blackeagle family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</description>
+    <platform>all</platform>
+    <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+  </extension>
+</addon>
+
 <addon id="plugin.video.eagle.tv.online" name="[COLOR yellow]Eagle TV[/COLOR] [COLOR lime]Online[/COLOR]" version="1.1.4" provider-name="[COLOR orange]@By_Black_Eagle[/COLOR]">
   <extension point="xbmc.python.pluginsource"
             library="default.py">

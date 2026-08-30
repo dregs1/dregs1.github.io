@@ -943,7 +943,7 @@ Acesse categorias e vídeos recentes do site Carioca diretamente no Kodi.[/COLOR
     </extension>
 </addon>
 
-<addon id="plugin.video.eagle.espana" name="[COLOR yellow]Eagle[COLOR orange] Espana[/COLOR]" version="2.6" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
+<addon id="plugin.video.eagle.espana" name="[COLOR yellow]Eagle[COLOR orange] Espana[/COLOR]" version="2.7" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
@@ -1036,7 +1036,7 @@ O autor não se responsabiliza por qualquer conteúdo exibido, transmitido ou di
 
 </addon>
 
-<addon id="plugin.video.eagle.playlist" name="[COLOR yellow]Eagle [/COLOR] [COLOR lime]Playlist[/COLOR]" version="1.1.2" provider-name="[COLOR orange]@By_Black_Eagle[/COLOR]">
+<addon id="plugin.video.eagle.playlist" name="[COLOR yellow]Eagle [/COLOR] [COLOR lime]Playlist[/COLOR]" version="1.2.5" provider-name="[COLOR orange]@By_Black_Eagle[/COLOR]">
 
 	<requires>
 		<import addon="script.module.requests" version="2.27.1"/>
@@ -1062,7 +1062,7 @@ O autor não se responsabiliza por qualquer conteúdo exibido, transmitido ou di
 
 </addon>
 
-<addon id="plugin.video.eagle.tuga" name="[COLOR orange]Eagle [/COLOR][COLORlime]Tuga[/COLOR]" version="1.1" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
+<addon id="plugin.video.eagle.tuga" name="[COLOR orange]Eagle [/COLOR][COLORlime]Tuga[/COLOR]" version="1.2" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
   <extension point="xbmc.python.pluginsource"
       library="default.py">
     <provides>video</provides>
@@ -1285,7 +1285,7 @@ v1.0.0 - Initial Release.
     </extension>
 </addon>
 
-<addon id="plugin.video.fenix-mac" name="[COLORcyan]fenix[COLORgrey]Mac[/COLOR]" version="2.1.4" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
+<addon id="plugin.video.fenix-mac" name="[COLORcyan]fenix[COLORgrey]Mac[/COLOR]" version="2.1.5" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
 <requires>
     	<!--<import addon="script.module.resolveurl" /> -->
         <import addon="script.module.requests"/>
@@ -1330,7 +1330,7 @@ v1.0.0 - Initial Release.
     </extension>
 </addon>
 
-<addon id="plugin.video.flash.zoom" name="[COLOR orange]Flash[/COLOR][COLORlime]Zoom[/COLOR]" version="1.5" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
+<addon id="plugin.video.flash.zoom" name="[COLOR orange]Flash[/COLOR][COLORlime]Zoom[/COLOR]" version="1.6" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
   <extension point="xbmc.python.pluginsource"
       library="default.py">
     <provides>video</provides>
@@ -1389,7 +1389,7 @@ v1.0.0 - Initial Release.
 </addon>
 
 <addon
-	id="plugin.video.griffin.TV.mac" version="1.1.7" name="[COLORred]Griffin [COLORwhite]TV[/COLOR]" provider-name="[COLORgold]por_black_eagle[/COLOR]">
+	id="plugin.video.griffin.TV.mac" version="1.1.8" name="[COLORred]Griffin [COLORwhite]TV[/COLOR]" provider-name="[COLORgold]por_black_eagle[/COLOR]">
   <requires>
     	<!--<import addon="script.module.resolveurl" /> -->
         <import addon="script.module.requests"/>
@@ -1463,7 +1463,7 @@ v1.0.0 - Initial Release.
   </extension>
 </addon>
 
-<addon id="plugin.video.mac.loader" name="[COLOR lime]Mac Loader[/COLOR]" version="1.4" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
+<addon id="plugin.video.mac.loader" name="[COLOR lime]Mac Loader[/COLOR]" version="1.5" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
 <requires>
     	<!--<import addon="script.module.resolveurl" /> -->
         <import addon="script.module.requests"/>

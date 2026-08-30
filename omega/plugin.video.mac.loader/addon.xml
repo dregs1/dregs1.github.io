@@ -1,5 +1,5 @@
 <?xml version="0.1" encoding="UTF-8"?>
-<addon id="plugin.video.mac.loader" name="[COLOR lime]Mac Loader[/COLOR]" version="1.4" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
+<addon id="plugin.video.mac.loader" name="[COLOR lime]Mac Loader[/COLOR]" version="1.5" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
 <requires>    		
     	<!--<import addon="script.module.resolveurl" /> -->
         <import addon="script.module.requests"/>	

@@ -24,30 +24,6 @@
 </extension>
 </addon>
 
-<addon id="plugin.video.eagle.tv.online" name="[COLOR yellow]Eagle TV[/COLOR] [COLOR lime]Online[/COLOR]" version="1.1.2" provider-name="[COLORorange]by_black_eagle[/COLOR]">
-  <requires>
-        <import addon="script.module.six" />
-        <import addon="script.module.requests" />
-        <import addon="script.module.kodi-six" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
- 	</extension>
-	 <extension point="xbmc.addon.metadata">
-         <summary>Canais de Televisão, desportos e mais...</summary>
-		<description lang="en">[COLOR yellow]Eagle TV[/COLOR] [COLOR lime]Online[/COLOR] [COLOR orange]é um addon da família Blackeagle Team. TODOS OS LINKS ESTÃO DISPONÍVEIS NA INTERNET![/COLOR]</description>
-		<platform>all</platform>
-		<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-       <screenshot>resources/screenshots/1.jpg</screenshot>
-       <screenshot>resources/screenshots/2.jpg</screenshot>
-       <screenshot>resources/screenshots/3.jpg</screenshot>
-    </assets>
-</extension>
-</addon>
-
 <addon
 	id="plugin.video.eagleteam.mac" version="1.4" name="[COLOR silver]Eagle[COLOR dimgrey] Team [/COLOR][COLOR white] MAC [/COLOR]" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
 <requires>
@@ -94,7 +70,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.fenix-mac" name="[COLORcyan]fenix[COLORgrey]Mac[/COLOR]" version="2.1.4" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
+<addon id="plugin.video.fenix-mac" name="[COLORcyan]fenix[COLORgrey]Mac[/COLOR]" version="2.1.5" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
 <requires>
     	<!--<import addon="script.module.resolveurl" /> -->
         <import addon="script.module.requests"/>
@@ -150,35 +126,6 @@
     </extension>
 	<extension point="xbmc.service" library="service.py" start="login">
     </extension>
-</addon>
-
-<addon
-	id="plugin.video.griffin.TV.mac" version="1.1.7" name="[COLORred]Griffin [COLORwhite]TV[/COLOR]" provider-name="[COLORgold]por_black_eagle[/COLOR]">
-  <requires>
-    	<!--<import addon="script.module.resolveurl" /> -->
-        <import addon="script.module.requests"/>
-		<import addon="script.module.kodi-six" />
-
-  </requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-
-	<extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-		<summary lang="en">[COLORred]Griffin [COLORwhite]TV[/COLOR] Os links estao na Net</summary>
-		<description lang="pt"></description>
-		<website></website>
-		<license>GPL 3.0</license>
-		<platform>all</platform>
-		<disclaimer lang="en"></disclaimer>
-	<assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-    </assets>
-		<language>pt</language>
-	</extension>
-
 </addon>
 
 <addon id="plugin.video.k-pt.mac" name="[COLOR yellow]K-PT [/COLOR][COLOR orange ]Mac [/COLOR]" version="1.1.2" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
@@ -311,30 +258,6 @@
             <icon>icon.png</icon>
         </assets>
     </extension>
-</addon>
-
-<addon id="plugin.video.viking.tv.online" name="[COLORyellow]Viking [COLORgrey]TV [COLORgold]Online[/COLOR]" version="1.1.3" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">">
-  <requires>
-        <import addon="script.module.six" />
-        <import addon="script.module.requests" />
-        <import addon="script.module.kodi-six" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
- 	</extension>
-<extension point="xbmc.addon.metadata">
-		<summary>Canais de Televisão, desportos e mais...</summary>
-		<description lang="en">[COLOR grey]viking [COLORyellow]tv.online[COLORgold]é um addon da familia blackeagle.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET! (ESTE ADDON FEITO PRA O REPOSITORIO VIKINS)dregs1[/COLOR]</description>
-		<platform>all</platform>
-		<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-       <screenshot>resources/screenshots/1.jpg</screenshot>
-       <screenshot>resources/screenshots/2.jpg</screenshot>
-       <screenshot>resources/screenshots/3.jpg</screenshot>
-    </assets>
-  </extension>
 </addon>
 
 <addon id="plugin.video.x-codes" name="[COLOR chocolate]X[/COLOR][COLORwhite]-[/COLOR][COLORgold]Codes[/COLOR]" version="1.9.5" provider-name="[COLOR red]@By_black[/COLOR][COLORdarkgrey]eagle[/COLOR]">

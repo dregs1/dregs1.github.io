@@ -1079,7 +1079,7 @@ O autor não se responsabiliza por qualquer conteúdo exibido, transmitido ou di
   </extension>
 </addon>
 
-<addon id="plugin.video.eagle.tv.online" name="[COLOR yellow]Eagle TV[/COLOR] [COLOR lime]Online[/COLOR]" version="1.1.4" provider-name="[COLOR orange]@By_Black_Eagle[/COLOR]">
+<addon id="plugin.video.eagle.tv.online" name="[COLOR yellow]Eagle TV[/COLOR] [COLOR lime]Online[/COLOR]" version="1.1.6" provider-name="[COLOR orange]@By_Black_Eagla[/COLOR]">
   <extension point="xbmc.python.pluginsource"
             library="default.py">
         <provides>video</provides>
@@ -1639,7 +1639,7 @@ provider-name="jurialmunkey">
 </extension>
 </addon>
 
-<addon id="plugin.video.viking.tv.online" name="[COLORyellow]Viking [COLORgrey] TV [COLORgold]Online[/COLOR]" version="1.2.5" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
+<addon id="plugin.video.viking.tv.online" name="[COLORyellow]Viking [COLORgrey] TV [COLORgold]Online[/COLOR]" version="1.2.6" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
   <extension point="xbmc.python.pluginsource"
 			library="default.py">
 		<provides>video</provides>

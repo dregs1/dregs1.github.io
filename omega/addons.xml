@@ -758,25 +758,6 @@ Addon criado por BlackEagle.
   </extension>
 </addon>
 
-<addon id="plugin.video.aguillas.douradas.portal" name="[COLOR red]Aguillas Douradas [COLORorange]Portal TV[/COLOR]" version="2.6" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="script.module.requests"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="main.py">
-        <provides>video</provides>
-    </extension>
- <extension point="xbmc.addon.metadata">
-<summary>Canais de Televisão, desportos e mais...</summary>
-		<description lang="en">[COLOR red]Aguillas Douradas [COLORorange]Portal TV[/COLOR]é um addon da familia BlackEagle Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
-		<platform>all</platform>
-		<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-    </assets>
-</extension>
-</addon>
-
 <addon id="plugin.video.black.lince" name="[COLORred]black [COLORgrey] lince[/COLOR]" version="1.4" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
   <extension point="xbmc.python.pluginsource"
 			library="default.py">
@@ -1099,25 +1080,6 @@ O autor não se responsabiliza por qualquer conteúdo exibido, transmitido ou di
   </extension>
 </addon>
 
-<addon id="plugin.video.eagleevil" name="[COLORred]Eag[COLORgrey]le [COLORgold]Evil[/COLOR]" version="1.6" provider-name="[COLOR orange]@By_Black_Eagle [/COLOR]">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="script.module.requests"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="main.py">
-        <provides>video</provides>
-    </extension>
- <extension point="xbmc.addon.metadata">
-<summary>Canais de Televisão, desportos e mais...</summary>
-		<description lang="en">[COLOR red]Eagle  [/COLOR] [COLORorange]Evil[/COLOR] [COLORorange]é um addon da familia Black Eagle .TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
-		<platform>all</platform>
-		<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-    </assets>
-</extension>
-</addon>
-
 <addon id="plugin.video.eaglem2o.tv" name="[COLOR yellow]Eagle.M2o.TV[/COLOR]" version="1.0.1" provider-name="[COLOR orange]by_black_eagle[/COLOR]">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
@@ -1210,33 +1172,6 @@ v1.0.0 - Initial Release.
     </news>
   </extension>
 
-</addon>
-
-<addon id="plugin.video.espada.dragao" name="[COLOR yellow]ESPADA[COLORgrey]DRAGÃO[/COLOR]" version="2.4" provider-name="[COLOR orange]@by_blak_eagle[/COLOR]">
-        <requires>
-        <import addon="script.module.simplejson" />
-        <import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />
-		<import addon="script.module.beautifulsoup4"/>
-        <import addon="script.module.requests"/>
-        <import addon="script.module.inputstreamhelper"/>
-    </requires>
-  <extension point="xbmc.python.pluginsource"
-      library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-		<summary>[COLOR lime]Canais de Televisão, desportos e mais...[/COLOR]</summary>
-		<description lang="en">[COLOR orange]Black[/COLOR] [COLOR gold]Eagle[/COLOR] [COLORorange]é um addon da familia Blackeagle Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
-		<platform>all</platform>
-		<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-       <screenshot>resources/screenshots/1.jpg</screenshot>
-       <screenshot>resources/screenshots/2.jpg</screenshot>
-       <screenshot>resources/screenshots/3.jpg</screenshot>
-    </assets>
-  </extension>
 </addon>
 
 <addon id="plugin.video.EspadaNegra" name="[COLOR silver]Espada[COLOR dimgrey] Negra [/COLOR]" version="2.1.3" provider-name="[COLORchocolate]@by_black[COLORgold]_eagle[/COLOR]">
@@ -1459,33 +1394,6 @@ v1.0.0 - Initial Release.
 	    <screenshot>resources/screenshots/1.jpg</screenshot>
        <screenshot>resources/screenshots/2.jpg</screenshot>
        <screenshot>resources/screenshots/3.jpg</screenshot>
-	</assets>
-  </extension>
-</addon>
-
-<addon id="plugin.video.mac.loader" name="[COLOR lime]Mac Loader[/COLOR]" version="1.5" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
-<requires>
-    	<!--<import addon="script.module.resolveurl" /> -->
-        <import addon="script.module.requests"/>
-        <import addon="script.module.six"/>
-
-        <import addon="script.module.web-pdb" />
-
-  </requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-		<summary lang="en">Simple Mac Loader</summary>
-	<platform>all</platform>
-		<description lang="en">Simple Mac Loader</description>
-	<assets>
-		<icon>icon.png</icon>
-	   <fanart>fanart.jpg</fanart>
-	   <media>resources/medias/home.jpg</media>
-	   <media>resources/medias/movies.jpg</media>
-	   <media>resources/medias/series.jpg</media>
 	</assets>
   </extension>
 </addon>

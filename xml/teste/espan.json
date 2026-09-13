@@ -5,28 +5,28 @@
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]1 ES[/COLOR]",
       "type": "stalker",
       "portal_url": "http://pars01.com:8080",
-      "macs": ["00:1A:79:13:4F:9B"]
+      "macs": ["00:1A:79:10:40:DD"]
     },
     {
       "id": "server2",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]2 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://bulut001.com:8080",
-      "macs": ["00:1A:79:21:10:70"]
+      "portal_url": "http://innovationtv.eu",
+      "macs": ["00:1A:79:AA:DA:62"]
     },
     {
       "id": "server3",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]3 ES[/COLOR]",
       "type": "stalker",
       "portal_url": "http://pars01.com:8080",
-       "macs": ["00:1A:79:1F:1E:88"]
+       "macs": ["00:1A:79:22:B2:66"]
     },
     {
       "id": "server4",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]4 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://bulut001.com:8080",
-            "macs": ["00:1A:79:4D:02:4E"]
+      "portal_url": "http://technologycloud.eu",
+            "macs": ["00:1A:79:AD:51:F6"]
     },
     {
       "id": "server5",

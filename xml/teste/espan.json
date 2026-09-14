@@ -60,15 +60,15 @@
       "id": "server9",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]9 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://alpha5-bx.me:80",
-      "macs": ["00:1A:79:B6:F1:21"]
+      "portal_url": "http://madboxtv.com",
+      "macs": ["00:1A:79:A1:BB:9D"]
     },
     {
       "id": "server10",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]10 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://technologycloud.eu",
-      "macs": ["00:1A:79:58:78:CD"]
+      "portal_url": "http://mag.greatott.me",
+      "macs": ["00:1A:79:11:EC:A0"]
     }
   ]
 }

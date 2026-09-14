@@ -60,15 +60,15 @@
       "id": "server9",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]9 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://bulut001.com:8080",
-      "macs": ["00:1A:79:13:4F:99"]
+      "portal_url": "http://vpn.line-activation.xyz",
+      "macs": ["00:1A:79:74:08:83"]
     },
     {
       "id": "server10",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]10 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://line.hostytv.store:80",
-      "macs": ["00:1A:79:C8:19:8A"]
+      "portal_url": "http://pro.auramax.name:80",
+      "macs": ["00:1A:79:F1:EA:73"]
     }
   ]
 }

@@ -26,7 +26,7 @@
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]4 ES[/COLOR]",
       "type": "stalker",
       "portal_url": "http://technologycloud.eu",
-            "macs": ["00:1A:79:AD:51:F6"]
+            "macs": ["00:1A:79:83:0F:89"]
     },
     {
       "id": "server5",
@@ -60,15 +60,15 @@
       "id": "server9",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]9 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://bulut001.com:8080",
-      "macs": ["00:1A:79:13:4F:99"]
+      "portal_url": "http://madboxtv.com",
+      "macs": ["00:1A:79:A1:BB:9D"]
     },
     {
       "id": "server10",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]10 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://line.hostytv.store:80",
-      "macs": ["00:1A:79:91:6F:0A"]
+      "portal_url": "http://mag.greatott.me",
+      "macs": ["00:1A:79:11:EC:A0"]
     }
   ]
 }

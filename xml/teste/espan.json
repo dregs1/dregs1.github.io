@@ -4,8 +4,8 @@
       "id": "server1",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]1 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://mag.marsweb.co",
-      "macs": ["00:1A:79:7E:24:8D"]
+      "portal_url": "http://2a2b2.com:80",
+      "macs": ["00:1A:79:B8:3F:CC"]
     },
     {
       "id": "server2",
@@ -32,8 +32,8 @@
       "id": "server5",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]5 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://91.208.115.23:80",
-      "macs": ["00:1A:79:13:50:6A"]
+      "portal_url": "http://boss.ddns.net:80",
+      "macs": ["00:1A:79:C0:F8:11"]
     },
     {
       "id": "server6",

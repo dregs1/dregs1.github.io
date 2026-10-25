@@ -5,28 +5,28 @@
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]1 ES[/COLOR]",
       "type": "stalker",
       "portal_url": "http://viip.z1xc.xyz:8080",
-      "macs": ["00:1A:79:14:EA:2E"]
+      "macs": ["00:1A:79:A1:00:2D"]
     },
     {
       "id": "server2",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]2 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://innovationtv.eu",
-      "macs": ["00:1A:79:BF:74:3E"]
+      "portal_url": "http://nexusconnects.org",
+      "macs": ["00:1A:79:A8:BC:EE"]
     },
     {
       "id": "server3",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]3 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://185.80.197.65:80",
-       "macs": ["00:1A:79:BD:D4:8B"]
+      "portal_url": "http://viip.z1xc.xyz:8080",
+      "macs": ["00:1A:79:22:AD:33"]
     },
     {
       "id": "server4",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]4 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://technologycloud.eu",
-            "macs": ["00:1A:79:9E:56:2F 29"]
+      "portal_url": "http://line.cloud-ott.net:80",
+      "macs": ["00:1A:79:55:B5:31"]
     },
     {
       "id": "server5",
@@ -34,41 +34,6 @@
       "type": "stalker",
       "portal_url": "http://boss.ddns.net:80",
       "macs": ["00:1A:79:B6:47:A1"]
-    },
-    {
-      "id": "server6",
-      "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]6 ES[/COLOR]",
-      "type": "stalker",
-      "portal_url": "http://line.cloud-ott.net:80",
-      "macs": ["00:1A:79:55:B5:31"]
-    },
-    {
-      "id": "server7",
-      "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]7 ES[/COLOR]",
-      "type": "stalker",
-      "portal_url": "http://viip.z1xc.xyz:8080",
-      "macs": ["00:1A:79:22:AD:33"]
-    },
-    {
-      "id": "server8",
-      "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]8 ES[/COLOR]",
-      "type": "stalker",
-      "portal_url": "http://nexusconnects.org",
-      "macs": ["00:1A:79:A8:BC:EE"]
-    },
-    {
-      "id": "server9",
-      "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]9 ES[/COLOR]",
-      "type": "stalker",
-      "portal_url": "http://viip.z1xc.xyz:8080",
-      "macs": ["00:1A:79:A1:00:2D"]
-    },
-    {
-      "id": "server10",
-      "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]10 ES[/COLOR]",
-      "type": "stalker",
-      "portal_url": "http://mag.greatott.me",
-      "macs": ["00:1A:79:B6:78:81"]
     }
   ]
 }

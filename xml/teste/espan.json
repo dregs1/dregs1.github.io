@@ -26,13 +26,13 @@
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]4 ES[/COLOR]",
       "type": "stalker",
       "portal_url": "http://line.cloud-ott.net:80",
-      "macs": ["00:1A:79:55:B5:31"]
+      "macs": ["00:1A:79:AC:22:B0"]
     },
     {
       "id": "server5",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]5 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://europeprime.xyz:8080",
+      "portal_url": "http://mag.trexlive.me",
       "macs": ["00:1A:79:14:6C:FD"]
     }
   ]

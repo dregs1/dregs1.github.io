@@ -25,8 +25,8 @@
       "id": "server4",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]4 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://line.cloud-ott.net:80",
-      "macs": ["00:1A:79:AC:22:B0"]
+      "portal_url": "http://boski.streamtv.to:8080",
+      "macs": ["00:1A:79:54:23:F0"]
     },
     {
       "id": "server5",

@@ -4,8 +4,8 @@
       "id": "server1",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]1 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://nexusconnects.org",
-      "macs": ["00:1A:79:45:74:74"]
+      "portal_url": "http://amstv.live:80",
+      "macs": ["00:1A:79:B5:2C:E3"]
     },
     {
       "id": "server2",

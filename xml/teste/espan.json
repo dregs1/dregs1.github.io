@@ -4,8 +4,8 @@
       "id": "server1",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]1 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://ip.sltv.be:8080",
-      "macs": ["00:1A:79:4C:F3:06"]
+      "portal_url": "http://nexusconnects.org",
+      "macs": ["00:1A:79:80:48:67"]
     },
     {
       "id": "server2",

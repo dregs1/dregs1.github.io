@@ -4,8 +4,8 @@
       "id": "server1",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]1 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://anonymoustv.club",
-      "macs": ["00:1a:79:c1:4f:02"]
+      "portal_url": "http://amstv.live:80",
+      "macs": ["00:1A:79:08:4F:F1"]
     },
     {
       "id": "server2",

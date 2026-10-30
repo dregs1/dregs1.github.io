@@ -4,8 +4,8 @@
       "id": "server1",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]1 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://flrntv.pro",
-      "macs": ["00:1A:79:B6:F1:DF"]
+      "portal_url": "http://192.142.44.56:80",
+      "macs": ["00:1A:79:A5:24:5A"]
     },
     {
       "id": "server2",

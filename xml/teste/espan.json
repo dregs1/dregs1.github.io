@@ -18,8 +18,8 @@
       "id": "server3",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]3 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://192.142.44.56:80",
-      "macs": ["00:1A:79:06:39:19"]
+      "portal_url": "http://royaltv.me:8080",
+      "macs": ["00:1A:79:1f:19:45"]
     },
     {
       "id": "server4",

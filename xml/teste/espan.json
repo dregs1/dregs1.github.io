@@ -18,8 +18,8 @@
       "id": "server3",
       "name": "[COLORorange]Servidor[/COLOR] [COLORyellow]3 ES[/COLOR]",
       "type": "stalker",
-      "portal_url": "http://line.tv4k.top:80",
-      "macs": ["00:1A:79:32:37:38"]
+      "portal_url": "http://xcpanel.live:8080",
+      "macs": ["00:1A:79:14:6C:FD"]
     },
     {
       "id": "server4",

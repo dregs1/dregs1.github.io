@@ -13,23 +13,10 @@ http://exyubalkan-iptv.com.streamtv.to:8080/get.php?username=mmascarenhas6&passw
 http://novomundo.live:80/get.php?username=41625496&password=52949419&type=m3u_plus&output=ts
 
 #name [COLOR yellow]Eagle TV[/COLOR] [COLOR lime]Online[/COLOR] [COLOR yellow] Portugal[/COLOR] 5
-http://fastopen.live:8080/get.php?username=PVI7bELTYG&password=8uxQvWtDCS&type=m3u_plus&output=ts
-
-#name [COLOR yellow]Eagle TV[/COLOR] [COLOR lime]Online[/COLOR] [COLOR yellow] Portugal[/COLOR] 6
-http://httptugatv.123tv.to:8080/get.php?username=mmascarenhas6&password=Vq2LvzJTGF&type=m3u_plus
-
-#name [COLOR yellow]Eagle TV[/COLOR] [COLOR lime]Online[/COLOR] [COLOR yellow] Portugal[/COLOR] 7
-http://live.prsc.xyz:80/get.php?username=Orlando_Nogueira&password=rK1eeacigv&type=m3u_plus&output=ts
-
-#name [COLOR yellow]Eagle TV[/COLOR] [COLOR lime]Online[/COLOR] [COLOR yellow] Portugal[/COLOR] 8
-http://prest.prestv2.cyou:8080/get.php?username=fmsrosa3&password=ZAjf86JJzGbG&type=m3u_plus
-
-#name [COLOR yellow]Eagle TV[/COLOR] [COLOR lime]Online[/COLOR] [COLOR yellow] Portugal[/COLOR] 9
-http://nordbam.com:8787/get.php?username=MAERafaFernandes&password=YZgk4fQWGMm8&type=m3u_plus
-
-#name [COLOR yellow]Eagle TV[/COLOR] [COLOR lime]Online[/COLOR] [COLOR yellow] Portugal[/COLOR] 10
 http://live.prvgrpt.xyz:80/get.php?username=PCANIVADA&password=CSyCRnqhzZ&type=m3u_plus&output=ts
 
+#name [COLOR yellow]Eagle TV[/COLOR] [COLOR lime]Online[/COLOR] [COLOR yellow] Portugal[/COLOR] 6
+http://prest.prestv2.cyou:8080/get.php?username=fmsrosa3&password=ZAjf86JJzGbG&type=m3u_plus
 
 server=[COLORyellow]brasil [/COLOR] 
 

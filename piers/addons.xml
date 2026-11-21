@@ -887,7 +887,7 @@ O autor não se responsabiliza por qualquer conteúdo exibido, transmitido ou di
     </extension>
 
 </addon>
-<addon id="plugin.video.eagle.playlist" name="[COLOR yellow]Eagle [/COLOR] [COLOR lime]Playlist[/COLOR]" version="1.2.5" provider-name="[COLOR orange]@By_Black_Eagle[/COLOR]">
+<addon id="plugin.video.eagle.playlist" name="[COLOR yellow]Eagle [/COLOR] [COLOR lime]Playlist[/COLOR]" version="1.1.3" provider-name="[COLOR orange]@By_Black_Eagle[/COLOR]">
 
 	<requires>
 		<import addon="script.module.requests" version="2.27.1" />

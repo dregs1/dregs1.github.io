@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.eaglem2o.tv" name="[COLOR yellow]Eagle.M2o.TV[/COLOR]" version="1.0.1" provider-name="[COLOR orange]by_black_eagle[/COLOR]">
+<addon id="plugin.video.eaglem2o.tv" name="[COLOR yellow]Eagle.M2o.TV[/COLOR]" version="1.0.2" provider-name="[COLOR orange]by_black_eagle[/COLOR]">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.beautifulsoup4" version="4.9.3"/>

@@ -1359,22 +1359,32 @@ v1.0.0 - Initial Release.
   </assets>
 </extension>
 </addon>
-<addon id="plugin.video.viking.tv.online" name="[COLORyellow]Viking [COLORgrey] TV [COLORgold]Online[/COLOR]" version="1.2.8" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
+<addon id="plugin.video.viking.tv.online" name="[B][COLOR FFE8E8E8]VIKING[/COLOR] [COLOR FFE01A22]TV[/COLOR] [COLOR FFF5B719]ONLINE[/COLOR][/B]" version="2.3.1" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
+    <provides>video</provides>
   </extension>
+  <extension point="xbmc.python.script" library="launcher.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="login" />
   <extension point="xbmc.addon.metadata">
-	<summary lang="en">[COLOR maroon] Canais de Televisão, desportos e mais...[/COLOR] </summary>
-	<language>en</language>
-	<description lang="en">[COLOR grey]viking [COLORyellow]tv.online[COLORgold]é um addon da familia blackeagle.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET! (ESTE ADDON FEITO PRA O REPOSITORIO VIKINS/dregs1)[/COLOR]</description>
-	<platform>all</platform>
-	<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-		<screenshot>resources/screenshots/1.jpg</screenshot>
-       <screenshot>resources/screenshots/2.jpg</screenshot>
-       <screenshot>resources/screenshots/3.jpg</screenshot>
-	</assets>
+    <summary lang="en">[COLOR maroon] Canais de Televisão, desportos e mais...[/COLOR] </summary>
+    <summary lang="pt_BR">[COLOR maroon] Canais de Televisão, desportos e mais...[/COLOR] </summary>
+    <description lang="en">[COLOR grey]viking [COLORyellow]tv.online[COLORgold]é um addon da familia blackeagle.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET! (ESTE ADDON FEITO PRA O REPOSITORIO VIKINS/dregs1)[/COLOR]</description>
+    <description lang="pt_BR">[COLOR grey]viking [COLORyellow]tv.online[COLORgold]é um addon da familia blackeagle.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET! (ESTE ADDON FEITO PRA O REPOSITORIO VIKINS/dregs1)[/COLOR]</description>
+    <disclaimer lang="en_GB">Este addon não fornece nem hospeda conteúdo; os links são os mesmos disponíveis na internet.</disclaimer>
+    <disclaimer lang="pt_BR">Este addon não fornece nem hospeda conteúdo; os links são os mesmos disponíveis na internet.</disclaimer>
+    <platform>all</platform>
+    <language>pt br en</language>
+    <license>GPL-2.0-or-later</license>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+    <news>v2.1.2 - Correção definitiva do f4mTester: detecção tripla (condições do Kodi + probe xbmcaddon.Addon + varredura da pasta de addons do Kodi, cobrindo qualquer grafia/fork e o caso de addon instalado mas desabilitado no Kodi 22) e o canal é SEMPRE lançado com RunPlugin — nunca mais bloqueado por aviso de instalação. v2.1.1 - Correção: canais ao vivo pediam para instalar o f4mTester mesmo com ele instalado. O id do f4mTester agora é detectado no Kodi automaticamente (existem duas grafias em circulação: plugin.video.f4mtester e plugin.video.f4mTester) e a URL plugin:// usa exatamente a grafia instalada. v2.1.0 - Credenciais e link remoto saíram das configurações: agora são fixas no default.py do addon (CRED_URL), como no VIKING TV original. Canais ao vivo abrem com o plugin f4mTester (HLSRETRY/TSDOWNLOADER via RunPlugin); filmes e séries reproduzem sempre pelo vodproxy. Removidos das configurações: link de credenciais, servidor ativo, DNS/Usuário/Senha, formato TS/HLS e opções do ffmpegdirect; removido o botão Formato da tela inicial.</news>
   </extension>
 </addon>
 <addon id="plugin.video.x-codes" name="[COLOR chocolate]X[/COLOR][COLORwhite]-[/COLOR][COLORgold]Codes[/COLOR]" version="3.2.1" provider-name="[COLOR red]Black[/COLOR][COLORdarkgrey]Eagle[/COLOR]">	<requires>

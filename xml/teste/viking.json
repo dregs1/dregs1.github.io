@@ -2,7 +2,7 @@
   {
     "categoria": "Lista Principal",
     "servidores": [
-      { "nome": "Servidor 1", "dns": "http://cldnew.com:80", "nome de usuário": "15fernando", "senha": "10jucilene" }
+      { "nome": "Servidor 1", "dns": "http://cldnew.com:80", "username": "15fernando", "password": "10jucilene" }
     ]
   }
 ]

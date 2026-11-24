@@ -2286,25 +2286,25 @@ v1.0.0 - Initial Release.
 		<news>Kodi v19 Matrix + Python 3 compatibility</news>
 	</extension>
 </addon>
-<addon id="script.video.F4mProxy" name="F4mProxy" version="4.0.9" provider-name="Joel e Tiago">
-	<requires>
-		<import addon="xbmc.python" version="3.0.0" />
-		<import addon="script.module.requests" />
+<addon id="script.video.F4mProxy" name="F4mProxy" version="4.1.2" provider-name="Joel e Tiago">
+        <requires>
+                <import addon="xbmc.python" version="3.0.0" />
+                <import addon="script.module.requests" />
         <import addon="inputstream.ffmpegdirect" />
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
+        </requires>
+        <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>executable</provides>
-	</extension>
+                <provides>executable</provides>
+        </extension>
     
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Proxy for f4m</summary>
-		<description lang="en">Use this addon to play F4m v1 and v2 streams</description>
-		<assets>
-			<icon>icon.png</icon>
-		</assets>
-	</extension>
+        <extension point="xbmc.addon.metadata">
+                <platform>all</platform>
+                <summary lang="en">Proxy for f4m</summary>
+                <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
+                <assets>
+                        <icon>icon.png</icon>
+                </assets>
+        </extension>
 </addon>
 <addon id="script.x-codes.api" name="[COLORorange]Pach API X-Codes[/COLOR]" version="1.5.2" provider-name="[COLORorange]@By_Black Eagle[/COLOR]">
    <requires>

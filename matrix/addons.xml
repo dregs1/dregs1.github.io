@@ -658,6 +658,28 @@ Addon criado por BlackEagle.
     </assets>
   </extension>
 </addon>
+<addon id="plugin.video.aguilaimperial" name="[COLOR orange][B]ÁGUILA IMPERIAL[/B][/COLOR]" version="1.1.2" provider-name="[COLOR orange]@By_Black_Eagle[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.requests" version="2.22.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Águila Imperial - televisión española</summary>
+    <description lang="es">Águila Imperial: complemento para disfrutar de canales de televisión española. Canales en directo: RTVE (La 1, La 2, Teledeporte, 24h, Clan), lista TDT Channels por categorías (filtrando los feeds solo-España) y Pluto TV España. RTVE a la carta (informativos, documentales, series) con subtítulos en español.</description>
+    <news lang="es">v1.0.3 - Plex España: categorías, token personal (sin rate-limit) y mayor estabilidad. v1.0.2: sección Plex (FAST) España.</news>
+    <disclaimer lang="es">Proyecto personal con fines educativos (aprender español). Los streams pertenecen a sus respectivos titulares (RTVE, Pluto TV, TDT Channels). Respeta los términos de servicio de cada proveedor y las leyes de copyright de tu país. Algunos contenidos pueden estar geobloqueados o protegidos por DRM y no se pueden reproducir con Kodi base.</disclaimer>
+    <platform>all</platform>
+    <license>GPL-3.0-only</license>
+    <language>es</language>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
 <addon id="plugin.video.black.lince" name="[COLORred]black [COLORgrey] lince[/COLOR]" version="1.4" provider-name="[COLOR orange]@by_black_eagle[/COLOR]">
   <extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>

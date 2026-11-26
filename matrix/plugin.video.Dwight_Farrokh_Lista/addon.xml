@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.Dwight_Farrokh_Lista" name="[COLORred] Dwight_[COLORgold]Farrokh_Lista[/COLOR]" version="2.9" provider-name="[COLORred] Dwight_[COLORgold]Farrokh_Lista[/COLOR]+[COLORgold]by_black_eagle[/COLOR]">
-  <extension point="xbmc.python.pluginsource"
-			library="default.py">
-		<provides>video</provides>
+<addon id="plugin.video.Dwight_Farrokh_Lista" name="[B][COLOR FFF2F0E3]DWIGHT[/COLOR] [COLOR FFB197E8]FARROKH[/COLOR] [COLOR FFF8B651]LISTA[/COLOR][/B]" version="3.2.5" provider-name="[COLOR FFF2F0E3]DWIGHT[/COLOR] [COLOR FFB197E8]FARROKH[/COLOR] [COLOR FFF8B651]LISTA[/COLOR]+[COLOR FFF8B651]by_black_eagle[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
   </extension>
-	 <extension point="xbmc.addon.metadata">
-         <summary>Canais de Televisão, desportos e mais...</summary>
-		<description lang="en">[COLOR red]Dwight_[/COLOR] [COLORorange]Farrokh_Lista[/COLOR] [COLORorange]é um addon homenagem Dwight_Farrokh_Lista .TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
-		<platform>all</platform>
-		<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-       <screenshot>resources/screenshots/1.jpg</screenshot>
-       <screenshot>resources/screenshots/2.jpg</screenshot>
-       <screenshot>resources/screenshots/3.jpg</screenshot>
+  <extension point="xbmc.python.script" library="launcher.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="login"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Canais de Televisão, desportos e mais...</summary>
+    <summary lang="pt_BR">Canais de Televisão, desportos e mais...</summary>
+    <description lang="en">[COLOR FFF2F0E3]DWIGHT[/COLOR] [COLOR FFB197E8]FARROKH[/COLOR] [COLOR FFF8B651]LISTA[/COLOR] [COLOR FFDCD6EA]é um addon homenagem[/COLOR] [COLOR FFF2F0E3]DWIGHT[/COLOR] [COLOR FFB197E8]FARROKH[/COLOR] [COLOR FFF8B651]LISTA[/COLOR] [COLOR FFDCD6EA].TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+    <description lang="pt_BR">[COLOR FFF2F0E3]DWIGHT[/COLOR] [COLOR FFB197E8]FARROKH[/COLOR] [COLOR FFF8B651]LISTA[/COLOR] [COLOR FFDCD6EA]é um addon homenagem[/COLOR] [COLOR FFF2F0E3]DWIGHT[/COLOR] [COLOR FFB197E8]FARROKH[/COLOR] [COLOR FFF8B651]LISTA[/COLOR] [COLOR FFDCD6EA].TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+    <disclaimer lang="en_GB">Este addon não fornece nem hospeda conteúdo; os links são os mesmos disponíveis na internet.</disclaimer>
+    <disclaimer lang="pt_BR">Este addon não fornece nem hospeda conteúdo; os links são os mesmos disponíveis na internet.</disclaimer>
+    <platform>all</platform>
+    <language>pt br en</language>
+    <license>GPL-2.0-or-later</license>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
     </assets>
-</extension>
+    <news>v2.9 - Visual DWIGHT FARROKH LISTA: nome em maiúsculas nas cores da logo, ícone e fanart novos, fundo modernizado (montanhas e lobo), cores do layout na paleta da logo (azul-marinho, roxo e âmbar), logo ao lado do nome em todas as páginas e novo nome na chamada do f4mTester. v2.1.2 - Correção definitiva do f4mTester: detecção tripla (condições do Kodi + probe xbmcaddon.Addon + varredura da pasta de addons do Kodi, cobrindo qualquer grafia/fork e o caso de addon instalado mas desabilitado no Kodi 22) e o canal é SEMPRE lançado com RunPlugin — nunca mais bloqueado por aviso de instalação. v2.1.1 - Correção: canais ao vivo pediam para instalar o f4mTester mesmo com ele instalado. O id do f4mTester agora é detectado no Kodi automaticamente (existem duas grafias em circulação: plugin.video.f4mtester e plugin.video.f4mTester) e a URL plugin:// usa exatamente a grafia instalada. v2.1.0 - Credenciais e link remoto saíram das configurações: agora são fixas no default.py do addon (CRED_URL), como no VIKING TV original. Canais ao vivo abrem com o plugin f4mTester (HLSRETRY/TSDOWNLOADER via RunPlugin); filmes e séries reproduzem sempre pelo vodproxy. Removidos das configurações: link de credenciais, servidor ativo, DNS/Usuário/Senha, formato TS/HLS e opções do ffmpegdirect; removido o botão Formato da tela inicial.</news>
+  </extension>
 </addon>

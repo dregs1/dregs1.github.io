@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items>
+<channel>
+<title>VIKING TV</title>
+<playlist_url><![CDATA[http://SEU-SERVIDOR:PORTA/get.php?username=SEU-USUARIO&password=SUA-SENHA&type=m3u_plus&output=ts]]></playlist_url>
+</channel>
+</items>

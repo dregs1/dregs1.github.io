@@ -2011,11 +2011,12 @@ v1.0.0 - Initial Release.
         </assets>
     </extension>
 </addon>
-<addon id="script.kodi.player.helper" name="[COLOR orange]Kodi[/COLOR] [COLOR deepskyblue]Player[/COLOR] [COLOR lime]Helper[/COLOR]" version="1.0.4" provider-name="[COLOR orange]BY_Black_Eagle[/COLOR]">
+<addon id="script.kodi.player.helper" name="[COLOR orange]Kodi[/COLOR] [COLOR deepskyblue]Player[/COLOR] [COLOR lime]Helper[/COLOR]" version="1.0.6" provider-name="[COLOR orange]BY_Black_Eagle[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
   </requires>
   <extension point="xbmc.python.script" library="default.py" />
+  <extension point="xbmc.service" library="service.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary>Assistente geral de configuração e diagnóstico do player Kodi</summary>
     <description>Ajuda a configurar e diagnosticar a reprodução de vídeo no Kodi. Não é exclusivo de IPTV ou Stalker. Criado por BK_Black_Eagle.</description>
